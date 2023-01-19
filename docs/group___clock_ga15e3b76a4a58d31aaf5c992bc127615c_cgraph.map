@@ -1,0 +1,6 @@
+<map id="rt_timer_control" name="rt_timer_control">
+<area shape="rect" id="node1" title="This function will get or set some options of the timer" alt="" coords="5,56,120,83"/>
+<area shape="rect" id="node2" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="168,5,327,32"/>
+<area shape="rect" id="node3" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="169,56,325,83"/>
+<area shape="rect" id="node4" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="183,107,312,133"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="rt_enter_critical" name="rt_enter_critical">
+<area shape="rect" id="node1" title="This function will lock the thread scheduler." alt="" coords="5,31,117,57"/>
+<area shape="rect" id="node2" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="165,5,324,32"/>
+<area shape="rect" id="node3" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="167,56,323,83"/>
+</map>

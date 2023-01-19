@@ -1,0 +1,4 @@
+<map id="rt_thread_self" name="rt_thread_self">
+<area shape="rect" id="node1" title="This function will return self thread object." alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node2" href="$cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="156,5,241,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="rt_tick_get_millisecond" name="rt_tick_get_millisecond">
+<area shape="rect" id="node1" title="This function will return the passed millisecond from boot." alt="" coords="5,5,157,32"/>
+<area shape="rect" id="node2" href="$group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="205,5,288,32"/>
+</map>

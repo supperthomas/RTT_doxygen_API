@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['rt_5fdevice_5fclass_5ftype_0',['rt_device_class_type',['../group___device.html#ga429003537c58f674b39eb3f9defbd052',1,'rtdef.h']]],
-  ['rt_5fobject_5fclass_5ftype_1',['rt_object_class_type',['../group___kernel_object.html#ga38a532bcb1bd3f12685db4219b761b56',1,'rtdef.h']]]
+  ['input_5fstat_0',['input_stat',['../shell_8h.html#a4c2acc7792e59bedb11ea3d5f46087b9',1,'shell.h']]]
 ];

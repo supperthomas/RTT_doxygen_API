@@ -1,0 +1,335 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-Thread RTOS: D:/02_git_repo/rt-thread/src/kservice.c 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="rtthread_logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">RT-Thread RTOS<span id="projectnumber">&#160;1.2.0</span>
+   </div>
+   <div id="projectbrief">An open source embedded real-time operating system</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.4 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'搜索','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('kservice_8c.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle"><div class="title">kservice.c 文件参考</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="rtthread_8h.html">rtthread.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="rthw_8h.html">rthw.h</a>&gt;</code><br />
+<code>#include &lt;dlmodule.h&gt;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> kservice.c 的引用(Include)关系图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="kservice_8c__incl.png" border="0" usemap="#a_d_1_202__git__repo_2rt-thread_2src_2kservice_8c" alt=""/></div>
+<map name="a_d_1_202__git__repo_2rt-thread_2src_2kservice_8c" id="a_d_1_202__git__repo_2rt-thread_2src_2kservice_8c">
+<area shape="rect" title=" " alt="" coords="127,5,291,47"/>
+<area shape="rect" href="rtthread_8h.html" title=" " alt="" coords="136,169,215,196"/>
+<area shape="rect" href="rthw_8h.html" title=" " alt="" coords="179,95,238,121"/>
+<area shape="rect" title=" " alt="" coords="262,95,347,121"/>
+<area shape="rect" title=" " alt="" coords="21,393,97,420"/>
+<area shape="rect" href="rtdebug_8h.html" title=" " alt="" coords="21,319,98,345"/>
+<area shape="rect" href="rtdef_8h.html" title=" " alt="" coords="123,319,183,345"/>
+<area shape="rect" href="rtservice_8h.html" title=" " alt="" coords="134,244,217,271"/>
+<area shape="rect" href="rtm_8h.html" title=" " alt="" coords="241,244,294,271"/>
+<area shape="rect" title=" " alt="" coords="319,244,379,271"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ga6dac97b487aa32006a7ad0f9bee7e92c"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga6dac97b487aa32006a7ad0f9bee7e92c">rt_strerror</a> (<a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> error)</td></tr>
+<tr class="separator:ga6dac97b487aa32006a7ad0f9bee7e92c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga17b8724a14746aa74d7c2969c3289fbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga17b8724a14746aa74d7c2969c3289fbc">rt_get_errno</a> (void)</td></tr>
+<tr class="separator:ga17b8724a14746aa74d7c2969c3289fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae4550e2e69a249c81e4cb33b92786deb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb">rt_set_errno</a> (<a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> error)</td></tr>
+<tr class="separator:gae4550e2e69a249c81e4cb33b92786deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga02ccef35d98a60385ce86d14c0bad9d0"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga02ccef35d98a60385ce86d14c0bad9d0">_rt_errno</a> (void)</td></tr>
+<tr class="separator:ga02ccef35d98a60385ce86d14c0bad9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a32f9ba466a610a23e127c74f37d7c2"><td class="memItemLeft" align="right" valign="top">rt_weak void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2">rt_memset</a> (void *s, int c, <a class="el" href="group___basic_def.html#ga958cc0f5d3f7bf59850cd8bd13a4aeb0">rt_ubase_t</a> count)</td></tr>
+<tr class="separator:ga3a32f9ba466a610a23e127c74f37d7c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacbe2d70e90f1ce1ea00dd61621b97981"><td class="memItemLeft" align="right" valign="top">rt_weak void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gacbe2d70e90f1ce1ea00dd61621b97981">rt_memcpy</a> (void *dst, const void *src, <a class="el" href="group___basic_def.html#ga958cc0f5d3f7bf59850cd8bd13a4aeb0">rt_ubase_t</a> count)</td></tr>
+<tr class="separator:gacbe2d70e90f1ce1ea00dd61621b97981"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaea53e9b7142ae50590412a22c8705dad"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gaea53e9b7142ae50590412a22c8705dad">rt_memmove</a> (void *dest, const void *src, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> n)</td></tr>
+<tr class="separator:gaea53e9b7142ae50590412a22c8705dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae03e20acd7abff1bc684e4335511f136"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#gafab3dddb302fee91b8d8cff1c6fae9bd">rt_int32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gae03e20acd7abff1bc684e4335511f136">rt_memcmp</a> (const void *cs, const void *ct, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> count)</td></tr>
+<tr class="separator:gae03e20acd7abff1bc684e4335511f136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad986e7ef38f22c0c612e8467a25a19ef"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gad986e7ef38f22c0c612e8467a25a19ef">rt_strstr</a> (const char *s1, const char *s2)</td></tr>
+<tr class="separator:gad986e7ef38f22c0c612e8467a25a19ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga819e27f174eb16452a0c5c0bf6d0dc36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#gafab3dddb302fee91b8d8cff1c6fae9bd">rt_int32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga819e27f174eb16452a0c5c0bf6d0dc36">rt_strcasecmp</a> (const char *a, const char *b)</td></tr>
+<tr class="separator:ga819e27f174eb16452a0c5c0bf6d0dc36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga957603c5eb06432c5344d876280e56a2"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2">rt_strncpy</a> (char *dst, const char *src, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> n)</td></tr>
+<tr class="separator:ga957603c5eb06432c5344d876280e56a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad8d965e7d74d0ca91011346b87841a4f"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gad8d965e7d74d0ca91011346b87841a4f">rt_strcpy</a> (char *dst, const char *src)</td></tr>
+<tr class="separator:gad8d965e7d74d0ca91011346b87841a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1a4ff96dd17dfcd6ca974ae21a1df0f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#gafab3dddb302fee91b8d8cff1c6fae9bd">rt_int32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga1a4ff96dd17dfcd6ca974ae21a1df0f9">rt_strncmp</a> (const char *cs, const char *ct, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> count)</td></tr>
+<tr class="separator:ga1a4ff96dd17dfcd6ca974ae21a1df0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaad8035bddfb5177b811e3fc2f15508c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#gafab3dddb302fee91b8d8cff1c6fae9bd">rt_int32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gaad8035bddfb5177b811e3fc2f15508c4">rt_strcmp</a> (const char *cs, const char *ct)</td></tr>
+<tr class="separator:gaad8035bddfb5177b811e3fc2f15508c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga743d665f6558666ee9bbfa894ee68178"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga743d665f6558666ee9bbfa894ee68178">rt_strlen</a> (const char *s)</td></tr>
+<tr class="separator:ga743d665f6558666ee9bbfa894ee68178"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2e706a6b98ed9309cef7e656e23de359"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga2e706a6b98ed9309cef7e656e23de359">rt_strnlen</a> (const char *s, <a class="el" href="group___basic_def.html#ga958cc0f5d3f7bf59850cd8bd13a4aeb0">rt_ubase_t</a> maxlen)</td></tr>
+<tr class="separator:ga2e706a6b98ed9309cef7e656e23de359"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3424d273c715bc14e81e2e608287216a"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga3424d273c715bc14e81e2e608287216a">rt_strdup</a> (const char *s)</td></tr>
+<tr class="separator:ga3424d273c715bc14e81e2e608287216a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga11ecdcdb5b09e6e18b52625c1e904dca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga11ecdcdb5b09e6e18b52625c1e904dca">rt_show_version</a> (void)</td></tr>
+<tr class="separator:ga11ecdcdb5b09e6e18b52625c1e904dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2982bb502772e9905b3d4a791d5a5a62"><td class="memItemLeft" align="right" valign="top">rt_inline int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga2982bb502772e9905b3d4a791d5a5a62">divide</a> (long *n, int base)</td></tr>
+<tr class="separator:ga2982bb502772e9905b3d4a791d5a5a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac2d4cd92e18dd8afc759f00a1830aab6"><td class="memItemLeft" align="right" valign="top">rt_weak int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gac2d4cd92e18dd8afc759f00a1830aab6">rt_vsnprintf</a> (char *buf, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size, const char *fmt, va_list args)</td></tr>
+<tr class="separator:gac2d4cd92e18dd8afc759f00a1830aab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga940bcced7e89f112ac04bd715fdf4f24"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga940bcced7e89f112ac04bd715fdf4f24">rt_snprintf</a> (char *buf, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size, const char *fmt,...)</td></tr>
+<tr class="separator:ga940bcced7e89f112ac04bd715fdf4f24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5dbf76c6bc240ab7743507e334b93966"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga5dbf76c6bc240ab7743507e334b93966">rt_vsprintf</a> (char *buf, const char *format, va_list arg_ptr)</td></tr>
+<tr class="separator:ga5dbf76c6bc240ab7743507e334b93966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga016ffbbe874d3582a3165001166fd4eb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga016ffbbe874d3582a3165001166fd4eb">rt_sprintf</a> (char *buf, const char *format,...)</td></tr>
+<tr class="separator:ga016ffbbe874d3582a3165001166fd4eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga909761c80493569b64558225d7f89e77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___hook.html#ga909761c80493569b64558225d7f89e77">rt_malloc_sethook</a> (void(*hook)(void *ptr, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size))</td></tr>
+<tr class="separator:ga909761c80493569b64558225d7f89e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf556549fc541bfc634f37f2dca004547"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___hook.html#gaf556549fc541bfc634f37f2dca004547">rt_free_sethook</a> (void(*hook)(void *ptr))</td></tr>
+<tr class="separator:gaf556549fc541bfc634f37f2dca004547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7ccb4a60ea0018ba0060611b8b328026"><td class="memItemLeft" align="right" valign="top">rt_weak void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga7ccb4a60ea0018ba0060611b8b328026">rt_system_heap_init</a> (void *begin_addr, void *end_addr)</td></tr>
+<tr class="separator:ga7ccb4a60ea0018ba0060611b8b328026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf0126394c8c791134bd466db22ebc52"><td class="memItemLeft" align="right" valign="top">rt_weak void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gadf0126394c8c791134bd466db22ebc52">rt_malloc</a> (<a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)</td></tr>
+<tr class="separator:gadf0126394c8c791134bd466db22ebc52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5f8375bba7722d9ecd4f184a59af243a"><td class="memItemLeft" align="right" valign="top">rt_weak void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga5f8375bba7722d9ecd4f184a59af243a">rt_realloc</a> (void *rmem, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> newsize)</td></tr>
+<tr class="separator:ga5f8375bba7722d9ecd4f184a59af243a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga05a3a8b359922afdb3785c312026d3af"><td class="memItemLeft" align="right" valign="top">rt_weak void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga05a3a8b359922afdb3785c312026d3af">rt_calloc</a> (<a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> count, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)</td></tr>
+<tr class="separator:ga05a3a8b359922afdb3785c312026d3af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad24f606383faa97aab028c0f9df843da"><td class="memItemLeft" align="right" valign="top">rt_weak void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gad24f606383faa97aab028c0f9df843da">rt_free</a> (void *rmem)</td></tr>
+<tr class="separator:gad24f606383faa97aab028c0f9df843da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad8ab019984cc19958c95b5c2eb32256d"><td class="memItemLeft" align="right" valign="top">rt_weak void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gad8ab019984cc19958c95b5c2eb32256d">rt_memory_info</a> (<a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> *total, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> *used, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> *max_used)</td></tr>
+<tr class="separator:gad8ab019984cc19958c95b5c2eb32256d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7da67e3734ef4b8368a39174f76fe2ce"><td class="memItemLeft" align="right" valign="top">rt_weak void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga7da67e3734ef4b8368a39174f76fe2ce">rt_malloc_align</a> (<a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> align)</td></tr>
+<tr class="separator:ga7da67e3734ef4b8368a39174f76fe2ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga50b04c4685e08f3c7923caaab600f6fc"><td class="memItemLeft" align="right" valign="top">rt_weak void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga50b04c4685e08f3c7923caaab600f6fc">rt_free_align</a> (void *ptr)</td></tr>
+<tr class="separator:ga50b04c4685e08f3c7923caaab600f6fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf225812decad1a6d9036626273ba9e65"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65">__rt_ffs</a> (int value)</td></tr>
+<tr class="separator:gaf225812decad1a6d9036626273ba9e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">宏定义说明</h2>
+<a id="af39bb999ff4179bcce72dd91ccae614a" name="af39bb999ff4179bcce72dd91ccae614a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af39bb999ff4179bcce72dd91ccae614a">&#9670;&nbsp;</a></span>RT_PRINTF_PRECISION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_PRINTF_PRECISION</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8715b762dc403350650021042340ee4b" name="a8715b762dc403350650021042340ee4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8715b762dc403350650021042340ee4b">&#9670;&nbsp;</a></span>LBLOCKSIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LBLOCKSIZE&#160;&#160;&#160;(sizeof(<a class="el" href="group___basic_def.html#ga958cc0f5d3f7bf59850cd8bd13a4aeb0">rt_ubase_t</a>))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7fee762bee4618db686d86b1c946cca5" name="a7fee762bee4618db686d86b1c946cca5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fee762bee4618db686d86b1c946cca5">&#9670;&nbsp;</a></span>UNALIGNED <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define UNALIGNED</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X</td><td>)</td>
+          <td>&#160;&#160;&#160;((long)X &amp; (<a class="el" href="kservice_8c.html#a8715b762dc403350650021042340ee4b">LBLOCKSIZE</a> - 1))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd8abce6279fa835f39d56bec9dfc4a3" name="afd8abce6279fa835f39d56bec9dfc4a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd8abce6279fa835f39d56bec9dfc4a3">&#9670;&nbsp;</a></span>TOO_SMALL <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOO_SMALL</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">LEN</td><td>)</td>
+          <td>&#160;&#160;&#160;((LEN) &lt; <a class="el" href="kservice_8c.html#a8715b762dc403350650021042340ee4b">LBLOCKSIZE</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aafa77b753631e892f7c125287775c28f" name="aafa77b753631e892f7c125287775c28f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafa77b753631e892f7c125287775c28f">&#9670;&nbsp;</a></span>UNALIGNED <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define UNALIGNED</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Y&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;    (((long)X &amp; (sizeof (long) - 1)) | ((long)Y &amp; (sizeof (long) - 1)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a392d1a0b1863c5bb865b829fe72b45" name="a3a392d1a0b1863c5bb865b829fe72b45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a392d1a0b1863c5bb865b829fe72b45">&#9670;&nbsp;</a></span>BIGBLOCKSIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BIGBLOCKSIZE&#160;&#160;&#160;(sizeof (long) &lt;&lt; 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af10e78a85c4b7e3d0556ea3b773c3f12" name="af10e78a85c4b7e3d0556ea3b773c3f12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af10e78a85c4b7e3d0556ea3b773c3f12">&#9670;&nbsp;</a></span>LITTLEBLOCKSIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LITTLEBLOCKSIZE&#160;&#160;&#160;(sizeof (long))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd8abce6279fa835f39d56bec9dfc4a3" name="afd8abce6279fa835f39d56bec9dfc4a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd8abce6279fa835f39d56bec9dfc4a3">&#9670;&nbsp;</a></span>TOO_SMALL <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TOO_SMALL</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">LEN</td><td>)</td>
+          <td>&#160;&#160;&#160;((LEN) &lt; <a class="el" href="kservice_8c.html#a3a392d1a0b1863c5bb865b829fe72b45">BIGBLOCKSIZE</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="kservice_8c.html">kservice.c</a></li>
+    <li class="footer">生成于 2023年 一月 19日 星期四 21:57:26 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+  </ul>
+</div>
+</body>
+</html>

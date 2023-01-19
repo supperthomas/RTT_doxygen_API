@@ -1,13 +1,29 @@
 var group__mutex =
 [
     [ "rt_mutex_init", "group__mutex.html#ga90c29e470fff8981a976ec7f9bb0546e", null ],
+    [ "RTM_EXPORT", "group__mutex.html#ga8e849cc06d6cf8c3c9d3e616d1d7c2e9", null ],
     [ "rt_mutex_detach", "group__mutex.html#ga7a8b48c0e6884e2c22d08e9e7e98a613", null ],
+    [ "RTM_EXPORT", "group__mutex.html#ga64c4db9348e299a6b905e37c96a189bd", null ],
     [ "rt_mutex_drop_thread", "group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372", null ],
     [ "rt_mutex_setprioceiling", "group__mutex.html#ga7dbba080eb21d82b3877d6e439bdfd28", null ],
+    [ "RTM_EXPORT", "group__mutex.html#ga0c6794148915d53756086a96c58e0daa", null ],
     [ "rt_mutex_getprioceiling", "group__mutex.html#gaef430f1dbc50af1098589232fb54508c", null ],
+    [ "RTM_EXPORT", "group__mutex.html#gafb2f8f406813fb357d44edde11a13120", null ],
     [ "rt_mutex_create", "group__mutex.html#ga5ce96ed48d83086aab6ecadebac6d0c6", null ],
+    [ "RTM_EXPORT", "group__mutex.html#ga1e6a654bb2765f36df3936488b1fb617", null ],
     [ "rt_mutex_delete", "group__mutex.html#ga8a74f51362fc566500bec135599dd5a9", null ],
+    [ "RTM_EXPORT", "group__mutex.html#ga6749d3ad2576c8b00c7e2aad2bb2bb41", null ],
+    [ "_rt_mutex_take", "group__mutex.html#ga85dc28e3d47be06a5904514d98402f56", null ],
+    [ "rt_mutex_take", "group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0", null ],
+    [ "RTM_EXPORT", "group__mutex.html#gad44265036f520ca82adada114431b852", null ],
+    [ "rt_mutex_take_interruptible", "group__mutex.html#ga42dfa4d42739821c4b58d82bb76109b0", null ],
+    [ "RTM_EXPORT", "group__mutex.html#ga73166846dba12addeaee8c25b8468295", null ],
+    [ "rt_mutex_take_killable", "group__mutex.html#ga7051d1f083e64af332ca952cccb492fe", null ],
+    [ "RTM_EXPORT", "group__mutex.html#ga301cac803491b137b068bc1765462842", null ],
     [ "rt_mutex_trytake", "group__mutex.html#gada983d7f4521fdb0f7a5cf6d0a1ac800", null ],
+    [ "RTM_EXPORT", "group__mutex.html#ga2f4a6f2f66f0709fe0db0bddb8e7b69b", null ],
     [ "rt_mutex_release", "group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137", null ],
-    [ "rt_mutex_control", "group__mutex.html#ga1e12cce5d8252dd3cc764ba00d429ae9", null ]
+    [ "RTM_EXPORT", "group__mutex.html#gae78983571501e32d1131a6ddc9911347", null ],
+    [ "rt_mutex_control", "group__mutex.html#ga1e12cce5d8252dd3cc764ba00d429ae9", null ],
+    [ "RTM_EXPORT", "group__mutex.html#ga76e88193b89d309617a662b7358d499f", null ]
 ];

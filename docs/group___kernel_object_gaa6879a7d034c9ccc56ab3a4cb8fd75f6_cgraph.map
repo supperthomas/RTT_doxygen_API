@@ -1,0 +1,6 @@
+<map id="rt_object_get_pointers" name="rt_object_get_pointers">
+<area shape="rect" id="node1" title="This function will copy the object pointer of the specified type, with the maximum size specified by ..." alt="" coords="5,56,156,83"/>
+<area shape="rect" id="node2" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="210,5,369,32"/>
+<area shape="rect" id="node3" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="211,56,367,83"/>
+<area shape="rect" id="node4" href="$group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="204,107,375,133"/>
+</map>

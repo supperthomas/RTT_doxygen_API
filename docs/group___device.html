@@ -110,6 +110,10 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__device.html">rt_device</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__device__id.html">rt_device_id</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__driver.html">rt_driver</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__device__notify.html">rt_device_notify</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__device__blk__geometry.html">rt_device_blk_geometry</a></td></tr>
@@ -256,31 +260,31 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 函数</h2></td></tr>
-<tr class="memitem:ga7fb604dd486fbf5e48004b4d94d8eb3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structrt__device.html">rt_device_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga7fb604dd486fbf5e48004b4d94d8eb3e">rt_device_find</a> (const char *name)</td></tr>
+<tr class="memitem:ga7fb604dd486fbf5e48004b4d94d8eb3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga7fb604dd486fbf5e48004b4d94d8eb3e">rt_device_find</a> (const char *name)</td></tr>
 <tr class="separator:ga7fb604dd486fbf5e48004b4d94d8eb3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaa44b227c43321faffb198ef9c0bb17e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gaaa44b227c43321faffb198ef9c0bb17e">rt_device_register</a> (<a class="el" href="structrt__device.html">rt_device_t</a> dev, const char *name, <a class="el" href="group___basic_def.html#ga5acba55f46553417996ac70828b874da">rt_uint16_t</a> flags)</td></tr>
+<tr class="memitem:gaaa44b227c43321faffb198ef9c0bb17e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gaaa44b227c43321faffb198ef9c0bb17e">rt_device_register</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, const char *name, <a class="el" href="group___basic_def.html#ga5acba55f46553417996ac70828b874da">rt_uint16_t</a> flags)</td></tr>
 <tr class="separator:gaaa44b227c43321faffb198ef9c0bb17e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga76cf284581e36b7e2244398efbf850b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga76cf284581e36b7e2244398efbf850b5">rt_device_unregister</a> (<a class="el" href="structrt__device.html">rt_device_t</a> dev)</td></tr>
+<tr class="memitem:ga76cf284581e36b7e2244398efbf850b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga76cf284581e36b7e2244398efbf850b5">rt_device_unregister</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev)</td></tr>
 <tr class="separator:ga76cf284581e36b7e2244398efbf850b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga61ad2adb3c48709087465f61c244733b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structrt__device.html">rt_device_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga61ad2adb3c48709087465f61c244733b">rt_device_create</a> (int type, int attach_size)</td></tr>
+<tr class="memitem:ga61ad2adb3c48709087465f61c244733b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga61ad2adb3c48709087465f61c244733b">rt_device_create</a> (int type, int attach_size)</td></tr>
 <tr class="separator:ga61ad2adb3c48709087465f61c244733b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga74b22c6a450071b23774fe24bf6fc78c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga74b22c6a450071b23774fe24bf6fc78c">rt_device_destroy</a> (<a class="el" href="structrt__device.html">rt_device_t</a> device)</td></tr>
+<tr class="memitem:ga74b22c6a450071b23774fe24bf6fc78c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga74b22c6a450071b23774fe24bf6fc78c">rt_device_destroy</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> device)</td></tr>
 <tr class="separator:ga74b22c6a450071b23774fe24bf6fc78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga07dfc7fd340b9449d2bd732159ed237f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga07dfc7fd340b9449d2bd732159ed237f">rt_device_set_rx_indicate</a> (<a class="el" href="structrt__device.html">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>(*rx_ind)(<a class="el" href="structrt__device.html">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size))</td></tr>
+<tr class="memitem:ga07dfc7fd340b9449d2bd732159ed237f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga07dfc7fd340b9449d2bd732159ed237f">rt_device_set_rx_indicate</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>(*rx_ind)(<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size))</td></tr>
 <tr class="separator:ga07dfc7fd340b9449d2bd732159ed237f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae6340392a3848e3f5e324aa984375b07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gae6340392a3848e3f5e324aa984375b07">rt_device_set_tx_complete</a> (<a class="el" href="structrt__device.html">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>(*tx_done)(<a class="el" href="structrt__device.html">rt_device_t</a> dev, void *buffer))</td></tr>
+<tr class="memitem:gae6340392a3848e3f5e324aa984375b07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gae6340392a3848e3f5e324aa984375b07">rt_device_set_tx_complete</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>(*tx_done)(<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, void *buffer))</td></tr>
 <tr class="separator:gae6340392a3848e3f5e324aa984375b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga04892007706fe586a1db33284571be7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga04892007706fe586a1db33284571be7e">rt_device_init</a> (<a class="el" href="structrt__device.html">rt_device_t</a> dev)</td></tr>
+<tr class="memitem:ga04892007706fe586a1db33284571be7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga04892007706fe586a1db33284571be7e">rt_device_init</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev)</td></tr>
 <tr class="separator:ga04892007706fe586a1db33284571be7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac0cd9f7a81722d69e8720ea4750c17a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gac0cd9f7a81722d69e8720ea4750c17a2">rt_device_open</a> (<a class="el" href="structrt__device.html">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga5acba55f46553417996ac70828b874da">rt_uint16_t</a> oflag)</td></tr>
+<tr class="memitem:gac0cd9f7a81722d69e8720ea4750c17a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gac0cd9f7a81722d69e8720ea4750c17a2">rt_device_open</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga5acba55f46553417996ac70828b874da">rt_uint16_t</a> oflag)</td></tr>
 <tr class="separator:gac0cd9f7a81722d69e8720ea4750c17a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga914535247ea0e5477002553ad38b1482"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga914535247ea0e5477002553ad38b1482">rt_device_close</a> (<a class="el" href="structrt__device.html">rt_device_t</a> dev)</td></tr>
+<tr class="memitem:ga914535247ea0e5477002553ad38b1482"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga914535247ea0e5477002553ad38b1482">rt_device_close</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev)</td></tr>
 <tr class="separator:ga914535247ea0e5477002553ad38b1482"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga33660fb6c9217dce99b6b625443453ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga33660fb6c9217dce99b6b625443453ba">rt_device_read</a> (<a class="el" href="structrt__device.html">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga0fd4981851ce935649b6723a81f2f1bf">rt_off_t</a> pos, void *buffer, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)</td></tr>
+<tr class="memitem:ga33660fb6c9217dce99b6b625443453ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga33660fb6c9217dce99b6b625443453ba">rt_device_read</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga0fd4981851ce935649b6723a81f2f1bf">rt_off_t</a> pos, void *buffer, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)</td></tr>
 <tr class="separator:ga33660fb6c9217dce99b6b625443453ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab8d041e5ae9c776332adfee71691e698"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gab8d041e5ae9c776332adfee71691e698">rt_device_write</a> (<a class="el" href="structrt__device.html">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga0fd4981851ce935649b6723a81f2f1bf">rt_off_t</a> pos, const void *buffer, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)</td></tr>
+<tr class="memitem:gab8d041e5ae9c776332adfee71691e698"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gab8d041e5ae9c776332adfee71691e698">rt_device_write</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga0fd4981851ce935649b6723a81f2f1bf">rt_off_t</a> pos, const void *buffer, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)</td></tr>
 <tr class="separator:gab8d041e5ae9c776332adfee71691e698"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga40ed6da2d5ea7b1e28de21ff439db963"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga40ed6da2d5ea7b1e28de21ff439db963">rt_device_control</a> (<a class="el" href="structrt__device.html">rt_device_t</a> dev, int cmd, void *arg)</td></tr>
+<tr class="memitem:ga40ed6da2d5ea7b1e28de21ff439db963"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga40ed6da2d5ea7b1e28de21ff439db963">rt_device_control</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, int cmd, void *arg)</td></tr>
 <tr class="separator:ga40ed6da2d5ea7b1e28de21ff439db963"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
@@ -868,6 +872,20 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
 
 </div>
 </div>
+<a id="gab3d226015bcffefd4944edc5632f8d83" name="gab3d226015bcffefd4944edc5632f8d83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab3d226015bcffefd4944edc5632f8d83">&#9670;&nbsp;</a></span>RT_DRIVER_MATCH_DTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DRIVER_MATCH_DTS&#160;&#160;&#160;(1&lt;&lt;0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga1778cc1071e28653d95e2027f1f47141" name="ga1778cc1071e28653d95e2027f1f47141"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga1778cc1071e28653d95e2027f1f47141">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_CURSOR_SET_POSITION</h2>
 
@@ -883,6 +901,20 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
 
 </div>
 </div>
+<a id="gac62921da79d874956f12f1b7c7d20cec" name="gac62921da79d874956f12f1b7c7d20cec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac62921da79d874956f12f1b7c7d20cec">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_CURSOR_SET_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_CURSOR_SET_TYPE&#160;&#160;&#160;0x11</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga19d8e9e0bbc3fe1264173764f7e881b2" name="ga19d8e9e0bbc3fe1264173764f7e881b2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga19d8e9e0bbc3fe1264173764f7e881b2">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_RECT_UPDATE</h2>
 
@@ -895,6 +927,160 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
       </table>
 </div><div class="memdoc">
 <p >graphic device control command </p>
+
+</div>
+</div>
+<a id="ga9dbeec2d4db6117e18c5bb0e6c8127da" name="ga9dbeec2d4db6117e18c5bb0e6c8127da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9dbeec2d4db6117e18c5bb0e6c8127da">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_POWERON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_POWERON&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga42f57e344854ca479c174f316afe0441" name="ga42f57e344854ca479c174f316afe0441"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga42f57e344854ca479c174f316afe0441">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_POWEROFF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_POWEROFF&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga02b99262b0867c4f99613aca4bc4419c" name="ga02b99262b0867c4f99613aca4bc4419c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga02b99262b0867c4f99613aca4bc4419c">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_GET_INFO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_GET_INFO&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gadfbacdea2a02ed10c797d94eeb5b0afa" name="gadfbacdea2a02ed10c797d94eeb5b0afa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadfbacdea2a02ed10c797d94eeb5b0afa">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_SET_MODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_SET_MODE&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga174deefe0bfe90b2e477694be86d4227" name="ga174deefe0bfe90b2e477694be86d4227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga174deefe0bfe90b2e477694be86d4227">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_GET_EXT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_GET_EXT&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 5)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga4c58e178af9465f0045559d5203b27b5" name="ga4c58e178af9465f0045559d5203b27b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4c58e178af9465f0045559d5203b27b5">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_SET_BRIGHTNESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_SET_BRIGHTNESS&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 6)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gad3f1ff0c6eca5cc0582a7887c698d734" name="gad3f1ff0c6eca5cc0582a7887c698d734"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad3f1ff0c6eca5cc0582a7887c698d734">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_GET_BRIGHTNESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_GET_BRIGHTNESS&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 7)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga92b5d943cb826806be3bb6986532a3b5" name="ga92b5d943cb826806be3bb6986532a3b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga92b5d943cb826806be3bb6986532a3b5">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_GET_MODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_GET_MODE&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 8)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaf339f748c0a7a99278900e511ebdbff2" name="gaf339f748c0a7a99278900e511ebdbff2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf339f748c0a7a99278900e511ebdbff2">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_GET_STATUS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_GET_STATUS&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 9)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga1af69c96d9322ff403cffea580024893" name="ga1af69c96d9322ff403cffea580024893"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1af69c96d9322ff403cffea580024893">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_PAN_DISPLAY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_PAN_DISPLAY&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 10)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga324b8b68a46b3cc0aa622ba0341942a8" name="ga324b8b68a46b3cc0aa622ba0341942a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga324b8b68a46b3cc0aa622ba0341942a8">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_WAIT_VSYNC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_WAIT_VSYNC&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 11)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -924,6 +1110,67 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
       </table>
 </div><div class="memdoc">
 <p >build a pixel position according to (x, y) coordinates. </p>
+
+</div>
+</div>
+<a id="gadcc41b249eb4c2f0fa6f0e2b302c5ced" name="gadcc41b249eb4c2f0fa6f0e2b302c5ced"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadcc41b249eb4c2f0fa6f0e2b302c5ced">&#9670;&nbsp;</a></span>rt_graphix_ops</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define rt_graphix_ops</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">device</td><td>)</td>
+          <td>&#160;&#160;&#160;((struct <a class="el" href="structrt__device__graphic__ops.html">rt_device_graphic_ops</a> *)(device-&gt;user_data))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类型定义说明</h2>
+<a id="ga896a5cd63480a02303252f41782379b1" name="ga896a5cd63480a02303252f41782379b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga896a5cd63480a02303252f41782379b1">&#9670;&nbsp;</a></span>rt_device_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structrt__device.html">rt_device</a>* <a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gacd3fb691ee4def6d6dcbaaf245dc1eac" name="gacd3fb691ee4def6d6dcbaaf245dc1eac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacd3fb691ee4def6d6dcbaaf245dc1eac">&#9670;&nbsp;</a></span>rt_wqueue_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structrt__wqueue.html">rt_wqueue</a> <a class="el" href="group___device.html#gacd3fb691ee4def6d6dcbaaf245dc1eac">rt_wqueue_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gabc46402474b270ced270ae4aae26186d" name="gabc46402474b270ced270ae4aae26186d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabc46402474b270ced270ae4aae26186d">&#9670;&nbsp;</a></span>rt_driver_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structrt__driver.html">rt_driver</a>* <a class="el" href="group___device.html#gabc46402474b270ced270ae4aae26186d">rt_driver_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1009,6 +1256,36 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
 
 </div>
 </div>
+<a id="gadf764cbdea00d65edcd07bb9953ad2b7" name="gadf764cbdea00d65edcd07bb9953ad2b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadf764cbdea00d65edcd07bb9953ad2b7">&#9670;&nbsp;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7aff9abc99ba1efa3afe92c1004b25ed10" name="ggadf764cbdea00d65edcd07bb9953ad2b7aff9abc99ba1efa3afe92c1004b25ed10"></a>RTGRAPHIC_PIXEL_FORMAT_MONO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7a302bf9537701cfd73ab2976a631c8823" name="ggadf764cbdea00d65edcd07bb9953ad2b7a302bf9537701cfd73ab2976a631c8823"></a>RTGRAPHIC_PIXEL_FORMAT_GRAY4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7ae11b21540dca2fc9a46290853a9a34a1" name="ggadf764cbdea00d65edcd07bb9953ad2b7ae11b21540dca2fc9a46290853a9a34a1"></a>RTGRAPHIC_PIXEL_FORMAT_GRAY16&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7aec192d0f95a2061563cc18b375873b13" name="ggadf764cbdea00d65edcd07bb9953ad2b7aec192d0f95a2061563cc18b375873b13"></a>RTGRAPHIC_PIXEL_FORMAT_RGB332&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7a1053d77fe95d5727bfb55b61ff40a750" name="ggadf764cbdea00d65edcd07bb9953ad2b7a1053d77fe95d5727bfb55b61ff40a750"></a>RTGRAPHIC_PIXEL_FORMAT_RGB444&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7aad9ed34d766e8f51824553791c7a7602" name="ggadf764cbdea00d65edcd07bb9953ad2b7aad9ed34d766e8f51824553791c7a7602"></a>RTGRAPHIC_PIXEL_FORMAT_RGB565&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7ab2ee4831c4bfc6b5fbe9ae56b5ba4ae1" name="ggadf764cbdea00d65edcd07bb9953ad2b7ab2ee4831c4bfc6b5fbe9ae56b5ba4ae1"></a>RTGRAPHIC_PIXEL_FORMAT_RGB565P&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7a917d9a2876fc9672bbb24c58946a5972" name="ggadf764cbdea00d65edcd07bb9953ad2b7a917d9a2876fc9672bbb24c58946a5972"></a>RTGRAPHIC_PIXEL_FORMAT_BGR565&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7a9be130c0e2d98daf76aa2cec34b7b23c" name="ggadf764cbdea00d65edcd07bb9953ad2b7a9be130c0e2d98daf76aa2cec34b7b23c"></a>RTGRAPHIC_PIXEL_FORMAT_RGB666&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7a8c7f273a55afedc23b2082dd6f32c72a" name="ggadf764cbdea00d65edcd07bb9953ad2b7a8c7f273a55afedc23b2082dd6f32c72a"></a>RTGRAPHIC_PIXEL_FORMAT_RGB888&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7add073ee5f8fc6c6ac0e5a6359e0c30bc" name="ggadf764cbdea00d65edcd07bb9953ad2b7add073ee5f8fc6c6ac0e5a6359e0c30bc"></a>RTGRAPHIC_PIXEL_FORMAT_BGR888&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7a14de95f7944ad067ead2cc9af46774ca" name="ggadf764cbdea00d65edcd07bb9953ad2b7a14de95f7944ad067ead2cc9af46774ca"></a>RTGRAPHIC_PIXEL_FORMAT_ARGB888&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7a03b8b6070de7b157fc42284b5aa3ce52" name="ggadf764cbdea00d65edcd07bb9953ad2b7a03b8b6070de7b157fc42284b5aa3ce52"></a>RTGRAPHIC_PIXEL_FORMAT_ABGR888&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7ad52a276f1d053c90f865f6dccbe7e647" name="ggadf764cbdea00d65edcd07bb9953ad2b7ad52a276f1d053c90f865f6dccbe7e647"></a>RTGRAPHIC_PIXEL_FORMAT_RESERVED&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">函数说明</h2>
 <a id="ga7fb604dd486fbf5e48004b4d94d8eb3e" name="ga7fb604dd486fbf5e48004b4d94d8eb3e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga7fb604dd486fbf5e48004b4d94d8eb3e">&#9670;&nbsp;</a></span>rt_device_find()</h2>
@@ -1017,7 +1294,7 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structrt__device.html">rt_device_t</a> rt_device_find </td>
+          <td class="memname"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> rt_device_find </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
@@ -1034,6 +1311,34 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
   </dd>
 </dl>
 <dl class="section return"><dt>返回</dt><dd>the registered device driver on successful, or RT_NULL on failure. </dd></dl>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_ga7fb604dd486fbf5e48004b4d94d8eb3e_cgraph.png" border="0" usemap="#agroup___device_ga7fb604dd486fbf5e48004b4d94d8eb3e_cgraph" alt=""/></div>
+<map name="agroup___device_ga7fb604dd486fbf5e48004b4d94d8eb3e_cgraph" id="agroup___device_ga7fb604dd486fbf5e48004b4d94d8eb3e_cgraph">
+<area shape="rect" title="This function finds a device driver by specified name." alt="" coords="5,599,108,626"/>
+<area shape="rect" href="group___kernel_object.html#ga6c82dbb4ae114918c5c96d0dca3957eb" title="This function will find specified name object from object container." alt="" coords="156,599,257,626"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="683,406,795,433"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="339,439,442,466"/>
+<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="305,625,476,651"/>
+<area shape="rect" href="group___kernel_service.html#ga1a4ff96dd17dfcd6ca974ae21a1df0f9" title=" " alt="" coords="349,675,433,702"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="865,355,1024,382"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="867,406,1023,433"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="524,225,612,251"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="660,5,817,47"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="665,137,812,163"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="665,188,812,229"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="675,71,802,112"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="669,457,808,499"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="911,13,978,39"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="881,71,1008,98"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="876,122,1013,149"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="892,461,997,487"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="893,511,997,538"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1046,7 +1351,7 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
         <tr>
           <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_device_register </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structrt__device.html">rt_device_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
           <td class="paramname"><em>dev</em>, </td>
         </tr>
         <tr>
@@ -1079,6 +1384,37 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
   </dd>
 </dl>
 <dl class="section return"><dt>返回</dt><dd>the error code, RT_EOK on initialization successfully. </dd></dl>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_gaaa44b227c43321faffb198ef9c0bb17e_cgraph.png" border="0" usemap="#agroup___device_gaaa44b227c43321faffb198ef9c0bb17e_cgraph" alt=""/></div>
+<map name="agroup___device_gaaa44b227c43321faffb198ef9c0bb17e_cgraph" id="agroup___device_gaaa44b227c43321faffb198ef9c0bb17e_cgraph">
+<area shape="rect" title="This function registers a device driver with a specified name." alt="" coords="5,183,131,209"/>
+<area shape="rect" href="group___device.html#ga7fb604dd486fbf5e48004b4d94d8eb3e" title="This function finds a device driver by specified name." alt="" coords="179,145,281,172"/>
+<area shape="rect" href="group___kernel_object.html#ga0a86356c83e8264841fcb83255f72014" title="This function will initialize an object and add it to object system management." alt="" coords="331,233,429,260"/>
+<area shape="rect" href="group___kernel_object.html#ga6c82dbb4ae114918c5c96d0dca3957eb" title="This function will find specified name object from object container." alt="" coords="329,107,431,133"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="697,132,809,159"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="513,259,615,285"/>
+<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="479,107,649,133"/>
+<area shape="rect" href="group___kernel_service.html#ga1a4ff96dd17dfcd6ca974ae21a1df0f9" title=" " alt="" coords="522,5,606,32"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="1063,555,1221,581"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="1064,208,1220,235"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="709,443,797,469"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="857,737,1015,778"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="863,533,1009,560"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="863,402,1009,443"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="873,467,999,509"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="867,285,1005,326"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="1109,744,1175,771"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="1079,635,1205,661"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="1073,475,1211,501"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="1089,339,1195,365"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="1090,288,1194,315"/>
+<area shape="rect" href="group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="525,853,603,880"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1091,7 +1427,7 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
         <tr>
           <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_device_unregister </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structrt__device.html">rt_device_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
           <td class="paramname"><em>dev</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1106,6 +1442,22 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
   </dd>
 </dl>
 <dl class="section return"><dt>返回</dt><dd>the error code, RT_EOK on successfully. </dd></dl>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_ga76cf284581e36b7e2244398efbf850b5_cgraph.png" border="0" usemap="#agroup___device_ga76cf284581e36b7e2244398efbf850b5_cgraph" alt=""/></div>
+<map name="agroup___device_ga76cf284581e36b7e2244398efbf850b5_cgraph" id="agroup___device_ga76cf284581e36b7e2244398efbf850b5_cgraph">
+<area shape="rect" title="This function removes a previously registered device driver." alt="" coords="5,107,144,133"/>
+<area shape="rect" href="group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="218,56,337,83"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="213,107,342,133"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="192,157,363,184"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="411,5,569,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="412,56,568,83"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="438,107,542,133"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1116,7 +1468,7 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structrt__device.html">rt_device_t</a> rt_device_create </td>
+          <td class="memname"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> rt_device_create </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>type</em>, </td>
@@ -1144,6 +1496,65 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
   </dd>
 </dl>
 <dl class="section return"><dt>返回</dt><dd>the allocated device object, or RT_NULL when failed. </dd></dl>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_ga61ad2adb3c48709087465f61c244733b_cgraph.png" border="0" usemap="#agroup___device_ga61ad2adb3c48709087465f61c244733b_cgraph" alt=""/></div>
+<map name="agroup___device_ga61ad2adb3c48709087465f61c244733b_cgraph" id="agroup___device_ga61ad2adb3c48709087465f61c244733b_cgraph">
+<area shape="rect" title="This function creates a device object with user data size." alt="" coords="5,2922,123,2949"/>
+<area shape="rect" href="group___kernel_service.html#gadf0126394c8c791134bd466db22ebc52" title="Allocate a block of memory with a minimum of &#39;size&#39; bytes." alt="" coords="175,2897,250,2923"/>
+<area shape="rect" href="group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="171,2947,255,2974"/>
+<area shape="rect" href="group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488" title=" " alt="" coords="303,2846,389,2873"/>
+<area shape="rect" href="group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03" title=" " alt="" coords="595,2947,695,2974"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="2023,2795,2135,2822"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="2212,1478,2371,1505"/>
+<area shape="rect" href="group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="437,1934,541,1961"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="1817,1326,1920,1353"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="2213,2593,2369,2619"/>
+<area shape="rect" href="group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="589,1073,700,1099"/>
+<area shape="rect" href="group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="972,398,1095,425"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="2014,1630,2143,1657"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="2239,145,2344,171"/>
+<area shape="rect" href="ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1560,381,1740,407"/>
+<area shape="rect" href="ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="748,347,907,374"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="1825,2542,1913,2569"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2228,3217,2355,3243"/>
+<area shape="rect" href="group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="1811,1427,1926,1454"/>
+<area shape="rect" href="group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="1367,1681,1469,1707"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="2223,1083,2360,1110"/>
+<area shape="rect" href="group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="1556,718,1744,745"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="2009,579,2148,620"/>
+<area shape="rect" href="group___thread.html#ga8e0fb6e55e11d12332055167bdfab275" title=" " alt="" coords="1792,652,1945,693"/>
+<area shape="rect" href="dfs__posix_8c.html#ac21b705a5ebd42c4c46363250ab817bc" title=" " alt="" coords="2057,674,2100,701"/>
+<area shape="rect" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="1819,1123,1918,1150"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2239,586,2343,613"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="2036,1377,2121,1403"/>
+<area shape="rect" href="dfs__file_8c.html#ae3b60867436d7b3be91af7cc40299f13" title=" " alt="" coords="2246,674,2337,701"/>
+<area shape="rect" href="timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="2024,1123,2133,1150"/>
+<area shape="rect" href="ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="955,43,1112,70"/>
+<area shape="rect" href="group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="973,1858,1094,1885"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="1993,1842,2164,1869"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="2015,2257,2142,2299"/>
+<area shape="rect" href="group___thread.html#ga6d64eb4d0a485461049616808f4ce177" title="This function will delete a thread. The thread object will be removed from thread queue and deleted f..." alt="" coords="1161,1478,1279,1505"/>
+<area shape="rect" href="group___thread.html#ga514825b80304477ecf377d721da409b0" title="This function will detach a thread. The thread object will be removed from thread queue and detached/..." alt="" coords="1160,1883,1280,1910"/>
+<area shape="rect" href="group___thread.html#ga04b743537fd099e204fc292e57b4aa5a" title="This function will start a thread and put it to system ready queue." alt="" coords="1357,1934,1479,1961"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="2000,2999,2157,3040"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="2005,2491,2152,2518"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="2005,2425,2152,2467"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="2258,3006,2325,3033"/>
+<area shape="rect" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372" title="drop a thread from the suspend list of mutex" alt="" coords="1343,297,1493,323"/>
+<area shape="rect" href="group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="1328,2137,1508,2163"/>
+<area shape="rect" href="group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="1812,1377,1925,1403"/>
+<area shape="rect" href="group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="1595,2035,1705,2062"/>
+<area shape="rect" href="group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="2019,1225,2138,1251"/>
+<area shape="rect" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="1587,1985,1713,2011"/>
+<area shape="rect" href="group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="1609,1630,1691,1657"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1599,2643,1701,2670"/>
+<area shape="rect" href="group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137" title="This function will release a mutex. If there is thread suspended on the mutex, the thread will be res..." alt="" coords="766,1973,889,1999"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1156,7 +1567,7 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
         <tr>
           <td class="memname">void rt_device_destroy </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structrt__device.html">rt_device_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
           <td class="paramname"><em>dev</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1170,6 +1581,65 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
   </table>
   </dd>
 </dl>
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_ga74b22c6a450071b23774fe24bf6fc78c_cgraph.png" border="0" usemap="#agroup___device_ga74b22c6a450071b23774fe24bf6fc78c_cgraph" alt=""/></div>
+<map name="agroup___device_ga74b22c6a450071b23774fe24bf6fc78c_cgraph" id="agroup___device_ga74b22c6a450071b23774fe24bf6fc78c_cgraph">
+<area shape="rect" title="This function destroy the specific device object." alt="" coords="5,2621,128,2647"/>
+<area shape="rect" href="group___kernel_service.html#gad24f606383faa97aab028c0f9df843da" title="This function will release the previously allocated memory block by rt_malloc. The released memory bl..." alt="" coords="176,1619,237,1646"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="1835,1759,1964,1786"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="1611,2849,1782,2875"/>
+<area shape="rect" href="group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="2031,2946,2150,2973"/>
+<area shape="rect" href="group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488" title=" " alt="" coords="285,683,372,710"/>
+<area shape="rect" href="group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03" title=" " alt="" coords="577,2139,677,2166"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="2035,3266,2147,3293"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="2217,2053,2376,2079"/>
+<area shape="rect" href="group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="420,683,524,710"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="2039,594,2142,621"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="2219,3266,2375,3293"/>
+<area shape="rect" href="group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="572,683,683,710"/>
+<area shape="rect" href="group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="955,401,1077,427"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="2244,1010,2349,1037"/>
+<area shape="rect" href="ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1607,510,1787,537"/>
+<area shape="rect" href="ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="731,945,889,971"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="1855,2950,1943,2977"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2233,870,2360,897"/>
+<area shape="rect" href="group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="1639,1987,1754,2014"/>
+<area shape="rect" href="group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="1186,2089,1287,2115"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="2228,934,2365,961"/>
+<area shape="rect" href="group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="1143,923,1331,950"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="2021,2509,2160,2551"/>
+<area shape="rect" href="group___thread.html#ga8e0fb6e55e11d12332055167bdfab275" title=" " alt="" coords="1392,857,1545,899"/>
+<area shape="rect" href="dfs__posix_8c.html#ac21b705a5ebd42c4c46363250ab817bc" title=" " alt="" coords="1675,721,1718,747"/>
+<area shape="rect" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="1647,2139,1746,2166"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2245,2517,2349,2543"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="2254,594,2339,621"/>
+<area shape="rect" href="dfs__file_8c.html#ae3b60867436d7b3be91af7cc40299f13" title=" " alt="" coords="1854,401,1945,427"/>
+<area shape="rect" href="group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="1853,670,1946,697"/>
+<area shape="rect" href="timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="1845,2431,1954,2458"/>
+<area shape="rect" href="ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="937,451,1095,478"/>
+<area shape="rect" href="group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="955,2241,1077,2267"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="2027,1175,2154,1216"/>
+<area shape="rect" href="group___thread.html#ga6d64eb4d0a485461049616808f4ce177" title="This function will delete a thread. The thread object will be removed from thread queue and deleted f..." alt="" coords="1178,2291,1295,2318"/>
+<area shape="rect" href="group___thread.html#ga514825b80304477ecf377d721da409b0" title="This function will detach a thread. The thread object will be removed from thread queue and detached/..." alt="" coords="1177,2393,1297,2419"/>
+<area shape="rect" href="group___thread.html#ga04b743537fd099e204fc292e57b4aa5a" title="This function will start a thread and put it to system ready queue." alt="" coords="1175,2038,1298,2065"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="2012,3048,2169,3089"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="2017,2997,2164,3023"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="2017,2829,2164,2871"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="2263,3055,2330,3082"/>
+<area shape="rect" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372" title="drop a thread from the suspend list of mutex" alt="" coords="1393,1227,1544,1254"/>
+<area shape="rect" href="group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="1379,1835,1559,1862"/>
+<area shape="rect" href="group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="1412,2545,1525,2571"/>
+<area shape="rect" href="group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="1641,1329,1752,1355"/>
+<area shape="rect" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="1406,2139,1531,2166"/>
+<area shape="rect" href="group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="1427,1785,1510,1811"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1645,3203,1748,3230"/>
+<area shape="rect" href="group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137" title="This function will release a mutex. If there is thread suspended on the mutex, the thread will be res..." alt="" coords="749,2139,871,2166"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1182,13 +1652,13 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
         <tr>
           <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_device_set_rx_indicate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structrt__device.html">rt_device_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
           <td class="paramname"><em>dev</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>(*)(<a class="el" href="structrt__device.html">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)&#160;</td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>(*)(<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)&#160;</td>
           <td class="paramname"><em>rx_ind</em>&#160;</td>
         </tr>
         <tr>
@@ -1208,6 +1678,17 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
   </dd>
 </dl>
 <dl class="section return"><dt>返回</dt><dd>RT_EOK </dd></dl>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_ga07dfc7fd340b9449d2bd732159ed237f_cgraph.png" border="0" usemap="#agroup___device_ga07dfc7fd340b9449d2bd732159ed237f_cgraph" alt=""/></div>
+<map name="agroup___device_ga07dfc7fd340b9449d2bd732159ed237f_cgraph" id="agroup___device_ga07dfc7fd340b9449d2bd732159ed237f_cgraph">
+<area shape="rect" title="This function will set the reception indication callback function. This callback function is invoked ..." alt="" coords="5,5,172,32"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="220,5,349,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1220,13 +1701,13 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
         <tr>
           <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_device_set_tx_complete </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structrt__device.html">rt_device_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
           <td class="paramname"><em>dev</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>(*)(<a class="el" href="structrt__device.html">rt_device_t</a> dev, void *buffer)&#160;</td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>(*)(<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, void *buffer)&#160;</td>
           <td class="paramname"><em>tx_done</em>&#160;</td>
         </tr>
         <tr>
@@ -1246,6 +1727,17 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
   </dd>
 </dl>
 <dl class="section return"><dt>返回</dt><dd>RT_EOK </dd></dl>
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_gae6340392a3848e3f5e324aa984375b07_cgraph.png" border="0" usemap="#agroup___device_gae6340392a3848e3f5e324aa984375b07_cgraph" alt=""/></div>
+<map name="agroup___device_gae6340392a3848e3f5e324aa984375b07_cgraph" id="agroup___device_gae6340392a3848e3f5e324aa984375b07_cgraph">
+<area shape="rect" title="This function will set a callback function. The callback function will be called when device has writ..." alt="" coords="5,5,180,32"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="228,5,357,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1258,7 +1750,7 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
         <tr>
           <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_device_init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structrt__device.html">rt_device_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
           <td class="paramname"><em>dev</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1285,7 +1777,7 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
         <tr>
           <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_device_open </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structrt__device.html">rt_device_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
           <td class="paramname"><em>dev</em>, </td>
         </tr>
         <tr>
@@ -1311,6 +1803,17 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
   </dd>
 </dl>
 <dl class="section return"><dt>返回</dt><dd>the result, RT_EOK on successfully. </dd></dl>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_gac0cd9f7a81722d69e8720ea4750c17a2_cgraph.png" border="0" usemap="#agroup___device_gac0cd9f7a81722d69e8720ea4750c17a2_cgraph" alt=""/></div>
+<map name="agroup___device_gac0cd9f7a81722d69e8720ea4750c17a2_cgraph" id="agroup___device_gac0cd9f7a81722d69e8720ea4750c17a2_cgraph">
+<area shape="rect" title="This function will open a device." alt="" coords="5,5,115,32"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="163,5,292,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1323,7 +1826,7 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
         <tr>
           <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_device_close </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structrt__device.html">rt_device_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
           <td class="paramname"><em>dev</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1338,6 +1841,17 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
   </dd>
 </dl>
 <dl class="section return"><dt>返回</dt><dd>the result, RT_EOK on successfully. </dd></dl>
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_ga914535247ea0e5477002553ad38b1482_cgraph.png" border="0" usemap="#agroup___device_ga914535247ea0e5477002553ad38b1482_cgraph" alt=""/></div>
+<map name="agroup___device_ga914535247ea0e5477002553ad38b1482_cgraph" id="agroup___device_ga914535247ea0e5477002553ad38b1482_cgraph">
+<area shape="rect" title="This function will close a device." alt="" coords="5,5,116,32"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="164,5,293,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1350,7 +1864,7 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
         <tr>
           <td class="memname"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> rt_device_read </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structrt__device.html">rt_device_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
           <td class="paramname"><em>dev</em>, </td>
         </tr>
         <tr>
@@ -1391,6 +1905,23 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
 </dl>
 <dl class="section return"><dt>返回</dt><dd>the actually read size on successful, otherwise 0 will be returned.</dd></dl>
 <dl class="section note"><dt>注解</dt><dd>the unit of size/pos is a block for block device. </dd></dl>
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_ga33660fb6c9217dce99b6b625443453ba_cgraph.png" border="0" usemap="#agroup___device_ga33660fb6c9217dce99b6b625443453ba_cgraph" alt=""/></div>
+<map name="agroup___device_ga33660fb6c9217dce99b6b625443453ba_cgraph" id="agroup___device_ga33660fb6c9217dce99b6b625443453ba_cgraph">
+<area shape="rect" title="This function will read some data from a device." alt="" coords="5,56,112,83"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="160,31,289,57"/>
+<area shape="rect" href="group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="178,81,271,108"/>
+<area shape="rect" href="group___kernel.html#gaa6725f61bed47e0d5ac383eccf14d3f1" title="This function will return the nest of interrupt." alt="" coords="337,56,480,83"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="357,107,460,133"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="528,5,687,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="529,56,685,83"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="565,107,650,133"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1403,7 +1934,7 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
         <tr>
           <td class="memname"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> rt_device_write </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structrt__device.html">rt_device_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
           <td class="paramname"><em>dev</em>, </td>
         </tr>
         <tr>
@@ -1444,6 +1975,23 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
 </dl>
 <dl class="section return"><dt>返回</dt><dd>the actually written size on successful, otherwise 0 will be returned.</dd></dl>
 <dl class="section note"><dt>注解</dt><dd>the unit of size/pos is a block for block device. </dd></dl>
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_gab8d041e5ae9c776332adfee71691e698_cgraph.png" border="0" usemap="#agroup___device_gab8d041e5ae9c776332adfee71691e698_cgraph" alt=""/></div>
+<map name="agroup___device_gab8d041e5ae9c776332adfee71691e698_cgraph" id="agroup___device_gab8d041e5ae9c776332adfee71691e698_cgraph">
+<area shape="rect" title="This function will write some data to a device." alt="" coords="5,56,116,83"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="164,31,293,57"/>
+<area shape="rect" href="group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="182,81,275,108"/>
+<area shape="rect" href="group___kernel.html#gaa6725f61bed47e0d5ac383eccf14d3f1" title="This function will return the nest of interrupt." alt="" coords="341,56,484,83"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="361,107,464,133"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="532,5,691,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="533,56,689,83"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="569,107,654,133"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1456,7 +2004,7 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
         <tr>
           <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_device_control </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structrt__device.html">rt_device_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
           <td class="paramname"><em>dev</em>, </td>
         </tr>
         <tr>
@@ -1489,6 +2037,17 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
   </dd>
 </dl>
 <dl class="section return"><dt>返回</dt><dd>the result, -RT_ENOSYS for failed. </dd></dl>
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_ga40ed6da2d5ea7b1e28de21ff439db963_cgraph.png" border="0" usemap="#agroup___device_ga40ed6da2d5ea7b1e28de21ff439db963_cgraph" alt=""/></div>
+<map name="agroup___device_ga40ed6da2d5ea7b1e28de21ff439db963_cgraph" id="agroup___device_ga40ed6da2d5ea7b1e28de21ff439db963_cgraph">
+<area shape="rect" title="This function will perform a variety of control functions on devices." alt="" coords="5,5,125,32"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="173,5,303,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1497,7 +2056,7 @@ $(document).ready(function(){initNavTree('group___device.html',''); initResizabl
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">生成于 2023年 一月 19日 星期四 20:14:49 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">生成于 2023年 一月 19日 星期四 21:57:26 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

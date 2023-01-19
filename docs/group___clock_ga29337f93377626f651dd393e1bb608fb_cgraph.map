@@ -1,0 +1,26 @@
+<map id="rt_tick_increase" name="rt_tick_increase">
+<area shape="rect" id="node1" title="This function will notify kernel there is one tick passed. Normally, this function is invoked by cloc..." alt="" coords="5,163,117,190"/>
+<area shape="rect" id="node2" href="$cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="328,11,413,38"/>
+<area shape="rect" id="node3" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="848,573,1007,599"/>
+<area shape="rect" id="node4" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="849,971,1005,998"/>
+<area shape="rect" id="node5" href="$group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="488,458,576,485"/>
+<area shape="rect" id="node16" href="$group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="167,37,270,63"/>
+<area shape="rect" id="node17" href="$group___clock.html#ga3a29a70b401aa9d5c5dbb7269fd0ac57" title="This function will check timer list, if a timeout event happens, the corresponding timeout function w..." alt="" coords="165,667,272,694"/>
+<area shape="rect" id="node6" href="$scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="643,224,800,265"/>
+<area shape="rect" id="node8" href="$rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="648,458,795,485"/>
+<area shape="rect" id="node9" href="$rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="648,392,795,433"/>
+<area shape="rect" id="node10" href="$group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="658,677,785,719"/>
+<area shape="rect" id="node13" href="$group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="652,509,791,551"/>
+<area shape="rect" id="node7" href="$group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="894,231,961,258"/>
+<area shape="rect" id="node11" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="864,743,991,770"/>
+<area shape="rect" id="node12" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="859,685,996,711"/>
+<area shape="rect" id="node14" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="875,177,980,203"/>
+<area shape="rect" id="node15" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="1055,706,1159,733"/>
+<area shape="rect" id="node18" href="$timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="873,1199,982,1226"/>
+<area shape="rect" id="node19" href="$group___kernel_service.html#ga7103f52aa8c7402c9e87f03942d8bc9f" title="initialize a list" alt="" coords="331,1149,410,1175"/>
+<area shape="rect" id="node20" href="$group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="491,693,573,719"/>
+<area shape="rect" id="node21" href="$group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="320,794,421,821"/>
+<area shape="rect" id="node22" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="863,1047,992,1074"/>
+<area shape="rect" id="node23" href="$group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="469,895,595,922"/>
+<area shape="rect" id="node24" href="$group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="672,997,771,1023"/>
+</map>

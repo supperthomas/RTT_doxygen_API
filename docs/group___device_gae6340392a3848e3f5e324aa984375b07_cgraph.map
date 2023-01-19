@@ -1,0 +1,4 @@
+<map id="rt_device_set_tx_complete" name="rt_device_set_tx_complete">
+<area shape="rect" id="node1" title="This function will set a callback function. The callback function will be called when device has writ..." alt="" coords="5,5,180,32"/>
+<area shape="rect" id="node2" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="228,5,357,32"/>
+</map>

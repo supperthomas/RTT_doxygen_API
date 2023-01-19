@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['list_0',['list',['../structrt__object.html#a69dc994d5641cee2afddb6cf1b737405',1,'rt_object::list()'],['../structrt__thread.html#a30dd781aa72ce771beef5ed7a4cdbbd7',1,'rt_thread::list()']]]
+  ['kernel_20object_20management_0',['Kernel Object Management',['../group___kernel_object.html',1,'']]],
+  ['kernel_2eh_1',['kernel.h',['../kernel_8h.html',1,'']]],
+  ['kservice_2ec_2',['kservice.c',['../kservice_8c.html',1,'']]]
 ];

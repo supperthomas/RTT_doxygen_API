@@ -1,0 +1,22 @@
+<map id="rt_smem_init" name="rt_smem_init">
+<area shape="rect" id="node1" title="This function will initialize small memory management algorithm." alt="" coords="5,587,103,613"/>
+<area shape="rect" id="node2" href="$group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="157,561,241,588"/>
+<area shape="rect" id="node3" href="$group___kernel_object.html#ga0a86356c83e8264841fcb83255f72014" title="This function will initialize an object and add it to object system management." alt="" coords="151,612,248,639"/>
+<area shape="rect" id="node4" href="$group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="673,444,785,471"/>
+<area shape="rect" id="node5" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="856,201,1015,228"/>
+<area shape="rect" id="node6" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="857,448,1013,475"/>
+<area shape="rect" id="node7" href="$group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="330,423,433,449"/>
+<area shape="rect" id="node14" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="872,608,999,635"/>
+<area shape="rect" id="node19" href="$group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="296,713,467,740"/>
+<area shape="rect" id="node20" href="$group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="342,764,421,791"/>
+<area shape="rect" id="node8" href="$group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="515,305,603,332"/>
+<area shape="rect" id="node9" href="$scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="651,327,808,369"/>
+<area shape="rect" id="node11" href="$rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="656,225,803,252"/>
+<area shape="rect" id="node12" href="$rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="656,159,803,201"/>
+<area shape="rect" id="node13" href="$group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="666,495,793,537"/>
+<area shape="rect" id="node16" href="$group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="660,42,799,83"/>
+<area shape="rect" id="node10" href="$group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="902,335,969,361"/>
+<area shape="rect" id="node15" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="867,503,1004,529"/>
+<area shape="rect" id="node17" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="883,75,988,101"/>
+<area shape="rect" id="node18" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="883,24,987,51"/>
+</map>

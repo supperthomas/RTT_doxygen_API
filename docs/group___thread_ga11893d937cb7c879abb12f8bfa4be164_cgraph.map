@@ -1,0 +1,7 @@
+<map id="rt_schedule_remove_thread" name="rt_schedule_remove_thread">
+<area shape="rect" id="node1" title="This function will remove a thread from system ready queue." alt="" coords="5,74,144,115"/>
+<area shape="rect" id="node2" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="192,5,351,32"/>
+<area shape="rect" id="node3" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="193,56,349,83"/>
+<area shape="rect" id="node4" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="219,107,324,133"/>
+<area shape="rect" id="node5" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="219,157,323,184"/>
+</map>

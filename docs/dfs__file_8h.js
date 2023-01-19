@@ -1,0 +1,26 @@
+var dfs__file_8h =
+[
+    [ "dfs_file_ops", "structdfs__file__ops.html", "structdfs__file__ops" ],
+    [ "dfs_fnode", "structdfs__fnode.html", "structdfs__fnode" ],
+    [ "dfs_fd", "structdfs__fd.html", "structdfs__fd" ],
+    [ "dfs_mmap2_args", "structdfs__mmap2__args.html", "structdfs__mmap2__args" ],
+    [ "DFS_FD_MAGIC", "dfs__file_8h.html#a2f05956c9884960f02d70835f748ad8c", null ],
+    [ "RT_FIOFTRUNCATE", "dfs__file_8h.html#ae0e3bd0ddf44e94a7987e57efdab182b", null ],
+    [ "RT_FIOGETADDR", "dfs__file_8h.html#aab21770138c7c913dfe63831c1b41133", null ],
+    [ "RT_FIOMMAP2", "dfs__file_8h.html#a3f67dbed905a589bfbe7a4d325ce8b87", null ],
+    [ "dfs_fnode_mgr_init", "dfs__file_8h.html#a7c773ae4a298bea3d60ee3db17dbb834", null ],
+    [ "dfs_file_is_open", "dfs__file_8h.html#a93bdc39dc4d310738b84a0aa6fb34950", null ],
+    [ "dfs_file_open", "dfs__file_8h.html#a69605ecef6247356eba5f0d6d42a838a", null ],
+    [ "dfs_file_close", "dfs__file_8h.html#a236fc80632f93ca39ed2dbf686e483d8", null ],
+    [ "dfs_file_ioctl", "dfs__file_8h.html#a0fe7b7f5445b634beb014b3354ef23c9", null ],
+    [ "dfs_file_read", "dfs__file_8h.html#ad542af0ccc64a808b264d6da36d0d6e5", null ],
+    [ "dfs_file_getdents", "dfs__file_8h.html#aebf468f9b776a6ca98ddc8f8cc5c8f09", null ],
+    [ "dfs_file_unlink", "dfs__file_8h.html#a5e4ad5654aba88c0e37c3f8c1c7dfe66", null ],
+    [ "dfs_file_write", "dfs__file_8h.html#aad6acb4b09208c6f1b5e28411029583d", null ],
+    [ "dfs_file_flush", "dfs__file_8h.html#a1d4f54fe6bd307dce523c30d4ab9eb1a", null ],
+    [ "dfs_file_lseek", "dfs__file_8h.html#a484bb2611ebf45e38ee183373474c98e", null ],
+    [ "dfs_file_stat", "dfs__file_8h.html#ae3b60867436d7b3be91af7cc40299f13", null ],
+    [ "dfs_file_rename", "dfs__file_8h.html#af8756544960620bf56886c0020e35e4f", null ],
+    [ "dfs_file_ftruncate", "dfs__file_8h.html#a5286b99ce709f557da804f3430b51aaf", null ],
+    [ "dfs_file_mmap2", "dfs__file_8h.html#ae5356c5825fe459d580555fcf06b6911", null ]
+];

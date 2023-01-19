@@ -1,0 +1,11 @@
+<map id="rt_smem_realloc" name="rt_smem_realloc">
+<area shape="rect" id="node1" title="This function will change the size of previously allocated memory block." alt="" coords="5,111,124,138"/>
+<area shape="rect" id="node2" href="$mem_8c.html#a6502b28ff567a68fca8c0a7e97d8acc5" title=" " alt="" coords="371,10,453,36"/>
+<area shape="rect" id="node3" href="$group___kernel_service.html#gacbe2d70e90f1ce1ea00dd61621b97981" title=" " alt="" coords="182,238,269,264"/>
+<area shape="rect" id="node4" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="347,86,477,112"/>
+<area shape="rect" id="node5" href="$group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="327,136,497,163"/>
+<area shape="rect" id="node6" href="$group___m_m.html#ga80448818ad067205d76e94f8c97e5fe9" title="Allocate a block of memory with a minimum of &#39;size&#39; bytes." alt="" coords="172,136,279,163"/>
+<area shape="rect" id="node9" href="$group___m_m.html#ga0be498288489171f107c04ed44314ef0" title="This function will release the previously allocated memory block by rt_mem_alloc. The released memory..." alt="" coords="174,35,277,62"/>
+<area shape="rect" id="node7" href="$group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="361,187,463,214"/>
+<area shape="rect" id="node8" href="$cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="545,187,631,214"/>
+</map>

@@ -1,0 +1,23 @@
+<map id="rt_timer_check" name="rt_timer_check">
+<area shape="rect" id="node1" title="This function will check timer list, if a timeout event happens, the corresponding timeout function w..." alt="" coords="5,953,112,980"/>
+<area shape="rect" id="node2" href="$timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="713,5,822,32"/>
+<area shape="rect" id="node3" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="895,344,999,371"/>
+<area shape="rect" id="node4" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="688,335,847,361"/>
+<area shape="rect" id="node5" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="689,553,845,580"/>
+<area shape="rect" id="node6" href="$group___kernel_service.html#ga7103f52aa8c7402c9e87f03942d8bc9f" title="initialize a list" alt="" coords="171,1156,250,1183"/>
+<area shape="rect" id="node7" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="704,903,831,929"/>
+<area shape="rect" id="node8" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="715,1004,820,1031"/>
+<area shape="rect" id="node9" href="$group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="331,903,413,929"/>
+<area shape="rect" id="node10" href="$group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="160,284,261,311"/>
+<area shape="rect" id="node11" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="703,132,832,159"/>
+<area shape="rect" id="node12" href="$group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="328,579,416,605"/>
+<area shape="rect" id="node20" href="$group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="309,233,435,260"/>
+<area shape="rect" id="node13" href="$scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="483,786,640,827"/>
+<area shape="rect" id="node15" href="$rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="488,604,635,631"/>
+<area shape="rect" id="node16" href="$rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="488,655,635,697"/>
+<area shape="rect" id="node17" href="$group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="498,487,625,529"/>
+<area shape="rect" id="node19" href="$group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="492,721,631,762"/>
+<area shape="rect" id="node14" href="$group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="734,793,801,820"/>
+<area shape="rect" id="node18" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="699,495,836,521"/>
+<area shape="rect" id="node21" href="$group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="512,183,611,209"/>
+</map>
