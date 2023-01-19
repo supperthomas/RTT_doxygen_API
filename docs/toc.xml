@@ -4,7 +4,7 @@
     <topic label="Kernel API" href="index.html#kernel_service"/>
     <topic label="System Initialization" href="index.html#system_init"/>
   </topic>
-  <topic label="Modules" href="modules.html">
+  <topic label="模块" href="modules.html">
     <topic label="Basic Definitions" href="group___basic_def.html">
       <topic label="RT_VERSION_MAJOR" href="group___basic_def.html#ga529feb30925b5489fd969a95d1954267"/>
       <topic label="RT_VERSION_MINOR" href="group___basic_def.html#ga6b4786d40f85dceee14480f7ff2b7eae"/>
@@ -608,8 +608,8 @@
       <topic label="rt_interrupt_get_nest" href="group___signals.html#ga0d9cc4b32c1d60bca19a512200507650"/>
     </topic>
   </topic>
-  <topic label="Data Structures" href="annotated.html">
-    <topic label="Data Structures" href="annotated.html">
+  <topic label="结构体" href="annotated.html">
+    <topic label="结构体" href="annotated.html">
       <topic label="rt_device" href="structrt__device.html">
         <topic label="parent" href="structrt__device.html#a52df486399b65f49455698b55b656d8d"/>
         <topic label="type" href="structrt__device.html#a0b8dba8f32d49291b85e54d13520b871"/>
@@ -746,9 +746,9 @@
       <topic label="rt_wqueue" href="structrt__wqueue.html">
       </topic>
     </topic>
-    <topic label="Data Fields" href="functions.html">
-      <topic label="All" href="functions.html"/>
-      <topic label="Variables" href="functions_vars.html"/>
+    <topic label="成员变量" href="functions.html">
+      <topic label="全部" href="functions.html"/>
+      <topic label="变量" href="functions_vars.html"/>
     </topic>
   </topic>
 </toc>

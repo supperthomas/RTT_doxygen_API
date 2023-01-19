@@ -26,14 +26,14 @@ var indexSectionNames =
 
 var indexSectionLabels =
 {
-  0: "All",
-  1: "Data Structures",
-  2: "Functions",
-  3: "Variables",
-  4: "Typedefs",
-  5: "Enumerations",
-  6: "Enumerator",
-  7: "Modules",
-  8: "Pages"
+  0: "全部",
+  1: "结构体",
+  2: "函数",
+  3: "变量",
+  4: "类型定义",
+  5: "枚举",
+  6: "枚举值",
+  7: "组",
+  8: "页"
 };
 
