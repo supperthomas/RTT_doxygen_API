@@ -16,6 +16,9 @@ jobs:
        legs:
          - {RTT_BSP: "qemu-vexpress-a9", RTT_TOOL_CHAIN: "sourcery-arm"}
     steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: 'recursive'
       - name: Install Tools
         shell: bash
         run: |
@@ -28,8 +31,7 @@ jobs:
           RTT_BSP: ${{ matrix.legs.RTT_BSP }}
           RTT_TOOL_CHAIN: ${{ matrix.legs.RTT_TOOL_CHAIN }}
         run: |
-          ls rt-thread
-          ls
+          ls 
           doxygen rt-thread/documentation/doxygen/Doxyfile
           ls
           
