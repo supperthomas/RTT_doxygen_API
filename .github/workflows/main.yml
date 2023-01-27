@@ -35,6 +35,6 @@ jobs:
           RTT_BSP: ${{ matrix.legs.RTT_BSP }}
           RTT_TOOL_CHAIN: ${{ matrix.legs.RTT_TOOL_CHAIN }}
         run: |
-          doxygen documentation/doxygen/Doxygen
+          doxygen documentation/doxygen/Doxyfile
           
         
