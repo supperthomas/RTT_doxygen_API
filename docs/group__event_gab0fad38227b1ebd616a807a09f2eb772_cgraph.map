@@ -1,0 +1,23 @@
+<map id="rt_event_init" name="rt_event_init">
+<area shape="rect" id="node1" title="The function will initialize a static event object." alt="" coords="5,289,99,316"/>
+<area shape="rect" id="node2" href="$group___i_p_c.html#ga6b174ad0c6281b177865e9452b7f9a71" title="This function will initialize an IPC object, such as semaphore, mutex, messagequeue and mailbox." alt="" coords="147,113,257,140"/>
+<area shape="rect" id="node4" href="$group___kernel_object.html#ga0a86356c83e8264841fcb83255f72014" title="This function will initialize an object and add it to object system management." alt="" coords="153,315,251,341"/>
+<area shape="rect" id="node3" href="$group___kernel_service.html#ga7103f52aa8c7402c9e87f03942d8bc9f" title="initialize a list" alt="" coords="351,5,430,32"/>
+<area shape="rect" id="node5" href="$group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="683,624,795,651"/>
+<area shape="rect" id="node6" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="865,599,1024,625"/>
+<area shape="rect" id="node7" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="867,212,1023,239"/>
+<area shape="rect" id="node8" href="$group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="339,289,442,316"/>
+<area shape="rect" id="node15" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="881,109,1008,136"/>
+<area shape="rect" id="node20" href="$group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="305,340,476,367"/>
+<area shape="rect" id="node21" href="$group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="351,391,430,417"/>
+<area shape="rect" id="node9" href="$group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="524,364,612,391"/>
+<area shape="rect" id="node10" href="$scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="660,507,817,549"/>
+<area shape="rect" id="node12" href="$rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="665,456,812,483"/>
+<area shape="rect" id="node13" href="$rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="665,325,812,366"/>
+<area shape="rect" id="node14" href="$group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="675,259,802,301"/>
+<area shape="rect" id="node17" href="$group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="669,390,808,431"/>
+<area shape="rect" id="node11" href="$group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="911,515,978,541"/>
+<area shape="rect" id="node16" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="876,267,1013,293"/>
+<area shape="rect" id="node18" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="892,372,997,399"/>
+<area shape="rect" id="node19" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="893,423,997,449"/>
+</map>

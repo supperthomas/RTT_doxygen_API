@@ -1,0 +1,2063 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-Thread RTOS: Device System</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="rtthread_logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">RT-Thread RTOS<span id="projectnumber">&#160;1.2.0</span>
+   </div>
+   <div id="projectbrief">An open source embedded real-time operating system</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.4 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'搜索','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('group___device.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">结构体</a> &#124;
+<a href="#define-members">宏定义</a> &#124;
+<a href="#enum-members">枚举</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle"><div class="title">Device System<div class="ingroups"><a class="el" href="group___signals.html">Signals</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Device System 的协作图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device.png" border="0" usemap="#agroup______device" alt=""/></div>
+<map name="agroup______device" id="agroup______device">
+<area shape="rect" title="device I/O subsystem" alt="" coords="116,5,221,31"/>
+<area shape="rect" href="group___signals.html" title=" " alt="" coords="5,5,68,31"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+结构体</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__wqueue.html">rt_wqueue</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__device.html">rt_device</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__device__id.html">rt_device_id</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__driver.html">rt_driver</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__device__notify.html">rt_device_notify</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__device__blk__geometry.html">rt_device_blk_geometry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__device__blk__sectors.html">rt_device_blk_sectors</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__device__graphic__info.html">rt_device_graphic_info</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__device__rect__info.html">rt_device_rect_info</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__device__graphic__ops.html">rt_device_graphic_ops</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:ga2944a0dadfee3da236244108ee64ef23"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga2944a0dadfee3da236244108ee64ef23">RT_DEVICE_FLAG_DEACTIVATE</a>&#160;&#160;&#160;0x000</td></tr>
+<tr class="separator:ga2944a0dadfee3da236244108ee64ef23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae55023ca390d9c9db1e36f47d70b7bef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gae55023ca390d9c9db1e36f47d70b7bef">RT_DEVICE_FLAG_RDONLY</a>&#160;&#160;&#160;0x001</td></tr>
+<tr class="separator:gae55023ca390d9c9db1e36f47d70b7bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga23a6a0bf94d7ac84e205b25090ccecac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga23a6a0bf94d7ac84e205b25090ccecac">RT_DEVICE_FLAG_WRONLY</a>&#160;&#160;&#160;0x002</td></tr>
+<tr class="separator:ga23a6a0bf94d7ac84e205b25090ccecac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9e347dc85aee3d0316e9544e65150b6a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga9e347dc85aee3d0316e9544e65150b6a">RT_DEVICE_FLAG_RDWR</a>&#160;&#160;&#160;0x003</td></tr>
+<tr class="separator:ga9e347dc85aee3d0316e9544e65150b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafab1082cb2c2c23d3098889e52880eb2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gafab1082cb2c2c23d3098889e52880eb2">RT_DEVICE_FLAG_REMOVABLE</a>&#160;&#160;&#160;0x004</td></tr>
+<tr class="separator:gafab1082cb2c2c23d3098889e52880eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga614c2568c11b488d0c6ab6f77e178933"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga614c2568c11b488d0c6ab6f77e178933">RT_DEVICE_FLAG_STANDALONE</a>&#160;&#160;&#160;0x008</td></tr>
+<tr class="separator:ga614c2568c11b488d0c6ab6f77e178933"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafce8c8e2f97455644d244f841292406a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gafce8c8e2f97455644d244f841292406a">RT_DEVICE_FLAG_ACTIVATED</a>&#160;&#160;&#160;0x010</td></tr>
+<tr class="separator:gafce8c8e2f97455644d244f841292406a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga77f4d95ded0bdd0012942bad5b676d07"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga77f4d95ded0bdd0012942bad5b676d07">RT_DEVICE_FLAG_SUSPENDED</a>&#160;&#160;&#160;0x020</td></tr>
+<tr class="separator:ga77f4d95ded0bdd0012942bad5b676d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga35474a8eeb00f8a72b2f09cbfae9236d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga35474a8eeb00f8a72b2f09cbfae9236d">RT_DEVICE_FLAG_STREAM</a>&#160;&#160;&#160;0x040</td></tr>
+<tr class="separator:ga35474a8eeb00f8a72b2f09cbfae9236d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3475a6ac901802ed9fe50f5c13f6274b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga3475a6ac901802ed9fe50f5c13f6274b">RT_DEVICE_FLAG_INT_RX</a>&#160;&#160;&#160;0x100</td></tr>
+<tr class="separator:ga3475a6ac901802ed9fe50f5c13f6274b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3bee223726cc7b3c82b93c873bc6c0ea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga3bee223726cc7b3c82b93c873bc6c0ea">RT_DEVICE_FLAG_DMA_RX</a>&#160;&#160;&#160;0x200</td></tr>
+<tr class="separator:ga3bee223726cc7b3c82b93c873bc6c0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac6963e9aaa345ef576d8c3a378a670e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gac6963e9aaa345ef576d8c3a378a670e5">RT_DEVICE_FLAG_INT_TX</a>&#160;&#160;&#160;0x400</td></tr>
+<tr class="separator:gac6963e9aaa345ef576d8c3a378a670e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac4474c2de32e07786ce187e582c45932"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gac4474c2de32e07786ce187e582c45932">RT_DEVICE_FLAG_DMA_TX</a>&#160;&#160;&#160;0x800</td></tr>
+<tr class="separator:gac4474c2de32e07786ce187e582c45932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaded7e734d35ad96413265a830f2ae0c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gaded7e734d35ad96413265a830f2ae0c3">RT_DEVICE_OFLAG_CLOSE</a>&#160;&#160;&#160;0x000</td></tr>
+<tr class="separator:gaded7e734d35ad96413265a830f2ae0c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga35bc30b5382c33312b5c4162936cc62f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga35bc30b5382c33312b5c4162936cc62f">RT_DEVICE_OFLAG_RDONLY</a>&#160;&#160;&#160;0x001</td></tr>
+<tr class="separator:ga35bc30b5382c33312b5c4162936cc62f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga09cb4d4a3ba8481e39294eed833e9361"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga09cb4d4a3ba8481e39294eed833e9361">RT_DEVICE_OFLAG_WRONLY</a>&#160;&#160;&#160;0x002</td></tr>
+<tr class="separator:ga09cb4d4a3ba8481e39294eed833e9361"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafb08422ef35082a8599c30c663799507"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gafb08422ef35082a8599c30c663799507">RT_DEVICE_OFLAG_RDWR</a>&#160;&#160;&#160;0x003</td></tr>
+<tr class="separator:gafb08422ef35082a8599c30c663799507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7f778feb8fe961d85e30638b72f22b05"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga7f778feb8fe961d85e30638b72f22b05">RT_DEVICE_OFLAG_OPEN</a>&#160;&#160;&#160;0x008</td></tr>
+<tr class="separator:ga7f778feb8fe961d85e30638b72f22b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaca12b64954139a100644136d808b17d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gaca12b64954139a100644136d808b17d6">RT_DEVICE_OFLAG_MASK</a>&#160;&#160;&#160;0xf0f</td></tr>
+<tr class="separator:gaca12b64954139a100644136d808b17d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5f4c6955afabe83249d5808b4146dfc5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga5f4c6955afabe83249d5808b4146dfc5">RT_DEVICE_CTRL_RESUME</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:ga5f4c6955afabe83249d5808b4146dfc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga85db48a4ae2c896e7293d9e3d10d766a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga85db48a4ae2c896e7293d9e3d10d766a">RT_DEVICE_CTRL_SUSPEND</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:ga85db48a4ae2c896e7293d9e3d10d766a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafb43232131c1d1763c5a7ae9f8a27327"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gafb43232131c1d1763c5a7ae9f8a27327">RT_DEVICE_CTRL_CONFIG</a>&#160;&#160;&#160;0x03</td></tr>
+<tr class="separator:gafb43232131c1d1763c5a7ae9f8a27327"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga611da511a4876f33e7a1c388825f2df0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga611da511a4876f33e7a1c388825f2df0">RT_DEVICE_CTRL_CLOSE</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="separator:ga611da511a4876f33e7a1c388825f2df0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga63f7894e685b9631e5afede03ba535cb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga63f7894e685b9631e5afede03ba535cb">RT_DEVICE_CTRL_NOTIFY_SET</a>&#160;&#160;&#160;0x05</td></tr>
+<tr class="separator:ga63f7894e685b9631e5afede03ba535cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaefef5ee14e75b8fc7b89aac358037aab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gaefef5ee14e75b8fc7b89aac358037aab">RT_DEVICE_CTRL_SET_INT</a>&#160;&#160;&#160;0x06</td></tr>
+<tr class="separator:gaefef5ee14e75b8fc7b89aac358037aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6603c82c88a3b4e77ded4ab4ba35931c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga6603c82c88a3b4e77ded4ab4ba35931c">RT_DEVICE_CTRL_CLR_INT</a>&#160;&#160;&#160;0x07</td></tr>
+<tr class="separator:ga6603c82c88a3b4e77ded4ab4ba35931c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf1e98fb4a12e77f3dc7dc72dafc74fc5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gaf1e98fb4a12e77f3dc7dc72dafc74fc5">RT_DEVICE_CTRL_GET_INT</a>&#160;&#160;&#160;0x08</td></tr>
+<tr class="separator:gaf1e98fb4a12e77f3dc7dc72dafc74fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa3071a2126e86f3be9089548a559cc87"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gaa3071a2126e86f3be9089548a559cc87">RT_DEVICE_CTRL_CONSOLE_OFLAG</a>&#160;&#160;&#160;0x09</td></tr>
+<tr class="separator:gaa3071a2126e86f3be9089548a559cc87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf9484a24772375782e1aee3c6c9062f2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gaf9484a24772375782e1aee3c6c9062f2">RT_DEVICE_CTRL_MASK</a>&#160;&#160;&#160;0x1f</td></tr>
+<tr class="separator:gaf9484a24772375782e1aee3c6c9062f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga84ca7227cef307374363fee129dec0cb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Type)&#160;&#160;&#160;(RT_Device_Class_##Type * 0x100)</td></tr>
+<tr class="separator:ga84ca7227cef307374363fee129dec0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa4f5ab88e23994edc48e6e33d8c763d8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gaa4f5ab88e23994edc48e6e33d8c763d8">RT_DEVICE_CTRL_CHAR_STREAM</a>&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Char) + 1)</td></tr>
+<tr class="separator:gaa4f5ab88e23994edc48e6e33d8c763d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4cd94b03d0c06f7bfc5f41d231819775"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga4cd94b03d0c06f7bfc5f41d231819775">RT_DEVICE_CTRL_BLK_GETGEOME</a>&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Block) + 1)</td></tr>
+<tr class="separator:ga4cd94b03d0c06f7bfc5f41d231819775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6d24e14500d918c32389e1ed59745cb2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga6d24e14500d918c32389e1ed59745cb2">RT_DEVICE_CTRL_BLK_SYNC</a>&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Block) + 2)</td></tr>
+<tr class="separator:ga6d24e14500d918c32389e1ed59745cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6dd2bcb09b580d4b066b21fe075da08a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga6dd2bcb09b580d4b066b21fe075da08a">RT_DEVICE_CTRL_BLK_ERASE</a>&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Block) + 3)</td></tr>
+<tr class="separator:ga6dd2bcb09b580d4b066b21fe075da08a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab983ea45f955f1e0f42d9bbc67ae9ff5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gab983ea45f955f1e0f42d9bbc67ae9ff5">RT_DEVICE_CTRL_BLK_AUTOREFRESH</a>&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Block) + 4)</td></tr>
+<tr class="separator:gab983ea45f955f1e0f42d9bbc67ae9ff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga52b203b508071c38c0584628db4e2369"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga52b203b508071c38c0584628db4e2369">RT_DEVICE_CTRL_BLK_PARTITION</a>&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Block) + 5)</td></tr>
+<tr class="separator:ga52b203b508071c38c0584628db4e2369"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac34cb62d4a941224ca03c2362ec78d8f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gac34cb62d4a941224ca03c2362ec78d8f">RT_DEVICE_CTRL_NETIF_GETMAC</a>&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(NetIf) + 1)</td></tr>
+<tr class="separator:gac34cb62d4a941224ca03c2362ec78d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf39ce3167e521f3e8bea8cd32eb97ce2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gaf39ce3167e521f3e8bea8cd32eb97ce2">RT_DEVICE_CTRL_MTD_FORMAT</a>&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(MTD) + 1)</td></tr>
+<tr class="separator:gaf39ce3167e521f3e8bea8cd32eb97ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1778cc1071e28653d95e2027f1f47141"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga1778cc1071e28653d95e2027f1f47141">RT_DEVICE_CTRL_CURSOR_SET_POSITION</a>&#160;&#160;&#160;0x10</td></tr>
+<tr class="separator:ga1778cc1071e28653d95e2027f1f47141"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga19d8e9e0bbc3fe1264173764f7e881b2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga19d8e9e0bbc3fe1264173764f7e881b2">RTGRAPHIC_CTRL_RECT_UPDATE</a>&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 0)</td></tr>
+<tr class="separator:ga19d8e9e0bbc3fe1264173764f7e881b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga129ac0e844b97c6f324ab5995f9cff6b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga129ac0e844b97c6f324ab5995f9cff6b">RTGRAPHIC_PIXEL_POSITION</a>(x,  y)&#160;&#160;&#160;((x &lt;&lt; 16) | y)</td></tr>
+<tr class="separator:ga129ac0e844b97c6f324ab5995f9cff6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+枚举</h2></td></tr>
+<tr class="memitem:ga429003537c58f674b39eb3f9defbd052"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga429003537c58f674b39eb3f9defbd052">rt_device_class_type</a> { <br />
+&#160;&#160;<a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052aca8110723cd932d3bb56c656f0ed5b62">RT_Device_Class_Char</a> = 0
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a677c6cfb5e8c1a16569048ac404dcd47">RT_Device_Class_Block</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a82a578cbd8e6866dd4a004ebda3dd38a">RT_Device_Class_NetIf</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a46f0f09d72719157d938555f775fc926">RT_Device_Class_MTD</a>
+, <br />
+&#160;&#160;<a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a4a52a6417e964c11476cb7a60b741934">RT_Device_Class_CAN</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a835ac897d5129b2096a3234483a87ea6">RT_Device_Class_RTC</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a71d71b9aa4d514c045b98e54638d4113">RT_Device_Class_Sound</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a273e840320150127b6b53fc25f89ed3a">RT_Device_Class_Graphic</a>
+, <br />
+&#160;&#160;<a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052aeb20b6c37b5de0719482540cd4183e9f">RT_Device_Class_I2CBUS</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052aac19a7d8fedfb847854f2eedc2dceb5a">RT_Device_Class_USBDevice</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052ad02f0b8a005ff66e96e755eacacb2e29">RT_Device_Class_USBHost</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a6f3f640ab70c11872842bc0b24d6d014">RT_Device_Class_USBOTG</a>
+, <br />
+&#160;&#160;<a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052af726afeffa76ee6ac21f54460b540a35">RT_Device_Class_SPIBUS</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a0acfc2c192da1f374a89d0b04dbbcbe6">RT_Device_Class_SPIDevice</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052aa6bdf0c801df14e94498759a4e77a58c">RT_Device_Class_SDIO</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a45c180e88e77f13dcb2350243fe3bb3e">RT_Device_Class_PM</a>
+, <br />
+&#160;&#160;<a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a6dfab8ae755d80bd084cb3cbe352691a">RT_Device_Class_Pipe</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a4fe182c4c087083203282b7a68126d25">RT_Device_Class_Portal</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a0b2a6c6a27c4699f52a71cda0aba2c44">RT_Device_Class_Timer</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a23679c5fd4c9641e47d5f422bdcc25bb">RT_Device_Class_Miscellaneous</a>
+, <br />
+&#160;&#160;<a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052af5f295ece177c0a67ca1319955a4b3f6">RT_Device_Class_Sensor</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a136f57654556f820e6f9e80b1c05309d">RT_Device_Class_Touch</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052abd66b84357ac4b1f92087470ad7d5b86">RT_Device_Class_PHY</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052acb34f7426fec800255e43e842f867a82">RT_Device_Class_Security</a>
+, <br />
+&#160;&#160;<a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a913537e29acd39e9309479ef898ae223">RT_Device_Class_WLAN</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a748d9097d4ba023f7eed8716f744c99e">RT_Device_Class_Pin</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a6926b87fd3f90ebd95c2225b4c04187a">RT_Device_Class_ADC</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a50fc2e49af3bfe9e67c97971be6b73f6">RT_Device_Class_DAC</a>
+, <br />
+&#160;&#160;<a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052ae4d2034c0053172b966d5d045e878a52">RT_Device_Class_WDT</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a5a3d1f0ef04dd668bd58e439d1a0ca21">RT_Device_Class_PWM</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a44e3218dba8632efa59fae8ee142e9d0">RT_Device_Class_Bus</a>
+, <a class="el" href="group___device.html#gga429003537c58f674b39eb3f9defbd052ae580460bedb868d5242e8115a41bf00a">RT_Device_Class_Unknown</a>
+<br />
+ }</td></tr>
+<tr class="separator:ga429003537c58f674b39eb3f9defbd052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ga7fb604dd486fbf5e48004b4d94d8eb3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga7fb604dd486fbf5e48004b4d94d8eb3e">rt_device_find</a> (const char *name)</td></tr>
+<tr class="separator:ga7fb604dd486fbf5e48004b4d94d8eb3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaa44b227c43321faffb198ef9c0bb17e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gaaa44b227c43321faffb198ef9c0bb17e">rt_device_register</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, const char *name, <a class="el" href="group___basic_def.html#ga5acba55f46553417996ac70828b874da">rt_uint16_t</a> flags)</td></tr>
+<tr class="separator:gaaa44b227c43321faffb198ef9c0bb17e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga76cf284581e36b7e2244398efbf850b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga76cf284581e36b7e2244398efbf850b5">rt_device_unregister</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev)</td></tr>
+<tr class="separator:ga76cf284581e36b7e2244398efbf850b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61ad2adb3c48709087465f61c244733b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga61ad2adb3c48709087465f61c244733b">rt_device_create</a> (int type, int attach_size)</td></tr>
+<tr class="separator:ga61ad2adb3c48709087465f61c244733b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga74b22c6a450071b23774fe24bf6fc78c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga74b22c6a450071b23774fe24bf6fc78c">rt_device_destroy</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> device)</td></tr>
+<tr class="separator:ga74b22c6a450071b23774fe24bf6fc78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga07dfc7fd340b9449d2bd732159ed237f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga07dfc7fd340b9449d2bd732159ed237f">rt_device_set_rx_indicate</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>(*rx_ind)(<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size))</td></tr>
+<tr class="separator:ga07dfc7fd340b9449d2bd732159ed237f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae6340392a3848e3f5e324aa984375b07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gae6340392a3848e3f5e324aa984375b07">rt_device_set_tx_complete</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>(*tx_done)(<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, void *buffer))</td></tr>
+<tr class="separator:gae6340392a3848e3f5e324aa984375b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga04892007706fe586a1db33284571be7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga04892007706fe586a1db33284571be7e">rt_device_init</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev)</td></tr>
+<tr class="separator:ga04892007706fe586a1db33284571be7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac0cd9f7a81722d69e8720ea4750c17a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gac0cd9f7a81722d69e8720ea4750c17a2">rt_device_open</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga5acba55f46553417996ac70828b874da">rt_uint16_t</a> oflag)</td></tr>
+<tr class="separator:gac0cd9f7a81722d69e8720ea4750c17a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga914535247ea0e5477002553ad38b1482"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga914535247ea0e5477002553ad38b1482">rt_device_close</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev)</td></tr>
+<tr class="separator:ga914535247ea0e5477002553ad38b1482"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga33660fb6c9217dce99b6b625443453ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga33660fb6c9217dce99b6b625443453ba">rt_device_read</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga0fd4981851ce935649b6723a81f2f1bf">rt_off_t</a> pos, void *buffer, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)</td></tr>
+<tr class="separator:ga33660fb6c9217dce99b6b625443453ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab8d041e5ae9c776332adfee71691e698"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#gab8d041e5ae9c776332adfee71691e698">rt_device_write</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga0fd4981851ce935649b6723a81f2f1bf">rt_off_t</a> pos, const void *buffer, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)</td></tr>
+<tr class="separator:gab8d041e5ae9c776332adfee71691e698"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga40ed6da2d5ea7b1e28de21ff439db963"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___device.html#ga40ed6da2d5ea7b1e28de21ff439db963">rt_device_control</a> (<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, int cmd, void *arg)</td></tr>
+<tr class="separator:ga40ed6da2d5ea7b1e28de21ff439db963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<p >The Device System is designed as simple and minimum layer to help communication between applications and drivers.</p>
+<p >The Device System provide five interfaces to driver:</p><ul>
+<li>open, open a device</li>
+<li>close, close a device</li>
+<li>read, read some data from a device</li>
+<li>write, write some data to a device</li>
+<li>control, send some control command to a device </li>
+</ul>
+<h2 class="groupheader">宏定义说明</h2>
+<a id="ga2944a0dadfee3da236244108ee64ef23" name="ga2944a0dadfee3da236244108ee64ef23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2944a0dadfee3da236244108ee64ef23">&#9670;&nbsp;</a></span>RT_DEVICE_FLAG_DEACTIVATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_FLAG_DEACTIVATE&#160;&#160;&#160;0x000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >device flags definitions device is not not initialized </p>
+
+</div>
+</div>
+<a id="gae55023ca390d9c9db1e36f47d70b7bef" name="gae55023ca390d9c9db1e36f47d70b7bef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae55023ca390d9c9db1e36f47d70b7bef">&#9670;&nbsp;</a></span>RT_DEVICE_FLAG_RDONLY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_FLAG_RDONLY&#160;&#160;&#160;0x001</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >read only </p>
+
+</div>
+</div>
+<a id="ga23a6a0bf94d7ac84e205b25090ccecac" name="ga23a6a0bf94d7ac84e205b25090ccecac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga23a6a0bf94d7ac84e205b25090ccecac">&#9670;&nbsp;</a></span>RT_DEVICE_FLAG_WRONLY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_FLAG_WRONLY&#160;&#160;&#160;0x002</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >write only </p>
+
+</div>
+</div>
+<a id="ga9e347dc85aee3d0316e9544e65150b6a" name="ga9e347dc85aee3d0316e9544e65150b6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9e347dc85aee3d0316e9544e65150b6a">&#9670;&nbsp;</a></span>RT_DEVICE_FLAG_RDWR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_FLAG_RDWR&#160;&#160;&#160;0x003</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >read and write </p>
+
+</div>
+</div>
+<a id="gafab1082cb2c2c23d3098889e52880eb2" name="gafab1082cb2c2c23d3098889e52880eb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafab1082cb2c2c23d3098889e52880eb2">&#9670;&nbsp;</a></span>RT_DEVICE_FLAG_REMOVABLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_FLAG_REMOVABLE&#160;&#160;&#160;0x004</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >removable device </p>
+
+</div>
+</div>
+<a id="ga614c2568c11b488d0c6ab6f77e178933" name="ga614c2568c11b488d0c6ab6f77e178933"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga614c2568c11b488d0c6ab6f77e178933">&#9670;&nbsp;</a></span>RT_DEVICE_FLAG_STANDALONE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_FLAG_STANDALONE&#160;&#160;&#160;0x008</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >standalone device </p>
+
+</div>
+</div>
+<a id="gafce8c8e2f97455644d244f841292406a" name="gafce8c8e2f97455644d244f841292406a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafce8c8e2f97455644d244f841292406a">&#9670;&nbsp;</a></span>RT_DEVICE_FLAG_ACTIVATED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_FLAG_ACTIVATED&#160;&#160;&#160;0x010</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >device is activated </p>
+
+</div>
+</div>
+<a id="ga77f4d95ded0bdd0012942bad5b676d07" name="ga77f4d95ded0bdd0012942bad5b676d07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga77f4d95ded0bdd0012942bad5b676d07">&#9670;&nbsp;</a></span>RT_DEVICE_FLAG_SUSPENDED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_FLAG_SUSPENDED&#160;&#160;&#160;0x020</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >device is suspended </p>
+
+</div>
+</div>
+<a id="ga35474a8eeb00f8a72b2f09cbfae9236d" name="ga35474a8eeb00f8a72b2f09cbfae9236d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga35474a8eeb00f8a72b2f09cbfae9236d">&#9670;&nbsp;</a></span>RT_DEVICE_FLAG_STREAM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_FLAG_STREAM&#160;&#160;&#160;0x040</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >stream mode </p>
+
+</div>
+</div>
+<a id="ga3475a6ac901802ed9fe50f5c13f6274b" name="ga3475a6ac901802ed9fe50f5c13f6274b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3475a6ac901802ed9fe50f5c13f6274b">&#9670;&nbsp;</a></span>RT_DEVICE_FLAG_INT_RX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_FLAG_INT_RX&#160;&#160;&#160;0x100</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >INT mode on Rx </p>
+
+</div>
+</div>
+<a id="ga3bee223726cc7b3c82b93c873bc6c0ea" name="ga3bee223726cc7b3c82b93c873bc6c0ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3bee223726cc7b3c82b93c873bc6c0ea">&#9670;&nbsp;</a></span>RT_DEVICE_FLAG_DMA_RX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_FLAG_DMA_RX&#160;&#160;&#160;0x200</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >DMA mode on Rx </p>
+
+</div>
+</div>
+<a id="gac6963e9aaa345ef576d8c3a378a670e5" name="gac6963e9aaa345ef576d8c3a378a670e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac6963e9aaa345ef576d8c3a378a670e5">&#9670;&nbsp;</a></span>RT_DEVICE_FLAG_INT_TX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_FLAG_INT_TX&#160;&#160;&#160;0x400</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >INT mode on Tx </p>
+
+</div>
+</div>
+<a id="gac4474c2de32e07786ce187e582c45932" name="gac4474c2de32e07786ce187e582c45932"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac4474c2de32e07786ce187e582c45932">&#9670;&nbsp;</a></span>RT_DEVICE_FLAG_DMA_TX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_FLAG_DMA_TX&#160;&#160;&#160;0x800</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >DMA mode on Tx </p>
+
+</div>
+</div>
+<a id="gaded7e734d35ad96413265a830f2ae0c3" name="gaded7e734d35ad96413265a830f2ae0c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaded7e734d35ad96413265a830f2ae0c3">&#9670;&nbsp;</a></span>RT_DEVICE_OFLAG_CLOSE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_OFLAG_CLOSE&#160;&#160;&#160;0x000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >device is closed </p>
+
+</div>
+</div>
+<a id="ga35bc30b5382c33312b5c4162936cc62f" name="ga35bc30b5382c33312b5c4162936cc62f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga35bc30b5382c33312b5c4162936cc62f">&#9670;&nbsp;</a></span>RT_DEVICE_OFLAG_RDONLY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_OFLAG_RDONLY&#160;&#160;&#160;0x001</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >read only access </p>
+
+</div>
+</div>
+<a id="ga09cb4d4a3ba8481e39294eed833e9361" name="ga09cb4d4a3ba8481e39294eed833e9361"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga09cb4d4a3ba8481e39294eed833e9361">&#9670;&nbsp;</a></span>RT_DEVICE_OFLAG_WRONLY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_OFLAG_WRONLY&#160;&#160;&#160;0x002</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >write only access </p>
+
+</div>
+</div>
+<a id="gafb08422ef35082a8599c30c663799507" name="gafb08422ef35082a8599c30c663799507"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafb08422ef35082a8599c30c663799507">&#9670;&nbsp;</a></span>RT_DEVICE_OFLAG_RDWR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_OFLAG_RDWR&#160;&#160;&#160;0x003</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >read and write </p>
+
+</div>
+</div>
+<a id="ga7f778feb8fe961d85e30638b72f22b05" name="ga7f778feb8fe961d85e30638b72f22b05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7f778feb8fe961d85e30638b72f22b05">&#9670;&nbsp;</a></span>RT_DEVICE_OFLAG_OPEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_OFLAG_OPEN&#160;&#160;&#160;0x008</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >device is opened </p>
+
+</div>
+</div>
+<a id="gaca12b64954139a100644136d808b17d6" name="gaca12b64954139a100644136d808b17d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaca12b64954139a100644136d808b17d6">&#9670;&nbsp;</a></span>RT_DEVICE_OFLAG_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_OFLAG_MASK&#160;&#160;&#160;0xf0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >mask of open flag </p>
+
+</div>
+</div>
+<a id="ga5f4c6955afabe83249d5808b4146dfc5" name="ga5f4c6955afabe83249d5808b4146dfc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5f4c6955afabe83249d5808b4146dfc5">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_RESUME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_RESUME&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >general device commands 0x01 - 0x1F general device control commands 0x20 - 0x3F udevice control commands 0x40 - special device control commands resume device </p>
+
+</div>
+</div>
+<a id="ga85db48a4ae2c896e7293d9e3d10d766a" name="ga85db48a4ae2c896e7293d9e3d10d766a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga85db48a4ae2c896e7293d9e3d10d766a">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_SUSPEND</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_SUSPEND&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >suspend device </p>
+
+</div>
+</div>
+<a id="gafb43232131c1d1763c5a7ae9f8a27327" name="gafb43232131c1d1763c5a7ae9f8a27327"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafb43232131c1d1763c5a7ae9f8a27327">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_CONFIG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_CONFIG&#160;&#160;&#160;0x03</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >configure device </p>
+
+</div>
+</div>
+<a id="ga611da511a4876f33e7a1c388825f2df0" name="ga611da511a4876f33e7a1c388825f2df0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga611da511a4876f33e7a1c388825f2df0">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_CLOSE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_CLOSE&#160;&#160;&#160;0x04</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >close device </p>
+
+</div>
+</div>
+<a id="ga63f7894e685b9631e5afede03ba535cb" name="ga63f7894e685b9631e5afede03ba535cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga63f7894e685b9631e5afede03ba535cb">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_NOTIFY_SET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_NOTIFY_SET&#160;&#160;&#160;0x05</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >set notify func </p>
+
+</div>
+</div>
+<a id="gaefef5ee14e75b8fc7b89aac358037aab" name="gaefef5ee14e75b8fc7b89aac358037aab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaefef5ee14e75b8fc7b89aac358037aab">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_SET_INT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_SET_INT&#160;&#160;&#160;0x06</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >set interrupt </p>
+
+</div>
+</div>
+<a id="ga6603c82c88a3b4e77ded4ab4ba35931c" name="ga6603c82c88a3b4e77ded4ab4ba35931c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6603c82c88a3b4e77ded4ab4ba35931c">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_CLR_INT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_CLR_INT&#160;&#160;&#160;0x07</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >clear interrupt </p>
+
+</div>
+</div>
+<a id="gaf1e98fb4a12e77f3dc7dc72dafc74fc5" name="gaf1e98fb4a12e77f3dc7dc72dafc74fc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf1e98fb4a12e77f3dc7dc72dafc74fc5">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_GET_INT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_GET_INT&#160;&#160;&#160;0x08</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >get interrupt status </p>
+
+</div>
+</div>
+<a id="gaa3071a2126e86f3be9089548a559cc87" name="gaa3071a2126e86f3be9089548a559cc87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa3071a2126e86f3be9089548a559cc87">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_CONSOLE_OFLAG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_CONSOLE_OFLAG&#160;&#160;&#160;0x09</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >get console open flag </p>
+
+</div>
+</div>
+<a id="gaf9484a24772375782e1aee3c6c9062f2" name="gaf9484a24772375782e1aee3c6c9062f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf9484a24772375782e1aee3c6c9062f2">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_MASK&#160;&#160;&#160;0x1f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >mask for contrl commands </p>
+
+</div>
+</div>
+<a id="ga84ca7227cef307374363fee129dec0cb" name="ga84ca7227cef307374363fee129dec0cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga84ca7227cef307374363fee129dec0cb">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_BASE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_BASE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Type</td><td>)</td>
+          <td>&#160;&#160;&#160;(RT_Device_Class_##Type * 0x100)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >device control </p>
+
+</div>
+</div>
+<a id="gaa4f5ab88e23994edc48e6e33d8c763d8" name="gaa4f5ab88e23994edc48e6e33d8c763d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa4f5ab88e23994edc48e6e33d8c763d8">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_CHAR_STREAM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_CHAR_STREAM&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Char) + 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >special device commands stream mode on char device </p>
+
+</div>
+</div>
+<a id="ga4cd94b03d0c06f7bfc5f41d231819775" name="ga4cd94b03d0c06f7bfc5f41d231819775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4cd94b03d0c06f7bfc5f41d231819775">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_BLK_GETGEOME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_BLK_GETGEOME&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Block) + 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >get geometry information <br  />
+ </p>
+
+</div>
+</div>
+<a id="ga6d24e14500d918c32389e1ed59745cb2" name="ga6d24e14500d918c32389e1ed59745cb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6d24e14500d918c32389e1ed59745cb2">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_BLK_SYNC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_BLK_SYNC&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Block) + 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >flush data to block device </p>
+
+</div>
+</div>
+<a id="ga6dd2bcb09b580d4b066b21fe075da08a" name="ga6dd2bcb09b580d4b066b21fe075da08a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6dd2bcb09b580d4b066b21fe075da08a">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_BLK_ERASE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_BLK_ERASE&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Block) + 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >erase block on block device </p>
+
+</div>
+</div>
+<a id="gab983ea45f955f1e0f42d9bbc67ae9ff5" name="gab983ea45f955f1e0f42d9bbc67ae9ff5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab983ea45f955f1e0f42d9bbc67ae9ff5">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_BLK_AUTOREFRESH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_BLK_AUTOREFRESH&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Block) + 4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >block device : enter/exit auto refresh mode </p>
+
+</div>
+</div>
+<a id="ga52b203b508071c38c0584628db4e2369" name="ga52b203b508071c38c0584628db4e2369"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga52b203b508071c38c0584628db4e2369">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_BLK_PARTITION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_BLK_PARTITION&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Block) + 5)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >get block device partition </p>
+
+</div>
+</div>
+<a id="gac34cb62d4a941224ca03c2362ec78d8f" name="gac34cb62d4a941224ca03c2362ec78d8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac34cb62d4a941224ca03c2362ec78d8f">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_NETIF_GETMAC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_NETIF_GETMAC&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(NetIf) + 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >get mac address </p>
+
+</div>
+</div>
+<a id="gaf39ce3167e521f3e8bea8cd32eb97ce2" name="gaf39ce3167e521f3e8bea8cd32eb97ce2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf39ce3167e521f3e8bea8cd32eb97ce2">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_MTD_FORMAT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_MTD_FORMAT&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(MTD) + 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >format a MTD device </p>
+
+</div>
+</div>
+<a id="gab3d226015bcffefd4944edc5632f8d83" name="gab3d226015bcffefd4944edc5632f8d83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab3d226015bcffefd4944edc5632f8d83">&#9670;&nbsp;</a></span>RT_DRIVER_MATCH_DTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DRIVER_MATCH_DTS&#160;&#160;&#160;(1&lt;&lt;0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga1778cc1071e28653d95e2027f1f47141" name="ga1778cc1071e28653d95e2027f1f47141"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1778cc1071e28653d95e2027f1f47141">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_CURSOR_SET_POSITION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_CURSOR_SET_POSITION&#160;&#160;&#160;0x10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >cursor control command </p>
+
+</div>
+</div>
+<a id="gac62921da79d874956f12f1b7c7d20cec" name="gac62921da79d874956f12f1b7c7d20cec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac62921da79d874956f12f1b7c7d20cec">&#9670;&nbsp;</a></span>RT_DEVICE_CTRL_CURSOR_SET_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_DEVICE_CTRL_CURSOR_SET_TYPE&#160;&#160;&#160;0x11</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga19d8e9e0bbc3fe1264173764f7e881b2" name="ga19d8e9e0bbc3fe1264173764f7e881b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga19d8e9e0bbc3fe1264173764f7e881b2">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_RECT_UPDATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_RECT_UPDATE&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >graphic device control command </p>
+
+</div>
+</div>
+<a id="ga9dbeec2d4db6117e18c5bb0e6c8127da" name="ga9dbeec2d4db6117e18c5bb0e6c8127da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9dbeec2d4db6117e18c5bb0e6c8127da">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_POWERON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_POWERON&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga42f57e344854ca479c174f316afe0441" name="ga42f57e344854ca479c174f316afe0441"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga42f57e344854ca479c174f316afe0441">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_POWEROFF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_POWEROFF&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga02b99262b0867c4f99613aca4bc4419c" name="ga02b99262b0867c4f99613aca4bc4419c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga02b99262b0867c4f99613aca4bc4419c">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_GET_INFO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_GET_INFO&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gadfbacdea2a02ed10c797d94eeb5b0afa" name="gadfbacdea2a02ed10c797d94eeb5b0afa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadfbacdea2a02ed10c797d94eeb5b0afa">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_SET_MODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_SET_MODE&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga174deefe0bfe90b2e477694be86d4227" name="ga174deefe0bfe90b2e477694be86d4227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga174deefe0bfe90b2e477694be86d4227">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_GET_EXT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_GET_EXT&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 5)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga4c58e178af9465f0045559d5203b27b5" name="ga4c58e178af9465f0045559d5203b27b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4c58e178af9465f0045559d5203b27b5">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_SET_BRIGHTNESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_SET_BRIGHTNESS&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 6)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gad3f1ff0c6eca5cc0582a7887c698d734" name="gad3f1ff0c6eca5cc0582a7887c698d734"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad3f1ff0c6eca5cc0582a7887c698d734">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_GET_BRIGHTNESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_GET_BRIGHTNESS&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 7)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga92b5d943cb826806be3bb6986532a3b5" name="ga92b5d943cb826806be3bb6986532a3b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga92b5d943cb826806be3bb6986532a3b5">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_GET_MODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_GET_MODE&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 8)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaf339f748c0a7a99278900e511ebdbff2" name="gaf339f748c0a7a99278900e511ebdbff2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf339f748c0a7a99278900e511ebdbff2">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_GET_STATUS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_GET_STATUS&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 9)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga1af69c96d9322ff403cffea580024893" name="ga1af69c96d9322ff403cffea580024893"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1af69c96d9322ff403cffea580024893">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_PAN_DISPLAY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_PAN_DISPLAY&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 10)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga324b8b68a46b3cc0aa622ba0341942a8" name="ga324b8b68a46b3cc0aa622ba0341942a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga324b8b68a46b3cc0aa622ba0341942a8">&#9670;&nbsp;</a></span>RTGRAPHIC_CTRL_WAIT_VSYNC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_CTRL_WAIT_VSYNC&#160;&#160;&#160;(<a class="el" href="group___device.html#ga84ca7227cef307374363fee129dec0cb">RT_DEVICE_CTRL_BASE</a>(Graphic) + 11)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga129ac0e844b97c6f324ab5995f9cff6b" name="ga129ac0e844b97c6f324ab5995f9cff6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga129ac0e844b97c6f324ab5995f9cff6b">&#9670;&nbsp;</a></span>RTGRAPHIC_PIXEL_POSITION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RTGRAPHIC_PIXEL_POSITION</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">y&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((x &lt;&lt; 16) | y)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >build a pixel position according to (x, y) coordinates. </p>
+
+</div>
+</div>
+<a id="gadcc41b249eb4c2f0fa6f0e2b302c5ced" name="gadcc41b249eb4c2f0fa6f0e2b302c5ced"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadcc41b249eb4c2f0fa6f0e2b302c5ced">&#9670;&nbsp;</a></span>rt_graphix_ops</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define rt_graphix_ops</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">device</td><td>)</td>
+          <td>&#160;&#160;&#160;((struct <a class="el" href="structrt__device__graphic__ops.html">rt_device_graphic_ops</a> *)(device-&gt;user_data))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类型定义说明</h2>
+<a id="ga896a5cd63480a02303252f41782379b1" name="ga896a5cd63480a02303252f41782379b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga896a5cd63480a02303252f41782379b1">&#9670;&nbsp;</a></span>rt_device_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structrt__device.html">rt_device</a>* <a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gacd3fb691ee4def6d6dcbaaf245dc1eac" name="gacd3fb691ee4def6d6dcbaaf245dc1eac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacd3fb691ee4def6d6dcbaaf245dc1eac">&#9670;&nbsp;</a></span>rt_wqueue_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structrt__wqueue.html">rt_wqueue</a> <a class="el" href="group___device.html#gacd3fb691ee4def6d6dcbaaf245dc1eac">rt_wqueue_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gabc46402474b270ced270ae4aae26186d" name="gabc46402474b270ced270ae4aae26186d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabc46402474b270ced270ae4aae26186d">&#9670;&nbsp;</a></span>rt_driver_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structrt__driver.html">rt_driver</a>* <a class="el" href="group___device.html#gabc46402474b270ced270ae4aae26186d">rt_driver_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">枚举类型说明</h2>
+<a id="ga429003537c58f674b39eb3f9defbd052" name="ga429003537c58f674b39eb3f9defbd052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga429003537c58f674b39eb3f9defbd052">&#9670;&nbsp;</a></span>rt_device_class_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___device.html#ga429003537c58f674b39eb3f9defbd052">rt_device_class_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >device (I/O) class type </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052aca8110723cd932d3bb56c656f0ed5b62" name="gga429003537c58f674b39eb3f9defbd052aca8110723cd932d3bb56c656f0ed5b62"></a>RT_Device_Class_Char&#160;</td><td class="fielddoc"><p >character device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a677c6cfb5e8c1a16569048ac404dcd47" name="gga429003537c58f674b39eb3f9defbd052a677c6cfb5e8c1a16569048ac404dcd47"></a>RT_Device_Class_Block&#160;</td><td class="fielddoc"><p >block device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a82a578cbd8e6866dd4a004ebda3dd38a" name="gga429003537c58f674b39eb3f9defbd052a82a578cbd8e6866dd4a004ebda3dd38a"></a>RT_Device_Class_NetIf&#160;</td><td class="fielddoc"><p >net interface </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a46f0f09d72719157d938555f775fc926" name="gga429003537c58f674b39eb3f9defbd052a46f0f09d72719157d938555f775fc926"></a>RT_Device_Class_MTD&#160;</td><td class="fielddoc"><p >memory device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a4a52a6417e964c11476cb7a60b741934" name="gga429003537c58f674b39eb3f9defbd052a4a52a6417e964c11476cb7a60b741934"></a>RT_Device_Class_CAN&#160;</td><td class="fielddoc"><p >CAN device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a835ac897d5129b2096a3234483a87ea6" name="gga429003537c58f674b39eb3f9defbd052a835ac897d5129b2096a3234483a87ea6"></a>RT_Device_Class_RTC&#160;</td><td class="fielddoc"><p >RTC device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a71d71b9aa4d514c045b98e54638d4113" name="gga429003537c58f674b39eb3f9defbd052a71d71b9aa4d514c045b98e54638d4113"></a>RT_Device_Class_Sound&#160;</td><td class="fielddoc"><p >Sound device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a273e840320150127b6b53fc25f89ed3a" name="gga429003537c58f674b39eb3f9defbd052a273e840320150127b6b53fc25f89ed3a"></a>RT_Device_Class_Graphic&#160;</td><td class="fielddoc"><p >Graphic device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052aeb20b6c37b5de0719482540cd4183e9f" name="gga429003537c58f674b39eb3f9defbd052aeb20b6c37b5de0719482540cd4183e9f"></a>RT_Device_Class_I2CBUS&#160;</td><td class="fielddoc"><p >I2C bus device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052aac19a7d8fedfb847854f2eedc2dceb5a" name="gga429003537c58f674b39eb3f9defbd052aac19a7d8fedfb847854f2eedc2dceb5a"></a>RT_Device_Class_USBDevice&#160;</td><td class="fielddoc"><p >USB slave device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052ad02f0b8a005ff66e96e755eacacb2e29" name="gga429003537c58f674b39eb3f9defbd052ad02f0b8a005ff66e96e755eacacb2e29"></a>RT_Device_Class_USBHost&#160;</td><td class="fielddoc"><p >USB host bus </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a6f3f640ab70c11872842bc0b24d6d014" name="gga429003537c58f674b39eb3f9defbd052a6f3f640ab70c11872842bc0b24d6d014"></a>RT_Device_Class_USBOTG&#160;</td><td class="fielddoc"><p >USB OTG bus </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052af726afeffa76ee6ac21f54460b540a35" name="gga429003537c58f674b39eb3f9defbd052af726afeffa76ee6ac21f54460b540a35"></a>RT_Device_Class_SPIBUS&#160;</td><td class="fielddoc"><p >SPI bus device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a0acfc2c192da1f374a89d0b04dbbcbe6" name="gga429003537c58f674b39eb3f9defbd052a0acfc2c192da1f374a89d0b04dbbcbe6"></a>RT_Device_Class_SPIDevice&#160;</td><td class="fielddoc"><p >SPI device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052aa6bdf0c801df14e94498759a4e77a58c" name="gga429003537c58f674b39eb3f9defbd052aa6bdf0c801df14e94498759a4e77a58c"></a>RT_Device_Class_SDIO&#160;</td><td class="fielddoc"><p >SDIO bus device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a45c180e88e77f13dcb2350243fe3bb3e" name="gga429003537c58f674b39eb3f9defbd052a45c180e88e77f13dcb2350243fe3bb3e"></a>RT_Device_Class_PM&#160;</td><td class="fielddoc"><p >PM pseudo device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a6dfab8ae755d80bd084cb3cbe352691a" name="gga429003537c58f674b39eb3f9defbd052a6dfab8ae755d80bd084cb3cbe352691a"></a>RT_Device_Class_Pipe&#160;</td><td class="fielddoc"><p >Pipe device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a4fe182c4c087083203282b7a68126d25" name="gga429003537c58f674b39eb3f9defbd052a4fe182c4c087083203282b7a68126d25"></a>RT_Device_Class_Portal&#160;</td><td class="fielddoc"><p >Portal device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a0b2a6c6a27c4699f52a71cda0aba2c44" name="gga429003537c58f674b39eb3f9defbd052a0b2a6c6a27c4699f52a71cda0aba2c44"></a>RT_Device_Class_Timer&#160;</td><td class="fielddoc"><p >Timer device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a23679c5fd4c9641e47d5f422bdcc25bb" name="gga429003537c58f674b39eb3f9defbd052a23679c5fd4c9641e47d5f422bdcc25bb"></a>RT_Device_Class_Miscellaneous&#160;</td><td class="fielddoc"><p >Miscellaneous device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052af5f295ece177c0a67ca1319955a4b3f6" name="gga429003537c58f674b39eb3f9defbd052af5f295ece177c0a67ca1319955a4b3f6"></a>RT_Device_Class_Sensor&#160;</td><td class="fielddoc"><p >Sensor device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a136f57654556f820e6f9e80b1c05309d" name="gga429003537c58f674b39eb3f9defbd052a136f57654556f820e6f9e80b1c05309d"></a>RT_Device_Class_Touch&#160;</td><td class="fielddoc"><p >Touch device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052abd66b84357ac4b1f92087470ad7d5b86" name="gga429003537c58f674b39eb3f9defbd052abd66b84357ac4b1f92087470ad7d5b86"></a>RT_Device_Class_PHY&#160;</td><td class="fielddoc"><p >PHY device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052acb34f7426fec800255e43e842f867a82" name="gga429003537c58f674b39eb3f9defbd052acb34f7426fec800255e43e842f867a82"></a>RT_Device_Class_Security&#160;</td><td class="fielddoc"><p >Security device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a913537e29acd39e9309479ef898ae223" name="gga429003537c58f674b39eb3f9defbd052a913537e29acd39e9309479ef898ae223"></a>RT_Device_Class_WLAN&#160;</td><td class="fielddoc"><p >WLAN device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a748d9097d4ba023f7eed8716f744c99e" name="gga429003537c58f674b39eb3f9defbd052a748d9097d4ba023f7eed8716f744c99e"></a>RT_Device_Class_Pin&#160;</td><td class="fielddoc"><p >Pin device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a6926b87fd3f90ebd95c2225b4c04187a" name="gga429003537c58f674b39eb3f9defbd052a6926b87fd3f90ebd95c2225b4c04187a"></a>RT_Device_Class_ADC&#160;</td><td class="fielddoc"><p >ADC device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a50fc2e49af3bfe9e67c97971be6b73f6" name="gga429003537c58f674b39eb3f9defbd052a50fc2e49af3bfe9e67c97971be6b73f6"></a>RT_Device_Class_DAC&#160;</td><td class="fielddoc"><p >DAC device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052ae4d2034c0053172b966d5d045e878a52" name="gga429003537c58f674b39eb3f9defbd052ae4d2034c0053172b966d5d045e878a52"></a>RT_Device_Class_WDT&#160;</td><td class="fielddoc"><p >WDT device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a5a3d1f0ef04dd668bd58e439d1a0ca21" name="gga429003537c58f674b39eb3f9defbd052a5a3d1f0ef04dd668bd58e439d1a0ca21"></a>RT_Device_Class_PWM&#160;</td><td class="fielddoc"><p >PWM device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052a44e3218dba8632efa59fae8ee142e9d0" name="gga429003537c58f674b39eb3f9defbd052a44e3218dba8632efa59fae8ee142e9d0"></a>RT_Device_Class_Bus&#160;</td><td class="fielddoc"><p >Bus device </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga429003537c58f674b39eb3f9defbd052ae580460bedb868d5242e8115a41bf00a" name="gga429003537c58f674b39eb3f9defbd052ae580460bedb868d5242e8115a41bf00a"></a>RT_Device_Class_Unknown&#160;</td><td class="fielddoc"><p >unknown device </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="gadf764cbdea00d65edcd07bb9953ad2b7" name="gadf764cbdea00d65edcd07bb9953ad2b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadf764cbdea00d65edcd07bb9953ad2b7">&#9670;&nbsp;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7aff9abc99ba1efa3afe92c1004b25ed10" name="ggadf764cbdea00d65edcd07bb9953ad2b7aff9abc99ba1efa3afe92c1004b25ed10"></a>RTGRAPHIC_PIXEL_FORMAT_MONO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7a302bf9537701cfd73ab2976a631c8823" name="ggadf764cbdea00d65edcd07bb9953ad2b7a302bf9537701cfd73ab2976a631c8823"></a>RTGRAPHIC_PIXEL_FORMAT_GRAY4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7ae11b21540dca2fc9a46290853a9a34a1" name="ggadf764cbdea00d65edcd07bb9953ad2b7ae11b21540dca2fc9a46290853a9a34a1"></a>RTGRAPHIC_PIXEL_FORMAT_GRAY16&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7aec192d0f95a2061563cc18b375873b13" name="ggadf764cbdea00d65edcd07bb9953ad2b7aec192d0f95a2061563cc18b375873b13"></a>RTGRAPHIC_PIXEL_FORMAT_RGB332&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7a1053d77fe95d5727bfb55b61ff40a750" name="ggadf764cbdea00d65edcd07bb9953ad2b7a1053d77fe95d5727bfb55b61ff40a750"></a>RTGRAPHIC_PIXEL_FORMAT_RGB444&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7aad9ed34d766e8f51824553791c7a7602" name="ggadf764cbdea00d65edcd07bb9953ad2b7aad9ed34d766e8f51824553791c7a7602"></a>RTGRAPHIC_PIXEL_FORMAT_RGB565&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7ab2ee4831c4bfc6b5fbe9ae56b5ba4ae1" name="ggadf764cbdea00d65edcd07bb9953ad2b7ab2ee4831c4bfc6b5fbe9ae56b5ba4ae1"></a>RTGRAPHIC_PIXEL_FORMAT_RGB565P&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7a917d9a2876fc9672bbb24c58946a5972" name="ggadf764cbdea00d65edcd07bb9953ad2b7a917d9a2876fc9672bbb24c58946a5972"></a>RTGRAPHIC_PIXEL_FORMAT_BGR565&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7a9be130c0e2d98daf76aa2cec34b7b23c" name="ggadf764cbdea00d65edcd07bb9953ad2b7a9be130c0e2d98daf76aa2cec34b7b23c"></a>RTGRAPHIC_PIXEL_FORMAT_RGB666&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7a8c7f273a55afedc23b2082dd6f32c72a" name="ggadf764cbdea00d65edcd07bb9953ad2b7a8c7f273a55afedc23b2082dd6f32c72a"></a>RTGRAPHIC_PIXEL_FORMAT_RGB888&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7add073ee5f8fc6c6ac0e5a6359e0c30bc" name="ggadf764cbdea00d65edcd07bb9953ad2b7add073ee5f8fc6c6ac0e5a6359e0c30bc"></a>RTGRAPHIC_PIXEL_FORMAT_BGR888&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7a14de95f7944ad067ead2cc9af46774ca" name="ggadf764cbdea00d65edcd07bb9953ad2b7a14de95f7944ad067ead2cc9af46774ca"></a>RTGRAPHIC_PIXEL_FORMAT_ARGB888&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7a03b8b6070de7b157fc42284b5aa3ce52" name="ggadf764cbdea00d65edcd07bb9953ad2b7a03b8b6070de7b157fc42284b5aa3ce52"></a>RTGRAPHIC_PIXEL_FORMAT_ABGR888&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7ad52a276f1d053c90f865f6dccbe7e647" name="ggadf764cbdea00d65edcd07bb9953ad2b7ad52a276f1d053c90f865f6dccbe7e647"></a>RTGRAPHIC_PIXEL_FORMAT_RESERVED&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">函数说明</h2>
+<a id="ga7fb604dd486fbf5e48004b4d94d8eb3e" name="ga7fb604dd486fbf5e48004b4d94d8eb3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7fb604dd486fbf5e48004b4d94d8eb3e">&#9670;&nbsp;</a></span>rt_device_find()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> rt_device_find </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function finds a device driver by specified name. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>is the device driver's name.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the registered device driver on successful, or RT_NULL on failure. </dd></dl>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_ga7fb604dd486fbf5e48004b4d94d8eb3e_cgraph.png" border="0" usemap="#agroup___device_ga7fb604dd486fbf5e48004b4d94d8eb3e_cgraph" alt=""/></div>
+<map name="agroup___device_ga7fb604dd486fbf5e48004b4d94d8eb3e_cgraph" id="agroup___device_ga7fb604dd486fbf5e48004b4d94d8eb3e_cgraph">
+<area shape="rect" title="This function finds a device driver by specified name." alt="" coords="5,599,108,626"/>
+<area shape="rect" href="group___kernel_object.html#ga6c82dbb4ae114918c5c96d0dca3957eb" title="This function will find specified name object from object container." alt="" coords="156,599,257,626"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="683,406,795,433"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="339,439,442,466"/>
+<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="305,625,476,651"/>
+<area shape="rect" href="group___kernel_service.html#ga1a4ff96dd17dfcd6ca974ae21a1df0f9" title=" " alt="" coords="349,675,433,702"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="865,355,1024,382"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="867,406,1023,433"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="524,225,612,251"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="660,5,817,47"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="665,137,812,163"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="665,188,812,229"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="675,71,802,112"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="669,457,808,499"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="911,13,978,39"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="881,71,1008,98"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="876,122,1013,149"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="892,461,997,487"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="893,511,997,538"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gaaa44b227c43321faffb198ef9c0bb17e" name="gaaa44b227c43321faffb198ef9c0bb17e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaa44b227c43321faffb198ef9c0bb17e">&#9670;&nbsp;</a></span>rt_device_register()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_device_register </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga5acba55f46553417996ac70828b874da">rt_uint16_t</a>&#160;</td>
+          <td class="paramname"><em>flags</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function registers a device driver with a specified name. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dev</td><td>is the pointer of device driver structure.</td></tr>
+    <tr><td class="paramname">name</td><td>is the device driver's name.</td></tr>
+    <tr><td class="paramname">flags</td><td>is the capabilities flag of device.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the error code, RT_EOK on initialization successfully. </dd></dl>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_gaaa44b227c43321faffb198ef9c0bb17e_cgraph.png" border="0" usemap="#agroup___device_gaaa44b227c43321faffb198ef9c0bb17e_cgraph" alt=""/></div>
+<map name="agroup___device_gaaa44b227c43321faffb198ef9c0bb17e_cgraph" id="agroup___device_gaaa44b227c43321faffb198ef9c0bb17e_cgraph">
+<area shape="rect" title="This function registers a device driver with a specified name." alt="" coords="5,183,131,209"/>
+<area shape="rect" href="group___device.html#ga7fb604dd486fbf5e48004b4d94d8eb3e" title="This function finds a device driver by specified name." alt="" coords="179,145,281,172"/>
+<area shape="rect" href="group___kernel_object.html#ga0a86356c83e8264841fcb83255f72014" title="This function will initialize an object and add it to object system management." alt="" coords="331,233,429,260"/>
+<area shape="rect" href="group___kernel_object.html#ga6c82dbb4ae114918c5c96d0dca3957eb" title="This function will find specified name object from object container." alt="" coords="329,107,431,133"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="697,132,809,159"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="513,259,615,285"/>
+<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="479,107,649,133"/>
+<area shape="rect" href="group___kernel_service.html#ga1a4ff96dd17dfcd6ca974ae21a1df0f9" title=" " alt="" coords="522,5,606,32"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="1063,555,1221,581"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="1064,208,1220,235"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="709,443,797,469"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="857,737,1015,778"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="863,533,1009,560"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="863,402,1009,443"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="873,467,999,509"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="867,285,1005,326"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="1109,744,1175,771"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="1079,635,1205,661"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="1073,475,1211,501"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="1089,339,1195,365"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="1090,288,1194,315"/>
+<area shape="rect" href="group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="525,853,603,880"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga76cf284581e36b7e2244398efbf850b5" name="ga76cf284581e36b7e2244398efbf850b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga76cf284581e36b7e2244398efbf850b5">&#9670;&nbsp;</a></span>rt_device_unregister()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_device_unregister </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function removes a previously registered device driver. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dev</td><td>is the pointer of device driver structure.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the error code, RT_EOK on successfully. </dd></dl>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_ga76cf284581e36b7e2244398efbf850b5_cgraph.png" border="0" usemap="#agroup___device_ga76cf284581e36b7e2244398efbf850b5_cgraph" alt=""/></div>
+<map name="agroup___device_ga76cf284581e36b7e2244398efbf850b5_cgraph" id="agroup___device_ga76cf284581e36b7e2244398efbf850b5_cgraph">
+<area shape="rect" title="This function removes a previously registered device driver." alt="" coords="5,107,144,133"/>
+<area shape="rect" href="group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="218,56,337,83"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="213,107,342,133"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="192,157,363,184"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="411,5,569,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="412,56,568,83"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="438,107,542,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga61ad2adb3c48709087465f61c244733b" name="ga61ad2adb3c48709087465f61c244733b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga61ad2adb3c48709087465f61c244733b">&#9670;&nbsp;</a></span>rt_device_create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> rt_device_create </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>attach_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function creates a device object with user data size. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>is the type of the device object.</td></tr>
+    <tr><td class="paramname">attach_size</td><td>is the size of user data.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the allocated device object, or RT_NULL when failed. </dd></dl>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_ga61ad2adb3c48709087465f61c244733b_cgraph.png" border="0" usemap="#agroup___device_ga61ad2adb3c48709087465f61c244733b_cgraph" alt=""/></div>
+<map name="agroup___device_ga61ad2adb3c48709087465f61c244733b_cgraph" id="agroup___device_ga61ad2adb3c48709087465f61c244733b_cgraph">
+<area shape="rect" title="This function creates a device object with user data size." alt="" coords="5,2922,123,2949"/>
+<area shape="rect" href="group___kernel_service.html#gadf0126394c8c791134bd466db22ebc52" title="Allocate a block of memory with a minimum of &#39;size&#39; bytes." alt="" coords="175,2897,250,2923"/>
+<area shape="rect" href="group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="171,2947,255,2974"/>
+<area shape="rect" href="group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488" title=" " alt="" coords="303,2846,389,2873"/>
+<area shape="rect" href="group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03" title=" " alt="" coords="595,2947,695,2974"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="2023,2795,2135,2822"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="2212,1478,2371,1505"/>
+<area shape="rect" href="group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="437,1934,541,1961"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="1817,1326,1920,1353"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="2213,2593,2369,2619"/>
+<area shape="rect" href="group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="589,1073,700,1099"/>
+<area shape="rect" href="group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="972,398,1095,425"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="2014,1630,2143,1657"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="2239,145,2344,171"/>
+<area shape="rect" href="ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1560,381,1740,407"/>
+<area shape="rect" href="ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="748,347,907,374"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="1825,2542,1913,2569"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2228,3217,2355,3243"/>
+<area shape="rect" href="group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="1811,1427,1926,1454"/>
+<area shape="rect" href="group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="1367,1681,1469,1707"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="2223,1083,2360,1110"/>
+<area shape="rect" href="group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="1556,718,1744,745"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="2009,579,2148,620"/>
+<area shape="rect" href="group___thread.html#ga8e0fb6e55e11d12332055167bdfab275" title=" " alt="" coords="1792,652,1945,693"/>
+<area shape="rect" href="dfs__posix_8c.html#ac21b705a5ebd42c4c46363250ab817bc" title=" " alt="" coords="2057,674,2100,701"/>
+<area shape="rect" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="1819,1123,1918,1150"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2239,586,2343,613"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="2036,1377,2121,1403"/>
+<area shape="rect" href="dfs__file_8c.html#ae3b60867436d7b3be91af7cc40299f13" title=" " alt="" coords="2246,674,2337,701"/>
+<area shape="rect" href="timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="2024,1123,2133,1150"/>
+<area shape="rect" href="ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="955,43,1112,70"/>
+<area shape="rect" href="group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="973,1858,1094,1885"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="1993,1842,2164,1869"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="2015,2257,2142,2299"/>
+<area shape="rect" href="group___thread.html#ga6d64eb4d0a485461049616808f4ce177" title="This function will delete a thread. The thread object will be removed from thread queue and deleted f..." alt="" coords="1161,1478,1279,1505"/>
+<area shape="rect" href="group___thread.html#ga514825b80304477ecf377d721da409b0" title="This function will detach a thread. The thread object will be removed from thread queue and detached/..." alt="" coords="1160,1883,1280,1910"/>
+<area shape="rect" href="group___thread.html#ga04b743537fd099e204fc292e57b4aa5a" title="This function will start a thread and put it to system ready queue." alt="" coords="1357,1934,1479,1961"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="2000,2999,2157,3040"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="2005,2491,2152,2518"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="2005,2425,2152,2467"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="2258,3006,2325,3033"/>
+<area shape="rect" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372" title="drop a thread from the suspend list of mutex" alt="" coords="1343,297,1493,323"/>
+<area shape="rect" href="group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="1328,2137,1508,2163"/>
+<area shape="rect" href="group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="1812,1377,1925,1403"/>
+<area shape="rect" href="group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="1595,2035,1705,2062"/>
+<area shape="rect" href="group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="2019,1225,2138,1251"/>
+<area shape="rect" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="1587,1985,1713,2011"/>
+<area shape="rect" href="group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="1609,1630,1691,1657"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1599,2643,1701,2670"/>
+<area shape="rect" href="group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137" title="This function will release a mutex. If there is thread suspended on the mutex, the thread will be res..." alt="" coords="766,1973,889,1999"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga74b22c6a450071b23774fe24bf6fc78c" name="ga74b22c6a450071b23774fe24bf6fc78c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga74b22c6a450071b23774fe24bf6fc78c">&#9670;&nbsp;</a></span>rt_device_destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_device_destroy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function destroy the specific device object. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dev</td><td>is a specific device object. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_ga74b22c6a450071b23774fe24bf6fc78c_cgraph.png" border="0" usemap="#agroup___device_ga74b22c6a450071b23774fe24bf6fc78c_cgraph" alt=""/></div>
+<map name="agroup___device_ga74b22c6a450071b23774fe24bf6fc78c_cgraph" id="agroup___device_ga74b22c6a450071b23774fe24bf6fc78c_cgraph">
+<area shape="rect" title="This function destroy the specific device object." alt="" coords="5,2621,128,2647"/>
+<area shape="rect" href="group___kernel_service.html#gad24f606383faa97aab028c0f9df843da" title="This function will release the previously allocated memory block by rt_malloc. The released memory bl..." alt="" coords="176,1619,237,1646"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="1835,1759,1964,1786"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="1611,2849,1782,2875"/>
+<area shape="rect" href="group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="2031,2946,2150,2973"/>
+<area shape="rect" href="group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488" title=" " alt="" coords="285,683,372,710"/>
+<area shape="rect" href="group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03" title=" " alt="" coords="577,2139,677,2166"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="2035,3266,2147,3293"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="2217,2053,2376,2079"/>
+<area shape="rect" href="group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="420,683,524,710"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="2039,594,2142,621"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="2219,3266,2375,3293"/>
+<area shape="rect" href="group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="572,683,683,710"/>
+<area shape="rect" href="group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="955,401,1077,427"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="2244,1010,2349,1037"/>
+<area shape="rect" href="ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1607,510,1787,537"/>
+<area shape="rect" href="ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="731,945,889,971"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="1855,2950,1943,2977"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2233,870,2360,897"/>
+<area shape="rect" href="group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="1639,1987,1754,2014"/>
+<area shape="rect" href="group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="1186,2089,1287,2115"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="2228,934,2365,961"/>
+<area shape="rect" href="group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="1143,923,1331,950"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="2021,2509,2160,2551"/>
+<area shape="rect" href="group___thread.html#ga8e0fb6e55e11d12332055167bdfab275" title=" " alt="" coords="1392,857,1545,899"/>
+<area shape="rect" href="dfs__posix_8c.html#ac21b705a5ebd42c4c46363250ab817bc" title=" " alt="" coords="1675,721,1718,747"/>
+<area shape="rect" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="1647,2139,1746,2166"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2245,2517,2349,2543"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="2254,594,2339,621"/>
+<area shape="rect" href="dfs__file_8c.html#ae3b60867436d7b3be91af7cc40299f13" title=" " alt="" coords="1854,401,1945,427"/>
+<area shape="rect" href="group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="1853,670,1946,697"/>
+<area shape="rect" href="timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="1845,2431,1954,2458"/>
+<area shape="rect" href="ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="937,451,1095,478"/>
+<area shape="rect" href="group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="955,2241,1077,2267"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="2027,1175,2154,1216"/>
+<area shape="rect" href="group___thread.html#ga6d64eb4d0a485461049616808f4ce177" title="This function will delete a thread. The thread object will be removed from thread queue and deleted f..." alt="" coords="1178,2291,1295,2318"/>
+<area shape="rect" href="group___thread.html#ga514825b80304477ecf377d721da409b0" title="This function will detach a thread. The thread object will be removed from thread queue and detached/..." alt="" coords="1177,2393,1297,2419"/>
+<area shape="rect" href="group___thread.html#ga04b743537fd099e204fc292e57b4aa5a" title="This function will start a thread and put it to system ready queue." alt="" coords="1175,2038,1298,2065"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="2012,3048,2169,3089"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="2017,2997,2164,3023"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="2017,2829,2164,2871"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="2263,3055,2330,3082"/>
+<area shape="rect" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372" title="drop a thread from the suspend list of mutex" alt="" coords="1393,1227,1544,1254"/>
+<area shape="rect" href="group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="1379,1835,1559,1862"/>
+<area shape="rect" href="group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="1412,2545,1525,2571"/>
+<area shape="rect" href="group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="1641,1329,1752,1355"/>
+<area shape="rect" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="1406,2139,1531,2166"/>
+<area shape="rect" href="group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="1427,1785,1510,1811"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1645,3203,1748,3230"/>
+<area shape="rect" href="group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137" title="This function will release a mutex. If there is thread suspended on the mutex, the thread will be res..." alt="" coords="749,2139,871,2166"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga07dfc7fd340b9449d2bd732159ed237f" name="ga07dfc7fd340b9449d2bd732159ed237f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga07dfc7fd340b9449d2bd732159ed237f">&#9670;&nbsp;</a></span>rt_device_set_rx_indicate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_device_set_rx_indicate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>(*)(<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)&#160;</td>
+          <td class="paramname"><em>rx_ind</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will set the reception indication callback function. This callback function is invoked when this device receives data. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dev</td><td>is the pointer of device driver structure.</td></tr>
+    <tr><td class="paramname">rx_ind</td><td>is the indication callback function.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>RT_EOK </dd></dl>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_ga07dfc7fd340b9449d2bd732159ed237f_cgraph.png" border="0" usemap="#agroup___device_ga07dfc7fd340b9449d2bd732159ed237f_cgraph" alt=""/></div>
+<map name="agroup___device_ga07dfc7fd340b9449d2bd732159ed237f_cgraph" id="agroup___device_ga07dfc7fd340b9449d2bd732159ed237f_cgraph">
+<area shape="rect" title="This function will set the reception indication callback function. This callback function is invoked ..." alt="" coords="5,5,172,32"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="220,5,349,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gae6340392a3848e3f5e324aa984375b07" name="gae6340392a3848e3f5e324aa984375b07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae6340392a3848e3f5e324aa984375b07">&#9670;&nbsp;</a></span>rt_device_set_tx_complete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_device_set_tx_complete </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>(*)(<a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a> dev, void *buffer)&#160;</td>
+          <td class="paramname"><em>tx_done</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will set a callback function. The callback function will be called when device has written data to physical hardware. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dev</td><td>is the pointer of device driver structure.</td></tr>
+    <tr><td class="paramname">tx_done</td><td>is the indication callback function.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>RT_EOK </dd></dl>
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_gae6340392a3848e3f5e324aa984375b07_cgraph.png" border="0" usemap="#agroup___device_gae6340392a3848e3f5e324aa984375b07_cgraph" alt=""/></div>
+<map name="agroup___device_gae6340392a3848e3f5e324aa984375b07_cgraph" id="agroup___device_gae6340392a3848e3f5e324aa984375b07_cgraph">
+<area shape="rect" title="This function will set a callback function. The callback function will be called when device has writ..." alt="" coords="5,5,180,32"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="228,5,357,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga04892007706fe586a1db33284571be7e" name="ga04892007706fe586a1db33284571be7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga04892007706fe586a1db33284571be7e">&#9670;&nbsp;</a></span>rt_device_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_device_init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will initialize the specified device. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dev</td><td>is the pointer of device driver structure.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the result, RT_EOK on successfully. </dd></dl>
+
+</div>
+</div>
+<a id="gac0cd9f7a81722d69e8720ea4750c17a2" name="gac0cd9f7a81722d69e8720ea4750c17a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac0cd9f7a81722d69e8720ea4750c17a2">&#9670;&nbsp;</a></span>rt_device_open()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_device_open </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga5acba55f46553417996ac70828b874da">rt_uint16_t</a>&#160;</td>
+          <td class="paramname"><em>oflag</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will open a device. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dev</td><td>is the pointer of device driver structure.</td></tr>
+    <tr><td class="paramname">oflag</td><td>is the flags for device open.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the result, RT_EOK on successfully. </dd></dl>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_gac0cd9f7a81722d69e8720ea4750c17a2_cgraph.png" border="0" usemap="#agroup___device_gac0cd9f7a81722d69e8720ea4750c17a2_cgraph" alt=""/></div>
+<map name="agroup___device_gac0cd9f7a81722d69e8720ea4750c17a2_cgraph" id="agroup___device_gac0cd9f7a81722d69e8720ea4750c17a2_cgraph">
+<area shape="rect" title="This function will open a device." alt="" coords="5,5,115,32"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="163,5,292,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga914535247ea0e5477002553ad38b1482" name="ga914535247ea0e5477002553ad38b1482"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga914535247ea0e5477002553ad38b1482">&#9670;&nbsp;</a></span>rt_device_close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_device_close </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will close a device. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dev</td><td>is the pointer of device driver structure.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the result, RT_EOK on successfully. </dd></dl>
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_ga914535247ea0e5477002553ad38b1482_cgraph.png" border="0" usemap="#agroup___device_ga914535247ea0e5477002553ad38b1482_cgraph" alt=""/></div>
+<map name="agroup___device_ga914535247ea0e5477002553ad38b1482_cgraph" id="agroup___device_ga914535247ea0e5477002553ad38b1482_cgraph">
+<area shape="rect" title="This function will close a device." alt="" coords="5,5,116,32"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="164,5,293,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga33660fb6c9217dce99b6b625443453ba" name="ga33660fb6c9217dce99b6b625443453ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga33660fb6c9217dce99b6b625443453ba">&#9670;&nbsp;</a></span>rt_device_read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> rt_device_read </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga0fd4981851ce935649b6723a81f2f1bf">rt_off_t</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will read some data from a device. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dev</td><td>is the pointer of device driver structure.</td></tr>
+    <tr><td class="paramname">pos</td><td>is the position when reading.</td></tr>
+    <tr><td class="paramname">buffer</td><td>is a data buffer to save the read data.</td></tr>
+    <tr><td class="paramname">size</td><td>is the size of buffer.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the actually read size on successful, otherwise 0 will be returned.</dd></dl>
+<dl class="section note"><dt>注解</dt><dd>the unit of size/pos is a block for block device. </dd></dl>
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_ga33660fb6c9217dce99b6b625443453ba_cgraph.png" border="0" usemap="#agroup___device_ga33660fb6c9217dce99b6b625443453ba_cgraph" alt=""/></div>
+<map name="agroup___device_ga33660fb6c9217dce99b6b625443453ba_cgraph" id="agroup___device_ga33660fb6c9217dce99b6b625443453ba_cgraph">
+<area shape="rect" title="This function will read some data from a device." alt="" coords="5,56,112,83"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="160,31,289,57"/>
+<area shape="rect" href="group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="178,81,271,108"/>
+<area shape="rect" href="group___kernel.html#gaa6725f61bed47e0d5ac383eccf14d3f1" title="This function will return the nest of interrupt." alt="" coords="337,56,480,83"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="357,107,460,133"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="528,5,687,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="529,56,685,83"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="565,107,650,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gab8d041e5ae9c776332adfee71691e698" name="gab8d041e5ae9c776332adfee71691e698"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab8d041e5ae9c776332adfee71691e698">&#9670;&nbsp;</a></span>rt_device_write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> rt_device_write </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga0fd4981851ce935649b6723a81f2f1bf">rt_off_t</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will write some data to a device. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dev</td><td>is the pointer of device driver structure.</td></tr>
+    <tr><td class="paramname">pos</td><td>is the position when writing.</td></tr>
+    <tr><td class="paramname">buffer</td><td>is the data buffer to be written to device.</td></tr>
+    <tr><td class="paramname">size</td><td>is the size of buffer.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the actually written size on successful, otherwise 0 will be returned.</dd></dl>
+<dl class="section note"><dt>注解</dt><dd>the unit of size/pos is a block for block device. </dd></dl>
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_gab8d041e5ae9c776332adfee71691e698_cgraph.png" border="0" usemap="#agroup___device_gab8d041e5ae9c776332adfee71691e698_cgraph" alt=""/></div>
+<map name="agroup___device_gab8d041e5ae9c776332adfee71691e698_cgraph" id="agroup___device_gab8d041e5ae9c776332adfee71691e698_cgraph">
+<area shape="rect" title="This function will write some data to a device." alt="" coords="5,56,116,83"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="164,31,293,57"/>
+<area shape="rect" href="group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="182,81,275,108"/>
+<area shape="rect" href="group___kernel.html#gaa6725f61bed47e0d5ac383eccf14d3f1" title="This function will return the nest of interrupt." alt="" coords="341,56,484,83"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="361,107,464,133"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="532,5,691,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="533,56,689,83"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="569,107,654,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga40ed6da2d5ea7b1e28de21ff439db963" name="ga40ed6da2d5ea7b1e28de21ff439db963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga40ed6da2d5ea7b1e28de21ff439db963">&#9670;&nbsp;</a></span>rt_device_control()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_device_control </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___device.html#ga896a5cd63480a02303252f41782379b1">rt_device_t</a>&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cmd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>arg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will perform a variety of control functions on devices. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dev</td><td>is the pointer of device driver structure.</td></tr>
+    <tr><td class="paramname">cmd</td><td>is the command sent to device.</td></tr>
+    <tr><td class="paramname">arg</td><td>is the argument of command.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the result, -RT_ENOSYS for failed. </dd></dl>
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___device_ga40ed6da2d5ea7b1e28de21ff439db963_cgraph.png" border="0" usemap="#agroup___device_ga40ed6da2d5ea7b1e28de21ff439db963_cgraph" alt=""/></div>
+<map name="agroup___device_ga40ed6da2d5ea7b1e28de21ff439db963_cgraph" id="agroup___device_ga40ed6da2d5ea7b1e28de21ff439db963_cgraph">
+<area shape="rect" title="This function will perform a variety of control functions on devices." alt="" coords="5,5,125,32"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="173,5,303,32"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">生成于 2023年 一月 19日 星期四 21:57:26 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+  </ul>
+</div>
+</body>
+</html>

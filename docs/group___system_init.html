@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-Thread RTOS: System Initialization</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="rtthread_logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">RT-Thread RTOS<span id="projectnumber">&#160;1.2.0</span>
+   </div>
+   <div id="projectbrief">An open source embedded real-time operating system</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.4 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'搜索','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('group___system_init.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle"><div class="title">System Initialization</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ga0bc341878c3dbb76bdb773fc9176f4f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___system_init.html#ga0bc341878c3dbb76bdb773fc9176f4f3">rt_application_init</a> ()</td></tr>
+<tr class="separator:ga0bc341878c3dbb76bdb773fc9176f4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafa6feb60f6204d1783bc3bc324b886e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___system_init.html#gafa6feb60f6204d1783bc3bc324b886e7">rt_system_heap_init</a> (void *begin_addr, void *end_addr)</td></tr>
+<tr class="separator:gafa6feb60f6204d1783bc3bc324b886e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<p >When RT-Thread operating system starts up, the basic operating system facility initialization routines must be invoked.</p>
+<p >The suggested initialization sequence is:</p>
+<ul>
+<li>initialize device hardware rt_hw_board_init();</li>
+</ul>
+<p >User can put the low level hardware initialization in this function, such as DDR memory setting, pinmux setting, console device setting etc.</p>
+<ul>
+<li>show version <a class="el" href="group___kernel_service.html#ga11ecdcdb5b09e6e18b52625c1e904dca">rt_show_version()</a>;</li>
+<li>initialize timer system <a class="el" href="group___system_init.html#ga9f109e873cdcf963059e968cedb76c36" title="This function will initialize system timer">rt_system_timer_init()</a>;</li>
+<li>initialize system heap memory rt_system_heap_init(__bss_end, __end_of_memory);</li>
+<li>initialize module system rt_system_module_init();</li>
+<li>initialize scheduler system <a class="el" href="group___thread.html#ga5aa2c0c67999e20ce8693ad3c8e624f0" title="This function will initialize the system scheduler.">rt_system_scheduler_init()</a>;</li>
+<li>initialize application <a class="el" href="group___system_init.html#ga0bc341878c3dbb76bdb773fc9176f4f3">rt_application_init()</a>;</li>
+<li>initialize system timer thread <a class="el" href="group___system_init.html#gac5298e02b109e4885723f6116fb11814" title="This function will initialize system timer thread">rt_system_timer_thread_init()</a>;</li>
+<li>initialize idle thread <a class="el" href="group___thread.html#gae0dcacf89c3d97272b185f7162a3e0c3" title="This function will initialize idle thread, then start it.">rt_thread_idle_init()</a>;</li>
+<li>start scheduler <a class="el" href="group___thread.html#ga9aa8a561e0caf5e13126834c4f4bb681" title="This function will startup the scheduler. It will select one thread with the highest priority level,...">rt_system_scheduler_start()</a>; </li>
+</ul>
+<h2 class="groupheader">函数说明</h2>
+<a id="ga9f109e873cdcf963059e968cedb76c36" name="ga9f109e873cdcf963059e968cedb76c36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9f109e873cdcf963059e968cedb76c36">&#9670;&nbsp;</a></span>rt_system_timer_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_system_timer_init </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will initialize system timer </p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___system_init_ga9f109e873cdcf963059e968cedb76c36_cgraph.png" border="0" usemap="#agroup___system_init_ga9f109e873cdcf963059e968cedb76c36_cgraph" alt=""/></div>
+<map name="agroup___system_init_ga9f109e873cdcf963059e968cedb76c36_cgraph" id="agroup___system_init_ga9f109e873cdcf963059e968cedb76c36_cgraph">
+<area shape="rect" title="This function will initialize system timer" alt="" coords="5,5,144,32"/>
+<area shape="rect" href="group___kernel_service.html#ga7103f52aa8c7402c9e87f03942d8bc9f" title="initialize a list" alt="" coords="192,5,271,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gac5298e02b109e4885723f6116fb11814" name="gac5298e02b109e4885723f6116fb11814"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac5298e02b109e4885723f6116fb11814">&#9670;&nbsp;</a></span>rt_system_timer_thread_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_system_timer_thread_init </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will initialize system timer thread </p>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___system_init_gac5298e02b109e4885723f6116fb11814_cgraph.png" border="0" usemap="#agroup___system_init_gac5298e02b109e4885723f6116fb11814_cgraph" alt=""/></div>
+<map name="agroup___system_init_gac5298e02b109e4885723f6116fb11814_cgraph" id="agroup___system_init_gac5298e02b109e4885723f6116fb11814_cgraph">
+<area shape="rect" title="This function will initialize system timer thread" alt="" coords="5,1631,188,1657"/>
+<area shape="rect" href="group___kernel_service.html#ga7103f52aa8c7402c9e87f03942d8bc9f" title="initialize a list" alt="" coords="934,1896,1013,1923"/>
+<area shape="rect" href="group___thread.html#gacd985aa60939b95e510f144610f001b9" title="This function will initialize a thread. It&#39;s used to initialize a static thread object." alt="" coords="236,1631,335,1657"/>
+<area shape="rect" href="group___thread.html#ga04b743537fd099e204fc292e57b4aa5a" title="This function will start a thread and put it to system ready queue." alt="" coords="912,164,1035,191"/>
+<area shape="rect" href="thread_8c.html#a7408f1f98b665bd16b553ebd8bb8dcb1" title=" " alt="" coords="383,1555,473,1581"/>
+<area shape="rect" href="group___kernel_object.html#ga0a86356c83e8264841fcb83255f72014" title="This function will initialize an object and add it to object system management." alt="" coords="925,1647,1022,1673"/>
+<area shape="rect" href="thread_8c.html#a5680572be015f9b23819bcbdb2938f94" title=" " alt="" coords="532,965,625,992"/>
+<area shape="rect" href="thread_8c.html#a66c5d4b3cd5b6392f5f0a9e7f28a28fe" title="This function is the timeout function for thread, normally which is invoked when thread is timeout to..." alt="" coords="1110,1435,1226,1461"/>
+<area shape="rect" href="rthw_8h.html#aa1d05b5a957c569b195f2276d8726d7d" title=" " alt="" coords="521,1453,636,1480"/>
+<area shape="rect" href="group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="537,1504,621,1531"/>
+<area shape="rect" href="group___clock.html#ga678d29f53307113da6b1578c9d3423cb" title="This function will initialize a timer normally this function is used to initialize a static timer obj..." alt="" coords="533,1605,625,1632"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="1693,1260,1852,1287"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="1695,889,1851,916"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="1320,1172,1408,1199"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="1491,570,1629,611"/>
+<area shape="rect" href="group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="684,1092,864,1119"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="1117,215,1219,241"/>
+<area shape="rect" href="group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="1307,367,1421,393"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="1481,1631,1639,1673"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="1487,1143,1633,1169"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="1487,1194,1633,1235"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="1497,1413,1623,1454"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="1739,1639,1806,1665"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="1709,1799,1836,1825"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="1704,1420,1841,1447"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="1720,472,1825,499"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="1900,577,2004,604"/>
+<area shape="rect" href="group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="918,671,1029,697"/>
+<area shape="rect" href="group___i_p_c.html#ga1669a4e1776eccad4612e3dc41601a63" title="This function will resume a thread." alt="" coords="1109,636,1227,663"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="1708,139,1837,165"/>
+<area shape="rect" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="1301,552,1427,579"/>
+<area shape="rect" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="1511,519,1609,545"/>
+<area shape="rect" href="timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="1718,316,1827,343"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="1321,37,1407,64"/>
+<area shape="rect" href="group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="1501,636,1619,663"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="1475,215,1645,241"/>
+<area shape="rect" href="timer_8c.html#a489f9d7f03793ac1223bf78b71fc0a17" title="[internal] The init funtion of timer" alt="" coords="733,1656,815,1683"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="1504,1361,1616,1388"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1117,1279,1219,1305"/>
+<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="1083,1748,1253,1775"/>
+<area shape="rect" href="group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="1129,1697,1207,1724"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga0bc341878c3dbb76bdb773fc9176f4f3" name="ga0bc341878c3dbb76bdb773fc9176f4f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0bc341878c3dbb76bdb773fc9176f4f3">&#9670;&nbsp;</a></span>rt_application_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_application_init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >This function will initialize user application.</p>
+<p >This function will be invoked when system initialization and system scheduler has not started. User can allocate memory, create thread, semaphore etc. However, user shall not suspend 'current' thread. </p>
+
+</div>
+</div>
+<a id="gafa6feb60f6204d1783bc3bc324b886e7" name="gafa6feb60f6204d1783bc3bc324b886e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafa6feb60f6204d1783bc3bc324b886e7">&#9670;&nbsp;</a></span>rt_system_heap_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_system_heap_init </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>begin_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>end_addr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will init system heap. </p>
+<p >This function will initialize system heap memory.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">begin_addr</td><td>the beginning address of system heap memory. </td></tr>
+    <tr><td class="paramname">end_addr</td><td>the end address of system heap memory. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">生成于 2023年 一月 19日 星期四 21:57:27 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+  </ul>
+</div>
+</body>
+</html>

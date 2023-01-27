@@ -1,0 +1,17 @@
+<map id="rt_mq_detach" name="rt_mq_detach">
+<area shape="rect" id="node1" title="This function will detach a static messagequeue object." alt="" coords="5,407,107,433"/>
+<area shape="rect" id="node2" href="$group___i_p_c.html#gaabbea6e36026b62cc6bcc50614d741b8" title="This function will resume all suspended threads in the IPC object list, including the suspended list ..." alt="" coords="171,356,309,383"/>
+<area shape="rect" id="node8" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="736,11,865,37"/>
+<area shape="rect" id="node14" href="$group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="551,432,669,459"/>
+<area shape="rect" id="node15" href="$group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="155,508,325,535"/>
+<area shape="rect" id="node3" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="721,343,880,369"/>
+<area shape="rect" id="node4" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="723,191,879,217"/>
+<area shape="rect" id="node5" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="383,407,489,433"/>
+<area shape="rect" id="node6" href="$group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="373,163,499,189"/>
+<area shape="rect" id="node7" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="928,112,1032,139"/>
+<area shape="rect" id="node9" href="$group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="547,265,673,306"/>
+<area shape="rect" id="node12" href="$group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="561,112,659,139"/>
+<area shape="rect" id="node10" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="737,292,864,319"/>
+<area shape="rect" id="node11" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="732,241,869,268"/>
+<area shape="rect" id="node13" href="$timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="746,112,855,139"/>
+</map>

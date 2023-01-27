@@ -1,0 +1,4 @@
+<map id="rt_spin_unlock_irqrestore" name="rt_spin_unlock_irqrestore">
+<area shape="rect" id="node1" title="This function will unlock the spinlock and then restore current cpu interrupt status." alt="" coords="5,5,172,32"/>
+<area shape="rect" id="node2" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="220,5,376,32"/>
+</map>

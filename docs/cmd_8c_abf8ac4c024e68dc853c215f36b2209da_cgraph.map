@@ -1,0 +1,12 @@
+<map id="list_msgqueue" name="list_msgqueue">
+<area shape="rect" id="node1" title=" " alt="" coords="5,183,109,209"/>
+<area shape="rect" id="node2" href="$cmd_8c.html#a11a21ee41882512de75b21a0bab777b0" title=" " alt="" coords="175,5,265,32"/>
+<area shape="rect" id="node4" href="$cmd_8c.html#a5eef9801a076ca215f046dcd3093856b" title=" " alt="" coords="173,107,267,133"/>
+<area shape="rect" id="node5" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="337,68,495,95"/>
+<area shape="rect" id="node6" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="338,144,494,171"/>
+<area shape="rect" id="node7" href="$cmd_8c.html#aef09bba5eb3837940bf6e1338fe38efd" title=" " alt="" coords="177,208,263,235"/>
+<area shape="rect" id="node8" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="167,259,273,285"/>
+<area shape="rect" id="node9" href="$group___kernel_service.html#gaeffe8ba587aebd47af354bce96959236" title="get the list length" alt="" coords="181,309,259,336"/>
+<area shape="rect" id="node10" href="$cmd_8c.html#abaf70ce98947a54e6e7e75332b643fa7" title=" " alt="" coords="157,360,283,387"/>
+<area shape="rect" id="node3" href="$group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="331,5,501,32"/>
+</map>

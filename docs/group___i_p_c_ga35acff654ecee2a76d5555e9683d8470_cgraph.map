@@ -1,0 +1,14 @@
+<map id="rt_mq_create" name="rt_mq_create">
+<area shape="rect" id="node1" title="Creating a messagequeue object." alt="" coords="5,81,104,108"/>
+<area shape="rect" id="node2" href="$group___i_p_c.html#ga6b174ad0c6281b177865e9452b7f9a71" title="This function will initialize an IPC object, such as semaphore, mutex, messagequeue and mailbox." alt="" coords="159,56,269,83"/>
+<area shape="rect" id="node3" href="$group___kernel_service.html#ga7103f52aa8c7402c9e87f03942d8bc9f" title="initialize a list" alt="" coords="370,5,449,32"/>
+<area shape="rect" id="node4" href="$group___kernel_object.html#ga661bb999394a29404c20c7f3e58e5f64" title="This function will allocate an object from object system." alt="" coords="152,208,276,235"/>
+<area shape="rect" id="node11" href="$group___kernel_object.html#ga0479fb23b766d96e9611ed32becc2797" title="This function will delete an object and release object memory." alt="" coords="157,107,271,133"/>
+<area shape="rect" id="node5" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="330,107,489,133"/>
+<area shape="rect" id="node6" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="331,157,487,184"/>
+<area shape="rect" id="node7" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="346,208,473,235"/>
+<area shape="rect" id="node8" href="$group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="367,259,451,285"/>
+<area shape="rect" id="node9" href="$group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="324,309,495,336"/>
+<area shape="rect" id="node10" href="$group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="370,360,449,387"/>
+<area shape="rect" id="node12" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="357,56,461,83"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="rt_spin_lock_irqsave" name="rt_spin_lock_irqsave">
+<area shape="rect" id="node1" title="This function will disable the local interrupt and then lock the spinlock." alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node2" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="192,5,351,32"/>
+</map>

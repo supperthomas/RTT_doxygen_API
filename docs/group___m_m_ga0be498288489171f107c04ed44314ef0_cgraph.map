@@ -1,0 +1,6 @@
+<map id="rt_smem_free" name="rt_smem_free">
+<area shape="rect" id="node1" title="This function will release the previously allocated memory block by rt_mem_alloc. The released memory..." alt="" coords="5,56,108,83"/>
+<area shape="rect" id="node2" href="$mem_8c.html#a6502b28ff567a68fca8c0a7e97d8acc5" title=" " alt="" coords="200,5,283,32"/>
+<area shape="rect" id="node3" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="177,56,306,83"/>
+<area shape="rect" id="node4" href="$group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="156,107,327,133"/>
+</map>

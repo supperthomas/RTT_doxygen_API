@@ -1,0 +1,1947 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-Thread RTOS: Memory Management</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="rtthread_logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">RT-Thread RTOS<span id="projectnumber">&#160;1.2.0</span>
+   </div>
+   <div id="projectbrief">An open source embedded real-time operating system</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.4 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'搜索','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('group___m_m.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">结构体</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle"><div class="title">Memory Management<div class="ingroups"><a class="el" href="group___signals.html">Signals</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Memory Management 的协作图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m.png" border="0" usemap="#agroup______m__m" alt=""/></div>
+<map name="agroup______m__m" id="agroup______m__m">
+<area shape="rect" title="memory management for memory pool and heap memory" alt="" coords="116,5,263,31"/>
+<area shape="rect" href="group___signals.html" title=" " alt="" coords="5,5,68,31"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+结构体</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__memory.html">rt_memory</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__mempool.html">rt_mempool</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ga80448818ad067205d76e94f8c97e5fe9"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga80448818ad067205d76e94f8c97e5fe9">rt_smem_alloc</a> (<a class="el" href="group___m_m.html#ga4880147b2aef9d5e2be045a998d9d4b3">rt_smem_t</a> m, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)</td></tr>
+<tr class="separator:ga80448818ad067205d76e94f8c97e5fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab3db5c0cc04b7a3e1d06c2a6da2e6d5c"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gab3db5c0cc04b7a3e1d06c2a6da2e6d5c">rt_smem_realloc</a> (<a class="el" href="group___m_m.html#ga4880147b2aef9d5e2be045a998d9d4b3">rt_smem_t</a> m, void *rmem, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> newsize)</td></tr>
+<tr class="separator:gab3db5c0cc04b7a3e1d06c2a6da2e6d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0be498288489171f107c04ed44314ef0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga0be498288489171f107c04ed44314ef0">rt_smem_free</a> (void *rmem)</td></tr>
+<tr class="separator:ga0be498288489171f107c04ed44314ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1a6bc99e5cb8663be2f1882410448f94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga1a6bc99e5cb8663be2f1882410448f94">rt_mp_init</a> (struct <a class="el" href="structrt__mempool.html">rt_mempool</a> *mp, const char *name, void *start, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> block_size)</td></tr>
+<tr class="separator:ga1a6bc99e5cb8663be2f1882410448f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga65fc7bef71be142744e517eebe13fc04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga65fc7bef71be142744e517eebe13fc04">rt_mp_detach</a> (struct <a class="el" href="structrt__mempool.html">rt_mempool</a> *mp)</td></tr>
+<tr class="separator:ga65fc7bef71be142744e517eebe13fc04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabe8c74161a1d6f456e67efb2c16195b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___m_m.html#gacd1967553fa041da8c8bf22d4a8b1c30">rt_mp_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gabe8c74161a1d6f456e67efb2c16195b7">rt_mp_create</a> (const char *name, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> block_count, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> block_size)</td></tr>
+<tr class="separator:gabe8c74161a1d6f456e67efb2c16195b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gace1b1218858d5ec8a95be226ae897f26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gace1b1218858d5ec8a95be226ae897f26">rt_mp_delete</a> (<a class="el" href="group___m_m.html#gacd1967553fa041da8c8bf22d4a8b1c30">rt_mp_t</a> mp)</td></tr>
+<tr class="separator:gace1b1218858d5ec8a95be226ae897f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga531984d42851ffa0fd7a14bf67f15c22"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga531984d42851ffa0fd7a14bf67f15c22">rt_mp_alloc</a> (<a class="el" href="group___m_m.html#gacd1967553fa041da8c8bf22d4a8b1c30">rt_mp_t</a> mp, <a class="el" href="group___basic_def.html#gafab3dddb302fee91b8d8cff1c6fae9bd">rt_int32_t</a> time)</td></tr>
+<tr class="separator:ga531984d42851ffa0fd7a14bf67f15c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga65371665abde3bed7379c72d5ea225e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga65371665abde3bed7379c72d5ea225e2">rt_mp_free</a> (void *block)</td></tr>
+<tr class="separator:ga65371665abde3bed7379c72d5ea225e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafa6feb60f6204d1783bc3bc324b886e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gafa6feb60f6204d1783bc3bc324b886e7">rt_system_heap_init</a> (void *begin_addr, void *end_addr)</td></tr>
+<tr class="separator:gafa6feb60f6204d1783bc3bc324b886e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadffdb9d05bb2f9928751bee608b694b8"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gadffdb9d05bb2f9928751bee608b694b8">rt_malloc</a> (<a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> nbytes)</td></tr>
+<tr class="separator:gadffdb9d05bb2f9928751bee608b694b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6c1c24262479e6946fd04823878177f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga6c1c24262479e6946fd04823878177f9">rt_free</a> (void *ptr)</td></tr>
+<tr class="separator:ga6c1c24262479e6946fd04823878177f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga810ffee2f3a30f0e8bf3f1c33b7fadf9"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga810ffee2f3a30f0e8bf3f1c33b7fadf9">rt_realloc</a> (void *ptr, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> nbytes)</td></tr>
+<tr class="separator:ga810ffee2f3a30f0e8bf3f1c33b7fadf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga89c02c2964ca603cf87912871bafa1b4"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga89c02c2964ca603cf87912871bafa1b4">rt_calloc</a> (<a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> count, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)</td></tr>
+<tr class="separator:ga89c02c2964ca603cf87912871bafa1b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1dc9ac8a12cf36f08d0a3ebf7fe9ce4e"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga1dc9ac8a12cf36f08d0a3ebf7fe9ce4e">rt_malloc_align</a> (<a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> align)</td></tr>
+<tr class="separator:ga1dc9ac8a12cf36f08d0a3ebf7fe9ce4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabf1ea8f43781620e7b08fb1868e32b92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gabf1ea8f43781620e7b08fb1868e32b92">rt_free_align</a> (void *ptr)</td></tr>
+<tr class="separator:gabf1ea8f43781620e7b08fb1868e32b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6a043ee84954692789696a255ea65699"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga6a043ee84954692789696a255ea65699">rt_memory_info</a> (<a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> *total, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> *used, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> *max_used)</td></tr>
+<tr class="separator:ga6a043ee84954692789696a255ea65699"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga909761c80493569b64558225d7f89e77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga909761c80493569b64558225d7f89e77">rt_malloc_sethook</a> (void(*hook)(void *ptr, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size))</td></tr>
+<tr class="separator:ga909761c80493569b64558225d7f89e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf556549fc541bfc634f37f2dca004547"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gaf556549fc541bfc634f37f2dca004547">rt_free_sethook</a> (void(*hook)(void *ptr))</td></tr>
+<tr class="separator:gaf556549fc541bfc634f37f2dca004547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf3ee8887d4ace66606a925237e199ad6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___m_m.html#ga4880147b2aef9d5e2be045a998d9d4b3">rt_smem_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gaf3ee8887d4ace66606a925237e199ad6">rt_smem_init</a> (const char *name, void *begin_addr, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)</td></tr>
+<tr class="separator:gaf3ee8887d4ace66606a925237e199ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf444d6040e6a1ef09ab9f95e893b8d40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gaf444d6040e6a1ef09ab9f95e893b8d40">rt_smem_detach</a> (<a class="el" href="group___m_m.html#ga4880147b2aef9d5e2be045a998d9d4b3">rt_smem_t</a> m)</td></tr>
+<tr class="separator:gaf444d6040e6a1ef09ab9f95e893b8d40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<p >RT-Thread operating system supports two types memory management:</p><ul>
+<li>Static memory pool management</li>
+<li>Dynamic memory heap management.</li>
+</ul>
+<p >The time to allocate a memory block from the memory pool is determinant. When the memory pool is empty, the allocated thread can be blocked (or immediately return, or waiting for sometime to return, which are determined by a timeout parameter). When other thread releases memory blocks to this memory pool, the blocked thread is wake up.</p>
+<p >There are two methods in dynamic memory heap management, one is used for small memory, such as less than 1MB. Another is a SLAB like memory management, which is suitable for large memory system. All of them has no real-time character. </p>
+<h2 class="groupheader">类型定义说明</h2>
+<a id="gafde298b9d967f53f8ce3e8d7293edd10" name="gafde298b9d967f53f8ce3e8d7293edd10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafde298b9d967f53f8ce3e8d7293edd10">&#9670;&nbsp;</a></span>rt_mem_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structrt__memory.html">rt_memory</a>* <a class="el" href="group___m_m.html#gafde298b9d967f53f8ce3e8d7293edd10">rt_mem_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga4880147b2aef9d5e2be045a998d9d4b3" name="ga4880147b2aef9d5e2be045a998d9d4b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4880147b2aef9d5e2be045a998d9d4b3">&#9670;&nbsp;</a></span>rt_smem_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="group___m_m.html#gafde298b9d967f53f8ce3e8d7293edd10">rt_mem_t</a> <a class="el" href="group___m_m.html#ga4880147b2aef9d5e2be045a998d9d4b3">rt_smem_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gacd1967553fa041da8c8bf22d4a8b1c30" name="gacd1967553fa041da8c8bf22d4a8b1c30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacd1967553fa041da8c8bf22d4a8b1c30">&#9670;&nbsp;</a></span>rt_mp_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structrt__mempool.html">rt_mempool</a>* <a class="el" href="group___m_m.html#gacd1967553fa041da8c8bf22d4a8b1c30">rt_mp_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">函数说明</h2>
+<a id="ga80448818ad067205d76e94f8c97e5fe9" name="ga80448818ad067205d76e94f8c97e5fe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga80448818ad067205d76e94f8c97e5fe9">&#9670;&nbsp;</a></span>rt_smem_alloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * rt_smem_alloc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___m_m.html#ga4880147b2aef9d5e2be045a998d9d4b3">rt_smem_t</a>&#160;</td>
+          <td class="paramname"><em>m</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allocate a block of memory with a minimum of 'size' bytes. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m</td><td>the small memory management object.</td></tr>
+    <tr><td class="paramname">size</td><td>is the minimum size of the requested block in bytes.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the pointer to allocated memory or NULL if no free memory was found. </dd></dl>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_ga80448818ad067205d76e94f8c97e5fe9_cgraph.png" border="0" usemap="#agroup___m_m_ga80448818ad067205d76e94f8c97e5fe9_cgraph" alt=""/></div>
+<map name="agroup___m_m_ga80448818ad067205d76e94f8c97e5fe9_cgraph" id="agroup___m_m_ga80448818ad067205d76e94f8c97e5fe9_cgraph">
+<area shape="rect" title="Allocate a block of memory with a minimum of &#39;size&#39; bytes." alt="" coords="5,56,112,83"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="181,5,310,32"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="160,56,331,83"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="194,107,297,133"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="379,107,464,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga0d6c4398fc18dfedf3bbb3250742befc" name="ga0d6c4398fc18dfedf3bbb3250742befc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0d6c4398fc18dfedf3bbb3250742befc">&#9670;&nbsp;</a></span>RTM_EXPORT() <span class="overload">[1/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RTM_EXPORT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___m_m.html#ga80448818ad067205d76e94f8c97e5fe9">rt_smem_alloc</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gab3db5c0cc04b7a3e1d06c2a6da2e6d5c" name="gab3db5c0cc04b7a3e1d06c2a6da2e6d5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab3db5c0cc04b7a3e1d06c2a6da2e6d5c">&#9670;&nbsp;</a></span>rt_smem_realloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * rt_smem_realloc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___m_m.html#ga4880147b2aef9d5e2be045a998d9d4b3">rt_smem_t</a>&#160;</td>
+          <td class="paramname"><em>m</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>rmem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>newsize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will change the size of previously allocated memory block. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m</td><td>the small memory management object.</td></tr>
+    <tr><td class="paramname">rmem</td><td>is the pointer to memory allocated by rt_mem_alloc.</td></tr>
+    <tr><td class="paramname">newsize</td><td>is the required new size.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the changed memory block address. </dd></dl>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_gab3db5c0cc04b7a3e1d06c2a6da2e6d5c_cgraph.png" border="0" usemap="#agroup___m_m_gab3db5c0cc04b7a3e1d06c2a6da2e6d5c_cgraph" alt=""/></div>
+<map name="agroup___m_m_gab3db5c0cc04b7a3e1d06c2a6da2e6d5c_cgraph" id="agroup___m_m_gab3db5c0cc04b7a3e1d06c2a6da2e6d5c_cgraph">
+<area shape="rect" title="This function will change the size of previously allocated memory block." alt="" coords="5,111,124,138"/>
+<area shape="rect" href="mem_8c.html#a6502b28ff567a68fca8c0a7e97d8acc5" title=" " alt="" coords="371,10,453,36"/>
+<area shape="rect" href="group___kernel_service.html#gacbe2d70e90f1ce1ea00dd61621b97981" title=" " alt="" coords="182,238,269,264"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="347,86,477,112"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="327,136,497,163"/>
+<area shape="rect" href="group___m_m.html#ga80448818ad067205d76e94f8c97e5fe9" title="Allocate a block of memory with a minimum of &#39;size&#39; bytes." alt="" coords="172,136,279,163"/>
+<area shape="rect" href="group___m_m.html#ga0be498288489171f107c04ed44314ef0" title="This function will release the previously allocated memory block by rt_mem_alloc. The released memory..." alt="" coords="174,35,277,62"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="361,187,463,214"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="545,187,631,214"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga1ce8e3c656accf4a08583b7a1d6b31d5" name="ga1ce8e3c656accf4a08583b7a1d6b31d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1ce8e3c656accf4a08583b7a1d6b31d5">&#9670;&nbsp;</a></span>RTM_EXPORT() <span class="overload">[2/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RTM_EXPORT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___m_m.html#gab3db5c0cc04b7a3e1d06c2a6da2e6d5c">rt_smem_realloc</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga0be498288489171f107c04ed44314ef0" name="ga0be498288489171f107c04ed44314ef0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0be498288489171f107c04ed44314ef0">&#9670;&nbsp;</a></span>rt_smem_free()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_smem_free </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>rmem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will release the previously allocated memory block by rt_mem_alloc. The released memory block is taken back to system heap. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rmem</td><td>the address of memory which will be released. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_ga0be498288489171f107c04ed44314ef0_cgraph.png" border="0" usemap="#agroup___m_m_ga0be498288489171f107c04ed44314ef0_cgraph" alt=""/></div>
+<map name="agroup___m_m_ga0be498288489171f107c04ed44314ef0_cgraph" id="agroup___m_m_ga0be498288489171f107c04ed44314ef0_cgraph">
+<area shape="rect" title="This function will release the previously allocated memory block by rt_mem_alloc. The released memory..." alt="" coords="5,56,108,83"/>
+<area shape="rect" href="mem_8c.html#a6502b28ff567a68fca8c0a7e97d8acc5" title=" " alt="" coords="200,5,283,32"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="177,56,306,83"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="156,107,327,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gaa005498116a87274684e59b386f09973" name="gaa005498116a87274684e59b386f09973"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa005498116a87274684e59b386f09973">&#9670;&nbsp;</a></span>RTM_EXPORT() <span class="overload">[3/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RTM_EXPORT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___m_m.html#ga0be498288489171f107c04ed44314ef0">rt_smem_free</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga1a6bc99e5cb8663be2f1882410448f94" name="ga1a6bc99e5cb8663be2f1882410448f94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1a6bc99e5cb8663be2f1882410448f94">&#9670;&nbsp;</a></span>rt_mp_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_mp_init </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structrt__mempool.html">rt_mempool</a> *&#160;</td>
+          <td class="paramname"><em>mp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>block_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will initialize a memory pool object, normally which is used for static object. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mp</td><td>is the memory pool object.</td></tr>
+    <tr><td class="paramname">name</td><td>is the name of the memory pool.</td></tr>
+    <tr><td class="paramname">start</td><td>is the start address of the memory pool.</td></tr>
+    <tr><td class="paramname">size</td><td>is the total size of the memory pool.</td></tr>
+    <tr><td class="paramname">block_size</td><td>is the size for each block..</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>RT_EOK </dd></dl>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_ga1a6bc99e5cb8663be2f1882410448f94_cgraph.png" border="0" usemap="#agroup___m_m_ga1a6bc99e5cb8663be2f1882410448f94_cgraph" alt=""/></div>
+<map name="agroup___m_m_ga1a6bc99e5cb8663be2f1882410448f94_cgraph" id="agroup___m_m_ga1a6bc99e5cb8663be2f1882410448f94_cgraph">
+<area shape="rect" title="This function will initialize a memory pool object, normally which is used for static object." alt="" coords="5,587,85,613"/>
+<area shape="rect" href="group___kernel_service.html#ga7103f52aa8c7402c9e87f03942d8bc9f" title="initialize a list" alt="" coords="143,561,221,588"/>
+<area shape="rect" href="group___kernel_object.html#ga0a86356c83e8264841fcb83255f72014" title="This function will initialize an object and add it to object system management." alt="" coords="133,612,231,639"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="656,444,768,471"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="839,201,997,228"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="840,448,996,475"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="313,423,415,449"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="855,608,981,635"/>
+<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="279,713,449,740"/>
+<area shape="rect" href="group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="325,764,403,791"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="497,305,585,332"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="633,327,791,369"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="639,225,785,252"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="639,159,785,201"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="649,495,775,537"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="643,42,781,83"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="885,335,951,361"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="849,503,987,529"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="865,75,971,101"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="866,24,970,51"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gaffe981a4ce9d56ad844ad7b66688919e" name="gaffe981a4ce9d56ad844ad7b66688919e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaffe981a4ce9d56ad844ad7b66688919e">&#9670;&nbsp;</a></span>RTM_EXPORT() <span class="overload">[4/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RTM_EXPORT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___m_m.html#ga1a6bc99e5cb8663be2f1882410448f94">rt_mp_init</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga65fc7bef71be142744e517eebe13fc04" name="ga65fc7bef71be142744e517eebe13fc04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga65fc7bef71be142744e517eebe13fc04">&#9670;&nbsp;</a></span>rt_mp_detach()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_mp_detach </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structrt__mempool.html">rt_mempool</a> *&#160;</td>
+          <td class="paramname"><em>mp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will detach a memory pool from system object management. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mp</td><td>is the memory pool object.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>RT_EOK </dd></dl>
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_ga65fc7bef71be142744e517eebe13fc04_cgraph.png" border="0" usemap="#agroup___m_m_ga65fc7bef71be142744e517eebe13fc04_cgraph" alt=""/></div>
+<map name="agroup___m_m_ga65fc7bef71be142744e517eebe13fc04_cgraph" id="agroup___m_m_ga65fc7bef71be142744e517eebe13fc04_cgraph">
+<area shape="rect" title="This function will detach a memory pool from system object management." alt="" coords="5,399,107,426"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="548,44,707,71"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="549,196,705,223"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="187,500,293,527"/>
+<area shape="rect" href="group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="377,28,496,55"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="563,348,692,375"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="155,551,325,578"/>
+<area shape="rect" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="177,247,303,274"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="755,247,859,274"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="373,130,500,172"/>
+<area shape="rect" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="387,247,486,274"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="564,95,691,122"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="559,146,696,172"/>
+<area shape="rect" href="timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="573,247,682,274"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gae9e13d3516d55a6739b66e9e5d306e13" name="gae9e13d3516d55a6739b66e9e5d306e13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae9e13d3516d55a6739b66e9e5d306e13">&#9670;&nbsp;</a></span>RTM_EXPORT() <span class="overload">[5/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RTM_EXPORT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___m_m.html#ga65fc7bef71be142744e517eebe13fc04">rt_mp_detach</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gabe8c74161a1d6f456e67efb2c16195b7" name="gabe8c74161a1d6f456e67efb2c16195b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe8c74161a1d6f456e67efb2c16195b7">&#9670;&nbsp;</a></span>rt_mp_create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___m_m.html#gacd1967553fa041da8c8bf22d4a8b1c30">rt_mp_t</a> rt_mp_create </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>block_count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>block_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will create a mempool object and allocate the memory pool from heap. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>is the name of memory pool.</td></tr>
+    <tr><td class="paramname">block_count</td><td>is the count of blocks in memory pool.</td></tr>
+    <tr><td class="paramname">block_size</td><td>is the size for each block.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the created mempool object </dd></dl>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_gabe8c74161a1d6f456e67efb2c16195b7_cgraph.png" border="0" usemap="#agroup___m_m_gabe8c74161a1d6f456e67efb2c16195b7_cgraph" alt=""/></div>
+<map name="agroup___m_m_gabe8c74161a1d6f456e67efb2c16195b7_cgraph" id="agroup___m_m_gabe8c74161a1d6f456e67efb2c16195b7_cgraph">
+<area shape="rect" title="This function will create a mempool object and allocate the memory pool from heap." alt="" coords="5,3121,104,3148"/>
+<area shape="rect" href="group___kernel_service.html#ga7103f52aa8c7402c9e87f03942d8bc9f" title="initialize a list" alt="" coords="152,2911,231,2937"/>
+<area shape="rect" href="group___kernel_service.html#gadf0126394c8c791134bd466db22ebc52" title="Allocate a block of memory with a minimum of &#39;size&#39; bytes." alt="" coords="154,2961,229,2988"/>
+<area shape="rect" href="group___kernel_object.html#ga661bb999394a29404c20c7f3e58e5f64" title="This function will allocate an object from object system." alt="" coords="1573,3197,1697,3224"/>
+<area shape="rect" href="group___kernel_object.html#ga0479fb23b766d96e9611ed32becc2797" title="This function will delete an object and release object memory." alt="" coords="1578,2827,1693,2853"/>
+<area shape="rect" href="group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488" title=" " alt="" coords="279,1781,365,1808"/>
+<area shape="rect" href="group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03" title=" " alt="" coords="571,2827,671,2853"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="1579,2421,1691,2448"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="1784,1680,1943,1707"/>
+<area shape="rect" href="group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="413,1655,517,1681"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="1383,549,1486,576"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="1785,2421,1941,2448"/>
+<area shape="rect" href="group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="565,1579,676,1605"/>
+<area shape="rect" href="group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="948,549,1071,576"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="1799,803,1928,829"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="1811,296,1916,323"/>
+<area shape="rect" href="ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1773,119,1953,145"/>
+<area shape="rect" href="ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="724,321,883,348"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="1391,2093,1479,2120"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="1800,3020,1927,3047"/>
+<area shape="rect" href="group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="1578,1629,1693,1656"/>
+<area shape="rect" href="group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="1179,1781,1281,1808"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="1795,1100,1932,1127"/>
+<area shape="rect" href="group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="1136,959,1324,985"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="1566,1006,1705,1047"/>
+<area shape="rect" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="1586,1427,1685,1453"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2001,1325,2105,1352"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="1593,549,1678,576"/>
+<area shape="rect" href="timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="1809,1325,1918,1352"/>
+<area shape="rect" href="ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="931,245,1088,272"/>
+<area shape="rect" href="group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="949,1249,1070,1276"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="1778,1165,1949,1192"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="1572,2086,1699,2127"/>
+<area shape="rect" href="group___thread.html#ga6d64eb4d0a485461049616808f4ce177" title="This function will delete a thread. The thread object will be removed from thread queue and deleted f..." alt="" coords="1376,1224,1493,1251"/>
+<area shape="rect" href="group___thread.html#ga514825b80304477ecf377d721da409b0" title="This function will detach a thread. The thread object will be removed from thread queue and detached/..." alt="" coords="1375,1173,1495,1200"/>
+<area shape="rect" href="group___thread.html#ga04b743537fd099e204fc292e57b4aa5a" title="This function will start a thread and put it to system ready queue." alt="" coords="1169,1275,1291,1301"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="1557,2929,1714,2970"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="1562,2320,1709,2347"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="1562,2254,1709,2295"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="1830,2936,1897,2963"/>
+<area shape="rect" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372" title="drop a thread from the suspend list of mutex" alt="" coords="1560,347,1711,373"/>
+<area shape="rect" href="group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="1545,2877,1725,2904"/>
+<area shape="rect" href="group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="1579,1224,1692,1251"/>
+<area shape="rect" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="1372,1883,1497,1909"/>
+<area shape="rect" href="group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="1393,1781,1476,1808"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1179,2624,1281,2651"/>
+<area shape="rect" href="group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137" title="This function will release a mutex. If there is thread suspended on the mutex, the thread will be res..." alt="" coords="742,1959,865,1985"/>
+<area shape="rect" href="group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="1821,3248,1905,3275"/>
+<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="1778,3147,1949,3173"/>
+<area shape="rect" href="group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="1824,3197,1903,3224"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga965cd34cc61ff644c58e3026be511f9a" name="ga965cd34cc61ff644c58e3026be511f9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga965cd34cc61ff644c58e3026be511f9a">&#9670;&nbsp;</a></span>RTM_EXPORT() <span class="overload">[6/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RTM_EXPORT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___m_m.html#gabe8c74161a1d6f456e67efb2c16195b7">rt_mp_create</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gace1b1218858d5ec8a95be226ae897f26" name="gace1b1218858d5ec8a95be226ae897f26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gace1b1218858d5ec8a95be226ae897f26">&#9670;&nbsp;</a></span>rt_mp_delete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_mp_delete </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___m_m.html#gacd1967553fa041da8c8bf22d4a8b1c30">rt_mp_t</a>&#160;</td>
+          <td class="paramname"><em>mp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will delete a memory pool and release the object memory. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mp</td><td>is the memory pool object.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>RT_EOK </dd></dl>
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_gace1b1218858d5ec8a95be226ae897f26_cgraph.png" border="0" usemap="#agroup___m_m_gace1b1218858d5ec8a95be226ae897f26_cgraph" alt=""/></div>
+<map name="agroup___m_m_gace1b1218858d5ec8a95be226ae897f26_cgraph" id="agroup___m_m_gace1b1218858d5ec8a95be226ae897f26_cgraph">
+<area shape="rect" title="This function will delete a memory pool and release the object memory." alt="" coords="5,2339,104,2366"/>
+<area shape="rect" href="group___kernel_service.html#gad24f606383faa97aab028c0f9df843da" title="This function will release the previously allocated memory block by rt_malloc. The released memory bl..." alt="" coords="152,603,213,630"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="2157,1747,2316,1774"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="2159,920,2315,947"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="1966,2152,2095,2179"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="2184,3672,2289,3699"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="1523,1782,1694,1808"/>
+<area shape="rect" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="1546,2238,1671,2264"/>
+<area shape="rect" href="group___kernel_object.html#ga0479fb23b766d96e9611ed32becc2797" title="This function will delete an object and release object memory." alt="" coords="1973,2744,2088,2771"/>
+<area shape="rect" href="group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488" title=" " alt="" coords="261,628,348,655"/>
+<area shape="rect" href="group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03" title=" " alt="" coords="553,578,653,604"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="1975,414,2087,440"/>
+<area shape="rect" href="group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="396,730,500,756"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="1776,738,1879,764"/>
+<area shape="rect" href="group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="548,2963,659,2990"/>
+<area shape="rect" href="group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="931,3166,1053,3192"/>
+<area shape="rect" href="ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1519,3216,1699,3243"/>
+<area shape="rect" href="ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="707,3254,865,3280"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="1783,1127,1871,1154"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2173,3318,2300,3344"/>
+<area shape="rect" href="group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="1770,1058,1885,1084"/>
+<area shape="rect" href="group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="1326,2760,1427,2787"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="2168,3130,2305,3156"/>
+<area shape="rect" href="group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="1515,1579,1703,1606"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="1961,2964,2100,3005"/>
+<area shape="rect" href="group___thread.html#ga8e0fb6e55e11d12332055167bdfab275" title=" " alt="" coords="1751,992,1904,1033"/>
+<area shape="rect" href="dfs__posix_8c.html#ac21b705a5ebd42c4c46363250ab817bc" title=" " alt="" coords="2009,870,2052,896"/>
+<area shape="rect" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="1778,1950,1877,1976"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2185,2942,2289,2968"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="1988,667,2073,694"/>
+<area shape="rect" href="dfs__file_8c.html#ae3b60867436d7b3be91af7cc40299f13" title=" " alt="" coords="2191,536,2282,563"/>
+<area shape="rect" href="timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="1976,2912,2085,2939"/>
+<area shape="rect" href="ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="913,3520,1071,3547"/>
+<area shape="rect" href="group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="931,1858,1053,1884"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="1967,2796,2094,2837"/>
+<area shape="rect" href="group___thread.html#ga6d64eb4d0a485461049616808f4ce177" title="This function will delete a thread. The thread object will be removed from thread queue and deleted f..." alt="" coords="1120,2086,1237,2112"/>
+<area shape="rect" href="group___thread.html#ga514825b80304477ecf377d721da409b0" title="This function will detach a thread. The thread object will be removed from thread queue and detached/..." alt="" coords="1119,1984,1239,2011"/>
+<area shape="rect" href="group___thread.html#ga04b743537fd099e204fc292e57b4aa5a" title="This function will start a thread and put it to system ready queue." alt="" coords="1315,1630,1438,1656"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="1952,145,2109,186"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="1957,1072,2104,1099"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="1957,1124,2104,1165"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="2203,152,2270,179"/>
+<area shape="rect" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372" title="drop a thread from the suspend list of mutex" alt="" coords="1301,3216,1452,3243"/>
+<area shape="rect" href="group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="1287,2086,1467,2112"/>
+<area shape="rect" href="group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="1320,1984,1433,2011"/>
+<area shape="rect" href="group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="1553,1478,1664,1504"/>
+<area shape="rect" href="group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="1971,1747,2090,1774"/>
+<area shape="rect" href="group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="1567,2811,1650,2838"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1557,515,1660,542"/>
+<area shape="rect" href="group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137" title="This function will release a mutex. If there is thread suspended on the mutex, the thread will be res..." alt="" coords="725,1719,847,1746"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gaf2356ceac07557457d8ee5ea5cccc083" name="gaf2356ceac07557457d8ee5ea5cccc083"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf2356ceac07557457d8ee5ea5cccc083">&#9670;&nbsp;</a></span>RTM_EXPORT() <span class="overload">[7/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RTM_EXPORT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___m_m.html#gace1b1218858d5ec8a95be226ae897f26">rt_mp_delete</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga531984d42851ffa0fd7a14bf67f15c22" name="ga531984d42851ffa0fd7a14bf67f15c22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga531984d42851ffa0fd7a14bf67f15c22">&#9670;&nbsp;</a></span>rt_mp_alloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * rt_mp_alloc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___m_m.html#gacd1967553fa041da8c8bf22d4a8b1c30">rt_mp_t</a>&#160;</td>
+          <td class="paramname"><em>mp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#gafab3dddb302fee91b8d8cff1c6fae9bd">rt_int32_t</a>&#160;</td>
+          <td class="paramname"><em>time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will allocate a block from memory pool. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mp</td><td>is the memory pool object.</td></tr>
+    <tr><td class="paramname">time</td><td>is the maximum waiting time for allocating memory.<ul>
+<li>0 for not waiting, allocating memory immediately.</li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the allocated memory block or RT_NULL on allocated failed. </dd></dl>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_ga531984d42851ffa0fd7a14bf67f15c22_cgraph.png" border="0" usemap="#agroup___m_m_ga531984d42851ffa0fd7a14bf67f15c22_cgraph" alt=""/></div>
+<map name="agroup___m_m_ga531984d42851ffa0fd7a14bf67f15c22_cgraph" id="agroup___m_m_ga531984d42851ffa0fd7a14bf67f15c22_cgraph">
+<area shape="rect" title="This function will allocate a block from memory pool." alt="" coords="5,1316,95,1343"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="2545,1168,2704,1195"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="2547,411,2703,437"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2561,1995,2688,2021"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="2158,1059,2246,1085"/>
+<area shape="rect" href="group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="848,284,941,311"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="2151,157,2253,184"/>
+<area shape="rect" href="group___thread.html#gab75228a43588dc35570bce6a2c18f3f0" title=" " alt="" coords="143,935,272,961"/>
+<area shape="rect" href="group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="2361,1219,2476,1245"/>
+<area shape="rect" href="group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="1952,1501,2053,1528"/>
+<area shape="rect" href="group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="2161,1944,2243,1971"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="2340,833,2497,874"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="2345,1117,2492,1144"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="2345,1051,2492,1093"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="2355,1473,2482,1514"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="2349,614,2488,655"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="2591,840,2658,867"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="2556,1480,2693,1507"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="2572,731,2677,757"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2752,1080,2856,1107"/>
+<area shape="rect" href="group___kernel.html#gaa6725f61bed47e0d5ac383eccf14d3f1" title="This function will return the nest of interrupt." alt="" coords="2347,107,2490,133"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="2376,157,2461,184"/>
+<area shape="rect" href="group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="320,741,508,768"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="2560,1741,2689,1768"/>
+<area shape="rect" href="group___thread.html#ga8e0fb6e55e11d12332055167bdfab275" title=" " alt="" coords="556,734,709,775"/>
+<area shape="rect" href="dfs__posix_8c.html#ac21b705a5ebd42c4c46363250ab817bc" title=" " alt="" coords="757,683,800,709"/>
+<area shape="rect" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="2369,1589,2468,1616"/>
+<area shape="rect" href="dfs__file_8c.html#ae3b60867436d7b3be91af7cc40299f13" title=" " alt="" coords="849,683,940,709"/>
+<area shape="rect" href="dfs__fs_8c.html#a3352a80615c4fe656f8b054ad7937a3e" title=" " alt="" coords="1301,805,1448,832"/>
+<area shape="rect" href="dfs_8c.html#a3eacda8b183c4c204a8399b7197c609b" title=" " alt="" coords="989,632,1124,659"/>
+<area shape="rect" href="group___kernel_service.html#gad24f606383faa97aab028c0f9df843da" title="This function will release the previously allocated memory block by rt_malloc. The released memory bl..." alt="" coords="1182,531,1243,557"/>
+<area shape="rect" href="dfs_8c.html#aa71fea4356b032e8b0dd047dfb0f12bb" title=" " alt="" coords="1016,784,1097,811"/>
+<area shape="rect" href="dfs_8c.html#a8fbd44e83279d3da28d999d25bca8952" title=" " alt="" coords="1505,856,1573,883"/>
+<area shape="rect" href="dfs_8c.html#a2ac674bd319f61a6b1c9e2338018b523" title=" " alt="" coords="1641,805,1724,832"/>
+<area shape="rect" href="group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="1631,856,1735,883"/>
+<area shape="rect" href="group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="1783,1059,1893,1085"/>
+<area shape="rect" href="ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="2112,957,2292,984"/>
+<area shape="rect" href="timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="2570,1589,2679,1616"/>
+<area shape="rect" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="2139,1491,2265,1517"/>
+<area shape="rect" href="group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137" title="This function will release a mutex. If there is thread suspended on the mutex, the thread will be res..." alt="" coords="1941,872,2064,899"/>
+<area shape="rect" href="group___kernel_service.html#gadf0126394c8c791134bd466db22ebc52" title="Allocate a block of memory with a minimum of &#39;size&#39; bytes." alt="" coords="1337,632,1412,659"/>
+<area shape="rect" href="group___kernel_service.html#ga940bcced7e89f112ac04bd715fdf4f24" title=" " alt="" coords="1172,581,1253,608"/>
+<area shape="rect" href="group___kernel_service.html#ga3424d273c715bc14e81e2e608287216a" title=" " alt="" coords="1175,683,1250,709"/>
+<area shape="rect" href="group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488" title=" " alt="" coords="1496,632,1583,659"/>
+<area shape="rect" href="group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03" title=" " alt="" coords="1788,560,1888,587"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="2363,360,2475,387"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1951,563,2054,589"/>
+<area shape="rect" href="group___kernel_service.html#gac2d4cd92e18dd8afc759f00a1830aab6" title=" " alt="" coords="1331,581,1418,608"/>
+<area shape="rect" href="group___kernel_service.html#gacbe2d70e90f1ce1ea00dd61621b97981" title=" " alt="" coords="1331,683,1418,709"/>
+<area shape="rect" href="group___kernel_service.html#ga743d665f6558666ee9bbfa894ee68178" title=" " alt="" coords="1339,733,1410,760"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga9350c64b4d8a9556bd2e1d255de901d8" name="ga9350c64b4d8a9556bd2e1d255de901d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9350c64b4d8a9556bd2e1d255de901d8">&#9670;&nbsp;</a></span>RTM_EXPORT() <span class="overload">[8/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RTM_EXPORT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___m_m.html#ga531984d42851ffa0fd7a14bf67f15c22">rt_mp_alloc</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga65371665abde3bed7379c72d5ea225e2" name="ga65371665abde3bed7379c72d5ea225e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga65371665abde3bed7379c72d5ea225e2">&#9670;&nbsp;</a></span>rt_mp_free()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_mp_free </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>block</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will release a memory block. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">block</td><td>the address of memory block to be released. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_ga65371665abde3bed7379c72d5ea225e2_cgraph.png" border="0" usemap="#agroup___m_m_ga65371665abde3bed7379c72d5ea225e2_cgraph" alt=""/></div>
+<map name="agroup___m_m_ga65371665abde3bed7379c72d5ea225e2_cgraph" id="agroup___m_m_ga65371665abde3bed7379c72d5ea225e2_cgraph">
+<area shape="rect" title="This function will release a memory block." alt="" coords="5,425,92,451"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="519,211,677,238"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="520,399,676,426"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="545,771,651,798"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="159,505,247,531"/>
+<area shape="rect" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="140,155,265,182"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="313,709,471,751"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="319,658,465,685"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="319,592,465,633"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="329,308,455,349"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="323,527,461,568"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="565,717,631,743"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="535,269,661,295"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="529,319,667,346"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="725,105,829,131"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="533,54,663,81"/>
+<area shape="rect" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="343,105,441,131"/>
+<area shape="rect" href="timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="543,105,653,131"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gaf2a515d9dddbbb95ef70c73522963417" name="gaf2a515d9dddbbb95ef70c73522963417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf2a515d9dddbbb95ef70c73522963417">&#9670;&nbsp;</a></span>RTM_EXPORT() <span class="overload">[9/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RTM_EXPORT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___m_m.html#ga65371665abde3bed7379c72d5ea225e2">rt_mp_free</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga358d3559267d1c8c66c836ed2e08433b" name="ga358d3559267d1c8c66c836ed2e08433b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga358d3559267d1c8c66c836ed2e08433b">&#9670;&nbsp;</a></span>rt_mp_alloc_sethook()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_mp_alloc_sethook </td>
+          <td>(</td>
+          <td class="paramtype">void(*)(struct <a class="el" href="structrt__mempool.html">rt_mempool</a> *mp, void *block)&#160;</td>
+          <td class="paramname"><em>hook</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gafd43b13db5623925756b7a3968aa3b01" name="gafd43b13db5623925756b7a3968aa3b01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafd43b13db5623925756b7a3968aa3b01">&#9670;&nbsp;</a></span>rt_mp_free_sethook()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_mp_free_sethook </td>
+          <td>(</td>
+          <td class="paramtype">void(*)(struct <a class="el" href="structrt__mempool.html">rt_mempool</a> *mp, void *block)&#160;</td>
+          <td class="paramname"><em>hook</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gafa6feb60f6204d1783bc3bc324b886e7" name="gafa6feb60f6204d1783bc3bc324b886e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafa6feb60f6204d1783bc3bc324b886e7">&#9670;&nbsp;</a></span>rt_system_heap_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_system_heap_init </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>begin_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>end_addr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will init system heap. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">begin_addr</td><td>the beginning address of system page.</td></tr>
+    <tr><td class="paramname">end_addr</td><td>the end address of system page.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>This function will initialize system heap memory.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">begin_addr</td><td>the beginning address of system heap memory. </td></tr>
+    <tr><td class="paramname">end_addr</td><td>the end address of system heap memory. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_gafa6feb60f6204d1783bc3bc324b886e7_cgraph.png" border="0" usemap="#agroup___m_m_gafa6feb60f6204d1783bc3bc324b886e7_cgraph" alt=""/></div>
+<map name="agroup___m_m_gafa6feb60f6204d1783bc3bc324b886e7_cgraph" id="agroup___m_m_gafa6feb60f6204d1783bc3bc324b886e7_cgraph">
+<area shape="rect" title="This function will init system heap." alt="" coords="5,56,143,83"/>
+<area shape="rect" href="group___kernel_service.html#gae2e6a282885b58caf74fa49ca16fad29" title=" " alt="" coords="191,56,301,83"/>
+<area shape="rect" href="group__mutex.html#ga90c29e470fff8981a976ec7f9bb0546e" title="Initialize a static mutex object." alt="" coords="349,56,447,83"/>
+<area shape="rect" href="group___i_p_c.html#ga6b174ad0c6281b177865e9452b7f9a71" title="This function will initialize an IPC object, such as semaphore, mutex, messagequeue and mailbox." alt="" coords="495,5,605,32"/>
+<area shape="rect" href="group___kernel_service.html#ga7103f52aa8c7402c9e87f03942d8bc9f" title="initialize a list" alt="" coords="699,5,778,32"/>
+<area shape="rect" href="group___kernel_object.html#ga0a86356c83e8264841fcb83255f72014" title="This function will initialize an object and add it to object system management." alt="" coords="501,303,599,329"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="1031,624,1143,651"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="1213,599,1372,625"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="1215,212,1371,239"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="687,277,790,304"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="1229,109,1356,136"/>
+<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="653,328,824,355"/>
+<area shape="rect" href="group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="699,379,778,405"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="872,364,960,391"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="1008,507,1165,549"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="1013,456,1160,483"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="1013,325,1160,366"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="1023,259,1150,301"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="1017,390,1156,431"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="1259,515,1326,541"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="1224,267,1361,293"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="1240,372,1345,399"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="1241,423,1345,449"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gadffdb9d05bb2f9928751bee608b694b8" name="gadffdb9d05bb2f9928751bee608b694b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadffdb9d05bb2f9928751bee608b694b8">&#9670;&nbsp;</a></span>rt_malloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * rt_malloc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allocate a block of memory with a minimum of 'size' bytes. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>is the minimum size of the requested block in bytes.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the pointer to allocated memory or NULL if no free memory was found. </dd></dl>
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_gadffdb9d05bb2f9928751bee608b694b8_cgraph.png" border="0" usemap="#agroup___m_m_gadffdb9d05bb2f9928751bee608b694b8_cgraph" alt=""/></div>
+<map name="agroup___m_m_gadffdb9d05bb2f9928751bee608b694b8_cgraph" id="agroup___m_m_gadffdb9d05bb2f9928751bee608b694b8_cgraph">
+<area shape="rect" title="Allocate a block of memory with a minimum of &#39;size&#39; bytes." alt="" coords="5,3105,80,3132"/>
+<area shape="rect" href="group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488" title=" " alt="" coords="128,2541,215,2568"/>
+<area shape="rect" href="group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03" title=" " alt="" coords="420,3493,520,3520"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="2051,2971,2163,2997"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="2240,2128,2399,2155"/>
+<area shape="rect" href="group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="263,2339,367,2365"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="1859,869,1962,896"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="2241,2971,2397,2997"/>
+<area shape="rect" href="group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="415,2187,525,2213"/>
+<area shape="rect" href="group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="797,635,920,661"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="2255,1343,2384,1369"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="2267,380,2372,407"/>
+<area shape="rect" href="ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1449,883,1629,909"/>
+<area shape="rect" href="ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="573,793,732,820"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="1867,2625,1955,2652"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2256,3443,2383,3469"/>
+<area shape="rect" href="group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="2049,2128,2164,2155"/>
+<area shape="rect" href="group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="1688,2389,1789,2416"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="2251,1988,2388,2015"/>
+<area shape="rect" href="group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="985,616,1173,643"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="2037,947,2176,989"/>
+<area shape="rect" href="group___thread.html#ga8e0fb6e55e11d12332055167bdfab275" title=" " alt="" coords="1235,499,1388,541"/>
+<area shape="rect" href="dfs__posix_8c.html#ac21b705a5ebd42c4c46363250ab817bc" title=" " alt="" coords="1518,507,1561,533"/>
+<area shape="rect" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="2057,1723,2156,1749"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2447,1621,2551,1648"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="2064,845,2149,872"/>
+<area shape="rect" href="dfs__file_8c.html#ae3b60867436d7b3be91af7cc40299f13" title=" " alt="" coords="1693,507,1784,533"/>
+<area shape="rect" href="group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="1692,768,1785,795"/>
+<area shape="rect" href="timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="2265,1621,2374,1648"/>
+<area shape="rect" href="ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="780,364,937,391"/>
+<area shape="rect" href="group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="798,1959,919,1985"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="2021,1267,2192,1293"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="2043,2534,2170,2575"/>
+<area shape="rect" href="group___thread.html#ga6d64eb4d0a485461049616808f4ce177" title="This function will delete a thread. The thread object will be removed from thread queue and deleted f..." alt="" coords="1021,1883,1138,1909"/>
+<area shape="rect" href="group___thread.html#ga514825b80304477ecf377d721da409b0" title="This function will detach a thread. The thread object will be removed from thread queue and detached/..." alt="" coords="1019,1680,1139,1707"/>
+<area shape="rect" href="group___thread.html#ga04b743537fd099e204fc292e57b4aa5a" title="This function will start a thread and put it to system ready queue." alt="" coords="1677,2136,1800,2163"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="2028,3275,2185,3317"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="2033,2651,2180,2677"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="2033,2702,2180,2743"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="2286,3283,2353,3309"/>
+<area shape="rect" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372" title="drop a thread from the suspend list of mutex" alt="" coords="1236,819,1387,845"/>
+<area shape="rect" href="group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="1221,1933,1401,1960"/>
+<area shape="rect" href="group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="1854,1832,1967,1859"/>
+<area shape="rect" href="group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="1484,1933,1595,1960"/>
+<area shape="rect" href="group___i_p_c.html#ga1669a4e1776eccad4612e3dc41601a63" title="This function will resume a thread." alt="" coords="1679,2085,1798,2112"/>
+<area shape="rect" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="1848,2288,1973,2315"/>
+<area shape="rect" href="group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="2047,1875,2166,1901"/>
+<area shape="rect" href="group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="1869,2440,1952,2467"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1687,2912,1790,2939"/>
+<area shape="rect" href="group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137" title="This function will release a mutex. If there is thread suspended on the mutex, the thread will be res..." alt="" coords="591,2668,714,2695"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga6c1c24262479e6946fd04823878177f9" name="ga6c1c24262479e6946fd04823878177f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6c1c24262479e6946fd04823878177f9">&#9670;&nbsp;</a></span>rt_free()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_free </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>rmem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will release the previously allocated memory block by rt_malloc. The released memory block is taken back to system heap. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rmem</td><td>the address of memory which will be released. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_ga6c1c24262479e6946fd04823878177f9_cgraph.png" border="0" usemap="#agroup___m_m_ga6c1c24262479e6946fd04823878177f9_cgraph" alt=""/></div>
+<map name="agroup___m_m_ga6c1c24262479e6946fd04823878177f9_cgraph" id="agroup___m_m_ga6c1c24262479e6946fd04823878177f9_cgraph">
+<area shape="rect" title="This function will release the previously allocated memory block by rt_malloc. The released memory bl..." alt="" coords="5,1343,67,1370"/>
+<area shape="rect" href="group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488" title=" " alt="" coords="115,1343,201,1370"/>
+<area shape="rect" href="group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03" title=" " alt="" coords="407,3184,507,3211"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="2037,3087,2149,3114"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="2227,1823,2385,1850"/>
+<area shape="rect" href="group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="249,1210,353,1236"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="1846,439,1949,466"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="2228,2666,2384,2692"/>
+<area shape="rect" href="group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="401,1076,512,1103"/>
+<area shape="rect" href="group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="784,799,907,826"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="2241,616,2371,643"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="2253,3315,2359,3342"/>
+<area shape="rect" href="ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1436,1064,1616,1091"/>
+<area shape="rect" href="ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="560,1076,719,1103"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="1853,2268,1941,2295"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2243,1250,2369,1276"/>
+<area shape="rect" href="group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="2036,1604,2151,1631"/>
+<area shape="rect" href="group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="1675,1154,1776,1180"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="2237,1199,2375,1226"/>
+<area shape="rect" href="group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="972,647,1160,674"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="2024,2869,2163,2910"/>
+<area shape="rect" href="group___thread.html#ga8e0fb6e55e11d12332055167bdfab275" title=" " alt="" coords="1221,480,1375,521"/>
+<area shape="rect" href="dfs__posix_8c.html#ac21b705a5ebd42c4c46363250ab817bc" title=" " alt="" coords="1505,530,1547,556"/>
+<area shape="rect" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="2044,1098,2143,1124"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2433,1148,2537,1175"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="2051,439,2136,466"/>
+<area shape="rect" href="dfs__file_8c.html#ae3b60867436d7b3be91af7cc40299f13" title=" " alt="" coords="1680,479,1771,506"/>
+<area shape="rect" href="group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="1679,530,1772,556"/>
+<area shape="rect" href="timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="2251,1098,2361,1124"/>
+<area shape="rect" href="ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="767,2572,924,2599"/>
+<area shape="rect" href="group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="785,2040,906,2067"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="2008,2818,2179,2844"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="2030,1706,2157,1748"/>
+<area shape="rect" href="group___thread.html#ga6d64eb4d0a485461049616808f4ce177" title="This function will delete a thread. The thread object will be removed from thread queue and deleted f..." alt="" coords="1007,2066,1125,2092"/>
+<area shape="rect" href="group___thread.html#ga514825b80304477ecf377d721da409b0" title="This function will detach a thread. The thread object will be removed from thread queue and detached/..." alt="" coords="1006,2015,1126,2042"/>
+<area shape="rect" href="group___thread.html#ga04b743537fd099e204fc292e57b4aa5a" title="This function will start a thread and put it to system ready queue." alt="" coords="1664,1002,1787,1028"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="2015,2498,2172,2540"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="2020,2447,2167,2474"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="2020,2381,2167,2422"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="2273,2506,2339,2532"/>
+<area shape="rect" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372" title="drop a thread from the suspend list of mutex" alt="" coords="1223,1660,1373,1687"/>
+<area shape="rect" href="group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="1208,1888,1388,1915"/>
+<area shape="rect" href="group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="1841,2040,1954,2067"/>
+<area shape="rect" href="group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="1471,1863,1581,1890"/>
+<area shape="rect" href="group___i_p_c.html#ga1669a4e1776eccad4612e3dc41601a63" title="This function will resume a thread." alt="" coords="1666,1356,1785,1383"/>
+<area shape="rect" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="1835,1250,1960,1276"/>
+<area shape="rect" href="group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="2034,2178,2153,2204"/>
+<area shape="rect" href="group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="1856,996,1939,1023"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1674,2420,1777,2447"/>
+<area shape="rect" href="group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137" title="This function will release a mutex. If there is thread suspended on the mutex, the thread will be res..." alt="" coords="578,2282,701,2308"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga810ffee2f3a30f0e8bf3f1c33b7fadf9" name="ga810ffee2f3a30f0e8bf3f1c33b7fadf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga810ffee2f3a30f0e8bf3f1c33b7fadf9">&#9670;&nbsp;</a></span>rt_realloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * rt_realloc </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>rmem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>newsize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will change the size of previously allocated memory block. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rmem</td><td>is the pointer to memory allocated by rt_malloc.</td></tr>
+    <tr><td class="paramname">newsize</td><td>is the required new size.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the changed memory block address. </dd></dl>
+<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_ga810ffee2f3a30f0e8bf3f1c33b7fadf9_cgraph.png" border="0" usemap="#agroup___m_m_ga810ffee2f3a30f0e8bf3f1c33b7fadf9_cgraph" alt=""/></div>
+<map name="agroup___m_m_ga810ffee2f3a30f0e8bf3f1c33b7fadf9_cgraph" id="agroup___m_m_ga810ffee2f3a30f0e8bf3f1c33b7fadf9_cgraph">
+<area shape="rect" title="This function will change the size of previously allocated memory block." alt="" coords="5,3105,81,3132"/>
+<area shape="rect" href="group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488" title=" " alt="" coords="129,2541,216,2568"/>
+<area shape="rect" href="group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03" title=" " alt="" coords="421,3493,521,3520"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="2052,2971,2164,2997"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="2241,2128,2400,2155"/>
+<area shape="rect" href="group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="264,2339,368,2365"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="1861,869,1963,896"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="2243,2971,2399,2997"/>
+<area shape="rect" href="group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="416,2187,527,2213"/>
+<area shape="rect" href="group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="799,635,921,661"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="2256,1343,2385,1369"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="2268,380,2373,407"/>
+<area shape="rect" href="ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1451,883,1631,909"/>
+<area shape="rect" href="ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="575,793,733,820"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="1868,2625,1956,2652"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2257,3443,2384,3469"/>
+<area shape="rect" href="group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="2051,2128,2165,2155"/>
+<area shape="rect" href="group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="1689,2389,1791,2416"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="2252,1988,2389,2015"/>
+<area shape="rect" href="group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="987,616,1175,643"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="2039,947,2177,989"/>
+<area shape="rect" href="group___thread.html#ga8e0fb6e55e11d12332055167bdfab275" title=" " alt="" coords="1236,499,1389,541"/>
+<area shape="rect" href="dfs__posix_8c.html#ac21b705a5ebd42c4c46363250ab817bc" title=" " alt="" coords="1519,507,1562,533"/>
+<area shape="rect" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="2059,1723,2157,1749"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2448,1621,2552,1648"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="2065,845,2151,872"/>
+<area shape="rect" href="dfs__file_8c.html#ae3b60867436d7b3be91af7cc40299f13" title=" " alt="" coords="1695,507,1785,533"/>
+<area shape="rect" href="group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="1693,768,1787,795"/>
+<area shape="rect" href="timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="2266,1621,2375,1648"/>
+<area shape="rect" href="ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="781,364,939,391"/>
+<area shape="rect" href="group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="799,1959,921,1985"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="2023,1267,2193,1293"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="2045,2534,2171,2575"/>
+<area shape="rect" href="group___thread.html#ga6d64eb4d0a485461049616808f4ce177" title="This function will delete a thread. The thread object will be removed from thread queue and deleted f..." alt="" coords="1022,1883,1139,1909"/>
+<area shape="rect" href="group___thread.html#ga514825b80304477ecf377d721da409b0" title="This function will detach a thread. The thread object will be removed from thread queue and detached/..." alt="" coords="1021,1680,1141,1707"/>
+<area shape="rect" href="group___thread.html#ga04b743537fd099e204fc292e57b4aa5a" title="This function will start a thread and put it to system ready queue." alt="" coords="1679,2136,1801,2163"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="2029,3275,2187,3317"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="2035,2651,2181,2677"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="2035,2702,2181,2743"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="2287,3283,2354,3309"/>
+<area shape="rect" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372" title="drop a thread from the suspend list of mutex" alt="" coords="1237,819,1388,845"/>
+<area shape="rect" href="group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="1223,1933,1403,1960"/>
+<area shape="rect" href="group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="1855,1832,1969,1859"/>
+<area shape="rect" href="group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="1485,1933,1596,1960"/>
+<area shape="rect" href="group___i_p_c.html#ga1669a4e1776eccad4612e3dc41601a63" title="This function will resume a thread." alt="" coords="1681,2085,1799,2112"/>
+<area shape="rect" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="1849,2288,1975,2315"/>
+<area shape="rect" href="group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="2049,1875,2167,1901"/>
+<area shape="rect" href="group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="1871,2440,1953,2467"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1689,2912,1791,2939"/>
+<area shape="rect" href="group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137" title="This function will release a mutex. If there is thread suspended on the mutex, the thread will be res..." alt="" coords="593,2668,715,2695"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga89c02c2964ca603cf87912871bafa1b4" name="ga89c02c2964ca603cf87912871bafa1b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga89c02c2964ca603cf87912871bafa1b4">&#9670;&nbsp;</a></span>rt_calloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * rt_calloc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will contiguously allocate enough space for count objects that are size bytes of memory each and returns a pointer to the allocated memory. </p>
+<dl class="section note"><dt>注解</dt><dd>The allocated memory is filled with bytes of value zero.</dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">count</td><td>is the number of objects to allocate.</td></tr>
+    <tr><td class="paramname">size</td><td>is the size of one object to allocate.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>pointer to allocated memory / NULL pointer if there is an error. </dd></dl>
+<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_ga89c02c2964ca603cf87912871bafa1b4_cgraph.png" border="0" usemap="#agroup___m_m_ga89c02c2964ca603cf87912871bafa1b4_cgraph" alt=""/></div>
+<map name="agroup___m_m_ga89c02c2964ca603cf87912871bafa1b4_cgraph" id="agroup___m_m_ga89c02c2964ca603cf87912871bafa1b4_cgraph">
+<area shape="rect" title="This function will contiguously allocate enough space for count objects that are size bytes of memory..." alt="" coords="5,2922,76,2949"/>
+<area shape="rect" href="group___kernel_service.html#gadf0126394c8c791134bd466db22ebc52" title="Allocate a block of memory with a minimum of &#39;size&#39; bytes." alt="" coords="129,2897,203,2923"/>
+<area shape="rect" href="group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="124,2947,208,2974"/>
+<area shape="rect" href="group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488" title=" " alt="" coords="256,2846,343,2873"/>
+<area shape="rect" href="group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03" title=" " alt="" coords="548,2947,648,2974"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="1976,2795,2088,2822"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="2165,1478,2324,1505"/>
+<area shape="rect" href="group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="391,1934,495,1961"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="1771,1326,1873,1353"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="2167,2593,2323,2619"/>
+<area shape="rect" href="group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="543,1073,653,1099"/>
+<area shape="rect" href="group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="925,398,1048,425"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="1967,1630,2097,1657"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="2192,145,2297,171"/>
+<area shape="rect" href="ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1513,381,1693,407"/>
+<area shape="rect" href="ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="701,347,860,374"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="1778,2542,1866,2569"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2181,3217,2308,3243"/>
+<area shape="rect" href="group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="1765,1427,1879,1454"/>
+<area shape="rect" href="group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="1321,1681,1422,1707"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="2176,1083,2313,1110"/>
+<area shape="rect" href="group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="1509,718,1697,745"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="1963,579,2101,620"/>
+<area shape="rect" href="group___thread.html#ga8e0fb6e55e11d12332055167bdfab275" title=" " alt="" coords="1745,652,1899,693"/>
+<area shape="rect" href="dfs__posix_8c.html#ac21b705a5ebd42c4c46363250ab817bc" title=" " alt="" coords="2011,674,2053,701"/>
+<area shape="rect" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="1773,1123,1871,1150"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2193,586,2297,613"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="1989,1377,2075,1403"/>
+<area shape="rect" href="dfs__file_8c.html#ae3b60867436d7b3be91af7cc40299f13" title=" " alt="" coords="2199,674,2290,701"/>
+<area shape="rect" href="timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="1977,1123,2087,1150"/>
+<area shape="rect" href="ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="908,43,1065,70"/>
+<area shape="rect" href="group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="926,1858,1047,1885"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="1947,1842,2117,1869"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="1969,2257,2095,2299"/>
+<area shape="rect" href="group___thread.html#ga6d64eb4d0a485461049616808f4ce177" title="This function will delete a thread. The thread object will be removed from thread queue and deleted f..." alt="" coords="1115,1478,1232,1505"/>
+<area shape="rect" href="group___thread.html#ga514825b80304477ecf377d721da409b0" title="This function will detach a thread. The thread object will be removed from thread queue and detached/..." alt="" coords="1113,1883,1233,1910"/>
+<area shape="rect" href="group___thread.html#ga04b743537fd099e204fc292e57b4aa5a" title="This function will start a thread and put it to system ready queue." alt="" coords="1310,1934,1433,1961"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="1953,2999,2111,3040"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="1959,2491,2105,2518"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="1959,2425,2105,2467"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="2211,3006,2278,3033"/>
+<area shape="rect" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372" title="drop a thread from the suspend list of mutex" alt="" coords="1296,297,1447,323"/>
+<area shape="rect" href="group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="1281,2137,1461,2163"/>
+<area shape="rect" href="group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="1765,1377,1879,1403"/>
+<area shape="rect" href="group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="1548,2035,1659,2062"/>
+<area shape="rect" href="group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="1973,1225,2091,1251"/>
+<area shape="rect" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="1541,1985,1666,2011"/>
+<area shape="rect" href="group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="1562,1630,1645,1657"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1552,2643,1655,2670"/>
+<area shape="rect" href="group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137" title="This function will release a mutex. If there is thread suspended on the mutex, the thread will be res..." alt="" coords="719,1973,842,1999"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga1dc9ac8a12cf36f08d0a3ebf7fe9ce4e" name="ga1dc9ac8a12cf36f08d0a3ebf7fe9ce4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1dc9ac8a12cf36f08d0a3ebf7fe9ce4e">&#9670;&nbsp;</a></span>rt_malloc_align()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * rt_malloc_align </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>align</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >This function allocates a memory block, which address is aligned to the specified alignment size.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>is the allocated memory block size.</td></tr>
+    <tr><td class="paramname">align</td><td>is the alignment size.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>The memory block address was returned successfully, otherwise it was returned empty RT_NULL. </dd></dl>
+<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_ga1dc9ac8a12cf36f08d0a3ebf7fe9ce4e_cgraph.png" border="0" usemap="#agroup___m_m_ga1dc9ac8a12cf36f08d0a3ebf7fe9ce4e_cgraph" alt=""/></div>
+<map name="agroup___m_m_ga1dc9ac8a12cf36f08d0a3ebf7fe9ce4e_cgraph" id="agroup___m_m_ga1dc9ac8a12cf36f08d0a3ebf7fe9ce4e_cgraph">
+<area shape="rect" title=" " alt="" coords="5,3448,115,3475"/>
+<area shape="rect" href="group___kernel_service.html#gadf0126394c8c791134bd466db22ebc52" title="Allocate a block of memory with a minimum of &#39;size&#39; bytes." alt="" coords="163,3448,237,3475"/>
+<area shape="rect" href="group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488" title=" " alt="" coords="285,3262,372,3288"/>
+<area shape="rect" href="group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03" title=" " alt="" coords="577,3372,677,3399"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="2076,3050,2188,3076"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="2259,2156,2417,2183"/>
+<area shape="rect" href="group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="420,2232,524,2259"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="2081,400,2183,427"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="2260,2948,2416,2975"/>
+<area shape="rect" href="group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="572,1244,683,1271"/>
+<area shape="rect" href="group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="955,519,1077,546"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="1855,1396,1985,1423"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="2285,611,2391,638"/>
+<area shape="rect" href="ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1607,424,1787,451"/>
+<area shape="rect" href="ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="731,494,889,520"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="1876,2866,1964,2892"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2275,3522,2401,3548"/>
+<area shape="rect" href="group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="1639,2410,1754,2436"/>
+<area shape="rect" href="group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="1186,1954,1287,1980"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="2269,1823,2407,1850"/>
+<area shape="rect" href="group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="1143,991,1331,1018"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="2063,1461,2201,1502"/>
+<area shape="rect" href="group___thread.html#ga8e0fb6e55e11d12332055167bdfab275" title=" " alt="" coords="1392,621,1545,662"/>
+<area shape="rect" href="dfs__posix_8c.html#ac21b705a5ebd42c4c46363250ab817bc" title=" " alt="" coords="1675,632,1718,659"/>
+<area shape="rect" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="1647,1852,1746,1879"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2286,1468,2390,1495"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="2295,400,2381,427"/>
+<area shape="rect" href="dfs__file_8c.html#ae3b60867436d7b3be91af7cc40299f13" title=" " alt="" coords="1875,636,1965,663"/>
+<area shape="rect" href="group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="1873,586,1967,612"/>
+<area shape="rect" href="timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="1865,1599,1975,1626"/>
+<area shape="rect" href="ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="937,266,1095,292"/>
+<area shape="rect" href="group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="955,2030,1077,2056"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="1835,1903,2005,1930"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="2069,2714,2195,2756"/>
+<area shape="rect" href="group___thread.html#ga6d64eb4d0a485461049616808f4ce177" title="This function will delete a thread. The thread object will be removed from thread queue and deleted f..." alt="" coords="1178,2055,1295,2082"/>
+<area shape="rect" href="group___thread.html#ga514825b80304477ecf377d721da409b0" title="This function will detach a thread. The thread object will be removed from thread queue and detached/..." alt="" coords="1177,2156,1297,2183"/>
+<area shape="rect" href="group___thread.html#ga04b743537fd099e204fc292e57b4aa5a" title="This function will start a thread and put it to system ready queue." alt="" coords="1175,1852,1298,1879"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="2053,3354,2211,3396"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="2059,2898,2205,2924"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="2059,2832,2205,2873"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="2305,3362,2371,3388"/>
+<area shape="rect" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372" title="drop a thread from the suspend list of mutex" alt="" coords="1393,788,1544,815"/>
+<area shape="rect" href="group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="1379,2562,1559,2588"/>
+<area shape="rect" href="group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="1640,2156,1753,2183"/>
+<area shape="rect" href="group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="1641,2207,1752,2234"/>
+<area shape="rect" href="group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="2073,1903,2191,1930"/>
+<area shape="rect" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="1406,1903,1531,1930"/>
+<area shape="rect" href="group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="1427,1599,1510,1626"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1645,3068,1748,3095"/>
+<area shape="rect" href="group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137" title="This function will release a mutex. If there is thread suspended on the mutex, the thread will be res..." alt="" coords="749,1967,871,1994"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gabf1ea8f43781620e7b08fb1868e32b92" name="gabf1ea8f43781620e7b08fb1868e32b92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabf1ea8f43781620e7b08fb1868e32b92">&#9670;&nbsp;</a></span>rt_free_align()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_free_align </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >This function release the memory block, which is allocated by rt_malloc_align function and address is aligned.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptr</td><td>is the memory block pointer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_gabf1ea8f43781620e7b08fb1868e32b92_cgraph.png" border="0" usemap="#agroup___m_m_gabf1ea8f43781620e7b08fb1868e32b92_cgraph" alt=""/></div>
+<map name="agroup___m_m_gabf1ea8f43781620e7b08fb1868e32b92_cgraph" id="agroup___m_m_gabf1ea8f43781620e7b08fb1868e32b92_cgraph">
+<area shape="rect" title=" " alt="" coords="5,3302,100,3328"/>
+<area shape="rect" href="group___kernel_service.html#gad24f606383faa97aab028c0f9df843da" title="This function will release the previously allocated memory block by rt_malloc. The released memory bl..." alt="" coords="148,3302,209,3328"/>
+<area shape="rect" href="group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488" title=" " alt="" coords="257,3403,344,3430"/>
+<area shape="rect" href="group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03" title=" " alt="" coords="549,1563,649,1590"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="2048,2560,2160,2587"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="2231,2560,2389,2587"/>
+<area shape="rect" href="group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="392,3352,496,3379"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="2053,3311,2155,3338"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="2232,1446,2388,1472"/>
+<area shape="rect" href="group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="544,2576,655,2603"/>
+<area shape="rect" href="group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="927,2830,1049,2856"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="1827,2171,1957,2198"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="2257,144,2363,171"/>
+<area shape="rect" href="ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1579,398,1759,424"/>
+<area shape="rect" href="ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="703,803,861,830"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="1848,1660,1936,1687"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2247,1056,2373,1083"/>
+<area shape="rect" href="group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="1611,2576,1726,2603"/>
+<area shape="rect" href="group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="1158,2019,1259,2046"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="2241,2615,2379,2642"/>
+<area shape="rect" href="group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="1115,2880,1303,2907"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="2035,940,2173,981"/>
+<area shape="rect" href="group___thread.html#ga8e0fb6e55e11d12332055167bdfab275" title=" " alt="" coords="1364,2982,1517,3024"/>
+<area shape="rect" href="dfs__posix_8c.html#ac21b705a5ebd42c4c46363250ab817bc" title=" " alt="" coords="1647,3134,1690,3160"/>
+<area shape="rect" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="1619,1918,1718,1944"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2258,499,2362,526"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="2267,3311,2353,3338"/>
+<area shape="rect" href="dfs__file_8c.html#ae3b60867436d7b3be91af7cc40299f13" title=" " alt="" coords="1847,3235,1937,3262"/>
+<area shape="rect" href="group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="1845,3184,1939,3211"/>
+<area shape="rect" href="timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="1837,1107,1947,1134"/>
+<area shape="rect" href="ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="909,119,1067,146"/>
+<area shape="rect" href="group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="927,1259,1049,1286"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="1807,854,1977,880"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="2041,2316,2167,2357"/>
+<area shape="rect" href="group___thread.html#ga6d64eb4d0a485461049616808f4ce177" title="This function will delete a thread. The thread object will be removed from thread queue and deleted f..." alt="" coords="1150,1158,1267,1184"/>
+<area shape="rect" href="group___thread.html#ga514825b80304477ecf377d721da409b0" title="This function will detach a thread. The thread object will be removed from thread queue and detached/..." alt="" coords="1149,1056,1269,1083"/>
+<area shape="rect" href="group___thread.html#ga04b743537fd099e204fc292e57b4aa5a" title="This function will start a thread and put it to system ready queue." alt="" coords="1147,2120,1270,2147"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="2025,2662,2183,2704"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="2031,1715,2177,1742"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="2031,1649,2177,1690"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="2277,2670,2343,2696"/>
+<area shape="rect" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372" title="drop a thread from the suspend list of mutex" alt="" coords="1365,347,1516,374"/>
+<area shape="rect" href="group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="1351,1107,1531,1134"/>
+<area shape="rect" href="group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="1612,1259,1725,1286"/>
+<area shape="rect" href="group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="1613,1816,1724,1843"/>
+<area shape="rect" href="group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="2045,1272,2163,1299"/>
+<area shape="rect" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="1378,2070,1503,2096"/>
+<area shape="rect" href="group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="1399,2272,1482,2299"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1617,1462,1720,1488"/>
+<area shape="rect" href="group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137" title="This function will release a mutex. If there is thread suspended on the mutex, the thread will be res..." alt="" coords="721,1360,843,1387"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga6a043ee84954692789696a255ea65699" name="ga6a043ee84954692789696a255ea65699"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6a043ee84954692789696a255ea65699">&#9670;&nbsp;</a></span>rt_memory_info()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_memory_info </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> *&#160;</td>
+          <td class="paramname"><em>total</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> *&#160;</td>
+          <td class="paramname"><em>used</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> *&#160;</td>
+          <td class="paramname"><em>max_used</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will caculate the total memory, the used memory, and the max used memory. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">total</td><td>is a pointer to get the total size of the memory.</td></tr>
+    <tr><td class="paramname">used</td><td>is a pointer to get the size of memory used.</td></tr>
+    <tr><td class="paramname">max_used</td><td>is a pointer to get the maximum memory used. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_ga6a043ee84954692789696a255ea65699_cgraph.png" border="0" usemap="#agroup___m_m_ga6a043ee84954692789696a255ea65699_cgraph" alt=""/></div>
+<map name="agroup___m_m_ga6a043ee84954692789696a255ea65699_cgraph" id="agroup___m_m_ga6a043ee84954692789696a255ea65699_cgraph">
+<area shape="rect" title="This function will caculate the total memory, the used memory, and the max used memory." alt="" coords="5,3105,119,3132"/>
+<area shape="rect" href="group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488" title=" " alt="" coords="167,2541,253,2568"/>
+<area shape="rect" href="group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03" title=" " alt="" coords="459,3493,559,3520"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="2089,2971,2201,2997"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="2279,2128,2437,2155"/>
+<area shape="rect" href="group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="301,2339,405,2365"/>
+<area shape="rect" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="1898,869,2001,896"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="2280,2971,2436,2997"/>
+<area shape="rect" href="group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="453,2187,564,2213"/>
+<area shape="rect" href="group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="836,635,959,661"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="2293,1343,2423,1369"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="2305,380,2411,407"/>
+<area shape="rect" href="ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1488,883,1668,909"/>
+<area shape="rect" href="ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="612,793,771,820"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="1905,2625,1993,2652"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2295,3443,2421,3469"/>
+<area shape="rect" href="group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="2088,2128,2203,2155"/>
+<area shape="rect" href="group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="1727,2389,1828,2416"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="2289,1988,2427,2015"/>
+<area shape="rect" href="group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="1024,616,1212,643"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="2076,947,2215,989"/>
+<area shape="rect" href="group___thread.html#ga8e0fb6e55e11d12332055167bdfab275" title=" " alt="" coords="1273,499,1427,541"/>
+<area shape="rect" href="dfs__posix_8c.html#ac21b705a5ebd42c4c46363250ab817bc" title=" " alt="" coords="1557,507,1599,533"/>
+<area shape="rect" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="2096,1723,2195,1749"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2485,1621,2589,1648"/>
+<area shape="rect" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="2103,845,2188,872"/>
+<area shape="rect" href="dfs__file_8c.html#ae3b60867436d7b3be91af7cc40299f13" title=" " alt="" coords="1732,507,1823,533"/>
+<area shape="rect" href="group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="1731,768,1824,795"/>
+<area shape="rect" href="timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="2303,1621,2413,1648"/>
+<area shape="rect" href="ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="819,364,976,391"/>
+<area shape="rect" href="group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="837,1959,958,1985"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="2060,1267,2231,1293"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="2082,2534,2209,2575"/>
+<area shape="rect" href="group___thread.html#ga6d64eb4d0a485461049616808f4ce177" title="This function will delete a thread. The thread object will be removed from thread queue and deleted f..." alt="" coords="1059,1883,1177,1909"/>
+<area shape="rect" href="group___thread.html#ga514825b80304477ecf377d721da409b0" title="This function will detach a thread. The thread object will be removed from thread queue and detached/..." alt="" coords="1058,1680,1178,1707"/>
+<area shape="rect" href="group___thread.html#ga04b743537fd099e204fc292e57b4aa5a" title="This function will start a thread and put it to system ready queue." alt="" coords="1716,2136,1839,2163"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="2067,3275,2224,3317"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="2072,2651,2219,2677"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="2072,2702,2219,2743"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="2325,3283,2391,3309"/>
+<area shape="rect" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372" title="drop a thread from the suspend list of mutex" alt="" coords="1275,819,1425,845"/>
+<area shape="rect" href="group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="1260,1933,1440,1960"/>
+<area shape="rect" href="group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="1893,1832,2006,1859"/>
+<area shape="rect" href="group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="1523,1933,1633,1960"/>
+<area shape="rect" href="group___i_p_c.html#ga1669a4e1776eccad4612e3dc41601a63" title="This function will resume a thread." alt="" coords="1718,2085,1837,2112"/>
+<area shape="rect" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="1887,2288,2012,2315"/>
+<area shape="rect" href="group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="2086,1875,2205,1901"/>
+<area shape="rect" href="group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="1908,2440,1991,2467"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1726,2912,1829,2939"/>
+<area shape="rect" href="group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137" title="This function will release a mutex. If there is thread suspended on the mutex, the thread will be res..." alt="" coords="630,2668,753,2695"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga909761c80493569b64558225d7f89e77" name="ga909761c80493569b64558225d7f89e77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga909761c80493569b64558225d7f89e77">&#9670;&nbsp;</a></span>rt_malloc_sethook()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_malloc_sethook </td>
+          <td>(</td>
+          <td class="paramtype">void(*)(void *ptr, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)&#160;</td>
+          <td class="paramname"><em>hook</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will set a hook function, which will be invoked when a memory block is allocated from heap memory. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hook</td><td>the hook function. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf556549fc541bfc634f37f2dca004547" name="gaf556549fc541bfc634f37f2dca004547"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf556549fc541bfc634f37f2dca004547">&#9670;&nbsp;</a></span>rt_free_sethook()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_free_sethook </td>
+          <td>(</td>
+          <td class="paramtype">void(*)(void *ptr)&#160;</td>
+          <td class="paramname"><em>hook</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will set a hook function, which will be invoked when a memory block is released to heap memory. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hook</td><td>the hook function </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf3ee8887d4ace66606a925237e199ad6" name="gaf3ee8887d4ace66606a925237e199ad6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf3ee8887d4ace66606a925237e199ad6">&#9670;&nbsp;</a></span>rt_smem_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___m_m.html#ga4880147b2aef9d5e2be045a998d9d4b3">rt_smem_t</a> rt_smem_init </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>begin_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will initialize small memory management algorithm. </p>
+<p >small memory object interface</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m</td><td>the small memory management object.</td></tr>
+    <tr><td class="paramname">name</td><td>is the name of the small memory management object.</td></tr>
+    <tr><td class="paramname">begin_addr</td><td>the beginning address of memory.</td></tr>
+    <tr><td class="paramname">size</td><td>is the size of the memory.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>Return a pointer to the memory object. When the return value is RT_NULL, it means the init failed. </dd></dl>
+<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_gaf3ee8887d4ace66606a925237e199ad6_cgraph.png" border="0" usemap="#agroup___m_m_gaf3ee8887d4ace66606a925237e199ad6_cgraph" alt=""/></div>
+<map name="agroup___m_m_gaf3ee8887d4ace66606a925237e199ad6_cgraph" id="agroup___m_m_gaf3ee8887d4ace66606a925237e199ad6_cgraph">
+<area shape="rect" title="This function will initialize small memory management algorithm." alt="" coords="5,587,103,613"/>
+<area shape="rect" href="group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="157,561,241,588"/>
+<area shape="rect" href="group___kernel_object.html#ga0a86356c83e8264841fcb83255f72014" title="This function will initialize an object and add it to object system management." alt="" coords="151,612,248,639"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="673,444,785,471"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="856,201,1015,228"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="857,448,1013,475"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="330,423,433,449"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="872,608,999,635"/>
+<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="296,713,467,740"/>
+<area shape="rect" href="group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="342,764,421,791"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="515,305,603,332"/>
+<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="651,327,808,369"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="656,225,803,252"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="656,159,803,201"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="666,495,793,537"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="660,42,799,83"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="902,335,969,361"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="867,503,1004,529"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="883,75,988,101"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="883,24,987,51"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gaf444d6040e6a1ef09ab9f95e893b8d40" name="gaf444d6040e6a1ef09ab9f95e893b8d40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf444d6040e6a1ef09ab9f95e893b8d40">&#9670;&nbsp;</a></span>rt_smem_detach()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_smem_detach </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___m_m.html#ga4880147b2aef9d5e2be045a998d9d4b3">rt_smem_t</a>&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will remove a small mem from the system. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m</td><td>the small memory management object.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>RT_EOK </dd></dl>
+<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group___m_m_gaf444d6040e6a1ef09ab9f95e893b8d40_cgraph.png" border="0" usemap="#agroup___m_m_gaf444d6040e6a1ef09ab9f95e893b8d40_cgraph" alt=""/></div>
+<map name="agroup___m_m_gaf444d6040e6a1ef09ab9f95e893b8d40_cgraph" id="agroup___m_m_gaf444d6040e6a1ef09ab9f95e893b8d40_cgraph">
+<area shape="rect" title="This function will remove a small mem from the system." alt="" coords="5,107,124,133"/>
+<area shape="rect" href="group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="198,56,317,83"/>
+<area shape="rect" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="193,107,322,133"/>
+<area shape="rect" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="172,157,343,184"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="391,5,549,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="392,56,548,83"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="418,107,522,133"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">生成于 2023年 一月 19日 星期四 21:57:26 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+  </ul>
+</div>
+</body>
+</html>

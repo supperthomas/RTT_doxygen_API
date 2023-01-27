@@ -1,0 +1,4 @@
+<map id="rt_critical_level" name="rt_critical_level">
+<area shape="rect" id="node1" title="Get the scheduler lock level." alt="" coords="5,5,113,32"/>
+<area shape="rect" id="node2" href="$cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="161,5,247,32"/>
+</map>

@@ -1,0 +1,465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-Thread RTOS: D:/02_git_repo/rt-thread/components/finsh/msh.c 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="rtthread_logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">RT-Thread RTOS<span id="projectnumber">&#160;1.2.0</span>
+   </div>
+   <div id="projectbrief">An open source embedded real-time operating system</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.4 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'搜索','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('msh_8c.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">msh.c 文件参考</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="rtthread_8h.html">rtthread.h</a>&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="msh_8h.html">msh.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="shell_8h.html">shell.h</a>&quot;</code><br />
+<code>#include &lt;dlmodule.h&gt;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> msh.c 的引用(Include)关系图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="msh_8c__incl.png" border="0" usemap="#a_d_1_202__git__repo_2rt-thread_2components_2finsh_2msh_8c" alt=""/></div>
+<map name="a_d_1_202__git__repo_2rt-thread_2components_2finsh_2msh_8c" id="a_d_1_202__git__repo_2rt-thread_2components_2finsh_2msh_8c">
+<area shape="rect" title=" " alt="" coords="156,5,322,47"/>
+<area shape="rect" href="rtthread_8h.html" title=" " alt="" coords="169,169,248,196"/>
+<area shape="rect" title=" " alt="" coords="121,95,186,121"/>
+<area shape="rect" href="msh_8h.html" title=" " alt="" coords="210,95,268,121"/>
+<area shape="rect" href="shell_8h.html" title=" " alt="" coords="292,95,351,121"/>
+<area shape="rect" title=" " alt="" coords="375,95,460,121"/>
+<area shape="rect" title=" " alt="" coords="21,393,97,420"/>
+<area shape="rect" href="rtdebug_8h.html" title=" " alt="" coords="20,319,98,345"/>
+<area shape="rect" href="rtdef_8h.html" title=" " alt="" coords="173,319,233,345"/>
+<area shape="rect" href="rtservice_8h.html" title=" " alt="" coords="122,244,204,271"/>
+<area shape="rect" href="rtm_8h.html" title=" " alt="" coords="228,244,282,271"/>
+<area shape="rect" title=" " alt="" coords="306,244,366,271"/>
+<area shape="rect" href="components_2finsh_2finsh_8h.html" title=" " alt="" coords="322,169,382,196"/>
+</map>
+</div>
+</div><h2 class="groupheader">宏定义说明</h2>
+<a id="a800429c1a4676b503350eafdfdbd2a4b" name="a800429c1a4676b503350eafdfdbd2a4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a800429c1a4676b503350eafdfdbd2a4b">&#9670;&nbsp;</a></span>FINSH_ARG_MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FINSH_ARG_MAX&#160;&#160;&#160;8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类型定义说明</h2>
+<a id="a6395c16e15318b2da4a9328978eb2dfd" name="a6395c16e15318b2da4a9328978eb2dfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6395c16e15318b2da4a9328978eb2dfd">&#9670;&nbsp;</a></span>cmd_function_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int(* cmd_function_t) (int argc, char **argv)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">函数说明</h2>
+<a id="ae115c5886a7a8631cbd1d612b13d2270" name="ae115c5886a7a8631cbd1d612b13d2270"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae115c5886a7a8631cbd1d612b13d2270">&#9670;&nbsp;</a></span>msh_help()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int msh_help </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20828331a6f9cf3385db604c3a7b095c" name="a20828331a6f9cf3385db604c3a7b095c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20828331a6f9cf3385db604c3a7b095c">&#9670;&nbsp;</a></span>MSH_CMD_EXPORT_ALIAS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MSH_CMD_EXPORT_ALIAS </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="msh_8c.html#ae115c5886a7a8631cbd1d612b13d2270">msh_help</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">help&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RT-Thread <a class="el" href="shell_8c.html#a9df61643f85f60c71bd0eefcdb62b22d">shell</a>&#160;</td>
+          <td class="paramname"><em>help.</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae348d119605d8ffd50e7f2089357fd6" name="aae348d119605d8ffd50e7f2089357fd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae348d119605d8ffd50e7f2089357fd6">&#9670;&nbsp;</a></span>msh_split()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int msh_split </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>cmd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>argv</em>[FINSH_ARG_MAX]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a184899d3cabe207be4289034cfd282d6" name="a184899d3cabe207be4289034cfd282d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a184899d3cabe207be4289034cfd282d6">&#9670;&nbsp;</a></span>msh_get_cmd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="msh_8c.html#a6395c16e15318b2da4a9328978eb2dfd">cmd_function_t</a> msh_get_cmd </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>cmd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f66e81d4407f0d6feeb3a778e342b66" name="a1f66e81d4407f0d6feeb3a778e342b66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f66e81d4407f0d6feeb3a778e342b66">&#9670;&nbsp;</a></span>_msh_exec_cmd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int _msh_exec_cmd </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>cmd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>retp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="msh_8c_a1f66e81d4407f0d6feeb3a778e342b66_cgraph.png" border="0" usemap="#amsh_8c_a1f66e81d4407f0d6feeb3a778e342b66_cgraph" alt=""/></div>
+<map name="amsh_8c_a1f66e81d4407f0d6feeb3a778e342b66_cgraph" id="amsh_8c_a1f66e81d4407f0d6feeb3a778e342b66_cgraph">
+<area shape="rect" title=" " alt="" coords="5,56,123,83"/>
+<area shape="rect" href="msh_8c.html#a184899d3cabe207be4289034cfd282d6" title=" " alt="" coords="171,5,273,32"/>
+<area shape="rect" href="msh_8c.html#aae348d119605d8ffd50e7f2089357fd6" title=" " alt="" coords="184,56,260,83"/>
+<area shape="rect" href="group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="180,107,264,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a06907fffbe80bc1999afa075b4e9ee6c" name="a06907fffbe80bc1999afa075b4e9ee6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06907fffbe80bc1999afa075b4e9ee6c">&#9670;&nbsp;</a></span>msh_exec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int msh_exec </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>cmd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramname"><em>length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="msh_8c_a06907fffbe80bc1999afa075b4e9ee6c_cgraph.png" border="0" usemap="#amsh_8c_a06907fffbe80bc1999afa075b4e9ee6c_cgraph" alt=""/></div>
+<map name="amsh_8c_a06907fffbe80bc1999afa075b4e9ee6c_cgraph" id="amsh_8c_a06907fffbe80bc1999afa075b4e9ee6c_cgraph">
+<area shape="rect" title=" " alt="" coords="5,107,84,133"/>
+<area shape="rect" href="msh_8c.html#a1f66e81d4407f0d6feeb3a778e342b66" title=" " alt="" coords="137,56,255,83"/>
+<area shape="rect" href="msh_8h.html#a7beea6b6b08f8f6cde2dc6e482c26757" title=" " alt="" coords="132,107,260,133"/>
+<area shape="rect" href="msh_8h.html#a5b0b701d0a9cef922d981865f28be70d" title=" " alt="" coords="137,157,255,184"/>
+<area shape="rect" href="msh_8c.html#a184899d3cabe207be4289034cfd282d6" title=" " alt="" coords="308,5,411,32"/>
+<area shape="rect" href="msh_8c.html#aae348d119605d8ffd50e7f2089357fd6" title=" " alt="" coords="321,56,397,83"/>
+<area shape="rect" href="group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="317,107,401,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab0e46e81478df0b18b5561d61cd190ca" name="ab0e46e81478df0b18b5561d61cd190ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0e46e81478df0b18b5561d61cd190ca">&#9670;&nbsp;</a></span>str_common()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int str_common </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a262c4d36dc446df02ab94e0f1e8a915f" name="a262c4d36dc446df02ab94e0f1e8a915f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a262c4d36dc446df02ab94e0f1e8a915f">&#9670;&nbsp;</a></span>msh_auto_complete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void msh_auto_complete </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>prefix</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="msh_8c_a262c4d36dc446df02ab94e0f1e8a915f_cgraph.png" border="0" usemap="#amsh_8c_a262c4d36dc446df02ab94e0f1e8a915f_cgraph" alt=""/></div>
+<map name="amsh_8c_a262c4d36dc446df02ab94e0f1e8a915f_cgraph" id="amsh_8c_a262c4d36dc446df02ab94e0f1e8a915f_cgraph">
+<area shape="rect" title=" " alt="" coords="5,81,143,108"/>
+<area shape="rect" href="msh_8c.html#ae115c5886a7a8631cbd1d612b13d2270" title=" " alt="" coords="199,5,276,32"/>
+<area shape="rect" href="group___kernel_service.html#ga743d665f6558666ee9bbfa894ee68178" title=" " alt="" coords="202,56,273,83"/>
+<area shape="rect" href="group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="198,107,277,133"/>
+<area shape="rect" href="msh_8c.html#ab0e46e81478df0b18b5561d61cd190ca" title=" " alt="" coords="191,157,284,184"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_409f97388efe006bc3438b95e9edef48.html">components</a></li><li class="navelem"><a class="el" href="dir_86d0af1c976cb2104552e4f347bf9ac9.html">finsh</a></li><li class="navelem"><a class="el" href="msh_8c.html">msh.c</a></li>
+    <li class="footer">生成于 2023年 一月 19日 星期四 21:57:26 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+  </ul>
+</div>
+</body>
+</html>

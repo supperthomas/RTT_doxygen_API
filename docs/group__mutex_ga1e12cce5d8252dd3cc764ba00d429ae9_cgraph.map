@@ -1,0 +1,4 @@
+<map id="rt_mutex_control" name="rt_mutex_control">
+<area shape="rect" id="node1" title="This function will set some extra attributions of a mutex object." alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node2" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="172,5,301,32"/>
+</map>

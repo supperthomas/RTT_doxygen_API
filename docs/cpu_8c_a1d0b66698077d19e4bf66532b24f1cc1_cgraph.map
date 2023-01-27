@@ -1,0 +1,4 @@
+<map id="rt_cpus_lock" name="rt_cpus_lock">
+<area shape="rect" id="node1" title="This function will lock all cpus&#39;s scheduler and disable local irq." alt="" coords="5,5,99,32"/>
+<area shape="rect" id="node2" href="$cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="147,5,232,32"/>
+</map>
