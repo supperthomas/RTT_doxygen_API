@@ -24,9 +24,9 @@ var rtservice_8h =
     [ "rt_slist_append", "group___kernel_service.html#gadb8e810867bb7ae805bd408f0e984426", null ],
     [ "rt_slist_insert", "group___kernel_service.html#ga0dcb52f45a21a13ccba01e69e15dae43", null ],
     [ "rt_slist_len", "group___kernel_service.html#ga6c98989f687835054c7044cbe6f89c20", null ],
-    [ "rt_slist_remove", "group___kernel_service.html#ga9dabf54c3bc63b766f72532a5af2f3bb", null ],
-    [ "rt_slist_first", "group___kernel_service.html#ga2a4e0adfe71c18b4899215c8589e63f5", null ],
-    [ "rt_slist_tail", "group___kernel_service.html#ga29e5af137780afcc68ee755837a04ff6", null ],
-    [ "rt_slist_next", "group___kernel_service.html#ga81cf5fa6a2eca42593620f854bdd83bd", null ],
+    [ "rt_slist_remove", "group___kernel_service.html#gaa342a9827785a0563570ea367e16f2f2", null ],
+    [ "rt_slist_first", "group___kernel_service.html#ga6ed611144041bd54d06184f75801711c", null ],
+    [ "rt_slist_tail", "group___kernel_service.html#gafdf4cfdad123f8721adcaa67a93e3d65", null ],
+    [ "rt_slist_next", "group___kernel_service.html#ga99c2381fc8947272231f4e29416ca9bc", null ],
     [ "rt_slist_isempty", "group___kernel_service.html#gad25f026c11b3e1ff4d3954840c209b2e", null ]
 ];

@@ -1,5 +1,6 @@
 var rtdbg_8h =
 [
+    [ "DLOG", "rtdbg_8h.html#a87fe05eb8767a6b1abf71eea0bdcfcac", null ],
     [ "DBG_ERROR", "rtdbg_8h.html#a004bc89ac4c6725bbf5f2291977392e0", null ],
     [ "DBG_WARNING", "rtdbg_8h.html#a9f7743bd75d5be061a83ae0da47bc323", null ],
     [ "DBG_INFO", "rtdbg_8h.html#a9615e001b781d55752b3d44f9bfd5162", null ],

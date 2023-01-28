@@ -1,9 +1,9 @@
 <map id="rt_device_unregister" name="rt_device_unregister">
-<area shape="rect" id="node1" title="This function removes a previously registered device driver." alt="" coords="5,107,144,133"/>
-<area shape="rect" id="node2" href="$group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="218,56,337,83"/>
-<area shape="rect" id="node6" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="213,107,342,133"/>
-<area shape="rect" id="node7" href="$group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="192,157,363,184"/>
-<area shape="rect" id="node3" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="411,5,569,32"/>
-<area shape="rect" id="node4" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="412,56,568,83"/>
-<area shape="rect" id="node5" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="438,107,542,133"/>
+<area shape="rect" id="node1" title="This function removes a previously registered device driver." alt="" coords="5,107,160,133"/>
+<area shape="rect" id="node2" href="$group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="239,56,369,83"/>
+<area shape="rect" id="node6" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="233,107,375,133"/>
+<area shape="rect" id="node7" href="$group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="208,157,400,184"/>
+<area shape="rect" id="node3" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="448,5,623,32"/>
+<area shape="rect" id="node4" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="449,56,621,83"/>
+<area shape="rect" id="node5" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="477,107,593,133"/>
 </map>

@@ -1,10 +1,10 @@
 <map id="ftruncate" name="ftruncate">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,79,83"/>
-<area shape="rect" id="node2" href="$dfs__file_8c.html#a5286b99ce709f557da804f3430b51aaf" title=" " alt="" coords="127,31,248,57"/>
-<area shape="rect" id="node3" href="$group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="141,81,234,108"/>
-<area shape="rect" id="node4" href="$group___kernel.html#gaa6725f61bed47e0d5ac383eccf14d3f1" title="This function will return the nest of interrupt." alt="" coords="296,56,439,83"/>
-<area shape="rect" id="node7" href="$group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="316,107,419,133"/>
-<area shape="rect" id="node5" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="487,5,645,32"/>
-<area shape="rect" id="node6" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="488,56,644,83"/>
-<area shape="rect" id="node8" href="$cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="523,107,609,133"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,85,83"/>
+<area shape="rect" id="node2" href="$dfs__file_8c.html#a5286b99ce709f557da804f3430b51aaf" title=" " alt="" coords="133,31,268,57"/>
+<area shape="rect" id="node3" href="$group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="151,81,251,108"/>
+<area shape="rect" id="node4" href="$group___kernel.html#gaa6725f61bed47e0d5ac383eccf14d3f1" title="This function will return the nest of interrupt." alt="" coords="316,56,475,83"/>
+<area shape="rect" id="node7" href="$group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="339,107,451,133"/>
+<area shape="rect" id="node5" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="523,5,697,32"/>
+<area shape="rect" id="node6" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="524,56,696,83"/>
+<area shape="rect" id="node8" href="$cpu_8c.html#a8fe8f3bfae1869fc0a0d179788433e11" title="This fucntion will return current cpu object." alt="" coords="563,107,657,133"/>
 </map>

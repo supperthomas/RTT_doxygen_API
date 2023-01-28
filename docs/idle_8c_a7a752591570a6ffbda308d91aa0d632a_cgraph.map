@@ -1,11 +1,11 @@
 <map id="idle_thread_entry" name="idle_thread_entry">
-<area shape="rect" id="node1" title=" " alt="" coords="5,81,128,108"/>
-<area shape="rect" id="node2" href="$idle_8c.html#af012bef0815d8b78ce24e1251c44bd4e" title="This function will perform system background job when system idle." alt="" coords="176,81,307,108"/>
-<area shape="rect" id="node3" href="$group___kernel_object.html#ga0479fb23b766d96e9611ed32becc2797" title="This function will delete an object and release object memory." alt="" coords="387,5,502,32"/>
-<area shape="rect" id="node7" href="$group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="385,56,504,83"/>
-<area shape="rect" id="node8" href="$group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="359,157,530,184"/>
-<area shape="rect" id="node9" href="$group___i_p_c.html#ga35f8bcf6aa8d872a07261a8faaa026ba" title="Dequeue a thread from defunct queue." alt="" coords="355,107,535,133"/>
-<area shape="rect" id="node4" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="583,5,741,32"/>
-<area shape="rect" id="node5" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="584,56,740,83"/>
-<area shape="rect" id="node6" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="610,107,714,133"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,141,108"/>
+<area shape="rect" id="node2" href="$idle_8c.html#af012bef0815d8b78ce24e1251c44bd4e" title="This function will perform system background job when system idle." alt="" coords="189,81,336,108"/>
+<area shape="rect" id="node3" href="$group___kernel_object.html#ga0479fb23b766d96e9611ed32becc2797" title="This function will delete an object and release object memory." alt="" coords="421,5,547,32"/>
+<area shape="rect" id="node7" href="$group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="419,56,549,83"/>
+<area shape="rect" id="node8" href="$group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="388,157,580,184"/>
+<area shape="rect" id="node9" href="$group___i_p_c.html#ga35f8bcf6aa8d872a07261a8faaa026ba" title="Dequeue a thread from defunct queue." alt="" coords="384,107,584,133"/>
+<area shape="rect" id="node4" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="632,5,807,32"/>
+<area shape="rect" id="node5" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="633,56,805,83"/>
+<area shape="rect" id="node6" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="661,107,777,133"/>
 </map>

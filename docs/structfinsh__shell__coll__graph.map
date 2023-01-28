@@ -1,8 +1,8 @@
 <map id="finsh_shell" name="finsh_shell">
-<area shape="rect" id="node1" title=" " alt="" coords="94,877,209,1028"/>
-<area shape="rect" id="node2" href="$structrt__semaphore.html" title=" " alt="" coords="48,723,151,815"/>
-<area shape="rect" id="node3" href="$structrt__ipc__object.html" title=" " alt="" coords="47,329,143,407"/>
-<area shape="rect" id="node4" href="$structrt__object.html" title=" " alt="" coords="157,145,250,267"/>
-<area shape="rect" id="node6" href="$structrt__device.html" title=" " alt="" coords="152,431,255,699"/>
-<area shape="rect" id="node5" href="$structrt__list__node.html" title=" " alt="" coords="5,5,95,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="22,877,150,1028"/>
+<area shape="rect" id="node2" href="$structrt__device.html" title=" " alt="" coords="5,431,124,699"/>
+<area shape="rect" id="node3" href="$structrt__object.html" title=" " alt="" coords="76,145,181,267"/>
+<area shape="rect" id="node6" href="$structrt__ipc__object.html" title=" " alt="" coords="151,329,256,407"/>
+<area shape="rect" id="node4" href="$structrt__list__node.html" title=" " alt="" coords="130,5,229,83"/>
+<area shape="rect" id="node5" href="$structrt__semaphore.html" title=" " alt="" coords="147,723,259,815"/>
 </map>

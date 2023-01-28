@@ -1,4 +1,4 @@
 <map id="rt_cpus_unlock" name="rt_cpus_unlock">
-<area shape="rect" id="node1" title="This function will restore all cpus&#39;s scheduler and restore local irq." alt="" coords="5,5,112,32"/>
-<area shape="rect" id="node2" href="$cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="160,5,245,32"/>
+<area shape="rect" id="node1" title="This function will restore all cpus&#39;s scheduler and restore local irq." alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node2" href="$cpu_8c.html#a8fe8f3bfae1869fc0a0d179788433e11" title="This fucntion will return current cpu object." alt="" coords="172,5,265,32"/>
 </map>

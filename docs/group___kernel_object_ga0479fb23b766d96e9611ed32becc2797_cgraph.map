@@ -1,6 +1,6 @@
 <map id="rt_object_delete" name="rt_object_delete">
-<area shape="rect" id="node1" title="This function will delete an object and release object memory." alt="" coords="5,56,120,83"/>
-<area shape="rect" id="node2" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="168,5,327,32"/>
-<area shape="rect" id="node3" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="169,56,325,83"/>
-<area shape="rect" id="node4" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="195,107,299,133"/>
+<area shape="rect" id="node1" title="This function will delete an object and release object memory." alt="" coords="5,56,132,83"/>
+<area shape="rect" id="node2" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="180,5,355,32"/>
+<area shape="rect" id="node3" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="181,56,353,83"/>
+<area shape="rect" id="node4" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="209,107,325,133"/>
 </map>

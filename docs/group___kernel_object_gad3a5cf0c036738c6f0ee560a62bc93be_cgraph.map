@@ -1,6 +1,6 @@
 <map id="rt_object_detach" name="rt_object_detach">
-<area shape="rect" id="node1" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="5,56,124,83"/>
-<area shape="rect" id="node2" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="172,5,331,32"/>
-<area shape="rect" id="node3" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="173,56,329,83"/>
-<area shape="rect" id="node4" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="199,107,303,133"/>
+<area shape="rect" id="node1" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="5,56,136,83"/>
+<area shape="rect" id="node2" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="184,5,359,32"/>
+<area shape="rect" id="node3" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="185,56,357,83"/>
+<area shape="rect" id="node4" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="213,107,329,133"/>
 </map>

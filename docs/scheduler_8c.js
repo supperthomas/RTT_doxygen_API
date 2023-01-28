@@ -2,7 +2,7 @@ var scheduler_8c =
 [
     [ "__on_rt_scheduler_hook", "scheduler_8c.html#a93d8e7f2e449d21cc9942f279cc98a20", null ],
     [ "__on_rt_scheduler_switch_hook", "scheduler_8c.html#af73fde4afc2d5c9fb50c183980183c48", null ],
-    [ "_scheduler_get_highest_priority_thread", "scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950", null ],
+    [ "_scheduler_get_highest_priority_thread", "scheduler_8c.html#a73a2cade9b736d394cba56151e963d7d", null ],
     [ "rt_system_scheduler_init", "group___thread.html#ga5aa2c0c67999e20ce8693ad3c8e624f0", null ],
     [ "rt_system_scheduler_start", "group___thread.html#ga9aa8a561e0caf5e13126834c4f4bb681", null ],
     [ "rt_schedule", "group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24", null ],

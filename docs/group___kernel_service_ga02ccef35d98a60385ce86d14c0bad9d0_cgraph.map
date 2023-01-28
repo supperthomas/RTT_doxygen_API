@@ -1,8 +1,8 @@
 <map id="_rt_errno" name="_rt_errno">
-<area shape="rect" id="node1" title=" " alt="" coords="5,81,81,108"/>
-<area shape="rect" id="node2" href="$group___kernel.html#gaa6725f61bed47e0d5ac383eccf14d3f1" title="This function will return the nest of interrupt." alt="" coords="129,56,272,83"/>
-<area shape="rect" id="node5" href="$group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="149,107,252,133"/>
-<area shape="rect" id="node3" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="320,5,479,32"/>
-<area shape="rect" id="node4" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="321,56,477,83"/>
-<area shape="rect" id="node6" href="$cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="357,107,442,133"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,85,108"/>
+<area shape="rect" id="node2" href="$group___kernel.html#gaa6725f61bed47e0d5ac383eccf14d3f1" title="This function will return the nest of interrupt." alt="" coords="133,56,292,83"/>
+<area shape="rect" id="node5" href="$group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="157,107,269,133"/>
+<area shape="rect" id="node3" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="340,5,515,32"/>
+<area shape="rect" id="node4" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="341,56,513,83"/>
+<area shape="rect" id="node6" href="$cpu_8c.html#a8fe8f3bfae1869fc0a0d179788433e11" title="This fucntion will return current cpu object." alt="" coords="381,107,474,133"/>
 </map>

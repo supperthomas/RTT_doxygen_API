@@ -8,7 +8,7 @@ var cmd_8c =
     [ "MSH_CMD_EXPORT", "cmd_8c.html#a539fbbde476b988cb2ca6fab6f4ba90a", null ],
     [ "object_split", "cmd_8c.html#aef09bba5eb3837940bf6e1338fe38efd", null ],
     [ "list_find_init", "cmd_8c.html#a11a21ee41882512de75b21a0bab777b0", null ],
-    [ "list_get_next", "cmd_8c.html#a5eef9801a076ca215f046dcd3093856b", null ],
+    [ "list_get_next", "cmd_8c.html#a0cd3159d0809d7388a1a335409be9bf0", null ],
     [ "list_thread", "cmd_8c.html#a095a3fb98a5980d17d061638ea14ab52", null ],
     [ "show_wait_queue", "cmd_8c.html#abaf70ce98947a54e6e7e75332b643fa7", null ],
     [ "list_sem", "cmd_8c.html#a4298356441eaeaf9f0f4adeee2333a7c", null ],

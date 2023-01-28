@@ -9,7 +9,7 @@ var components_2finsh_2finsh_8h =
     [ "MSH_CMD_EXPORT_ALIAS", "components_2finsh_2finsh_8h.html#a9faee6c919e0e8bb099276c09649eef5", null ],
     [ "FINSH_NEXT_SYSCALL", "components_2finsh_2finsh_8h.html#a65b22ccf9abeba1bc5471342556f5164", null ],
     [ "syscall_func", "components_2finsh_2finsh_8h.html#a02a90a13808c3728ae2627069a256de8", null ],
-    [ "finsh_syscall_lookup", "components_2finsh_2finsh_8h.html#a4ab7b77fca592c2f912d0399d549d357", null ],
+    [ "finsh_syscall_lookup", "components_2finsh_2finsh_8h.html#abddb89cf044974283ee4225628ea2720", null ],
     [ "finsh_set_device", "group__finsh.html#ga4ca70de04431b9f767dff9f2ba7dcc8b", null ],
     [ "global_syscall_list", "components_2finsh_2finsh_8h.html#a75fba8f6e2aa7636a4ae2259ef968a7c", null ],
     [ "_syscall_table_begin", "components_2finsh_2finsh_8h.html#a7a6d87bb74cf8a72a6bea49337bca645", null ],

@@ -1,7 +1,7 @@
 <map id="Signals" name="Signals">
-<area shape="rect" id="node1" href="$group___device.html" title="device I/O subsystem" alt="" coords="157,5,262,31"/>
-<area shape="rect" id="node2" href="$group___i_p_c.html" title="inter&#45;thread communication" alt="" coords="116,55,303,80"/>
-<area shape="rect" id="node3" href="$group___kernel_service.html" title="other useful service in the kernel" alt="" coords="144,105,275,145"/>
-<area shape="rect" id="node4" href="$group___m_m.html" title="memory management for memory pool and heap memory" alt="" coords="136,169,283,195"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,84,68,109"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,80,75,105"/>
+<area shape="rect" id="node2" href="$group___m_m.html" title="memory management for memory pool and heap memory" alt="" coords="143,5,310,31"/>
+<area shape="rect" id="node3" href="$group___device.html" title="device I/O subsystem" alt="" coords="167,55,287,80"/>
+<area shape="rect" id="node4" href="$group___i_p_c.html" title="inter&#45;thread communication" alt="" coords="123,104,331,129"/>
+<area shape="rect" id="node5" href="$group___kernel_service.html" title="other useful service in the kernel" alt="" coords="153,154,300,194"/>
 </map>

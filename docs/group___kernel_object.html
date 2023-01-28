@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
-<meta name="generator" content="Doxygen 1.9.4"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>RT-Thread RTOS: Kernel Object Management</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
@@ -23,10 +23,11 @@
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
+ <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="rtthread_logo.png"/></td>
-  <td id="projectalign">
-   <div id="projectname">RT-Thread RTOS<span id="projectnumber">&#160;1.2.0</span>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-Thread RTOS
+   &#160;<span id="projectnumber">1.2.0</span>
    </div>
    <div id="projectbrief">An open source embedded real-time operating system</div>
   </td>
@@ -35,22 +36,21 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- 制作者 Doxygen 1.9.4 -->
+<!-- 制作者 Doxygen 1.9.1 -->
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-var searchBox = new SearchBox("searchBox", "search",'搜索','.html');
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索','.html');
 /* @license-end */
 </script>
 <script type="text/javascript" src="menudata.js"></script>
 <script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
 $(function() {
   initMenu('',true,false,'search.php','搜索');
   $(document).ready(function() { init_search(); });
 });
-/* @license-end */
-</script>
+/* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
@@ -64,7 +64,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
 $(document).ready(function(){initNavTree('group___kernel_object.html',''); initResizable(); });
 /* @license-end */
 </script>
@@ -90,30 +90,31 @@ $(document).ready(function(){initNavTree('group___kernel_object.html',''); initR
 <a href="#typedef-members">类型定义</a> &#124;
 <a href="#enum-members">枚举</a> &#124;
 <a href="#func-members">函数</a>  </div>
-  <div class="headertitle"><div class="title">Kernel Object Management</div></div>
+  <div class="headertitle">
+<div class="title">Kernel Object Management</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 结构体</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__object.html">rt_object</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__object__information.html">rt_object_information</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 宏定义</h2></td></tr>
 <tr class="memitem:gadc83c17483bce09fad91cc8b2a3d0ed5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#gadc83c17483bce09fad91cc8b2a3d0ed5">RT_OBJECT_FLAG_MODULE</a>&#160;&#160;&#160;0x80</td></tr>
 <tr class="separator:gadc83c17483bce09fad91cc8b2a3d0ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga40f88eaca0029aea304a7757c85431b8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga40f88eaca0029aea304a7757c85431b8">RT_OBJECT_HOOK_CALL</a>(func,  argv)&#160;&#160;&#160;__on_##func argv</td></tr>
 <tr class="separator:ga40f88eaca0029aea304a7757c85431b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 类型定义</h2></td></tr>
 <tr class="memitem:ga91d74b4f1699da278153af455dadcd70"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structrt__object.html">rt_object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a></td></tr>
 <tr class="separator:ga91d74b4f1699da278153af455dadcd70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 枚举</h2></td></tr>
 <tr class="memitem:ga38a532bcb1bd3f12685db4219b761b56"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga38a532bcb1bd3f12685db4219b761b56">rt_object_class_type</a> { <br />
 &#160;&#160;<a class="el" href="group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a8bd7977afdebe3101f16c9c0c9aa5cb0">RT_Object_Class_Null</a> = 0x00
@@ -141,7 +142,7 @@ $(document).ready(function(){initNavTree('group___kernel_object.html',''); initR
  }</td></tr>
 <tr class="separator:ga38a532bcb1bd3f12685db4219b761b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 函数</h2></td></tr>
 <tr class="memitem:ga8cb85e5812b8e7c3705fb3c7702c992b"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structrt__object__information.html">rt_object_information</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b">rt_object_get_information</a> (enum <a class="el" href="group___kernel_object.html#ga38a532bcb1bd3f12685db4219b761b56">rt_object_class_type</a> type)</td></tr>
 <tr class="separator:ga8cb85e5812b8e7c3705fb3c7702c992b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,8 +170,8 @@ $(document).ready(function(){initNavTree('group___kernel_object.html',''); initR
 <tr class="separator:ga50c46982eda3aeab85fa9e2d94302d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
-<p >The Kernel object system can access and manage all of the kernel objects.</p>
-<p >Kernel objects include most of the facilities in the kernel:</p><ul>
+<p>The Kernel object system can access and manage all of the kernel objects.</p>
+<p>Kernel objects include most of the facilities in the kernel:</p><ul>
 <li>thread</li>
 <li>semaphore and mutex</li>
 <li>event/fast event, mailbox, messagequeue</li>
@@ -181,9 +182,9 @@ $(document).ready(function(){initNavTree('group___kernel_object.html',''); initR
 Figure 2: Kernel Object</div></div>
  </li>
 </ul>
-<p >Kernel objects can be static objects, whose memory is allocated in compiling. It can be dynamic objects as well, whose memory is allocated from system heaps in runtime. </p>
+<p>Kernel objects can be static objects, whose memory is allocated in compiling. It can be dynamic objects as well, whose memory is allocated from system heaps in runtime. </p>
 <h2 class="groupheader">宏定义说明</h2>
-<a id="gadc83c17483bce09fad91cc8b2a3d0ed5" name="gadc83c17483bce09fad91cc8b2a3d0ed5"></a>
+<a id="gadc83c17483bce09fad91cc8b2a3d0ed5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gadc83c17483bce09fad91cc8b2a3d0ed5">&#9670;&nbsp;</a></span>RT_OBJECT_FLAG_MODULE</h2>
 
 <div class="memitem">
@@ -194,11 +195,11 @@ Figure 2: Kernel Object</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >is module object. </p>
+<p>is module object. </p>
 
 </div>
 </div>
-<a id="ga40f88eaca0029aea304a7757c85431b8" name="ga40f88eaca0029aea304a7757c85431b8"></a>
+<a id="ga40f88eaca0029aea304a7757c85431b8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga40f88eaca0029aea304a7757c85431b8">&#9670;&nbsp;</a></span>RT_OBJECT_HOOK_CALL</h2>
 
 <div class="memitem">
@@ -223,11 +224,11 @@ Figure 2: Kernel Object</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >The hook function call macro </p>
+<p>The hook function call macro </p>
 
 </div>
 </div>
-<a id="ga157182cc01efae05cf23d2e80f93c4cd" name="ga157182cc01efae05cf23d2e80f93c4cd"></a>
+<a id="ga157182cc01efae05cf23d2e80f93c4cd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga157182cc01efae05cf23d2e80f93c4cd">&#9670;&nbsp;</a></span>__ON_HOOK_ARGS</h2>
 
 <div class="memitem">
@@ -255,7 +256,7 @@ Figure 2: Kernel Object</div></div>
 
 </div>
 </div>
-<a id="gaee1cb9e1d1f59dde1bc82075abbe9727" name="gaee1cb9e1d1f59dde1bc82075abbe9727"></a>
+<a id="gaee1cb9e1d1f59dde1bc82075abbe9727"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaee1cb9e1d1f59dde1bc82075abbe9727">&#9670;&nbsp;</a></span>__on_rt_interrupt_switch_hook</h2>
 
 <div class="memitem">
@@ -272,7 +273,7 @@ Figure 2: Kernel Object</div></div>
 
 </div>
 </div>
-<a id="ga9f35060c31526bf252bc2e1b54976e46" name="ga9f35060c31526bf252bc2e1b54976e46"></a>
+<a id="ga9f35060c31526bf252bc2e1b54976e46"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga9f35060c31526bf252bc2e1b54976e46">&#9670;&nbsp;</a></span>__on_rt_malloc_hook</h2>
 
 <div class="memitem">
@@ -300,7 +301,7 @@ Figure 2: Kernel Object</div></div>
 
 </div>
 </div>
-<a id="ga4bf66908e0dd05ea80d4cf6f96640d72" name="ga4bf66908e0dd05ea80d4cf6f96640d72"></a>
+<a id="ga4bf66908e0dd05ea80d4cf6f96640d72"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga4bf66908e0dd05ea80d4cf6f96640d72">&#9670;&nbsp;</a></span>__on_rt_free_hook</h2>
 
 <div class="memitem">
@@ -319,7 +320,7 @@ Figure 2: Kernel Object</div></div>
 </div>
 </div>
 <h2 class="groupheader">类型定义说明</h2>
-<a id="ga91d74b4f1699da278153af455dadcd70" name="ga91d74b4f1699da278153af455dadcd70"></a>
+<a id="ga91d74b4f1699da278153af455dadcd70"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga91d74b4f1699da278153af455dadcd70">&#9670;&nbsp;</a></span>rt_object_t</h2>
 
 <div class="memitem">
@@ -330,12 +331,12 @@ Figure 2: Kernel Object</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Type for kernel objects. </p>
+<p>Type for kernel objects. </p>
 
 </div>
 </div>
 <h2 class="groupheader">枚举类型说明</h2>
-<a id="ga38a532bcb1bd3f12685db4219b761b56" name="ga38a532bcb1bd3f12685db4219b761b56"></a>
+<a id="ga38a532bcb1bd3f12685db4219b761b56"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga38a532bcb1bd3f12685db4219b761b56">&#9670;&nbsp;</a></span>rt_object_class_type</h2>
 
 <div class="memitem">
@@ -346,7 +347,7 @@ Figure 2: Kernel Object</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >The object type can be one of the follows with specific macros enabled:</p><ul>
+<p>The object type can be one of the follows with specific macros enabled:</p><ul>
 <li>Thread</li>
 <li>Semaphore</li>
 <li>Mutex</li>
@@ -362,46 +363,46 @@ Figure 2: Kernel Object</div></div>
 <li>Static </li>
 </ul>
 <table class="fieldtable">
-<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a8bd7977afdebe3101f16c9c0c9aa5cb0" name="gga38a532bcb1bd3f12685db4219b761b56a8bd7977afdebe3101f16c9c0c9aa5cb0"></a>RT_Object_Class_Null&#160;</td><td class="fielddoc"><p >The object is not used. </p>
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a8bd7977afdebe3101f16c9c0c9aa5cb0"></a>RT_Object_Class_Null&#160;</td><td class="fielddoc"><p>The object is not used. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a548d26bb698e083d38bd8f0649441a52" name="gga38a532bcb1bd3f12685db4219b761b56a548d26bb698e083d38bd8f0649441a52"></a>RT_Object_Class_Thread&#160;</td><td class="fielddoc"><p >The object is a thread. </p>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a548d26bb698e083d38bd8f0649441a52"></a>RT_Object_Class_Thread&#160;</td><td class="fielddoc"><p>The object is a thread. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a850c61dd598ead7fcf06baec83094c70" name="gga38a532bcb1bd3f12685db4219b761b56a850c61dd598ead7fcf06baec83094c70"></a>RT_Object_Class_Semaphore&#160;</td><td class="fielddoc"><p >The object is a semaphore. </p>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a850c61dd598ead7fcf06baec83094c70"></a>RT_Object_Class_Semaphore&#160;</td><td class="fielddoc"><p>The object is a semaphore. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56afd5b06c025abc6ebc90d0c3ce1e4f6fd" name="gga38a532bcb1bd3f12685db4219b761b56afd5b06c025abc6ebc90d0c3ce1e4f6fd"></a>RT_Object_Class_Mutex&#160;</td><td class="fielddoc"><p >The object is a mutex. </p>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56afd5b06c025abc6ebc90d0c3ce1e4f6fd"></a>RT_Object_Class_Mutex&#160;</td><td class="fielddoc"><p>The object is a mutex. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56ac379eb33745638b59cd9098f46fda7a6" name="gga38a532bcb1bd3f12685db4219b761b56ac379eb33745638b59cd9098f46fda7a6"></a>RT_Object_Class_Event&#160;</td><td class="fielddoc"><p >The object is a event. </p>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56ac379eb33745638b59cd9098f46fda7a6"></a>RT_Object_Class_Event&#160;</td><td class="fielddoc"><p>The object is a event. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a72c12fbfbf3ff1080debc6ee3d4a900b" name="gga38a532bcb1bd3f12685db4219b761b56a72c12fbfbf3ff1080debc6ee3d4a900b"></a>RT_Object_Class_MailBox&#160;</td><td class="fielddoc"><p >The object is a mail box. </p>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a72c12fbfbf3ff1080debc6ee3d4a900b"></a>RT_Object_Class_MailBox&#160;</td><td class="fielddoc"><p>The object is a mail box. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a47535f15636cfef3f4d40cd2258e26fd" name="gga38a532bcb1bd3f12685db4219b761b56a47535f15636cfef3f4d40cd2258e26fd"></a>RT_Object_Class_MessageQueue&#160;</td><td class="fielddoc"><p >The object is a message queue. </p>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a47535f15636cfef3f4d40cd2258e26fd"></a>RT_Object_Class_MessageQueue&#160;</td><td class="fielddoc"><p>The object is a message queue. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a23e9470d936133242191dd0c64a61a7e" name="gga38a532bcb1bd3f12685db4219b761b56a23e9470d936133242191dd0c64a61a7e"></a>RT_Object_Class_MemHeap&#160;</td><td class="fielddoc"><p >The object is a memory heap. </p>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a23e9470d936133242191dd0c64a61a7e"></a>RT_Object_Class_MemHeap&#160;</td><td class="fielddoc"><p>The object is a memory heap. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a54439386d6e606a5596023616e28c096" name="gga38a532bcb1bd3f12685db4219b761b56a54439386d6e606a5596023616e28c096"></a>RT_Object_Class_MemPool&#160;</td><td class="fielddoc"><p >The object is a memory pool. </p>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a54439386d6e606a5596023616e28c096"></a>RT_Object_Class_MemPool&#160;</td><td class="fielddoc"><p>The object is a memory pool. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56af875e996a48417b20a531df21c615f26" name="gga38a532bcb1bd3f12685db4219b761b56af875e996a48417b20a531df21c615f26"></a>RT_Object_Class_Device&#160;</td><td class="fielddoc"><p >The object is a device. </p>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56af875e996a48417b20a531df21c615f26"></a>RT_Object_Class_Device&#160;</td><td class="fielddoc"><p>The object is a device. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a29bccdc3303ac04a7e25d40fea97ab12" name="gga38a532bcb1bd3f12685db4219b761b56a29bccdc3303ac04a7e25d40fea97ab12"></a>RT_Object_Class_Timer&#160;</td><td class="fielddoc"><p >The object is a timer. </p>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a29bccdc3303ac04a7e25d40fea97ab12"></a>RT_Object_Class_Timer&#160;</td><td class="fielddoc"><p>The object is a timer. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a1e5b83d7de96e8d29324a710094f099b" name="gga38a532bcb1bd3f12685db4219b761b56a1e5b83d7de96e8d29324a710094f099b"></a>RT_Object_Class_Module&#160;</td><td class="fielddoc"><p >The object is a module. </p>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a1e5b83d7de96e8d29324a710094f099b"></a>RT_Object_Class_Module&#160;</td><td class="fielddoc"><p>The object is a module. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a17770cf1943033c936d40d534d43dda7" name="gga38a532bcb1bd3f12685db4219b761b56a17770cf1943033c936d40d534d43dda7"></a>RT_Object_Class_Memory&#160;</td><td class="fielddoc"><p >The object is a memory. </p>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a17770cf1943033c936d40d534d43dda7"></a>RT_Object_Class_Memory&#160;</td><td class="fielddoc"><p>The object is a memory. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a849c27150aad81b445ae62c727e499f9" name="gga38a532bcb1bd3f12685db4219b761b56a849c27150aad81b445ae62c727e499f9"></a>RT_Object_Class_Channel&#160;</td><td class="fielddoc"><p >The object is a channel </p>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a849c27150aad81b445ae62c727e499f9"></a>RT_Object_Class_Channel&#160;</td><td class="fielddoc"><p>The object is a channel </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56afd51933668f1834dcf0fc921dd57c9a6" name="gga38a532bcb1bd3f12685db4219b761b56afd51933668f1834dcf0fc921dd57c9a6"></a>RT_Object_Class_Custom&#160;</td><td class="fielddoc"><p >The object is a custom object </p>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56afd51933668f1834dcf0fc921dd57c9a6"></a>RT_Object_Class_Custom&#160;</td><td class="fielddoc"><p>The object is a custom object </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a7fd1d3fe31dd8000703a6198bd919c74" name="gga38a532bcb1bd3f12685db4219b761b56a7fd1d3fe31dd8000703a6198bd919c74"></a>RT_Object_Class_Unknown&#160;</td><td class="fielddoc"><p >The object is unknown. </p>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a7fd1d3fe31dd8000703a6198bd919c74"></a>RT_Object_Class_Unknown&#160;</td><td class="fielddoc"><p>The object is unknown. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56ac3a51281d7f8fee902e6324673d39cec" name="gga38a532bcb1bd3f12685db4219b761b56ac3a51281d7f8fee902e6324673d39cec"></a>RT_Object_Class_Static&#160;</td><td class="fielddoc"><p >The object is a static object. </p>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56ac3a51281d7f8fee902e6324673d39cec"></a>RT_Object_Class_Static&#160;</td><td class="fielddoc"><p>The object is a static object. </p>
 </td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">函数说明</h2>
-<a id="ga8cb85e5812b8e7c3705fb3c7702c992b" name="ga8cb85e5812b8e7c3705fb3c7702c992b"></a>
+<a id="ga8cb85e5812b8e7c3705fb3c7702c992b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga8cb85e5812b8e7c3705fb3c7702c992b">&#9670;&nbsp;</a></span>rt_object_get_information()</h2>
 
 <div class="memitem">
@@ -428,7 +429,7 @@ Figure 2: Kernel Object</div></div>
 
 </div>
 </div>
-<a id="ga7167ae7d39f610dc3d0fe892148e7579" name="ga7167ae7d39f610dc3d0fe892148e7579"></a>
+<a id="ga7167ae7d39f610dc3d0fe892148e7579"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga7167ae7d39f610dc3d0fe892148e7579">&#9670;&nbsp;</a></span>RTM_EXPORT() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
@@ -446,7 +447,7 @@ Figure 2: Kernel Object</div></div>
 
 </div>
 </div>
-<a id="ga999d82dfa646d3c4416698f35e37ed65" name="ga999d82dfa646d3c4416698f35e37ed65"></a>
+<a id="ga999d82dfa646d3c4416698f35e37ed65"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga999d82dfa646d3c4416698f35e37ed65">&#9670;&nbsp;</a></span>rt_object_get_length()</h2>
 
 <div class="memitem">
@@ -477,16 +478,16 @@ Figure 2: Kernel Object</div></div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group___kernel_object_ga999d82dfa646d3c4416698f35e37ed65_cgraph.png" border="0" usemap="#agroup___kernel_object_ga999d82dfa646d3c4416698f35e37ed65_cgraph" alt=""/></div>
 <map name="agroup___kernel_object_ga999d82dfa646d3c4416698f35e37ed65_cgraph" id="agroup___kernel_object_ga999d82dfa646d3c4416698f35e37ed65_cgraph">
-<area shape="rect" title="This function will return the length of object list in object container." alt="" coords="5,56,145,83"/>
-<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="199,5,358,32"/>
-<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="201,56,357,83"/>
-<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="193,107,364,133"/>
+<area shape="rect" title="This function will return the length of object list in object container." alt="" coords="5,56,160,83"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="216,5,391,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="217,56,389,83"/>
+<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="208,107,399,133"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="gaff8a8eeb6feb5b69a873f7bf55816f86" name="gaff8a8eeb6feb5b69a873f7bf55816f86"></a>
+<a id="gaff8a8eeb6feb5b69a873f7bf55816f86"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaff8a8eeb6feb5b69a873f7bf55816f86">&#9670;&nbsp;</a></span>RTM_EXPORT() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
@@ -504,7 +505,7 @@ Figure 2: Kernel Object</div></div>
 
 </div>
 </div>
-<a id="gaa6879a7d034c9ccc56ab3a4cb8fd75f6" name="gaa6879a7d034c9ccc56ab3a4cb8fd75f6"></a>
+<a id="gaa6879a7d034c9ccc56ab3a4cb8fd75f6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaa6879a7d034c9ccc56ab3a4cb8fd75f6">&#9670;&nbsp;</a></span>rt_object_get_pointers()</h2>
 
 <div class="memitem">
@@ -553,16 +554,16 @@ Figure 2: Kernel Object</div></div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group___kernel_object_gaa6879a7d034c9ccc56ab3a4cb8fd75f6_cgraph.png" border="0" usemap="#agroup___kernel_object_gaa6879a7d034c9ccc56ab3a4cb8fd75f6_cgraph" alt=""/></div>
 <map name="agroup___kernel_object_gaa6879a7d034c9ccc56ab3a4cb8fd75f6_cgraph" id="agroup___kernel_object_gaa6879a7d034c9ccc56ab3a4cb8fd75f6_cgraph">
-<area shape="rect" title="This function will copy the object pointer of the specified type, with the maximum size specified by ..." alt="" coords="5,56,156,83"/>
-<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="210,5,369,32"/>
-<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="211,56,367,83"/>
-<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="204,107,375,133"/>
+<area shape="rect" title="This function will copy the object pointer of the specified type, with the maximum size specified by ..." alt="" coords="5,56,172,83"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="228,5,403,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="229,56,401,83"/>
+<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="220,107,411,133"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ga7ea8ef4694447ec1f1d934cf76e4a2e9" name="ga7ea8ef4694447ec1f1d934cf76e4a2e9"></a>
+<a id="ga7ea8ef4694447ec1f1d934cf76e4a2e9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga7ea8ef4694447ec1f1d934cf76e4a2e9">&#9670;&nbsp;</a></span>RTM_EXPORT() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
@@ -580,7 +581,7 @@ Figure 2: Kernel Object</div></div>
 
 </div>
 </div>
-<a id="ga0a86356c83e8264841fcb83255f72014" name="ga0a86356c83e8264841fcb83255f72014"></a>
+<a id="ga0a86356c83e8264841fcb83255f72014"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga0a86356c83e8264841fcb83255f72014">&#9670;&nbsp;</a></span>rt_object_init()</h2>
 
 <div class="memitem">
@@ -628,30 +629,30 @@ Figure 2: Kernel Object</div></div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group___kernel_object_ga0a86356c83e8264841fcb83255f72014_cgraph.png" border="0" usemap="#agroup___kernel_object_ga0a86356c83e8264841fcb83255f72014_cgraph" alt=""/></div>
 <map name="agroup___kernel_object_ga0a86356c83e8264841fcb83255f72014_cgraph" id="agroup___kernel_object_ga0a86356c83e8264841fcb83255f72014_cgraph">
-<area shape="rect" title="This function will initialize an object and add it to object system management." alt="" coords="5,612,103,639"/>
-<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="528,444,640,471"/>
-<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="711,201,869,228"/>
-<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="712,448,868,475"/>
-<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="185,423,287,449"/>
-<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="727,608,853,635"/>
-<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="151,713,321,740"/>
-<area shape="rect" href="group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="197,764,275,791"/>
-<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="369,305,457,332"/>
-<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="505,327,663,369"/>
-<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="511,225,657,252"/>
-<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="511,159,657,201"/>
-<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="521,495,647,537"/>
-<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="515,42,653,83"/>
-<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="757,335,823,361"/>
-<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="721,503,859,529"/>
-<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="737,75,843,101"/>
-<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="738,24,842,51"/>
+<area shape="rect" title="This function will initialize an object and add it to object system management." alt="" coords="5,614,112,641"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="569,446,693,473"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="767,204,941,230"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="768,450,940,477"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="198,425,313,452"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="784,610,924,637"/>
+<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="160,716,351,742"/>
+<area shape="rect" href="group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="212,766,299,793"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="399,308,496,334"/>
+<area shape="rect" href="scheduler_8c.html#a73a2cade9b736d394cba56151e963d7d" title=" " alt="" coords="544,330,719,371"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="550,228,713,254"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="550,162,713,203"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="561,498,702,539"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="554,44,709,86"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="819,337,889,364"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="778,505,930,532"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="795,77,913,104"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="796,26,912,53"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="gad3a5cf0c036738c6f0ee560a62bc93be" name="gad3a5cf0c036738c6f0ee560a62bc93be"></a>
+<a id="gad3a5cf0c036738c6f0ee560a62bc93be"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gad3a5cf0c036738c6f0ee560a62bc93be">&#9670;&nbsp;</a></span>rt_object_detach()</h2>
 
 <div class="memitem">
@@ -681,16 +682,16 @@ Figure 2: Kernel Object</div></div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group___kernel_object_gad3a5cf0c036738c6f0ee560a62bc93be_cgraph.png" border="0" usemap="#agroup___kernel_object_gad3a5cf0c036738c6f0ee560a62bc93be_cgraph" alt=""/></div>
 <map name="agroup___kernel_object_gad3a5cf0c036738c6f0ee560a62bc93be_cgraph" id="agroup___kernel_object_gad3a5cf0c036738c6f0ee560a62bc93be_cgraph">
-<area shape="rect" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="5,56,124,83"/>
-<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="172,5,331,32"/>
-<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="173,56,329,83"/>
-<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="199,107,303,133"/>
+<area shape="rect" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="5,56,136,83"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="184,5,359,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="185,56,357,83"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="213,107,329,133"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ga661bb999394a29404c20c7f3e58e5f64" name="ga661bb999394a29404c20c7f3e58e5f64"></a>
+<a id="ga661bb999394a29404c20c7f3e58e5f64"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga661bb999394a29404c20c7f3e58e5f64">&#9670;&nbsp;</a></span>rt_object_allocate()</h2>
 
 <div class="memitem">
@@ -732,19 +733,19 @@ Figure 2: Kernel Object</div></div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group___kernel_object_ga661bb999394a29404c20c7f3e58e5f64_cgraph.png" border="0" usemap="#agroup___kernel_object_ga661bb999394a29404c20c7f3e58e5f64_cgraph" alt=""/></div>
 <map name="agroup___kernel_object_ga661bb999394a29404c20c7f3e58e5f64_cgraph" id="agroup___kernel_object_ga661bb999394a29404c20c7f3e58e5f64_cgraph">
-<area shape="rect" title="This function will allocate an object from object system." alt="" coords="5,132,129,159"/>
-<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="183,5,342,32"/>
-<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="185,56,341,83"/>
-<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="199,107,326,133"/>
-<area shape="rect" href="group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="221,157,305,184"/>
-<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="177,208,348,235"/>
-<area shape="rect" href="group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="223,259,302,285"/>
+<area shape="rect" title="This function will allocate an object from object system." alt="" coords="5,132,144,159"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="200,5,375,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="201,56,373,83"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="217,107,357,133"/>
+<area shape="rect" href="group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="241,157,334,184"/>
+<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="192,208,383,235"/>
+<area shape="rect" href="group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="244,259,331,285"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ga0479fb23b766d96e9611ed32becc2797" name="ga0479fb23b766d96e9611ed32becc2797"></a>
+<a id="ga0479fb23b766d96e9611ed32becc2797"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga0479fb23b766d96e9611ed32becc2797">&#9670;&nbsp;</a></span>rt_object_delete()</h2>
 
 <div class="memitem">
@@ -774,16 +775,16 @@ Figure 2: Kernel Object</div></div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group___kernel_object_ga0479fb23b766d96e9611ed32becc2797_cgraph.png" border="0" usemap="#agroup___kernel_object_ga0479fb23b766d96e9611ed32becc2797_cgraph" alt=""/></div>
 <map name="agroup___kernel_object_ga0479fb23b766d96e9611ed32becc2797_cgraph" id="agroup___kernel_object_ga0479fb23b766d96e9611ed32becc2797_cgraph">
-<area shape="rect" title="This function will delete an object and release object memory." alt="" coords="5,56,120,83"/>
-<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="168,5,327,32"/>
-<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="169,56,325,83"/>
-<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="195,107,299,133"/>
+<area shape="rect" title="This function will delete an object and release object memory." alt="" coords="5,56,132,83"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="180,5,355,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="181,56,353,83"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="209,107,325,133"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ga0b4471fdda93017477bc81ca357481ac" name="ga0b4471fdda93017477bc81ca357481ac"></a>
+<a id="ga0b4471fdda93017477bc81ca357481ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga0b4471fdda93017477bc81ca357481ac">&#9670;&nbsp;</a></span>rt_object_is_systemobject()</h2>
 
 <div class="memitem">
@@ -811,7 +812,7 @@ Figure 2: Kernel Object</div></div>
 
 </div>
 </div>
-<a id="ga8e9948d16704c567feb38b9d98618a91" name="ga8e9948d16704c567feb38b9d98618a91"></a>
+<a id="ga8e9948d16704c567feb38b9d98618a91"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga8e9948d16704c567feb38b9d98618a91">&#9670;&nbsp;</a></span>rt_object_get_type()</h2>
 
 <div class="memitem">
@@ -838,7 +839,7 @@ Figure 2: Kernel Object</div></div>
 
 </div>
 </div>
-<a id="ga6c82dbb4ae114918c5c96d0dca3957eb" name="ga6c82dbb4ae114918c5c96d0dca3957eb"></a>
+<a id="ga6c82dbb4ae114918c5c96d0dca3957eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga6c82dbb4ae114918c5c96d0dca3957eb">&#9670;&nbsp;</a></span>rt_object_find()</h2>
 
 <div class="memitem">
@@ -881,30 +882,30 @@ Figure 2: Kernel Object</div></div>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group___kernel_object_ga6c82dbb4ae114918c5c96d0dca3957eb_cgraph.png" border="0" usemap="#agroup___kernel_object_ga6c82dbb4ae114918c5c96d0dca3957eb_cgraph" alt=""/></div>
 <map name="agroup___kernel_object_ga6c82dbb4ae114918c5c96d0dca3957eb_cgraph" id="agroup___kernel_object_ga6c82dbb4ae114918c5c96d0dca3957eb_cgraph">
-<area shape="rect" title="This function will find specified name object from object container." alt="" coords="5,599,107,626"/>
-<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="532,406,644,433"/>
-<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="189,439,291,466"/>
-<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="155,625,325,651"/>
-<area shape="rect" href="group___kernel_service.html#ga1a4ff96dd17dfcd6ca974ae21a1df0f9" title=" " alt="" coords="198,675,282,702"/>
-<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="715,355,873,382"/>
-<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="716,406,872,433"/>
-<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="373,225,461,251"/>
-<area shape="rect" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="509,5,667,47"/>
-<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="515,137,661,163"/>
-<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="515,188,661,229"/>
-<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="525,71,651,112"/>
-<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="519,457,657,499"/>
-<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="761,13,827,39"/>
-<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="731,71,857,98"/>
-<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="725,122,863,149"/>
-<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="741,461,847,487"/>
-<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="742,511,846,538"/>
+<area shape="rect" title="This function will find specified name object from object container." alt="" coords="5,599,116,626"/>
+<area shape="rect" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="573,406,697,433"/>
+<area shape="rect" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="202,439,317,466"/>
+<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="164,625,355,651"/>
+<area shape="rect" href="group___kernel_service.html#ga1a4ff96dd17dfcd6ca974ae21a1df0f9" title=" " alt="" coords="213,675,305,702"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="771,355,945,382"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="772,406,944,433"/>
+<area shape="rect" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="403,225,500,251"/>
+<area shape="rect" href="scheduler_8c.html#a73a2cade9b736d394cba56151e963d7d" title=" " alt="" coords="548,5,723,47"/>
+<area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="554,137,717,163"/>
+<area shape="rect" href="rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="554,188,717,229"/>
+<area shape="rect" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="565,71,706,112"/>
+<area shape="rect" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="558,457,713,499"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="823,13,893,39"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="788,71,928,98"/>
+<area shape="rect" href="group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="782,122,934,149"/>
+<area shape="rect" href="group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="799,461,917,487"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="800,511,916,538"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ga75581e85adfc9cd4068c5144d19849b4" name="ga75581e85adfc9cd4068c5144d19849b4"></a>
+<a id="ga75581e85adfc9cd4068c5144d19849b4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga75581e85adfc9cd4068c5144d19849b4">&#9670;&nbsp;</a></span>rt_custom_object_create()</h2>
 
 <div class="memitem">
@@ -935,11 +936,10 @@ Figure 2: Kernel Object</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >This function will create a custom object container.</p>
+<p>This function will create a custom object container.</p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>the specified name of object. </td></tr>
-    <tr><td class="paramname">type</td><td>the type of object </td></tr>
     <tr><td class="paramname">data</td><td>the custom data </td></tr>
     <tr><td class="paramname">data_destroy</td><td>the custom object destroy callback</td></tr>
   </table>
@@ -954,20 +954,20 @@ Figure 2: Kernel Object</div></div>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group___kernel_object_ga75581e85adfc9cd4068c5144d19849b4_cgraph.png" border="0" usemap="#agroup___kernel_object_ga75581e85adfc9cd4068c5144d19849b4_cgraph" alt=""/></div>
 <map name="agroup___kernel_object_ga75581e85adfc9cd4068c5144d19849b4_cgraph" id="agroup___kernel_object_ga75581e85adfc9cd4068c5144d19849b4_cgraph">
-<area shape="rect" title=" " alt="" coords="5,132,169,159"/>
-<area shape="rect" href="group___kernel_object.html#ga661bb999394a29404c20c7f3e58e5f64" title="This function will allocate an object from object system." alt="" coords="217,132,341,159"/>
-<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="395,5,554,32"/>
-<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="397,56,553,83"/>
-<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="411,107,538,133"/>
-<area shape="rect" href="group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="433,157,517,184"/>
-<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="389,208,560,235"/>
-<area shape="rect" href="group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="435,259,514,285"/>
+<area shape="rect" title=" " alt="" coords="5,132,188,159"/>
+<area shape="rect" href="group___kernel_object.html#ga661bb999394a29404c20c7f3e58e5f64" title="This function will allocate an object from object system." alt="" coords="236,132,375,159"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="431,5,605,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="432,56,604,83"/>
+<area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="448,107,588,133"/>
+<area shape="rect" href="group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="471,157,565,184"/>
+<area shape="rect" href="group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="423,208,613,235"/>
+<area shape="rect" href="group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="475,259,561,285"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ga50c46982eda3aeab85fa9e2d94302d62" name="ga50c46982eda3aeab85fa9e2d94302d62"></a>
+<a id="ga50c46982eda3aeab85fa9e2d94302d62"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga50c46982eda3aeab85fa9e2d94302d62">&#9670;&nbsp;</a></span>rt_custom_object_destroy()</h2>
 
 <div class="memitem">
@@ -982,7 +982,7 @@ Figure 2: Kernel Object</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >This function will destroy a custom object container.</p>
+<p>This function will destroy a custom object container.</p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramname">obj</td><td>the specified name of object.</td></tr>
@@ -997,17 +997,17 @@ Figure 2: Kernel Object</div></div>
 <div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group___kernel_object_ga50c46982eda3aeab85fa9e2d94302d62_cgraph.png" border="0" usemap="#agroup___kernel_object_ga50c46982eda3aeab85fa9e2d94302d62_cgraph" alt=""/></div>
 <map name="agroup___kernel_object_ga50c46982eda3aeab85fa9e2d94302d62_cgraph" id="agroup___kernel_object_ga50c46982eda3aeab85fa9e2d94302d62_cgraph">
-<area shape="rect" title=" " alt="" coords="5,56,176,83"/>
-<area shape="rect" href="group___kernel_object.html#ga0479fb23b766d96e9611ed32becc2797" title="This function will delete an object and release object memory." alt="" coords="224,56,339,83"/>
-<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="387,5,545,32"/>
-<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="388,56,544,83"/>
-<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="414,107,518,133"/>
+<area shape="rect" title=" " alt="" coords="5,56,196,83"/>
+<area shape="rect" href="group___kernel_object.html#ga0479fb23b766d96e9611ed32becc2797" title="This function will delete an object and release object memory." alt="" coords="244,56,371,83"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="419,5,593,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="420,56,592,83"/>
+<area shape="rect" href="group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="448,107,564,133"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ga8bac83f313b9fb0215c424bec05174bd" name="ga8bac83f313b9fb0215c424bec05174bd"></a>
+<a id="ga8bac83f313b9fb0215c424bec05174bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga8bac83f313b9fb0215c424bec05174bd">&#9670;&nbsp;</a></span>rt_object_attach_sethook()</h2>
 
 <div class="memitem">
@@ -1025,7 +1025,7 @@ Figure 2: Kernel Object</div></div>
 
 </div>
 </div>
-<a id="ga28dd3af85707fc6c9bf548fe53460aca" name="ga28dd3af85707fc6c9bf548fe53460aca"></a>
+<a id="ga28dd3af85707fc6c9bf548fe53460aca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga28dd3af85707fc6c9bf548fe53460aca">&#9670;&nbsp;</a></span>rt_object_detach_sethook()</h2>
 
 <div class="memitem">
@@ -1043,7 +1043,7 @@ Figure 2: Kernel Object</div></div>
 
 </div>
 </div>
-<a id="gabfce5c06de6e1cd6b661b05cb9dd6242" name="gabfce5c06de6e1cd6b661b05cb9dd6242"></a>
+<a id="gabfce5c06de6e1cd6b661b05cb9dd6242"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gabfce5c06de6e1cd6b661b05cb9dd6242">&#9670;&nbsp;</a></span>rt_object_trytake_sethook()</h2>
 
 <div class="memitem">
@@ -1061,7 +1061,7 @@ Figure 2: Kernel Object</div></div>
 
 </div>
 </div>
-<a id="ga69054a027dcc8483b65fd48740eb3717" name="ga69054a027dcc8483b65fd48740eb3717"></a>
+<a id="ga69054a027dcc8483b65fd48740eb3717"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga69054a027dcc8483b65fd48740eb3717">&#9670;&nbsp;</a></span>rt_object_take_sethook()</h2>
 
 <div class="memitem">
@@ -1079,7 +1079,7 @@ Figure 2: Kernel Object</div></div>
 
 </div>
 </div>
-<a id="gad107a57fce56ef991d673fa21c6d065a" name="gad107a57fce56ef991d673fa21c6d065a"></a>
+<a id="gad107a57fce56ef991d673fa21c6d065a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gad107a57fce56ef991d673fa21c6d065a">&#9670;&nbsp;</a></span>rt_object_put_sethook()</h2>
 
 <div class="memitem">
@@ -1102,7 +1102,7 @@ Figure 2: Kernel Object</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">生成于 2023年 一月 19日 星期四 21:57:26 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">生成于 2023年 一月 28日 星期六 08:51:43 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

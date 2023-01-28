@@ -1,10 +1,10 @@
-<map id="D:/02_git_repo/rt&#45;thread/src/device.c" name="D:/02_git_repo/rt&#45;thread/src/device.c">
-<area shape="rect" id="node1" title=" " alt="" coords="93,5,257,47"/>
-<area shape="rect" id="node2" href="$rtthread_8h.html" title=" " alt="" coords="136,95,215,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="21,319,97,345"/>
-<area shape="rect" id="node4" href="$rtdebug_8h.html" title=" " alt="" coords="21,244,98,271"/>
-<area shape="rect" id="node5" href="$rtdef_8h.html" title=" " alt="" coords="123,244,183,271"/>
-<area shape="rect" id="node6" href="$rtservice_8h.html" title=" " alt="" coords="134,169,217,196"/>
-<area shape="rect" id="node7" href="$rtm_8h.html" title=" " alt="" coords="241,169,294,196"/>
-<area shape="rect" id="node8" title=" " alt="" coords="319,169,379,196"/>
+<map id="/home/runner/work/RTT_doxygen_API/RTT_doxygen_API/rt&#45;thread/src/device.c" name="/home/runner/work/RTT_doxygen_API/RTT_doxygen_API/rt&#45;thread/src/device.c">
+<area shape="rect" id="node1" title=" " alt="" coords="80,5,284,61"/>
+<area shape="rect" id="node2" href="$rtthread_8h.html" title=" " alt="" coords="139,109,225,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="22,333,105,360"/>
+<area shape="rect" id="node4" href="$rtdebug_8h.html" title=" " alt="" coords="21,259,105,285"/>
+<area shape="rect" id="node5" href="$rtdef_8h.html" title=" " alt="" coords="130,259,194,285"/>
+<area shape="rect" id="node6" href="$rtservice_8h.html" title=" " alt="" coords="137,184,227,211"/>
+<area shape="rect" id="node7" href="$rtm_8h.html" title=" " alt="" coords="252,184,309,211"/>
+<area shape="rect" id="node8" title=" " alt="" coords="333,184,399,211"/>
 </map>

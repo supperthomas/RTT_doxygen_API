@@ -1,4 +1,4 @@
 <map id="rt_system_timer_init" name="rt_system_timer_init">
-<area shape="rect" id="node1" title="This function will initialize system timer" alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node2" href="$group___kernel_service.html#ga7103f52aa8c7402c9e87f03942d8bc9f" title="initialize a list" alt="" coords="192,5,271,32"/>
+<area shape="rect" id="node1" title="This function will initialize system timer" alt="" coords="5,5,163,32"/>
+<area shape="rect" id="node2" href="$group___kernel_service.html#ga7103f52aa8c7402c9e87f03942d8bc9f" title="initialize a list" alt="" coords="211,5,297,32"/>
 </map>

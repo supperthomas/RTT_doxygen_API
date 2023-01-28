@@ -53,7 +53,7 @@
       <topic label="finsh_get_prompt_mode" href="group__finsh.html#gab73621cc9f385c6742d10278a64cf638"/>
       <topic label="finsh_set_prompt_mode" href="group__finsh.html#gad37603360d3201083d8bae51bec8d124"/>
       <topic label="finsh_set_device" href="group__finsh.html#ga4ca70de04431b9f767dff9f2ba7dcc8b"/>
-      <topic label="finsh_get_device" href="group__finsh.html#gafe8f5ac72b6b16c55e97be2b08054b97"/>
+      <topic label="finsh_get_device" href="group__finsh.html#ga2e05476dce5ac5afab26e0769292cf83"/>
       <topic label="finsh_set_echo" href="group__finsh.html#gae80e3d53913894f5fbfcf9335205c649"/>
       <topic label="finsh_get_echo" href="group__finsh.html#ga77d4ddaeaf41942986da9810c6f5b5ee"/>
     </topic>
@@ -311,6 +311,8 @@
       <topic label="RT_EINTR" href="group___error.html#ga23b1ebea0d39b755be34bea061572f81"/>
       <topic label="RT_EINVAL" href="group___error.html#ga46a1429ec0c968e558187848107e30fc"/>
       <topic label="RT_ETRAP" href="group___error.html#ga846bfee9b17336beaac08c5f98498e7b"/>
+      <topic label="RT_ENOENT" href="group___error.html#gaee840be70e5caf984e4b5ecf7fc22052"/>
+      <topic label="RT_ENOSPC" href="group___error.html#gac3aab3da633303d0c5e8fc1bd178db9a"/>
     </topic>
     <topic label="Application Module" href="group___module.html">
     </topic>
@@ -503,11 +505,11 @@
         <topic label="rt_mp_alloc_sethook" href="group___m_m.html#ga358d3559267d1c8c66c836ed2e08433b"/>
         <topic label="rt_mp_free_sethook" href="group___m_m.html#gafd43b13db5623925756b7a3968aa3b01"/>
         <topic label="rt_system_heap_init" href="group___m_m.html#gafa6feb60f6204d1783bc3bc324b886e7"/>
-        <topic label="rt_malloc" href="group___m_m.html#gadffdb9d05bb2f9928751bee608b694b8"/>
+        <topic label="rt_malloc" href="group___m_m.html#ga27d146d7a9082765703ab218def0617f"/>
         <topic label="rt_free" href="group___m_m.html#ga6c1c24262479e6946fd04823878177f9"/>
-        <topic label="rt_realloc" href="group___m_m.html#ga810ffee2f3a30f0e8bf3f1c33b7fadf9"/>
-        <topic label="rt_calloc" href="group___m_m.html#ga89c02c2964ca603cf87912871bafa1b4"/>
-        <topic label="rt_malloc_align" href="group___m_m.html#ga1dc9ac8a12cf36f08d0a3ebf7fe9ce4e"/>
+        <topic label="rt_realloc" href="group___m_m.html#ga43bb369b655b2662fa0b3d654f447a67"/>
+        <topic label="rt_calloc" href="group___m_m.html#gacf5395171f8ad2ad6bc5e1c61b8b0d88"/>
+        <topic label="rt_malloc_align" href="group___m_m.html#gaf2654f08787ce7935c635c0343970f6a"/>
         <topic label="rt_free_align" href="group___m_m.html#gabf1ea8f43781620e7b08fb1868e32b92"/>
         <topic label="rt_memory_info" href="group___m_m.html#ga6a043ee84954692789696a255ea65699"/>
         <topic label="rt_malloc_sethook" href="group___m_m.html#ga909761c80493569b64558225d7f89e77"/>
@@ -920,7 +922,7 @@
         <topic label="RTM_EXPORT" href="group___kernel_service.html#gaafc7247c3c2221356093bc87ce5ed896"/>
         <topic label="divide" href="group___kernel_service.html#ga2982bb502772e9905b3d4a791d5a5a62"/>
         <topic label="skip_atoi" href="group___kernel_service.html#ga9fb03b6a91239b2f8a49858106ee38cd"/>
-        <topic label="print_number" href="group___kernel_service.html#ga1e8514c6d1cc0ce375faece986f68937"/>
+        <topic label="print_number" href="group___kernel_service.html#ga5bd240284cac0868025b7e2aa379129c"/>
         <topic label="rt_vsnprintf" href="group___kernel_service.html#gac2d4cd92e18dd8afc759f00a1830aab6"/>
         <topic label="RTM_EXPORT" href="group___kernel_service.html#gab07d636f5c483e09b6ce319e6f5883c2"/>
         <topic label="rt_snprintf" href="group___kernel_service.html#ga940bcced7e89f112ac04bd715fdf4f24"/>
@@ -933,17 +935,17 @@
         <topic label="_heap_lock" href="group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488"/>
         <topic label="_heap_unlock" href="group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03"/>
         <topic label="rt_system_heap_init" href="group___kernel_service.html#ga7ccb4a60ea0018ba0060611b8b328026"/>
-        <topic label="rt_malloc" href="group___kernel_service.html#gadf0126394c8c791134bd466db22ebc52"/>
+        <topic label="rt_malloc" href="group___kernel_service.html#gad551ed7184fb8b7ebad5c1f344045638"/>
         <topic label="RTM_EXPORT" href="group___kernel_service.html#ga6ed95500cbb5b79f60d6eb244e922bdd"/>
-        <topic label="rt_realloc" href="group___kernel_service.html#ga5f8375bba7722d9ecd4f184a59af243a"/>
+        <topic label="rt_realloc" href="group___kernel_service.html#gae613cb22dc97a3954536491058f059cf"/>
         <topic label="RTM_EXPORT" href="group___kernel_service.html#ga42d249573eaf24e317460db30b17b205"/>
-        <topic label="rt_calloc" href="group___kernel_service.html#ga05a3a8b359922afdb3785c312026d3af"/>
+        <topic label="rt_calloc" href="group___kernel_service.html#gaafdebcff4e69edeaaf49ade9be5460ce"/>
         <topic label="RTM_EXPORT" href="group___kernel_service.html#gaccc9a775ac3fbd81f4f880e1cfde211b"/>
         <topic label="rt_free" href="group___kernel_service.html#gad24f606383faa97aab028c0f9df843da"/>
         <topic label="RTM_EXPORT" href="group___kernel_service.html#ga44f99711c3416f6a39983d273e9dfcbe"/>
         <topic label="rt_memory_info" href="group___kernel_service.html#gad8ab019984cc19958c95b5c2eb32256d"/>
         <topic label="RTM_EXPORT" href="group___kernel_service.html#gae69b5c67da0d114a23dd12856c726321"/>
-        <topic label="rt_malloc_align" href="group___kernel_service.html#ga7da67e3734ef4b8368a39174f76fe2ce"/>
+        <topic label="rt_malloc_align" href="group___kernel_service.html#ga7337fae7fa792a9adfe5be4b3acd04aa"/>
         <topic label="RTM_EXPORT" href="group___kernel_service.html#ga9d8b7c81f8cc0ba94113f56558aa96f2"/>
         <topic label="rt_free_align" href="group___kernel_service.html#ga50b04c4685e08f3c7923caaab600f6fc"/>
         <topic label="RTM_EXPORT" href="group___kernel_service.html#ga372da2fa37d359c9a39430a3863398ce"/>
@@ -958,10 +960,10 @@
         <topic label="rt_slist_append" href="group___kernel_service.html#gadb8e810867bb7ae805bd408f0e984426"/>
         <topic label="rt_slist_insert" href="group___kernel_service.html#ga0dcb52f45a21a13ccba01e69e15dae43"/>
         <topic label="rt_slist_len" href="group___kernel_service.html#ga6c98989f687835054c7044cbe6f89c20"/>
-        <topic label="rt_slist_remove" href="group___kernel_service.html#ga9dabf54c3bc63b766f72532a5af2f3bb"/>
-        <topic label="rt_slist_first" href="group___kernel_service.html#ga2a4e0adfe71c18b4899215c8589e63f5"/>
-        <topic label="rt_slist_tail" href="group___kernel_service.html#ga29e5af137780afcc68ee755837a04ff6"/>
-        <topic label="rt_slist_next" href="group___kernel_service.html#ga81cf5fa6a2eca42593620f854bdd83bd"/>
+        <topic label="rt_slist_remove" href="group___kernel_service.html#gaa342a9827785a0563570ea367e16f2f2"/>
+        <topic label="rt_slist_first" href="group___kernel_service.html#ga6ed611144041bd54d06184f75801711c"/>
+        <topic label="rt_slist_tail" href="group___kernel_service.html#gafdf4cfdad123f8721adcaa67a93e3d65"/>
+        <topic label="rt_slist_next" href="group___kernel_service.html#ga99c2381fc8947272231f4e29416ca9bc"/>
         <topic label="rt_slist_isempty" href="group___kernel_service.html#gad25f026c11b3e1ff4d3954840c209b2e"/>
         <topic label="__rt_errno" href="group___kernel_service.html#ga33a17bcb73ff2ee4e19e4d0f077236e0"/>
         <topic label="rt_errno_strs" href="group___kernel_service.html#ga7106f8e4282d0f99ee58fca822962af2"/>
@@ -1353,10 +1355,10 @@
               <topic label="DFS_F_EOF" href="dfs_8h.html#a51bec5c9827d9577f45ca4428876b1ce"/>
               <topic label="DFS_F_ERR" href="dfs_8h.html#a93a347ba20eb348975087c7fded79292"/>
               <topic label="dfs_init" href="dfs_8h.html#a059e3377e4d073cfbe2987536a7ce4dd"/>
-              <topic label="dfs_normalize_path" href="dfs_8h.html#a3eacda8b183c4c204a8399b7197c609b"/>
-              <topic label="dfs_subdir" href="dfs_8h.html#aa71fea4356b032e8b0dd047dfb0f12bb"/>
+              <topic label="dfs_normalize_path" href="dfs_8h.html#abd8ed9059034edfcf320864d0e537b9d"/>
+              <topic label="dfs_subdir" href="dfs_8h.html#a90fc91be4455e48fd7d3f2a33ce599ee"/>
               <topic label="fd_is_open" href="group___fd.html#gaac5ef888b25e5c4a32667c5b9589d3d8"/>
-              <topic label="dfs_fdtable_get" href="dfs_8h.html#ae3f66eccded97fb971db1a1ce0b6a3e7"/>
+              <topic label="dfs_fdtable_get" href="dfs_8h.html#a5247901b7de0732ec9d502de751acfdd"/>
               <topic label="dfs_lock" href="dfs_8h.html#a8fbd44e83279d3da28d999d25bca8952"/>
               <topic label="dfs_unlock" href="dfs_8h.html#a2ac674bd319f61a6b1c9e2338018b523"/>
               <topic label="dfs_fd_lock" href="dfs_8h.html#ab07583e89629765d9c59822a59f43edf"/>
@@ -1457,8 +1459,8 @@
                 <topic label="data" href="structdfs__mount__tbl.html#a23f887c29dd3467e8a6cc7041a0f5e60"/>
               </topic>
               <topic label="dfs_register" href="dfs__fs_8h.html#a50104477b4ee48dfa421235640b5a498"/>
-              <topic label="dfs_filesystem_lookup" href="dfs__fs_8h.html#a3352a80615c4fe656f8b054ad7937a3e"/>
-              <topic label="dfs_filesystem_get_mounted_path" href="dfs__fs_8h.html#a7b388b94e5dc19e639f6d5c252eeba83"/>
+              <topic label="dfs_filesystem_lookup" href="dfs__fs_8h.html#a1ecf73109f4592e4209471c7d6b90365"/>
+              <topic label="dfs_filesystem_get_mounted_path" href="dfs__fs_8h.html#a3cb60463a06968dd3ef54118d003a57b"/>
               <topic label="dfs_filesystem_get_partition" href="dfs__fs_8h.html#a88118b6ca2e4cb0dda9c312220026297"/>
               <topic label="dfs_mount" href="dfs__fs_8h.html#a702705756723b44edb0e15d9ac17e114"/>
               <topic label="dfs_unmount" href="dfs__fs_8h.html#a7b98c02de9e4f4716890faf98c8197af"/>
@@ -1491,12 +1493,12 @@
               <topic label="fd_get_fd_index" href="dfs_8c.html#ae01c0e13f7752e6e6f379f47c18daeb3"/>
               <topic label="fd_associate" href="dfs_8c.html#a18c67724ec748f938a1bcc6a9e0814c5"/>
               <topic label="fd_init" href="dfs_8c.html#a4ca9967cfbe01a06a8cb8e4d2747e360"/>
-              <topic label="dfs_subdir" href="dfs_8c.html#aa71fea4356b032e8b0dd047dfb0f12bb"/>
+              <topic label="dfs_subdir" href="dfs_8c.html#a90fc91be4455e48fd7d3f2a33ce599ee"/>
               <topic label="RTM_EXPORT" href="dfs_8c.html#ad8ff5e40a2d8e1a5f067d5f4adac3948"/>
-              <topic label="dfs_normalize_path" href="dfs_8c.html#a3eacda8b183c4c204a8399b7197c609b"/>
+              <topic label="dfs_normalize_path" href="dfs_8c.html#abd8ed9059034edfcf320864d0e537b9d"/>
               <topic label="RTM_EXPORT" href="dfs_8c.html#a38582c57db2dea894f49c4a340cc291e"/>
-              <topic label="dfs_fdtable_get" href="dfs_8c.html#ae3f66eccded97fb971db1a1ce0b6a3e7"/>
-              <topic label="dfs_fdtable_get_global" href="dfs_8c.html#a034bd59d768ec65c9e7015d0ac6a3ac8"/>
+              <topic label="dfs_fdtable_get" href="dfs_8c.html#a5247901b7de0732ec9d502de751acfdd"/>
+              <topic label="dfs_fdtable_get_global" href="dfs_8c.html#abbaa0b96fcf82123bc8cecc3e6353629"/>
               <topic label="list_fd" href="dfs_8c.html#aa39edbc455bd8720b59d51db80e5f36f"/>
               <topic label="filesystem_operation_table" href="dfs_8c.html#ab8f848c215aba01bcd7576a512db26ed"/>
               <topic label="filesystem_table" href="dfs_8c.html#ab8782e742c26fac0b8d8a8a2ab37faa9"/>
@@ -1510,7 +1512,7 @@
               <topic label="dfs_fm_unlock" href="dfs__file_8c.html#ac96a59049dc41995f8a405972f4fc8ae"/>
               <topic label="dfs_fnode_mgr_init" href="dfs__file_8c.html#a7c773ae4a298bea3d60ee3db17dbb834"/>
               <topic label="bkdr_hash" href="dfs__file_8c.html#a210db16b8c114a2b162fe155b32e0958"/>
-              <topic label="dfs_fnode_find" href="dfs__file_8c.html#a256b53fc6b7326e7bf6c66c8e856c87a"/>
+              <topic label="dfs_fnode_find" href="dfs__file_8c.html#acbf6497d85e7cc73ede71cb96d9edac5"/>
               <topic label="dfs_file_is_open" href="dfs__file_8c.html#a93bdc39dc4d310738b84a0aa6fb34950"/>
               <topic label="dfs_file_open" href="dfs__file_8c.html#a69605ecef6247356eba5f0d6d42a838a"/>
               <topic label="dfs_file_close" href="dfs__file_8c.html#a236fc80632f93ca39ed2dbf686e483d8"/>
@@ -1537,8 +1539,8 @@
               <topic label="DPT_ADDRESS" href="dfs__fs_8c.html#a4910b20e8b78d8fd978ae0700efc7632"/>
               <topic label="DPT_ITEM_SIZE" href="dfs__fs_8c.html#a75bdc1aabbcf2162ce249bfafaada0ec"/>
               <topic label="dfs_register" href="dfs__fs_8c.html#a50104477b4ee48dfa421235640b5a498"/>
-              <topic label="dfs_filesystem_lookup" href="dfs__fs_8c.html#a3352a80615c4fe656f8b054ad7937a3e"/>
-              <topic label="dfs_filesystem_get_mounted_path" href="dfs__fs_8c.html#a7b388b94e5dc19e639f6d5c252eeba83"/>
+              <topic label="dfs_filesystem_lookup" href="dfs__fs_8c.html#a1ecf73109f4592e4209471c7d6b90365"/>
+              <topic label="dfs_filesystem_get_mounted_path" href="dfs__fs_8c.html#a3cb60463a06968dd3ef54118d003a57b"/>
               <topic label="dfs_filesystem_get_partition" href="dfs__fs_8c.html#a88118b6ca2e4cb0dda9c312220026297"/>
               <topic label="dfs_mount" href="dfs__fs_8c.html#a702705756723b44edb0e15d9ac17e114"/>
               <topic label="dfs_unmount" href="dfs__fs_8c.html#a7b98c02de9e4f4716890faf98c8197af"/>
@@ -1584,9 +1586,9 @@
               <topic label="RTM_EXPORT" href="dfs__posix_8c.html#aa6a44da57f58a9f0be9eb89116f509fa"/>
               <topic label="rmdir" href="dfs__posix_8c.html#a570282ae7ba596263ec812b368d99b34"/>
               <topic label="RTM_EXPORT" href="dfs__posix_8c.html#aa36f310e8c37f7c2ec33c4c663b51965"/>
-              <topic label="opendir" href="dfs__posix_8c.html#a4fcc7ee570eeaee1fe6264604b91257f"/>
+              <topic label="opendir" href="dfs__posix_8c.html#a1632d8c06c14f295c6d9407b7fec67af"/>
               <topic label="RTM_EXPORT" href="dfs__posix_8c.html#a4387096a77190a9defa47dace438eab0"/>
-              <topic label="readdir" href="dfs__posix_8c.html#a3b3c134193620bc4adb692a71f8ac019"/>
+              <topic label="readdir" href="dfs__posix_8c.html#aa7687571d2af8efd5153874ae6e678d9"/>
               <topic label="RTM_EXPORT" href="dfs__posix_8c.html#abbcee19ca2142972ee54059e9dc34274"/>
               <topic label="telldir" href="dfs__posix_8c.html#aaf08168ca632ba3f9385aa53261ae63d"/>
               <topic label="RTM_EXPORT" href="dfs__posix_8c.html#a833776cc76ad3dc50ad9bad4ca33f49c"/>
@@ -1599,7 +1601,7 @@
               <topic label="access" href="dfs__posix_8c.html#aa6adc1f71f9027c8bdd8e88e8c843049"/>
               <topic label="setcwd" href="dfs__posix_8c.html#a56f653c54be70947404b5c7931022624"/>
               <topic label="RTM_EXPORT" href="dfs__posix_8c.html#a82f113f11470fbb3f8606ad366ba447c"/>
-              <topic label="getcwd" href="dfs__posix_8c.html#accd163a8f517941cc628473b4812e0a1"/>
+              <topic label="getcwd" href="dfs__posix_8c.html#a3284211bd28346254245c9d4fd071d7f"/>
               <topic label="RTM_EXPORT" href="dfs__posix_8c.html#ae17e02dc21ce2d8d4a075d757f7906f9"/>
             </topic>
           </topic>
@@ -1614,7 +1616,7 @@
             <topic label="MSH_CMD_EXPORT" href="cmd_8c.html#a539fbbde476b988cb2ca6fab6f4ba90a"/>
             <topic label="object_split" href="cmd_8c.html#aef09bba5eb3837940bf6e1338fe38efd"/>
             <topic label="list_find_init" href="cmd_8c.html#a11a21ee41882512de75b21a0bab777b0"/>
-            <topic label="list_get_next" href="cmd_8c.html#a5eef9801a076ca215f046dcd3093856b"/>
+            <topic label="list_get_next" href="cmd_8c.html#a0cd3159d0809d7388a1a335409be9bf0"/>
             <topic label="list_thread" href="cmd_8c.html#a095a3fb98a5980d17d061638ea14ab52"/>
             <topic label="show_wait_queue" href="cmd_8c.html#abaf70ce98947a54e6e7e75332b643fa7"/>
             <topic label="list_sem" href="cmd_8c.html#a4298356441eaeaf9f0f4adeee2333a7c"/>
@@ -1646,7 +1648,7 @@
             <topic label="MSH_CMD_EXPORT_ALIAS" href="components_2finsh_2finsh_8h.html#a9faee6c919e0e8bb099276c09649eef5"/>
             <topic label="FINSH_NEXT_SYSCALL" href="components_2finsh_2finsh_8h.html#a65b22ccf9abeba1bc5471342556f5164"/>
             <topic label="syscall_func" href="components_2finsh_2finsh_8h.html#a02a90a13808c3728ae2627069a256de8"/>
-            <topic label="finsh_syscall_lookup" href="components_2finsh_2finsh_8h.html#a4ab7b77fca592c2f912d0399d549d357"/>
+            <topic label="finsh_syscall_lookup" href="components_2finsh_2finsh_8h.html#abddb89cf044974283ee4225628ea2720"/>
             <topic label="finsh_set_device" href="group__finsh.html#ga4ca70de04431b9f767dff9f2ba7dcc8b"/>
             <topic label="global_syscall_list" href="components_2finsh_2finsh_8h.html#a75fba8f6e2aa7636a4ae2259ef968a7c"/>
             <topic label="_syscall_table_begin" href="components_2finsh_2finsh_8h.html#a7a6d87bb74cf8a72a6bea49337bca645"/>
@@ -1685,13 +1687,13 @@
           <topic label="shell.c" href="shell_8c.html">
             <topic label="_MSH_PROMPT" href="shell_8c.html#ae351601d69c6141ed83e576fcab64e0b"/>
             <topic label="finsh_set_prompt" href="shell_8c.html#a7cca296f9a76546668dc511ec5f8f3c8"/>
-            <topic label="finsh_get_prompt" href="shell_8c.html#a704ce02ee10c6cdf25d3393130bdda2b"/>
+            <topic label="finsh_get_prompt" href="shell_8c.html#a6144055859c425c90922e037f1df4651"/>
             <topic label="finsh_get_prompt_mode" href="group__finsh.html#gab73621cc9f385c6742d10278a64cf638"/>
             <topic label="finsh_set_prompt_mode" href="group__finsh.html#gad37603360d3201083d8bae51bec8d124"/>
             <topic label="finsh_getchar" href="shell_8c.html#afaa5e3c144b3c224f8b3a00befc3ff03"/>
             <topic label="finsh_rx_ind" href="shell_8c.html#a091ad0012a523bf6cdc1aeba9378d199"/>
             <topic label="finsh_set_device" href="group__finsh.html#ga4ca70de04431b9f767dff9f2ba7dcc8b"/>
-            <topic label="finsh_get_device" href="group__finsh.html#gafe8f5ac72b6b16c55e97be2b08054b97"/>
+            <topic label="finsh_get_device" href="group__finsh.html#ga2e05476dce5ac5afab26e0769292cf83"/>
             <topic label="finsh_set_echo" href="group__finsh.html#gae80e3d53913894f5fbfcf9335205c649"/>
             <topic label="finsh_get_echo" href="group__finsh.html#ga77d4ddaeaf41942986da9810c6f5b5ee"/>
             <topic label="shell_auto_complete" href="shell_8c.html#aa53bed70b54f9f29d93a2da14145819a"/>
@@ -1726,12 +1728,12 @@
               <topic label="WAIT_SPEC_KEY" href="shell_8h.html#a4c2acc7792e59bedb11ea3d5f46087b9ab80c98fa8baf4f3ef0f1be0c6c2478a6"/>
               <topic label="WAIT_FUNC_KEY" href="shell_8h.html#a4c2acc7792e59bedb11ea3d5f46087b9a6744c48e3bed0060ef2db5e24645b53e"/>
             </topic>
-            <topic label="finsh_get_prompt" href="shell_8h.html#a704ce02ee10c6cdf25d3393130bdda2b"/>
+            <topic label="finsh_get_prompt" href="shell_8h.html#a6144055859c425c90922e037f1df4651"/>
             <topic label="finsh_set_prompt" href="shell_8h.html#a7cca296f9a76546668dc511ec5f8f3c8"/>
             <topic label="finsh_set_echo" href="group__finsh.html#gae80e3d53913894f5fbfcf9335205c649"/>
             <topic label="finsh_get_echo" href="group__finsh.html#ga77d4ddaeaf41942986da9810c6f5b5ee"/>
             <topic label="finsh_system_init" href="shell_8h.html#a3e8233759e73b815036f554e84ffdd0e"/>
-            <topic label="finsh_get_device" href="group__finsh.html#gafe8f5ac72b6b16c55e97be2b08054b97"/>
+            <topic label="finsh_get_device" href="group__finsh.html#ga2e05476dce5ac5afab26e0769292cf83"/>
             <topic label="finsh_getchar" href="shell_8h.html#afaa5e3c144b3c224f8b3a00befc3ff03"/>
             <topic label="finsh_get_prompt_mode" href="group__finsh.html#gab73621cc9f385c6742d10278a64cf638"/>
             <topic label="finsh_set_prompt_mode" href="group__finsh.html#gad37603360d3201083d8bae51bec8d124"/>
@@ -1740,6 +1742,7 @@
       </topic>
       <topic label="include" href="dir_d44c64559bbebec7f509842c48db8b23.html">
         <topic label="rtdbg.h" href="rtdbg_8h.html">
+          <topic label="DLOG" href="rtdbg_8h.html#a87fe05eb8767a6b1abf71eea0bdcfcac"/>
           <topic label="DBG_ERROR" href="rtdbg_8h.html#a004bc89ac4c6725bbf5f2291977392e0"/>
           <topic label="DBG_WARNING" href="rtdbg_8h.html#a9f7743bd75d5be061a83ae0da47bc323"/>
           <topic label="DBG_INFO" href="rtdbg_8h.html#a9615e001b781d55752b3d44f9bfd5162"/>
@@ -1817,6 +1820,8 @@
           <topic label="RT_EINTR" href="group___error.html#ga23b1ebea0d39b755be34bea061572f81"/>
           <topic label="RT_EINVAL" href="group___error.html#ga46a1429ec0c968e558187848107e30fc"/>
           <topic label="RT_ETRAP" href="group___error.html#ga846bfee9b17336beaac08c5f98498e7b"/>
+          <topic label="RT_ENOENT" href="group___error.html#gaee840be70e5caf984e4b5ecf7fc22052"/>
+          <topic label="RT_ENOSPC" href="group___error.html#gac3aab3da633303d0c5e8fc1bd178db9a"/>
           <topic label="RT_ALIGN" href="group___basic_def.html#ga8e803706fb0e206869f5f706c1289949"/>
           <topic label="RT_ALIGN_DOWN" href="group___basic_def.html#gadf0d0c14b78871331bac6701d7ee6e42"/>
           <topic label="RT_OBJECT_FLAG_MODULE" href="group___kernel_object.html#gadc83c17483bce09fad91cc8b2a3d0ed5"/>
@@ -2054,7 +2059,7 @@
           </topic>
           <topic label="rt_hw_cpu_reset" href="rthw_8h.html#abe7a3d803d027af563d6aa604e94d821"/>
           <topic label="rt_hw_cpu_shutdown" href="rthw_8h.html#a5575183b7ec3e1a5255ff373831a8ea6"/>
-          <topic label="rt_hw_stack_init" href="rthw_8h.html#aa1d05b5a957c569b195f2276d8726d7d"/>
+          <topic label="rt_hw_stack_init" href="rthw_8h.html#acc406d7a1b0dbe420b6399e8e281942d"/>
           <topic label="rt_hw_interrupt_init" href="rthw_8h.html#ab40031c8c6d5fe45893912dc50b04639"/>
           <topic label="rt_hw_interrupt_mask" href="rthw_8h.html#a9528763a2ebf52c2be6e9349704672fc"/>
           <topic label="rt_hw_interrupt_umask" href="rthw_8h.html#af08efe992a1717a83757e99295a1b33c"/>
@@ -2102,10 +2107,10 @@
           <topic label="rt_slist_append" href="group___kernel_service.html#gadb8e810867bb7ae805bd408f0e984426"/>
           <topic label="rt_slist_insert" href="group___kernel_service.html#ga0dcb52f45a21a13ccba01e69e15dae43"/>
           <topic label="rt_slist_len" href="group___kernel_service.html#ga6c98989f687835054c7044cbe6f89c20"/>
-          <topic label="rt_slist_remove" href="group___kernel_service.html#ga9dabf54c3bc63b766f72532a5af2f3bb"/>
-          <topic label="rt_slist_first" href="group___kernel_service.html#ga2a4e0adfe71c18b4899215c8589e63f5"/>
-          <topic label="rt_slist_tail" href="group___kernel_service.html#ga29e5af137780afcc68ee755837a04ff6"/>
-          <topic label="rt_slist_next" href="group___kernel_service.html#ga81cf5fa6a2eca42593620f854bdd83bd"/>
+          <topic label="rt_slist_remove" href="group___kernel_service.html#gaa342a9827785a0563570ea367e16f2f2"/>
+          <topic label="rt_slist_first" href="group___kernel_service.html#ga6ed611144041bd54d06184f75801711c"/>
+          <topic label="rt_slist_tail" href="group___kernel_service.html#gafdf4cfdad123f8721adcaa67a93e3d65"/>
+          <topic label="rt_slist_next" href="group___kernel_service.html#ga99c2381fc8947272231f4e29416ca9bc"/>
           <topic label="rt_slist_isempty" href="group___kernel_service.html#gad25f026c11b3e1ff4d3954840c209b2e"/>
         </topic>
         <topic label="rtthread.h" href="rtthread_8h.html">
@@ -2195,11 +2200,11 @@
           <topic label="rt_mp_alloc_sethook" href="group___m_m.html#ga358d3559267d1c8c66c836ed2e08433b"/>
           <topic label="rt_mp_free_sethook" href="group___m_m.html#gafd43b13db5623925756b7a3968aa3b01"/>
           <topic label="rt_system_heap_init" href="group___m_m.html#gafa6feb60f6204d1783bc3bc324b886e7"/>
-          <topic label="rt_malloc" href="group___m_m.html#gadffdb9d05bb2f9928751bee608b694b8"/>
+          <topic label="rt_malloc" href="group___m_m.html#ga27d146d7a9082765703ab218def0617f"/>
           <topic label="rt_free" href="group___m_m.html#ga6c1c24262479e6946fd04823878177f9"/>
-          <topic label="rt_realloc" href="group___m_m.html#ga810ffee2f3a30f0e8bf3f1c33b7fadf9"/>
-          <topic label="rt_calloc" href="group___m_m.html#ga89c02c2964ca603cf87912871bafa1b4"/>
-          <topic label="rt_malloc_align" href="group___m_m.html#ga1dc9ac8a12cf36f08d0a3ebf7fe9ce4e"/>
+          <topic label="rt_realloc" href="group___m_m.html#ga43bb369b655b2662fa0b3d654f447a67"/>
+          <topic label="rt_calloc" href="group___m_m.html#gacf5395171f8ad2ad6bc5e1c61b8b0d88"/>
+          <topic label="rt_malloc_align" href="group___m_m.html#gaf2654f08787ce7935c635c0343970f6a"/>
           <topic label="rt_free_align" href="group___m_m.html#gabf1ea8f43781620e7b08fb1868e32b92"/>
           <topic label="rt_memory_info" href="group___m_m.html#ga6a043ee84954692789696a255ea65699"/>
           <topic label="rt_malloc_sethook" href="group___m_m.html#ga909761c80493569b64558225d7f89e77"/>
@@ -2333,8 +2338,8 @@
           <topic label="rt_spin_unlock" href="cpu_8c.html#ac2f7760a8299108cd4ba8a9135ef4f93"/>
           <topic label="rt_spin_lock_irqsave" href="cpu_8c.html#a349989d50ad6f1b3bbe508b0cd7051f1"/>
           <topic label="rt_spin_unlock_irqrestore" href="cpu_8c.html#aed628fa8199becf4d3c6ea12cf8d6991"/>
-          <topic label="rt_cpu_self" href="cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42"/>
-          <topic label="rt_cpu_index" href="cpu_8c.html#a997715e5ce33f228bde848fb1bb9b118"/>
+          <topic label="rt_cpu_self" href="cpu_8c.html#a8fe8f3bfae1869fc0a0d179788433e11"/>
+          <topic label="rt_cpu_index" href="cpu_8c.html#a67dc9de2bb58623b49aae1562853f86a"/>
           <topic label="rt_cpus_lock" href="cpu_8c.html#a1d0b66698077d19e4bf66532b24f1cc1"/>
           <topic label="RTM_EXPORT" href="cpu_8c.html#a4d72ade0230a537c11f2ec071e5e0ebf"/>
           <topic label="rt_cpus_unlock" href="cpu_8c.html#a939d345c2db2bfa552997f04bf19f8d0"/>
@@ -2609,7 +2614,7 @@
           <topic label="RTM_EXPORT" href="group___kernel_service.html#gaafc7247c3c2221356093bc87ce5ed896"/>
           <topic label="divide" href="group___kernel_service.html#ga2982bb502772e9905b3d4a791d5a5a62"/>
           <topic label="skip_atoi" href="group___kernel_service.html#ga9fb03b6a91239b2f8a49858106ee38cd"/>
-          <topic label="print_number" href="group___kernel_service.html#ga1e8514c6d1cc0ce375faece986f68937"/>
+          <topic label="print_number" href="group___kernel_service.html#ga5bd240284cac0868025b7e2aa379129c"/>
           <topic label="rt_vsnprintf" href="group___kernel_service.html#gac2d4cd92e18dd8afc759f00a1830aab6"/>
           <topic label="RTM_EXPORT" href="group___kernel_service.html#gab07d636f5c483e09b6ce319e6f5883c2"/>
           <topic label="rt_snprintf" href="group___kernel_service.html#ga940bcced7e89f112ac04bd715fdf4f24"/>
@@ -2624,17 +2629,17 @@
           <topic label="_heap_lock" href="group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488"/>
           <topic label="_heap_unlock" href="group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03"/>
           <topic label="rt_system_heap_init" href="group___kernel_service.html#ga7ccb4a60ea0018ba0060611b8b328026"/>
-          <topic label="rt_malloc" href="group___kernel_service.html#gadf0126394c8c791134bd466db22ebc52"/>
+          <topic label="rt_malloc" href="group___kernel_service.html#gad551ed7184fb8b7ebad5c1f344045638"/>
           <topic label="RTM_EXPORT" href="group___kernel_service.html#ga6ed95500cbb5b79f60d6eb244e922bdd"/>
-          <topic label="rt_realloc" href="group___kernel_service.html#ga5f8375bba7722d9ecd4f184a59af243a"/>
+          <topic label="rt_realloc" href="group___kernel_service.html#gae613cb22dc97a3954536491058f059cf"/>
           <topic label="RTM_EXPORT" href="group___kernel_service.html#ga42d249573eaf24e317460db30b17b205"/>
-          <topic label="rt_calloc" href="group___kernel_service.html#ga05a3a8b359922afdb3785c312026d3af"/>
+          <topic label="rt_calloc" href="group___kernel_service.html#gaafdebcff4e69edeaaf49ade9be5460ce"/>
           <topic label="RTM_EXPORT" href="group___kernel_service.html#gaccc9a775ac3fbd81f4f880e1cfde211b"/>
           <topic label="rt_free" href="group___kernel_service.html#gad24f606383faa97aab028c0f9df843da"/>
           <topic label="RTM_EXPORT" href="group___kernel_service.html#ga44f99711c3416f6a39983d273e9dfcbe"/>
           <topic label="rt_memory_info" href="group___kernel_service.html#gad8ab019984cc19958c95b5c2eb32256d"/>
           <topic label="RTM_EXPORT" href="group___kernel_service.html#gae69b5c67da0d114a23dd12856c726321"/>
-          <topic label="rt_malloc_align" href="group___kernel_service.html#ga7da67e3734ef4b8368a39174f76fe2ce"/>
+          <topic label="rt_malloc_align" href="group___kernel_service.html#ga7337fae7fa792a9adfe5be4b3acd04aa"/>
           <topic label="RTM_EXPORT" href="group___kernel_service.html#ga9d8b7c81f8cc0ba94113f56558aa96f2"/>
           <topic label="rt_free_align" href="group___kernel_service.html#ga50b04c4685e08f3c7923caaab600f6fc"/>
           <topic label="RTM_EXPORT" href="group___kernel_service.html#ga372da2fa37d359c9a39430a3863398ce"/>
@@ -2728,7 +2733,7 @@
         <topic label="scheduler.c" href="scheduler_8c.html">
           <topic label="__on_rt_scheduler_hook" href="scheduler_8c.html#a93d8e7f2e449d21cc9942f279cc98a20"/>
           <topic label="__on_rt_scheduler_switch_hook" href="scheduler_8c.html#af73fde4afc2d5c9fb50c183980183c48"/>
-          <topic label="_scheduler_get_highest_priority_thread" href="scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950"/>
+          <topic label="_scheduler_get_highest_priority_thread" href="scheduler_8c.html#a73a2cade9b736d394cba56151e963d7d"/>
           <topic label="rt_system_scheduler_init" href="group___thread.html#ga5aa2c0c67999e20ce8693ad3c8e624f0"/>
           <topic label="rt_system_scheduler_start" href="group___thread.html#ga9aa8a561e0caf5e13126834c4f4bb681"/>
           <topic label="rt_schedule" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24"/>

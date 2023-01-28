@@ -1,7 +1,7 @@
 <map id="dfs_partition" name="dfs_partition">
-<area shape="rect" id="node1" title=" " alt="" coords="37,624,130,731"/>
-<area shape="rect" id="node2" href="$structrt__semaphore.html" title=" " alt="" coords="32,469,135,561"/>
-<area shape="rect" id="node3" href="$structrt__ipc__object.html" title=" " alt="" coords="35,329,131,407"/>
-<area shape="rect" id="node4" href="$structrt__object.html" title=" " alt="" coords="157,145,250,267"/>
-<area shape="rect" id="node5" href="$structrt__list__node.html" title=" " alt="" coords="5,5,95,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="9,624,113,731"/>
+<area shape="rect" id="node2" href="$structrt__semaphore.html" title=" " alt="" coords="5,469,117,561"/>
+<area shape="rect" id="node3" href="$structrt__ipc__object.html" title=" " alt="" coords="9,329,114,407"/>
+<area shape="rect" id="node4" href="$structrt__list__node.html" title=" " alt="" coords="12,5,111,83"/>
+<area shape="rect" id="node5" href="$structrt__object.html" title=" " alt="" coords="183,145,289,267"/>
 </map>

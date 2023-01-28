@@ -1,23 +1,23 @@
 <map id="rt_sem_release" name="rt_sem_release">
-<area shape="rect" id="node1" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="5,480,116,507"/>
-<area shape="rect" id="node2" href="$group___i_p_c.html#ga1669a4e1776eccad4612e3dc41601a63" title="This function will resume a thread." alt="" coords="164,160,283,187"/>
-<area shape="rect" id="node4" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="709,216,868,243"/>
-<area shape="rect" id="node5" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="711,404,867,431"/>
-<area shape="rect" id="node7" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="724,8,853,35"/>
-<area shape="rect" id="node13" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="736,685,841,712"/>
-<area shape="rect" id="node14" href="$group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="349,480,437,507"/>
-<area shape="rect" id="node20" href="$group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="172,765,275,792"/>
-<area shape="rect" id="node3" href="$group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="331,160,456,187"/>
-<area shape="rect" id="node6" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="916,109,1020,136"/>
-<area shape="rect" id="node8" href="$group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="519,313,646,354"/>
-<area shape="rect" id="node11" href="$group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="533,109,632,136"/>
-<area shape="rect" id="node9" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="725,273,852,300"/>
-<area shape="rect" id="node10" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="720,324,857,351"/>
-<area shape="rect" id="node12" href="$timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="734,109,843,136"/>
-<area shape="rect" id="node15" href="$scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="504,766,661,807"/>
-<area shape="rect" id="node17" href="$rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="509,480,656,507"/>
-<area shape="rect" id="node18" href="$rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="509,531,656,573"/>
-<area shape="rect" id="node19" href="$group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="513,649,652,690"/>
-<area shape="rect" id="node16" href="$group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="755,773,822,800"/>
-<area shape="rect" id="node21" href="$cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="351,765,436,792"/>
+<area shape="rect" id="node1" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="5,484,128,510"/>
+<area shape="rect" id="node2" href="$group___i_p_c.html#ga1669a4e1776eccad4612e3dc41601a63" title="This function will resume a thread." alt="" coords="176,164,307,190"/>
+<area shape="rect" id="node4" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="763,220,937,246"/>
+<area shape="rect" id="node5" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="764,408,936,434"/>
+<area shape="rect" id="node7" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="779,12,921,38"/>
+<area shape="rect" id="node13" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="791,689,909,716"/>
+<area shape="rect" id="node14" href="$group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="375,484,472,510"/>
+<area shape="rect" id="node20" href="$group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="185,769,297,796"/>
+<area shape="rect" id="node3" href="$group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="355,164,492,190"/>
+<area shape="rect" id="node6" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="985,113,1101,140"/>
+<area shape="rect" id="node8" href="$group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="557,316,698,358"/>
+<area shape="rect" id="node11" href="$group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="573,113,682,140"/>
+<area shape="rect" id="node9" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="780,277,920,304"/>
+<area shape="rect" id="node10" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="774,328,926,354"/>
+<area shape="rect" id="node12" href="$timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="789,113,911,140"/>
+<area shape="rect" id="node15" href="$scheduler_8c.html#a73a2cade9b736d394cba56151e963d7d" title=" " alt="" coords="540,770,715,811"/>
+<area shape="rect" id="node17" href="$rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="546,484,709,510"/>
+<area shape="rect" id="node18" href="$rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="546,535,709,576"/>
+<area shape="rect" id="node19" href="$group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="550,652,705,694"/>
+<area shape="rect" id="node16" href="$group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="815,777,885,804"/>
+<area shape="rect" id="node21" href="$cpu_8c.html#a8fe8f3bfae1869fc0a0d179788433e11" title="This fucntion will return current cpu object." alt="" coords="377,769,470,796"/>
 </map>

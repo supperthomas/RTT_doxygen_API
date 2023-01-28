@@ -34,9 +34,9 @@ var dfs__posix_8c =
     [ "RTM_EXPORT", "dfs__posix_8c.html#aa6a44da57f58a9f0be9eb89116f509fa", null ],
     [ "rmdir", "dfs__posix_8c.html#a570282ae7ba596263ec812b368d99b34", null ],
     [ "RTM_EXPORT", "dfs__posix_8c.html#aa36f310e8c37f7c2ec33c4c663b51965", null ],
-    [ "opendir", "dfs__posix_8c.html#a4fcc7ee570eeaee1fe6264604b91257f", null ],
+    [ "opendir", "dfs__posix_8c.html#a1632d8c06c14f295c6d9407b7fec67af", null ],
     [ "RTM_EXPORT", "dfs__posix_8c.html#a4387096a77190a9defa47dace438eab0", null ],
-    [ "readdir", "dfs__posix_8c.html#a3b3c134193620bc4adb692a71f8ac019", null ],
+    [ "readdir", "dfs__posix_8c.html#aa7687571d2af8efd5153874ae6e678d9", null ],
     [ "RTM_EXPORT", "dfs__posix_8c.html#abbcee19ca2142972ee54059e9dc34274", null ],
     [ "telldir", "dfs__posix_8c.html#aaf08168ca632ba3f9385aa53261ae63d", null ],
     [ "RTM_EXPORT", "dfs__posix_8c.html#a833776cc76ad3dc50ad9bad4ca33f49c", null ],
@@ -49,6 +49,6 @@ var dfs__posix_8c =
     [ "access", "dfs__posix_8c.html#aa6adc1f71f9027c8bdd8e88e8c843049", null ],
     [ "setcwd", "dfs__posix_8c.html#a56f653c54be70947404b5c7931022624", null ],
     [ "RTM_EXPORT", "dfs__posix_8c.html#a82f113f11470fbb3f8606ad366ba447c", null ],
-    [ "getcwd", "dfs__posix_8c.html#accd163a8f517941cc628473b4812e0a1", null ],
+    [ "getcwd", "dfs__posix_8c.html#a3284211bd28346254245c9d4fd071d7f", null ],
     [ "RTM_EXPORT", "dfs__posix_8c.html#ae17e02dc21ce2d8d4a075d757f7906f9", null ]
 ];

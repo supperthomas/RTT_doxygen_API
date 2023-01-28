@@ -1,52 +1,52 @@
 <map id="rt_device_destroy" name="rt_device_destroy">
-<area shape="rect" id="node1" title="This function destroy the specific device object." alt="" coords="5,2621,128,2647"/>
-<area shape="rect" id="node2" href="$group___kernel_service.html#gad24f606383faa97aab028c0f9df843da" title="This function will release the previously allocated memory block by rt_malloc. The released memory bl..." alt="" coords="176,1619,237,1646"/>
-<area shape="rect" id="node12" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="1835,1759,1964,1786"/>
-<area shape="rect" id="node28" href="$group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="1611,2849,1782,2875"/>
-<area shape="rect" id="node41" href="$group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="2031,2946,2150,2973"/>
-<area shape="rect" id="node3" href="$group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488" title=" " alt="" coords="285,683,372,710"/>
-<area shape="rect" id="node48" href="$group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03" title=" " alt="" coords="577,2139,677,2166"/>
-<area shape="rect" id="node4" href="$group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="2035,3266,2147,3293"/>
-<area shape="rect" id="node5" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="2217,2053,2376,2079"/>
-<area shape="rect" id="node7" href="$group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="420,683,524,710"/>
-<area shape="rect" id="node16" href="$group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="2039,594,2142,621"/>
-<area shape="rect" id="node6" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="2219,3266,2375,3293"/>
-<area shape="rect" id="node8" href="$group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="572,683,683,710"/>
-<area shape="rect" id="node9" href="$group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="955,401,1077,427"/>
-<area shape="rect" id="node14" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="2244,1010,2349,1037"/>
-<area shape="rect" id="node24" href="$ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1607,510,1787,537"/>
-<area shape="rect" id="node25" href="$ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="731,945,889,971"/>
-<area shape="rect" id="node29" href="$group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="1855,2950,1943,2977"/>
-<area shape="rect" id="node35" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2233,870,2360,897"/>
-<area shape="rect" id="node45" href="$group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="1639,1987,1754,2014"/>
-<area shape="rect" id="node46" href="$group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="1186,2089,1287,2115"/>
-<area shape="rect" id="node10" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="2228,934,2365,961"/>
-<area shape="rect" id="node11" href="$group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="1143,923,1331,950"/>
-<area shape="rect" id="node13" href="$group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="2021,2509,2160,2551"/>
-<area shape="rect" id="node18" href="$group___thread.html#ga8e0fb6e55e11d12332055167bdfab275" title=" " alt="" coords="1392,857,1545,899"/>
-<area shape="rect" id="node19" href="$dfs__posix_8c.html#ac21b705a5ebd42c4c46363250ab817bc" title=" " alt="" coords="1675,721,1718,747"/>
-<area shape="rect" id="node22" href="$group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="1647,2139,1746,2166"/>
-<area shape="rect" id="node15" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2245,2517,2349,2543"/>
-<area shape="rect" id="node17" href="$cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="2254,594,2339,621"/>
-<area shape="rect" id="node20" href="$dfs__file_8c.html#ae3b60867436d7b3be91af7cc40299f13" title=" " alt="" coords="1854,401,1945,427"/>
-<area shape="rect" id="node21" href="$group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="1853,670,1946,697"/>
-<area shape="rect" id="node23" href="$timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="1845,2431,1954,2458"/>
-<area shape="rect" id="node26" href="$ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="937,451,1095,478"/>
-<area shape="rect" id="node27" href="$group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="955,2241,1077,2267"/>
-<area shape="rect" id="node34" href="$group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="2027,1175,2154,1216"/>
-<area shape="rect" id="node36" href="$group___thread.html#ga6d64eb4d0a485461049616808f4ce177" title="This function will delete a thread. The thread object will be removed from thread queue and deleted f..." alt="" coords="1178,2291,1295,2318"/>
-<area shape="rect" id="node42" href="$group___thread.html#ga514825b80304477ecf377d721da409b0" title="This function will detach a thread. The thread object will be removed from thread queue and detached/..." alt="" coords="1177,2393,1297,2419"/>
-<area shape="rect" id="node43" href="$group___thread.html#ga04b743537fd099e204fc292e57b4aa5a" title="This function will start a thread and put it to system ready queue." alt="" coords="1175,2038,1298,2065"/>
-<area shape="rect" id="node30" href="$scheduler_8c.html#af48fa90eaa16c81a292f35da11a87950" title=" " alt="" coords="2012,3048,2169,3089"/>
-<area shape="rect" id="node32" href="$rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="2017,2997,2164,3023"/>
-<area shape="rect" id="node33" href="$rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="2017,2829,2164,2871"/>
-<area shape="rect" id="node31" href="$group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="2263,3055,2330,3082"/>
-<area shape="rect" id="node37" href="$group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372" title="drop a thread from the suspend list of mutex" alt="" coords="1393,1227,1544,1254"/>
-<area shape="rect" id="node38" href="$group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="1379,1835,1559,1862"/>
-<area shape="rect" id="node40" href="$group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="1412,2545,1525,2571"/>
-<area shape="rect" id="node39" href="$group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="1641,1329,1752,1355"/>
-<area shape="rect" id="node44" href="$group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="1406,2139,1531,2166"/>
-<area shape="rect" id="node47" href="$group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="1427,1785,1510,1811"/>
-<area shape="rect" id="node49" href="$group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1645,3203,1748,3230"/>
-<area shape="rect" id="node50" href="$group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137" title="This function will release a mutex. If there is thread suspended on the mutex, the thread will be res..." alt="" coords="749,2139,871,2166"/>
+<area shape="rect" id="node1" title="This function destroy the specific device object." alt="" coords="5,2618,144,2645"/>
+<area shape="rect" id="node2" href="$group___kernel_service.html#gad24f606383faa97aab028c0f9df843da" title="This function will release the previously allocated memory block by rt_malloc. The released memory bl..." alt="" coords="192,1617,257,1644"/>
+<area shape="rect" id="node12" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="1988,1757,2131,1784"/>
+<area shape="rect" id="node28" href="$group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="1743,2846,1935,2873"/>
+<area shape="rect" id="node41" href="$group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="2201,2944,2331,2970"/>
+<area shape="rect" id="node3" href="$group___kernel_service.html#ga06164eb85cd7991c4b234de5f8443488" title=" " alt="" coords="305,681,400,708"/>
+<area shape="rect" id="node48" href="$group___kernel_service.html#gab700c43cdf8a1be02135168b64a11b03" title=" " alt="" coords="618,2137,729,2164"/>
+<area shape="rect" id="node4" href="$group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="2204,3264,2328,3290"/>
+<area shape="rect" id="node5" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="2401,2050,2576,2077"/>
+<area shape="rect" id="node7" href="$group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="448,681,564,708"/>
+<area shape="rect" id="node16" href="$group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="2210,592,2322,618"/>
+<area shape="rect" id="node6" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="2403,3264,2575,3290"/>
+<area shape="rect" id="node8" href="$group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="612,681,735,708"/>
+<area shape="rect" id="node9" href="$group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="1029,398,1165,425"/>
+<area shape="rect" id="node14" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="2429,1008,2548,1034"/>
+<area shape="rect" id="node24" href="$ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1737,508,1940,534"/>
+<area shape="rect" id="node25" href="$ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="783,942,960,969"/>
+<area shape="rect" id="node29" href="$group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="2011,2948,2108,2974"/>
+<area shape="rect" id="node35" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2419,868,2559,894"/>
+<area shape="rect" id="node45" href="$group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="1775,1985,1902,2012"/>
+<area shape="rect" id="node46" href="$group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="1282,2086,1393,2113"/>
+<area shape="rect" id="node10" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="2413,932,2565,958"/>
+<area shape="rect" id="node11" href="$group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="1233,921,1441,948"/>
+<area shape="rect" id="node13" href="$group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="2189,2507,2343,2548"/>
+<area shape="rect" id="node18" href="$group___thread.html#ga8e0fb6e55e11d12332055167bdfab275" title=" " alt="" coords="1505,855,1674,896"/>
+<area shape="rect" id="node19" href="$dfs__posix_8c.html#ac21b705a5ebd42c4c46363250ab817bc" title=" " alt="" coords="1815,718,1862,745"/>
+<area shape="rect" id="node22" href="$group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="1784,2137,1893,2164"/>
+<area shape="rect" id="node15" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2431,2514,2547,2541"/>
+<area shape="rect" id="node17" href="$cpu_8c.html#a8fe8f3bfae1869fc0a0d179788433e11" title="This fucntion will return current cpu object." alt="" coords="2442,592,2535,618"/>
+<area shape="rect" id="node20" href="$dfs__file_8c.html#ae3b60867436d7b3be91af7cc40299f13" title=" " alt="" coords="2009,398,2110,425"/>
+<area shape="rect" id="node21" href="$group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="2009,668,2109,694"/>
+<area shape="rect" id="node23" href="$timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="1999,2429,2120,2456"/>
+<area shape="rect" id="node26" href="$ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="1008,449,1185,476"/>
+<area shape="rect" id="node27" href="$group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="1030,2238,1163,2265"/>
+<area shape="rect" id="node34" href="$group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="2195,1172,2337,1214"/>
+<area shape="rect" id="node36" href="$group___thread.html#ga6d64eb4d0a485461049616808f4ce177" title="This function will delete a thread. The thread object will be removed from thread queue and deleted f..." alt="" coords="1273,2289,1402,2316"/>
+<area shape="rect" id="node42" href="$group___thread.html#ga514825b80304477ecf377d721da409b0" title="This function will detach a thread. The thread object will be removed from thread queue and detached/..." alt="" coords="1271,2390,1403,2417"/>
+<area shape="rect" id="node43" href="$group___thread.html#ga04b743537fd099e204fc292e57b4aa5a" title="This function will start a thread and put it to system ready queue." alt="" coords="1270,2036,1405,2062"/>
+<area shape="rect" id="node30" href="$scheduler_8c.html#a73a2cade9b736d394cba56151e963d7d" title=" " alt="" coords="2179,3046,2353,3087"/>
+<area shape="rect" id="node32" href="$rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="2185,2994,2347,3021"/>
+<area shape="rect" id="node33" href="$rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="2185,2827,2347,2868"/>
+<area shape="rect" id="node31" href="$group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="2454,3053,2523,3080"/>
+<area shape="rect" id="node37" href="$group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372" title="drop a thread from the suspend list of mutex" alt="" coords="1506,1225,1673,1252"/>
+<area shape="rect" id="node38" href="$group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="1489,1833,1689,1860"/>
+<area shape="rect" id="node40" href="$group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="1527,2542,1652,2569"/>
+<area shape="rect" id="node39" href="$group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="1777,1326,1900,1353"/>
+<area shape="rect" id="node44" href="$group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="1521,2137,1658,2164"/>
+<area shape="rect" id="node47" href="$group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae" title="This function will return current tick from operating system startup." alt="" coords="1544,1782,1635,1809"/>
+<area shape="rect" id="node49" href="$group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1781,3201,1896,3228"/>
+<area shape="rect" id="node50" href="$group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137" title="This function will release a mutex. If there is thread suspended on the mutex, the thread will be res..." alt="" coords="803,2137,939,2164"/>
 </map>

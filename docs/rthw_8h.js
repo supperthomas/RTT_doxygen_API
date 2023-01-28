@@ -29,7 +29,7 @@ var rthw_8h =
     ] ],
     [ "rt_hw_cpu_reset", "rthw_8h.html#abe7a3d803d027af563d6aa604e94d821", null ],
     [ "rt_hw_cpu_shutdown", "rthw_8h.html#a5575183b7ec3e1a5255ff373831a8ea6", null ],
-    [ "rt_hw_stack_init", "rthw_8h.html#aa1d05b5a957c569b195f2276d8726d7d", null ],
+    [ "rt_hw_stack_init", "rthw_8h.html#acc406d7a1b0dbe420b6399e8e281942d", null ],
     [ "rt_hw_interrupt_init", "rthw_8h.html#ab40031c8c6d5fe45893912dc50b04639", null ],
     [ "rt_hw_interrupt_mask", "rthw_8h.html#a9528763a2ebf52c2be6e9349704672fc", null ],
     [ "rt_hw_interrupt_umask", "rthw_8h.html#af08efe992a1717a83757e99295a1b33c", null ],

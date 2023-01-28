@@ -46,6 +46,8 @@ var rtdef_8h =
     [ "RT_EINTR", "group___error.html#ga23b1ebea0d39b755be34bea061572f81", null ],
     [ "RT_EINVAL", "group___error.html#ga46a1429ec0c968e558187848107e30fc", null ],
     [ "RT_ETRAP", "group___error.html#ga846bfee9b17336beaac08c5f98498e7b", null ],
+    [ "RT_ENOENT", "group___error.html#gaee840be70e5caf984e4b5ecf7fc22052", null ],
+    [ "RT_ENOSPC", "group___error.html#gac3aab3da633303d0c5e8fc1bd178db9a", null ],
     [ "RT_ALIGN", "group___basic_def.html#ga8e803706fb0e206869f5f706c1289949", null ],
     [ "RT_ALIGN_DOWN", "group___basic_def.html#gadf0d0c14b78871331bac6701d7ee6e42", null ],
     [ "RT_OBJECT_FLAG_MODULE", "group___kernel_object.html#gadc83c17483bce09fad91cc8b2a3d0ed5", null ],

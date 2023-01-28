@@ -1,4 +1,4 @@
 <map id="rt_cpus_lock_status_restore" name="rt_cpus_lock_status_restore">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,140,47"/>
-<area shape="rect" id="node2" href="$cpu_8c.html#aa122deb2a95014cb2e5fb00d02af8f42" title="This fucntion will return current cpu object." alt="" coords="188,13,273,39"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,156,47"/>
+<area shape="rect" id="node2" href="$cpu_8c.html#a8fe8f3bfae1869fc0a0d179788433e11" title="This fucntion will return current cpu object." alt="" coords="204,13,297,39"/>
 </map>

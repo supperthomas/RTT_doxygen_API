@@ -1,13 +1,13 @@
 <map id="_ipc_list_resume" name="_ipc_list_resume">
-<area shape="rect" id="node1" title="This function will resume a thread." alt="" coords="5,187,124,213"/>
-<area shape="rect" id="node2" href="$group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="172,187,297,213"/>
-<area shape="rect" id="node3" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="520,161,679,188"/>
-<area shape="rect" id="node4" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="521,111,677,137"/>
-<area shape="rect" id="node5" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="727,263,831,289"/>
-<area shape="rect" id="node6" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="535,263,664,289"/>
-<area shape="rect" id="node7" href="$group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="345,45,472,86"/>
-<area shape="rect" id="node10" href="$group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="359,212,458,239"/>
-<area shape="rect" id="node8" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="536,5,663,32"/>
-<area shape="rect" id="node9" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="531,56,668,83"/>
-<area shape="rect" id="node11" href="$timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="545,212,654,239"/>
+<area shape="rect" id="node1" title="This function will resume a thread." alt="" coords="5,187,136,213"/>
+<area shape="rect" id="node2" href="$group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="184,187,321,213"/>
+<area shape="rect" id="node3" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="559,161,733,188"/>
+<area shape="rect" id="node4" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="560,111,732,137"/>
+<area shape="rect" id="node5" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="781,263,897,289"/>
+<area shape="rect" id="node6" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="575,263,717,289"/>
+<area shape="rect" id="node7" href="$group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="369,45,511,86"/>
+<area shape="rect" id="node10" href="$group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="385,212,495,239"/>
+<area shape="rect" id="node8" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="576,5,716,32"/>
+<area shape="rect" id="node9" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="570,56,722,83"/>
+<area shape="rect" id="node11" href="$timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="585,212,707,239"/>
 </map>

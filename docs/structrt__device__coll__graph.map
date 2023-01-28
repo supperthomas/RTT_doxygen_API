@@ -1,5 +1,5 @@
 <map id="rt_device" name="rt_device">
-<area shape="rect" id="node1" title=" " alt="" coords="5,329,108,597"/>
-<area shape="rect" id="node2" href="$structrt__object.html" title=" " alt="" coords="10,145,103,267"/>
-<area shape="rect" id="node3" href="$structrt__list__node.html" title=" " alt="" coords="12,5,101,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,329,124,597"/>
+<area shape="rect" id="node2" href="$structrt__object.html" title=" " alt="" coords="12,145,117,267"/>
+<area shape="rect" id="node3" href="$structrt__list__node.html" title=" " alt="" coords="15,5,114,83"/>
 </map>

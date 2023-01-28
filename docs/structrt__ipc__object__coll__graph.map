@@ -1,5 +1,5 @@
 <map id="rt_ipc_object" name="rt_ipc_object">
-<area shape="rect" id="node1" title=" " alt="" coords="35,329,131,407"/>
-<area shape="rect" id="node2" href="$structrt__object.html" title=" " alt="" coords="157,145,250,267"/>
-<area shape="rect" id="node3" href="$structrt__list__node.html" title=" " alt="" coords="5,5,95,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,329,111,407"/>
+<area shape="rect" id="node2" href="$structrt__list__node.html" title=" " alt="" coords="9,5,107,83"/>
+<area shape="rect" id="node3" href="$structrt__object.html" title=" " alt="" coords="180,145,285,267"/>
 </map>

@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
-<meta name="generator" content="Doxygen 1.9.4"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>RT-Thread RTOS: Introduction</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
@@ -23,10 +23,11 @@
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
+ <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="rtthread_logo.png"/></td>
-  <td id="projectalign">
-   <div id="projectname">RT-Thread RTOS<span id="projectnumber">&#160;1.2.0</span>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-Thread RTOS
+   &#160;<span id="projectnumber">1.2.0</span>
    </div>
    <div id="projectbrief">An open source embedded real-time operating system</div>
   </td>
@@ -35,22 +36,21 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- 制作者 Doxygen 1.9.4 -->
+<!-- 制作者 Doxygen 1.9.1 -->
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-var searchBox = new SearchBox("searchBox", "search",'搜索','.html');
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索','.html');
 /* @license-end */
 </script>
 <script type="text/javascript" src="menudata.js"></script>
 <script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
 $(function() {
   initMenu('',true,false,'search.php','搜索');
   $(document).ready(function() { init_search(); });
 });
-/* @license-end */
-</script>
+/* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
@@ -64,7 +64,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
 $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 /* @license-end */
 </script>
@@ -83,8 +83,9 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </iframe>
 </div>
 
-<div><div class="header">
-  <div class="headertitle"><div class="title">Introduction </div></div>
+<div class="PageDoc"><div class="header">
+  <div class="headertitle">
+<div class="title">Introduction </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="section author"><dt>作者</dt><dd>RT-Thread Development Team </dd></dl>
@@ -93,38 +94,38 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <ul>
 <li>Real-Time Character</li>
 </ul>
-<p >RT-Thread has a real-time operating system kernel, with fully preempted multi-thread scheduler, inter-thread communication with timing sensitivity and transparent interrupt handling.</p>
+<p>RT-Thread has a real-time operating system kernel, with fully preempted multi-thread scheduler, inter-thread communication with timing sensitivity and transparent interrupt handling.</p>
 <ul>
 <li>Embedded Character</li>
 </ul>
-<p >RT-Thread is suitable for embedded systems for small footprint characters. The kernel is implemented as a simple C library. The simplest application costs less than 1 Kbytes RAM on the ARM Cortex-M platform.</p>
+<p>RT-Thread is suitable for embedded systems for small footprint characters. The kernel is implemented as a simple C library. The simplest application costs less than 1 Kbytes RAM on the ARM Cortex-M platform.</p>
 <h1><a class="anchor" id="kernel_arch"></a>
 RT-Thread Architecture</h1>
-<p >RT-Thread system architecture is like: </p><div class="image">
+<p>RT-Thread system architecture is like: </p><div class="image">
 <img src="System_Arch.png" alt=""/>
 <div class="caption">
 Figure 1: RT-Thread Architecture</div></div>
 <h1><a class="anchor" id="kernel_service"></a>
 Kernel API</h1>
-<p >The Kernel APIs are the core APIs of RT-Thread, which supports the following features:</p><ul>
+<p>The Kernel APIs are the core APIs of RT-Thread, which supports the following features:</p><ul>
 <li>Multi-thread management and scheduler</li>
 <li>Synchronization mechanisms, semaphore, recursive mutex and event set</li>
 <li>Inter-thread communication, mailbox and message queue</li>
 <li>Memory management, memory pool and dynamic heap memory management</li>
 <li>Asynchronous timer</li>
 </ul>
-<p >For more details, please refer to <a class="el" href="group___kernel.html">RT-Thread Kernel API</a></p>
+<p>For more details, please refer to <a class="el" href="group___kernel.html">RT-Thread Kernel API</a></p>
 <h1><a class="anchor" id="system_init"></a>
 System Initialization</h1>
-<p >Once RT-Thread operating system starts up, the facility in system must be initialized firstly.</p>
-<p >For more details, please refer to <a class="el" href="group___system_init.html">System Initialization</a> </p>
+<p>Once RT-Thread operating system starts up, the facility in system must be initialized firstly.</p>
+<p>For more details, please refer to <a class="el" href="group___system_init.html">System Initialization</a> </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">生成于 2023年 一月 19日 星期四 21:57:27 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">生成于 2023年 一月 28日 星期六 08:51:43 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

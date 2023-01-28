@@ -1,16 +1,16 @@
 <map id="rt_mp_detach" name="rt_mp_detach">
-<area shape="rect" id="node1" title="This function will detach a memory pool from system object management." alt="" coords="5,399,107,426"/>
-<area shape="rect" id="node2" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="548,44,707,71"/>
-<area shape="rect" id="node3" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="549,196,705,223"/>
-<area shape="rect" id="node4" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="187,500,293,527"/>
-<area shape="rect" id="node5" href="$group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="377,28,496,55"/>
-<area shape="rect" id="node7" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="563,348,692,375"/>
-<area shape="rect" id="node8" href="$group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="155,551,325,578"/>
-<area shape="rect" id="node9" href="$group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="177,247,303,274"/>
-<area shape="rect" id="node6" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="755,247,859,274"/>
-<area shape="rect" id="node10" href="$group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="373,130,500,172"/>
-<area shape="rect" id="node13" href="$group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="387,247,486,274"/>
-<area shape="rect" id="node11" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="564,95,691,122"/>
-<area shape="rect" id="node12" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="559,146,696,172"/>
-<area shape="rect" id="node14" href="$timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="573,247,682,274"/>
+<area shape="rect" id="node1" title="This function will detach a memory pool from system object management." alt="" coords="5,401,116,428"/>
+<area shape="rect" id="node2" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="593,46,768,73"/>
+<area shape="rect" id="node3" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="595,198,767,225"/>
+<area shape="rect" id="node4" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="201,502,319,529"/>
+<area shape="rect" id="node5" href="$group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be" title="This function will detach a static object from object system, and the memory of static object is not ..." alt="" coords="409,30,540,57"/>
+<area shape="rect" id="node7" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="609,350,752,377"/>
+<area shape="rect" id="node8" href="$group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="164,553,356,580"/>
+<area shape="rect" id="node9" href="$group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="191,249,329,276"/>
+<area shape="rect" id="node6" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="816,249,932,276"/>
+<area shape="rect" id="node10" href="$group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="404,132,545,174"/>
+<area shape="rect" id="node13" href="$group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="420,249,529,276"/>
+<area shape="rect" id="node11" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="611,97,751,124"/>
+<area shape="rect" id="node12" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="605,148,757,174"/>
+<area shape="rect" id="node14" href="$timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="620,249,741,276"/>
 </map>

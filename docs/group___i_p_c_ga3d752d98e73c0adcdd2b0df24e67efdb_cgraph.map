@@ -1,12 +1,12 @@
 <map id="rt_event_create" name="rt_event_create">
-<area shape="rect" id="node1" title="Creating an event object." alt="" coords="5,132,117,159"/>
-<area shape="rect" id="node2" href="$group___i_p_c.html#ga6b174ad0c6281b177865e9452b7f9a71" title="This function will initialize an IPC object, such as semaphore, mutex, messagequeue and mailbox." alt="" coords="172,56,283,83"/>
-<area shape="rect" id="node4" href="$group___kernel_object.html#ga661bb999394a29404c20c7f3e58e5f64" title="This function will allocate an object from object system." alt="" coords="165,157,289,184"/>
-<area shape="rect" id="node3" href="$group___kernel_service.html#ga7103f52aa8c7402c9e87f03942d8bc9f" title="initialize a list" alt="" coords="383,5,462,32"/>
-<area shape="rect" id="node5" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="343,56,502,83"/>
-<area shape="rect" id="node6" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="345,107,501,133"/>
-<area shape="rect" id="node7" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="359,157,486,184"/>
-<area shape="rect" id="node8" href="$group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="381,208,465,235"/>
-<area shape="rect" id="node9" href="$group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="337,259,508,285"/>
-<area shape="rect" id="node10" href="$group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="383,309,462,336"/>
+<area shape="rect" id="node1" title="Creating an event object." alt="" coords="5,132,129,159"/>
+<area shape="rect" id="node2" href="$group___i_p_c.html#ga6b174ad0c6281b177865e9452b7f9a71" title="This function will initialize an IPC object, such as semaphore, mutex, messagequeue and mailbox." alt="" coords="185,56,308,83"/>
+<area shape="rect" id="node4" href="$group___kernel_object.html#ga661bb999394a29404c20c7f3e58e5f64" title="This function will allocate an object from object system." alt="" coords="177,157,316,184"/>
+<area shape="rect" id="node3" href="$group___kernel_service.html#ga7103f52aa8c7402c9e87f03942d8bc9f" title="initialize a list" alt="" coords="416,5,503,32"/>
+<area shape="rect" id="node5" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="372,56,547,83"/>
+<area shape="rect" id="node6" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="373,107,545,133"/>
+<area shape="rect" id="node7" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="389,157,529,184"/>
+<area shape="rect" id="node8" href="$group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="413,208,506,235"/>
+<area shape="rect" id="node9" href="$group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="364,259,555,285"/>
+<area shape="rect" id="node10" href="$group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="416,309,503,336"/>
 </map>
