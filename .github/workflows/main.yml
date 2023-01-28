@@ -2,7 +2,7 @@ name: doxygen
 on:
   # Runs at 16:00 UTC (BeiJing 00:00) on the 1st of every month
   schedule:
-    - cron:  '0 16 31 * *'
+    - cron:  '0 16 30 * *'
   pull_request:
     branches:
       - main
