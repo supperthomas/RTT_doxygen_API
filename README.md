@@ -2,7 +2,11 @@
 
 这个仓库主要用来生成rtthread master分支上的doxygen文档，为了实时比较方便的查看doxygen的html。
 
+https://github.com/RT-Thread/rt-thread.git
+
 这个仓库还加了CI 进行自动生成，每个月会根据主分支上的代码生成一次。
+
+
 
 这个仓库还有个展示网址
 https://supperthomas.github.io/RTT_doxygen_API/
