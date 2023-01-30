@@ -13,4 +13,6 @@ https://supperthomas.github.io/RTT_doxygen_API/
 https://www.rt-thread.org/document/api/
 
 
+# 如果觉得有收获，或者有帮助，欢迎点个右上角Star小星星，给作者一些反馈
 
+# 如果觉得哪里还有优化的地方，可以在左上角issue里面提
