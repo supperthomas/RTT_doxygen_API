@@ -7,7 +7,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - '**/README.md'
+      - 'README.md'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,6 +26,7 @@ jobs:
       - name: generat doxygen html
         shell: bash
         run: |
+          git submodule update --remote
           ls 
           cp Doxyfile rt-thread/documentation/doxygen/Doxyfile
           cd rt-thread/documentation/doxygen
