@@ -13,7 +13,7 @@ https://supperthomas.github.io/RTT_doxygen_API/
 方便大家实时查阅，这个主要实时性比较高。而且可以方便查看哪些doxygen注释语法写的有问题
 
 
-想看中文的话还是建议下面的链接
+想看中文的话还是建议下面的链接（这个就是有些过时了）
 https://www.rt-thread.org/document/api/
 
 
