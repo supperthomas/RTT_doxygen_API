@@ -16,7 +16,7 @@
 <area shape="rect" id="node4" href="$group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="1123,411,1239,437"/>
 <area shape="rect" id="node5" href="$group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="1305,411,1427,437"/>
 <area shape="rect" id="node6" href="$group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="1516,309,1652,336"/>
-<area shape="rect" id="node7" href="$ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1483,259,1685,285"/>
+<area shape="rect" id="node7" href="$group___i_p_c.html#ga97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1483,259,1685,285"/>
 <area shape="rect" id="node8" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="1733,664,1908,691"/>
 <area shape="rect" id="node9" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="1735,867,1907,893"/>
 <area shape="rect" id="node10" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="1514,107,1654,133"/>
@@ -43,7 +43,7 @@
 <area shape="rect" id="node35" href="$group___kernel_service.html#gad551ed7184fb8b7ebad5c1f344045638" title="Allocate a block of memory with a minimum of &#39;size&#39; bytes." alt="" coords="817,715,899,741"/>
 <area shape="rect" id="node36" href="$group___kernel_service.html#ga940bcced7e89f112ac04bd715fdf4f24" title=" " alt="" coords="658,841,747,868"/>
 <area shape="rect" id="node37" href="$group___kernel_service.html#gac2d4cd92e18dd8afc759f00a1830aab6" title=" " alt="" coords="809,867,907,893"/>
-<area shape="rect" id="node38" href="$group___kernel_service.html#ga5bd240284cac0868025b7e2aa379129c" title=" " alt="" coords="955,892,1065,919"/>
+<area shape="rect" id="node38" href="$group___kernel_service.html#ga45fd62ec81075276fc1ce5540840f195" title=" " alt="" coords="955,892,1065,919"/>
 <area shape="rect" id="node39" href="$group___kernel_service.html#ga9fb03b6a91239b2f8a49858106ee38cd" title=" " alt="" coords="969,841,1051,868"/>
 <area shape="rect" id="node41" href="$group___kernel_service.html#gacbe2d70e90f1ce1ea00dd61621b97981" title=" " alt="" coords="810,816,906,843"/>
 <area shape="rect" id="node42" href="$group___kernel_service.html#ga743d665f6558666ee9bbfa894ee68178" title=" " alt="" coords="820,765,896,792"/>

@@ -1,9 +1,6 @@
 var NAVTREEINDEX8 =
 {
-"kservice_8c.html#af10e78a85c4b7e3d0556ea3b773c3f12":[3,0,2,8,6],
-"kservice_8c.html#af39bb999ff4179bcce72dd91ccae614a":[3,0,2,8,0],
-"kservice_8c.html#afd8abce6279fa835f39d56bec9dfc4a3":[3,0,2,8,7],
-"kservice_8c.html#afd8abce6279fa835f39d56bec9dfc4a3":[3,0,2,8,3],
+"kservice_8c.html#afd8abce6279fa835f39d56bec9dfc4a3":[3,0,2,8,8],
 "mainpage_8h.html":[3,0,8],
 "mem_8c.html":[3,0,2,9],
 "mem_8c.html#a02f9d873450c4cab87cb1019b1a67eb3":[3,0,2,9,7],
@@ -172,6 +169,8 @@ var NAVTREEINDEX8 =
 "rtm_8h.html#a5cb24b4f1643c039c2ae7e3f40faf69f":[3,0,1,4,1],
 "rtservice_8h.html":[3,0,1,5],
 "rtthread_8h.html":[3,0,1,6],
+"rtthread_8h.html#a7fe1feee9c0028f9bb573f599394d765":[3,0,1,6,178],
+"rtthread_8h.html#a958860e3d739bbf4f7390a2591a9cfc4":[3,0,1,6,179],
 "scheduler_8c.html":[3,0,2,13],
 "scheduler_8c.html#a4c3b532a90796416ca8446cab1be32ab":[3,0,2,13,14],
 "scheduler_8c.html#a5ba5c4bdc0965dc5223a9e6325902523":[3,0,2,13,15],
@@ -249,5 +248,6 @@ var NAVTREEINDEX8 =
 "structdfs__filesystem__ops.html#a9c3ccfcebdb107d22bf6e376f1485722":[2,0,4,7],
 "structdfs__filesystem__ops.html#aaf63d33ba0395d7c3faa8e16835dda24":[2,0,4,6],
 "structdfs__filesystem__ops.html#afdce2191c7158b22a67837f2f518209f":[2,0,4,9],
-"structdfs__fnode.html":[2,0,5]
+"structdfs__fnode.html":[2,0,5],
+"structdfs__fnode.html#a378127ef93772ddf580196744e645aa6":[2,0,5,5]
 };

@@ -13,8 +13,8 @@
 <area shape="rect" id="node11" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="1937,853,2079,880"/>
 <area shape="rect" id="node13" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="1949,296,2067,323"/>
 <area shape="rect" id="node15" href="$group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="1703,2893,1815,2920"/>
-<area shape="rect" id="node19" href="$ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1907,169,2109,196"/>
-<area shape="rect" id="node20" href="$ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="713,347,891,373"/>
+<area shape="rect" id="node19" href="$group___i_p_c.html#ga97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1907,169,2109,196"/>
+<area shape="rect" id="node20" href="$group___i_p_c.html#ga42e183912962579620afdc61501f88b4" title=" " alt="" coords="713,347,891,373"/>
 <area shape="rect" id="node24" href="$group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="1458,2304,1555,2331"/>
 <area shape="rect" id="node30" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="1938,955,2078,981"/>
 <area shape="rect" id="node38" href="$group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="1695,1899,1822,1925"/>
@@ -26,7 +26,7 @@
 <area shape="rect" id="node14" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2157,1335,2273,1361"/>
 <area shape="rect" id="node16" href="$cpu_8c.html#a8fe8f3bfae1869fc0a0d179788433e11" title="This fucntion will return current cpu object." alt="" coords="1961,2893,2055,2920"/>
 <area shape="rect" id="node18" href="$timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="1947,1284,2069,1311"/>
-<area shape="rect" id="node21" href="$ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="939,245,1116,272"/>
+<area shape="rect" id="node21" href="$group___i_p_c.html#gac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="939,245,1116,272"/>
 <area shape="rect" id="node22" href="$group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="961,1611,1094,1637"/>
 <area shape="rect" id="node23" href="$group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="1912,1348,2104,1375"/>
 <area shape="rect" id="node29" href="$group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="1688,1731,1829,1773"/>

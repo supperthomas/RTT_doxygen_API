@@ -27,7 +27,7 @@
 <area shape="rect" id="node34" href="$dfs_8c.html#a2ac674bd319f61a6b1c9e2338018b523" title=" " alt="" coords="1779,927,1871,954"/>
 <area shape="rect" id="node18" href="$group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="1767,1278,1883,1304"/>
 <area shape="rect" id="node19" href="$group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="1931,1303,2053,1330"/>
-<area shape="rect" id="node20" href="$ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="2285,927,2488,954"/>
+<area shape="rect" id="node20" href="$group___i_p_c.html#ga97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="2285,927,2488,954"/>
 <area shape="rect" id="node21" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2776,1607,2916,1634"/>
 <area shape="rect" id="node23" href="$scheduler_8c.html#a73a2cade9b736d394cba56151e963d7d" title=" " alt="" coords="2536,826,2711,868"/>
 <area shape="rect" id="node25" href="$rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="2542,943,2705,970"/>

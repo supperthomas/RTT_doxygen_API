@@ -35,7 +35,7 @@
 <area shape="rect" id="node36" href="$dfs_8c.html#a2ac674bd319f61a6b1c9e2338018b523" title=" " alt="" coords="1765,809,1857,835"/>
 <area shape="rect" id="node27" href="$group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="1753,859,1869,886"/>
 <area shape="rect" id="node28" href="$group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="1917,1062,2040,1089"/>
-<area shape="rect" id="node29" href="$ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="2272,961,2475,987"/>
+<area shape="rect" id="node29" href="$group___i_p_c.html#ga97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="2272,961,2475,987"/>
 <area shape="rect" id="node32" href="$timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="2772,1593,2893,1619"/>
 <area shape="rect" id="node33" href="$group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="2305,1494,2442,1521"/>
 <area shape="rect" id="node37" href="$group__mutex.html#gad49c2ee6dc578e6687919f01a4ac5137" title="This function will release a mutex. If there is thread suspended on the mutex, the thread will be res..." alt="" coords="2088,875,2224,902"/>

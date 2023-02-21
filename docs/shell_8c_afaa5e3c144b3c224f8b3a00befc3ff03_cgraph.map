@@ -1,7 +1,7 @@
 <map id="finsh_getchar" name="finsh_getchar">
 <area shape="rect" id="node1" title=" " alt="" coords="5,98,115,124"/>
 <area shape="rect" id="node2" href="$dfs__posix_8c.html#a1301f5639d6acac2e7138ae391e87a2d" title=" " alt="" coords="189,98,239,124"/>
-<area shape="rect" id="node10" href="$group___device.html#ga33660fb6c9217dce99b6b625443453ba" title="This function will read some data from a device." alt="" coords="1923,24,2041,51"/>
+<area shape="rect" id="node10" href="$group___device.html#ga51642e30d61927aece593ee23d090b17" title="This function will read some data from a device." alt="" coords="1923,24,2041,51"/>
 <area shape="rect" id="node12" href="$group__semaphore.html#gaad0807b1eb15fe12a67de122e28f20eb" title=" " alt="" coords="163,250,265,276"/>
 <area shape="rect" id="node3" href="$dfs__file_8c.html#ad542af0ccc64a808b264d6da36d0d6e5" title=" " alt="" coords="315,72,421,99"/>
 <area shape="rect" id="node4" href="$group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb" title=" " alt="" coords="2107,582,2207,608"/>

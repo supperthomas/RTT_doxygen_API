@@ -10,10 +10,10 @@
 <area shape="rect" id="node10" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="3691,2095,3833,2121"/>
 <area shape="rect" id="node12" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="3471,2576,3590,2603"/>
 <area shape="rect" id="node14" href="$group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="3007,803,3119,829"/>
-<area shape="rect" id="node22" href="$ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="2961,2880,3164,2907"/>
+<area shape="rect" id="node22" href="$group___i_p_c.html#ga97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="2961,2880,3164,2907"/>
 <area shape="rect" id="node23" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="3692,128,3832,155"/>
 <area shape="rect" id="node24" href="$group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="3014,1259,3111,1285"/>
-<area shape="rect" id="node34" href="$ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="2736,2779,2913,2805"/>
+<area shape="rect" id="node34" href="$group___i_p_c.html#ga42e183912962579620afdc61501f88b4" title=" " alt="" coords="2736,2779,2913,2805"/>
 <area shape="rect" id="node48" href="$group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="3467,1259,3594,1285"/>
 <area shape="rect" id="node49" href="$group___clock.html#ga3aeb8f8350b3a7403d8629231396c016" title="This function will start the timer" alt="" coords="2769,448,2880,475"/>
 <area shape="rect" id="node6" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="3686,335,3838,361"/>
@@ -43,7 +43,7 @@
 <area shape="rect" id="node33" href="$group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372" title="drop a thread from the suspend list of mutex" alt="" coords="2505,2576,2671,2603"/>
 <area shape="rect" id="node36" href="$group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="2488,1563,2688,1589"/>
 <area shape="rect" id="node42" href="$group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="3237,1720,3362,1747"/>
-<area shape="rect" id="node35" href="$ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="2974,2728,3151,2755"/>
+<area shape="rect" id="node35" href="$group___i_p_c.html#gac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="2974,2728,3151,2755"/>
 <area shape="rect" id="node37" href="$group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76" title="This function will release a semaphore. If there is thread suspended on the semaphore,..." alt="" coords="2763,1411,2886,1437"/>
 <area shape="rect" id="node38" href="$group___i_p_c.html#ga1669a4e1776eccad4612e3dc41601a63" title="This function will resume a thread." alt="" coords="2997,1056,3128,1083"/>
 <area shape="rect" id="node41" href="$timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="3701,676,3823,703"/>

@@ -102,7 +102,7 @@ var searchData=
   ['dfs_5funlock_199',['dfs_unlock',['../dfs_8c.html#a2ac674bd319f61a6b1c9e2338018b523',1,'dfs_unlock(void):&#160;dfs.c'],['../dfs_8h.html#a2ac674bd319f61a6b1c9e2338018b523',1,'dfs_unlock(void):&#160;dfs.c']]],
   ['dfs_5funmount_200',['dfs_unmount',['../dfs__fs_8c.html#a7b98c02de9e4f4716890faf98c8197af',1,'dfs_unmount(const char *specialfile):&#160;dfs_fs.c'],['../dfs__fs_8h.html#a7b98c02de9e4f4716890faf98c8197af',1,'dfs_unmount(const char *specialfile):&#160;dfs_fs.c']]],
   ['dfs_5funmount_5fdevice_201',['dfs_unmount_device',['../dfs__fs_8h.html#a0bd19005e3529b65b7c54398ff91f674',1,'dfs_fs.h']]],
-  ['divide_202',['divide',['../group___kernel_service.html#ga2982bb502772e9905b3d4a791d5a5a62',1,'kservice.c']]],
+  ['divide_202',['divide',['../group___kernel_service.html#ga5ee64b938e9865cfe818edfa63c8b9fd',1,'kservice.c']]],
   ['dlog_203',['DLOG',['../rtdbg_8h.html#a87fe05eb8767a6b1abf71eea0bdcfcac',1,'rtdbg.h']]],
   ['dpt_5faddress_204',['DPT_ADDRESS',['../dfs__fs_8c.html#a4910b20e8b78d8fd978ae0700efc7632',1,'dfs_fs.c']]],
   ['dpt_5fitem_5fsize_205',['DPT_ITEM_SIZE',['../dfs__fs_8c.html#a75bdc1aabbcf2162ce249bfafaada0ec',1,'dfs_fs.c']]],

@@ -1,5 +1,10 @@
 var group___i_p_c =
 [
+    [ "Semaphore", "group__semaphore.html", "group__semaphore" ],
+    [ "Mutex", "group__mutex.html", "group__mutex" ],
+    [ "Event", "group__event.html", "group__event" ],
+    [ "Mailbox", "group__mailbox.html", "group__mailbox" ],
+    [ "Messagequeue", "group__messagequeue.html", "group__messagequeue" ],
     [ "rt_ipc_object", "structrt__ipc__object.html", [
       [ "parent", "structrt__ipc__object.html#a1113d054268319ad7840b3362eba7ad2", null ],
       [ "suspend_thread", "structrt__ipc__object.html#a6b016bc028f03601f1a8efd0fb0e91e2", null ]
@@ -66,6 +71,9 @@ var group___i_p_c =
     [ "_ipc_list_suspend", "group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836", null ],
     [ "_ipc_list_resume", "group___i_p_c.html#ga1669a4e1776eccad4612e3dc41601a63", null ],
     [ "_ipc_list_resume_all", "group___i_p_c.html#gaabbea6e36026b62cc6bcc50614d741b8", null ],
+    [ "_mutex_update_priority", "group___i_p_c.html#gac730bd43f2780d26339a961bd4b6bf7b", null ],
+    [ "_thread_get_mutex_priority", "group___i_p_c.html#ga97b197ca6d0f2c90e82c76631523d4ef", null ],
+    [ "_thread_update_priority", "group___i_p_c.html#ga42e183912962579620afdc61501f88b4", null ],
     [ "rt_sem_init", "group___i_p_c.html#ga023e00dd1ae86ddbeb2dbf92771e17ea", null ],
     [ "rt_sem_detach", "group___i_p_c.html#ga7dd3560a50be21e132c71f622870c500", null ],
     [ "rt_sem_create", "group___i_p_c.html#ga61a4960ff4a173f1d1c35ede42e1227f", null ],

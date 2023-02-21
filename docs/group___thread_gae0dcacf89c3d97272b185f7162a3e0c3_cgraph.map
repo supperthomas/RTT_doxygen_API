@@ -31,7 +31,7 @@
 <area shape="rect" id="node23" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="1627,2026,1779,2053"/>
 <area shape="rect" id="node25" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="1644,505,1763,531"/>
 <area shape="rect" id="node29" href="$group___kernel_service.html#gac2d4cd92e18dd8afc759f00a1830aab6" title=" " alt="" coords="363,1067,461,1094"/>
-<area shape="rect" id="node30" href="$group___kernel_service.html#ga5bd240284cac0868025b7e2aa379129c" title=" " alt="" coords="531,1067,640,1094"/>
+<area shape="rect" id="node30" href="$group___kernel_service.html#ga45fd62ec81075276fc1ce5540840f195" title=" " alt="" coords="531,1067,640,1094"/>
 <area shape="rect" id="node31" href="$group___kernel_service.html#ga9fb03b6a91239b2f8a49858106ee38cd" title=" " alt="" coords="545,1017,626,1043"/>
 <area shape="rect" id="node33" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="1632,374,1775,401"/>
 <area shape="rect" id="node34" href="$group___thread.html#ga6d64eb4d0a485461049616808f4ce177" title="This function will delete a thread. The thread object will be removed from thread queue and deleted f..." alt="" coords="912,357,1041,383"/>

@@ -87,9 +87,20 @@ $(document).ready(function(){initNavTree('group__event.html',''); initResizable(
   <div class="summary">
 <a href="#func-members">函数</a>  </div>
   <div class="headertitle">
-<div class="title">Event</div>  </div>
+<div class="title">Event<div class="ingroups"><a class="el" href="group___i_p_c.html">Inter-Thread Communication</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Event 的协作图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="group__event.png" border="0" usemap="#agroup____event" alt=""/></div>
+<map name="agroup____event" id="agroup____event">
+<area shape="rect" title=" " alt="" coords="261,5,320,31"/>
+<area shape="rect" href="group___i_p_c.html" title="inter&#45;thread communication" alt="" coords="5,5,213,31"/>
+</map>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 函数</h2></td></tr>
@@ -164,11 +175,11 @@ this event will become non-real-time threads.
 </dl>
 <dl class="section return"><dt>返回</dt><dd>Return the operation status. When the return value is RT_EOK, the initialization is successful. If the return value is any other values, it represents the initialization failed.</dd></dl>
 <dl class="section warning"><dt>警告</dt><dd>This function can ONLY be called from threads. </dd></dl>
-<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__event_gab0fad38227b1ebd616a807a09f2eb772_cgraph.png" border="0" usemap="#agroup__event_gab0fad38227b1ebd616a807a09f2eb772_cgraph" alt=""/></div>
 <map name="agroup__event_gab0fad38227b1ebd616a807a09f2eb772_cgraph" id="agroup__event_gab0fad38227b1ebd616a807a09f2eb772_cgraph">
 <area shape="rect" title="The function will initialize a static event object." alt="" coords="5,289,109,316"/>
@@ -242,11 +253,11 @@ this event will become non-real-time threads.
 </dl>
 <dl class="section return"><dt>返回</dt><dd>Return the operation status. When the return value is RT_EOK, the initialization is successful. If the return value is any other values, it means that the event detach failed.</dd></dl>
 <dl class="section warning"><dt>警告</dt><dd>This function can ONLY detach a static event initialized by the <a class="el" href="group__event.html#gab0fad38227b1ebd616a807a09f2eb772" title="The function will initialize a static event object.">rt_event_init()</a> function. If the event is created by the <a class="el" href="group__event.html#ga3d752d98e73c0adcdd2b0df24e67efdb" title="Creating an event object.">rt_event_create()</a> function, you MUST NOT USE this function to detach it, ONLY USE the <a class="el" href="group__event.html#ga840d6210713f186fe248a032a68d5e6d" title="This function will delete an event object and release the memory space.">rt_event_delete()</a> function to complete the deletion. </dd></dl>
-<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__event_ga43f0b137c7e6d5c2152f6b1d39b57616_cgraph.png" border="0" usemap="#agroup__event_ga43f0b137c7e6d5c2152f6b1d39b57616_cgraph" alt=""/></div>
 <map name="agroup__event_ga43f0b137c7e6d5c2152f6b1d39b57616_cgraph" id="agroup__event_ga43f0b137c7e6d5c2152f6b1d39b57616_cgraph">
 <area shape="rect" title="This function will detach a static event object." alt="" coords="5,407,132,434"/>
@@ -334,11 +345,11 @@ this event will become non-real-time threads.
 </dl>
 <dl class="section return"><dt>返回</dt><dd>Return a pointer to the event object. When the return value is RT_NULL, it means the creation failed.</dd></dl>
 <dl class="section warning"><dt>警告</dt><dd>This function can ONLY be called from threads. </dd></dl>
-<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__event_ga3d752d98e73c0adcdd2b0df24e67efdb_cgraph.png" border="0" usemap="#agroup__event_ga3d752d98e73c0adcdd2b0df24e67efdb_cgraph" alt=""/></div>
 <map name="agroup__event_ga3d752d98e73c0adcdd2b0df24e67efdb_cgraph" id="agroup__event_ga3d752d98e73c0adcdd2b0df24e67efdb_cgraph">
 <area shape="rect" title="Creating an event object." alt="" coords="5,132,129,159"/>
@@ -401,11 +412,11 @@ this event will become non-real-time threads.
 </dl>
 <dl class="section return"><dt>返回</dt><dd>Return the operation status. When the return value is RT_EOK, the operation is successful. If the return value is any other values, it means that the event detach failed.</dd></dl>
 <dl class="section warning"><dt>警告</dt><dd>This function can ONLY delete an event initialized by the <a class="el" href="group__event.html#ga3d752d98e73c0adcdd2b0df24e67efdb" title="Creating an event object.">rt_event_create()</a> function. If the event is initialized by the <a class="el" href="group__event.html#gab0fad38227b1ebd616a807a09f2eb772" title="The function will initialize a static event object.">rt_event_init()</a> function, you MUST NOT USE this function to delete it, ONLY USE the <a class="el" href="group__event.html#ga43f0b137c7e6d5c2152f6b1d39b57616" title="This function will detach a static event object.">rt_event_detach()</a> function to complete the detachment. </dd></dl>
-<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__event_ga840d6210713f186fe248a032a68d5e6d_cgraph.png" border="0" usemap="#agroup__event_ga840d6210713f186fe248a032a68d5e6d_cgraph" alt=""/></div>
 <map name="agroup__event_ga840d6210713f186fe248a032a68d5e6d_cgraph" id="agroup__event_ga840d6210713f186fe248a032a68d5e6d_cgraph">
 <area shape="rect" title="This function will delete an event object and release the memory space." alt="" coords="5,407,129,434"/>
@@ -482,11 +493,11 @@ this event will become non-real-time threads.
   </dd>
 </dl>
 <dl class="section return"><dt>返回</dt><dd>Return the operation status. When the return value is RT_EOK, the operation is successful. If the return value is any other values, it means that the event detach failed. </dd></dl>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__event_ga92efdf32aaf073d733f3bafd02d730e5_cgraph.png" border="0" usemap="#agroup__event_ga92efdf32aaf073d733f3bafd02d730e5_cgraph" alt=""/></div>
 <map name="agroup__event_ga92efdf32aaf073d733f3bafd02d730e5_cgraph" id="agroup__event_ga92efdf32aaf073d733f3bafd02d730e5_cgraph">
 <area shape="rect" title="This function will send an event to the event object. If there is a thread suspended on the event,..." alt="" coords="5,317,120,344"/>
@@ -612,11 +623,11 @@ this event will become non-real-time threads.
   </dd>
 </dl>
 <dl class="section return"><dt>返回</dt><dd>Return the operation status. When the return value is RT_EOK, the operation is successful. If the return value is any other values, it means that the semaphore release failed. </dd></dl>
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__event_ga2272187b39c9fe07fd3a42bb48c6e2b9_cgraph.png" border="0" usemap="#agroup__event_ga2272187b39c9fe07fd3a42bb48c6e2b9_cgraph" alt=""/></div>
 <map name="agroup__event_ga2272187b39c9fe07fd3a42bb48c6e2b9_cgraph" id="agroup__event_ga2272187b39c9fe07fd3a42bb48c6e2b9_cgraph">
 <area shape="rect" title="This function will receive an event from event object. if the event is unavailable,..." alt="" coords="5,1607,124,1634"/>
@@ -647,7 +658,7 @@ this event will become non-real-time threads.
 <area shape="rect" href="dfs_8c.html#a2ac674bd319f61a6b1c9e2338018b523" title=" " alt="" coords="1779,927,1871,954"/>
 <area shape="rect" href="group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="1767,1278,1883,1304"/>
 <area shape="rect" href="group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="1931,1303,2053,1330"/>
-<area shape="rect" href="ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="2285,927,2488,954"/>
+<area shape="rect" href="group___i_p_c.html#ga97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="2285,927,2488,954"/>
 <area shape="rect" href="group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2776,1607,2916,1634"/>
 <area shape="rect" href="scheduler_8c.html#a73a2cade9b736d394cba56151e963d7d" title=" " alt="" coords="2536,826,2711,868"/>
 <area shape="rect" href="rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="2542,943,2705,970"/>
@@ -717,11 +728,11 @@ this event will become non-real-time threads.
         </tr>
       </table>
 </div><div class="memdoc">
-<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__event_ga77e0517918bc7dabd458c2a751a59263_cgraph.png" border="0" usemap="#agroup__event_ga77e0517918bc7dabd458c2a751a59263_cgraph" alt=""/></div>
 <map name="agroup__event_ga77e0517918bc7dabd458c2a751a59263_cgraph" id="agroup__event_ga77e0517918bc7dabd458c2a751a59263_cgraph">
 <area shape="rect" title=" " alt="" coords="5,1541,116,1568"/>
@@ -840,11 +851,11 @@ this event will become non-real-time threads.
         </tr>
       </table>
 </div><div class="memdoc">
-<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__event_ga1fdb264d176d02e94375b1d84b98ed2b_cgraph.png" border="0" usemap="#agroup__event_ga1fdb264d176d02e94375b1d84b98ed2b_cgraph" alt=""/></div>
 <map name="agroup__event_ga1fdb264d176d02e94375b1d84b98ed2b_cgraph" id="agroup__event_ga1fdb264d176d02e94375b1d84b98ed2b_cgraph">
 <area shape="rect" title=" " alt="" coords="5,1541,204,1568"/>
@@ -963,11 +974,11 @@ this event will become non-real-time threads.
         </tr>
       </table>
 </div><div class="memdoc">
-<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__event_gab9ce27c0a9efa78f84f797d0b60b8bd2_cgraph.png" border="0" usemap="#agroup__event_gab9ce27c0a9efa78f84f797d0b60b8bd2_cgraph" alt=""/></div>
 <map name="agroup__event_gab9ce27c0a9efa78f84f797d0b60b8bd2_cgraph" id="agroup__event_gab9ce27c0a9efa78f84f797d0b60b8bd2_cgraph">
 <area shape="rect" title=" " alt="" coords="5,1541,172,1568"/>
@@ -1086,11 +1097,11 @@ this event will become non-real-time threads.
   </dd>
 </dl>
 <dl class="section return"><dt>返回</dt><dd>Return the operation status. When the return value is RT_EOK, the operation is successful. If the return value is any other values, it means that this function failed to execute. </dd></dl>
-<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="group__event_ga3aeb964ccccdde76bb5e247c0a913fea_cgraph.png" border="0" usemap="#agroup__event_ga3aeb964ccccdde76bb5e247c0a913fea_cgraph" alt=""/></div>
 <map name="agroup__event_ga3aeb964ccccdde76bb5e247c0a913fea_cgraph" id="agroup__event_ga3aeb964ccccdde76bb5e247c0a913fea_cgraph">
 <area shape="rect" title="This function will set some extra attributions of an event object." alt="" coords="5,368,133,395"/>
@@ -1140,7 +1151,7 @@ this event will become non-real-time threads.
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">生成于 2023年 一月 30日 星期一 16:11:48 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2023年 二月 21日 星期二 13:36:26 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

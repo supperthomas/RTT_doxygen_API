@@ -16,8 +16,8 @@ var group___device =
       [ "init", "structrt__device.html#a76612d6eb985afeb588136b86a14c20a", null ],
       [ "open", "structrt__device.html#a76f516ff57432c7c28fe40a5a0f2301d", null ],
       [ "close", "structrt__device.html#a8525376a9c62c863e81144bef99c0e8a", null ],
-      [ "read", "structrt__device.html#a30503da03c8eb3f78c544d1f37537882", null ],
-      [ "write", "structrt__device.html#abd30637cf89d08e4f16f3aa632a2bd11", null ],
+      [ "read", "structrt__device.html#ab54005b92c2a7002ec0dbf6d2876d764", null ],
+      [ "write", "structrt__device.html#aae248ff8487adedcf5044cc896bd91ac", null ],
       [ "control", "structrt__device.html#ae5d1b1f7ee4a2f17e2c3dd740c885b08", null ],
       [ "user_data", "structrt__device.html#a7abe4976f1632005eb09e0ed59ba99ef", null ]
     ] ],
@@ -29,8 +29,8 @@ var group___device =
       [ "init", "structrt__driver.html#ac030011a7a74206432efcfa30032b71e", null ],
       [ "open", "structrt__driver.html#a31896d018d2a565868323208965da2fb", null ],
       [ "close", "structrt__driver.html#aa540eb846eea99491c1e3fc4135d967e", null ],
-      [ "read", "structrt__driver.html#a5540c1be27b5c420c07ed081a5a4e98e", null ],
-      [ "write", "structrt__driver.html#a3043760207d5b74bfdcfc484c624e1bc", null ],
+      [ "read", "structrt__driver.html#a775cbb2968c7a5211d6622fc6a82a773", null ],
+      [ "write", "structrt__driver.html#a8a41ce328c3d6017f09874f87916f0b1", null ],
       [ "control", "structrt__driver.html#a1f7d504dd67cebfb3c419f0603becdcd", null ],
       [ "fops", "structrt__driver.html#af9aa182812081b4b9eb3afd952802954", null ],
       [ "name", "structrt__driver.html#a61f108417ae702f8f0df98436304d098", null ],
@@ -195,7 +195,7 @@ var group___device =
     [ "rt_device_init", "group___device.html#ga04892007706fe586a1db33284571be7e", null ],
     [ "rt_device_open", "group___device.html#gac0cd9f7a81722d69e8720ea4750c17a2", null ],
     [ "rt_device_close", "group___device.html#ga914535247ea0e5477002553ad38b1482", null ],
-    [ "rt_device_read", "group___device.html#ga33660fb6c9217dce99b6b625443453ba", null ],
-    [ "rt_device_write", "group___device.html#gab8d041e5ae9c776332adfee71691e698", null ],
+    [ "rt_device_read", "group___device.html#ga51642e30d61927aece593ee23d090b17", null ],
+    [ "rt_device_write", "group___device.html#ga4f1525de3aec696b4781b790df9759df", null ],
     [ "rt_device_control", "group___device.html#ga40ed6da2d5ea7b1e28de21ff439db963", null ]
 ];

@@ -21,10 +21,10 @@
 <area shape="rect" id="node18" href="$group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372" title="drop a thread from the suspend list of mutex" alt="" coords="383,1031,550,1058"/>
 <area shape="rect" id="node43" href="$group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee" title="Enqueue a thread to defunct queue." alt="" coords="367,854,567,880"/>
 <area shape="rect" id="node47" href="$group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb" title="This function will detach a timer from timer management." alt="" coords="1371,683,1497,710"/>
-<area shape="rect" id="node19" href="$ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="840,1158,1043,1184"/>
-<area shape="rect" id="node20" href="$ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="615,1208,792,1235"/>
+<area shape="rect" id="node19" href="$group___i_p_c.html#ga97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="840,1158,1043,1184"/>
+<area shape="rect" id="node20" href="$group___i_p_c.html#ga42e183912962579620afdc61501f88b4" title=" " alt="" coords="615,1208,792,1235"/>
 <area shape="rect" id="node21" href="$group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="873,1576,1009,1603"/>
-<area shape="rect" id="node42" href="$ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="1106,952,1283,979"/>
+<area shape="rect" id="node42" href="$group___i_p_c.html#gac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="1106,952,1283,979"/>
 <area shape="rect" id="node22" href="$group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="1091,1880,1299,1907"/>
 <area shape="rect" id="node23" href="$group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="2713,2099,2825,2126"/>
 <area shape="rect" id="node25" href="$group___thread.html#ga8e0fb6e55e11d12332055167bdfab275" title=" " alt="" coords="1349,2084,1519,2125"/>

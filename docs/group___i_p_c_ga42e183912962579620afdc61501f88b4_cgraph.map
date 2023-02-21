@@ -3,8 +3,8 @@
 <area shape="rect" id="node2" href="$group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="231,564,367,591"/>
 <area shape="rect" id="node7" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="2224,2092,2367,2119"/>
 <area shape="rect" id="node10" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2431,1813,2547,1840"/>
-<area shape="rect" id="node30" href="$ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="430,2168,607,2195"/>
-<area shape="rect" id="node31" href="$ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1316,2219,1519,2245"/>
+<area shape="rect" id="node30" href="$group___i_p_c.html#gac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="430,2168,607,2195"/>
+<area shape="rect" id="node31" href="$group___i_p_c.html#ga97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1316,2219,1519,2245"/>
 <area shape="rect" id="node32" href="$group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="689,1205,822,1232"/>
 <area shape="rect" id="node3" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="2219,667,2371,693"/>
 <area shape="rect" id="node4" href="$group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="415,564,623,591"/>

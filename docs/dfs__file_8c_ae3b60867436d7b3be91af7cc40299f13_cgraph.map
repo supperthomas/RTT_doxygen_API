@@ -9,8 +9,8 @@
 <area shape="rect" id="node4" href="$group__mutex.html#ga77845c9c0da68d07225c4c4699f114f0" title=" " alt="" coords="863,1858,979,1885"/>
 <area shape="rect" id="node5" href="$group__mutex.html#ga85dc28e3d47be06a5904514d98402f56" title="This function will take a mutex, if the mutex is unavailable, the thread shall wait for the mutex up ..." alt="" coords="1027,571,1149,598"/>
 <area shape="rect" id="node6" href="$group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="1456,14,1592,41"/>
-<area shape="rect" id="node8" href="$ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1423,470,1625,497"/>
-<area shape="rect" id="node9" href="$ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="1197,369,1375,395"/>
+<area shape="rect" id="node8" href="$group___i_p_c.html#ga97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1423,470,1625,497"/>
+<area shape="rect" id="node9" href="$group___i_p_c.html#ga42e183912962579620afdc61501f88b4" title=" " alt="" coords="1197,369,1375,395"/>
 <area shape="rect" id="node11" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="2297,521,2440,547"/>
 <area shape="rect" id="node13" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="2281,1951,2456,1978"/>
 <area shape="rect" id="node14" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="2283,1479,2455,1506"/>
@@ -44,9 +44,9 @@
 <area shape="rect" id="node38" href="$group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a" title="This function will lock the thread scheduler." alt="" coords="2075,2255,2199,2282"/>
 <area shape="rect" id="node40" href="$group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df" title="This function will unlock the thread scheduler." alt="" coords="1683,1850,1798,1877"/>
 <area shape="rect" id="node43" href="$group___kernel_service.html#gac2d4cd92e18dd8afc759f00a1830aab6" title=" " alt="" coords="525,2393,623,2419"/>
-<area shape="rect" id="node44" href="$group___kernel_service.html#ga5bd240284cac0868025b7e2aa379129c" title=" " alt="" coords="705,2455,815,2482"/>
+<area shape="rect" id="node44" href="$group___kernel_service.html#ga45fd62ec81075276fc1ce5540840f195" title=" " alt="" coords="705,2455,815,2482"/>
 <area shape="rect" id="node46" href="$group___kernel_service.html#ga9fb03b6a91239b2f8a49858106ee38cd" title=" " alt="" coords="719,2393,801,2419"/>
-<area shape="rect" id="node45" href="$group___kernel_service.html#ga2982bb502772e9905b3d4a791d5a5a62" title=" " alt="" coords="889,2458,952,2485"/>
+<area shape="rect" id="node45" href="$group___kernel_service.html#ga5ee64b938e9865cfe818edfa63c8b9fd" title=" " alt="" coords="889,2458,952,2485"/>
 <area shape="rect" id="node48" href="$group___kernel_service.html#gacbe2d70e90f1ce1ea00dd61621b97981" title=" " alt="" coords="526,2266,622,2293"/>
 <area shape="rect" id="node49" href="$group___kernel_service.html#ga743d665f6558666ee9bbfa894ee68178" title=" " alt="" coords="536,2317,612,2343"/>
 </map>

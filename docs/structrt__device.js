@@ -11,8 +11,8 @@ var structrt__device =
     [ "init", "structrt__device.html#a76612d6eb985afeb588136b86a14c20a", null ],
     [ "open", "structrt__device.html#a76f516ff57432c7c28fe40a5a0f2301d", null ],
     [ "close", "structrt__device.html#a8525376a9c62c863e81144bef99c0e8a", null ],
-    [ "read", "structrt__device.html#a30503da03c8eb3f78c544d1f37537882", null ],
-    [ "write", "structrt__device.html#abd30637cf89d08e4f16f3aa632a2bd11", null ],
+    [ "read", "structrt__device.html#ab54005b92c2a7002ec0dbf6d2876d764", null ],
+    [ "write", "structrt__device.html#aae248ff8487adedcf5044cc896bd91ac", null ],
     [ "control", "structrt__device.html#ae5d1b1f7ee4a2f17e2c3dd740c885b08", null ],
     [ "user_data", "structrt__device.html#a7abe4976f1632005eb09e0ed59ba99ef", null ]
 ];

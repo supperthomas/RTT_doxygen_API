@@ -12,8 +12,8 @@
 <area shape="rect" id="node11" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="2692,2469,2835,2496"/>
 <area shape="rect" id="node13" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="2473,1228,2591,1255"/>
 <area shape="rect" id="node15" href="$group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="2245,2703,2357,2729"/>
-<area shape="rect" id="node24" href="$ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1784,1953,1987,1980"/>
-<area shape="rect" id="node25" href="$ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="829,2163,1007,2189"/>
+<area shape="rect" id="node24" href="$group___i_p_c.html#ga97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="1784,1953,1987,1980"/>
+<area shape="rect" id="node25" href="$group___i_p_c.html#ga42e183912962579620afdc61501f88b4" title=" " alt="" coords="829,2163,1007,2189"/>
 <area shape="rect" id="node29" href="$group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="2051,1664,2149,1691"/>
 <area shape="rect" id="node35" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="2693,195,2833,221"/>
 <area shape="rect" id="node46" href="$group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c" title="This function will get or set some options of the timer" alt="" coords="2469,2140,2595,2167"/>
@@ -29,7 +29,7 @@
 <area shape="rect" id="node19" href="$dfs__file_8c.html#ae3b60867436d7b3be91af7cc40299f13" title=" " alt="" coords="2049,2829,2151,2856"/>
 <area shape="rect" id="node21" href="$group___kernel.html#gaa6725f61bed47e0d5ac383eccf14d3f1" title="This function will return the nest of interrupt." alt="" coords="2453,1684,2611,1711"/>
 <area shape="rect" id="node23" href="$timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="2703,1532,2824,1559"/>
-<area shape="rect" id="node26" href="$ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="1055,2112,1232,2139"/>
+<area shape="rect" id="node26" href="$group___i_p_c.html#gac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="1055,2112,1232,2139"/>
 <area shape="rect" id="node27" href="$group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="1077,1276,1210,1303"/>
 <area shape="rect" id="node28" href="$group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac" title="This function will judge the object is system object or not." alt="" coords="2436,483,2628,509"/>
 <area shape="rect" id="node34" href="$group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="2461,1365,2603,1406"/>

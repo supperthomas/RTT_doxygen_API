@@ -17,7 +17,7 @@
 <area shape="rect" id="node23" href="$group___kernel_service.html#ga743d665f6558666ee9bbfa894ee68178" title=" " alt="" coords="899,411,975,437"/>
 <area shape="rect" id="node24" href="$shell_8c.html#aa53bed70b54f9f29d93a2da14145819a" title=" " alt="" coords="433,588,591,615"/>
 <area shape="rect" id="node6" href="$dfs__posix_8c.html#a1301f5639d6acac2e7138ae391e87a2d" title=" " alt="" coords="911,309,962,336"/>
-<area shape="rect" id="node7" href="$group___device.html#ga33660fb6c9217dce99b6b625443453ba" title="This function will read some data from a device." alt="" coords="877,259,996,285"/>
+<area shape="rect" id="node7" href="$group___device.html#ga51642e30d61927aece593ee23d090b17" title="This function will read some data from a device." alt="" coords="877,259,996,285"/>
 <area shape="rect" id="node9" href="$group__semaphore.html#gaad0807b1eb15fe12a67de122e28f20eb" title=" " alt="" coords="885,360,988,387"/>
 <area shape="rect" id="node8" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="1080,233,1223,260"/>
 <area shape="rect" id="node11" href="$shell_8c.html#a091ad0012a523bf6cdc1aeba9378d199" title=" " alt="" coords="887,157,987,184"/>

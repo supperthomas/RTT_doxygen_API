@@ -1,12 +1,12 @@
 <map id="rt_mutex_drop_thread" name="rt_mutex_drop_thread">
 <area shape="rect" id="node1" title="drop a thread from the suspend list of mutex" alt="" coords="5,2089,172,2116"/>
-<area shape="rect" id="node2" href="$ipc_8c.html#a97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="445,1937,648,1964"/>
-<area shape="rect" id="node3" href="$ipc_8c.html#a42e183912962579620afdc61501f88b4" title=" " alt="" coords="220,2039,397,2065"/>
+<area shape="rect" id="node2" href="$group___i_p_c.html#ga97b197ca6d0f2c90e82c76631523d4ef" title=" " alt="" coords="445,1937,648,1964"/>
+<area shape="rect" id="node3" href="$group___i_p_c.html#ga42e183912962579620afdc61501f88b4" title=" " alt="" coords="220,2039,397,2065"/>
 <area shape="rect" id="node11" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="2250,959,2369,985"/>
 <area shape="rect" id="node12" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="2676,1684,2792,1711"/>
 <area shape="rect" id="node4" href="$group___i_p_c.html#ga6adda9e43d546ea8a7e0b932671f8836" title="This function will suspend a thread to a IPC object list." alt="" coords="479,540,615,567"/>
 <area shape="rect" id="node9" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="2469,2089,2612,2116"/>
-<area shape="rect" id="node32" href="$ipc_8c.html#ac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="711,1377,889,1404"/>
+<area shape="rect" id="node32" href="$group___i_p_c.html#gac730bd43f2780d26339a961bd4b6bf7b" title=" " alt="" coords="711,1377,889,1404"/>
 <area shape="rect" id="node33" href="$group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc" title="This function will control thread behaviors according to control command." alt="" coords="970,1424,1103,1451"/>
 <area shape="rect" id="node5" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="2465,121,2617,148"/>
 <area shape="rect" id="node6" href="$group___thread.html#ga537adfa695f87cdea6310ec3f66fced0" title="This function will suspend the specified thread and change it to suspend state." alt="" coords="696,540,904,567"/>

@@ -1,6 +1,7 @@
 var kservice_8c =
 [
     [ "RT_PRINTF_PRECISION", "kservice_8c.html#af39bb999ff4179bcce72dd91ccae614a", null ],
+    [ "RT_PRINTF_SPECIAL", "kservice_8c.html#a51f361d583f9fc5f74c6888f8d6f8c7c", null ],
     [ "LBLOCKSIZE", "kservice_8c.html#a8715b762dc403350650021042340ee4b", null ],
     [ "UNALIGNED", "kservice_8c.html#a7fee762bee4618db686d86b1c946cca5", null ],
     [ "TOO_SMALL", "kservice_8c.html#afd8abce6279fa835f39d56bec9dfc4a3", null ],
@@ -59,9 +60,9 @@ var kservice_8c =
     [ "RTM_EXPORT", "group___kernel_service.html#ga8343023bcba2d8eea410d496fd5a3af7", null ],
     [ "rt_show_version", "group___kernel_service.html#ga11ecdcdb5b09e6e18b52625c1e904dca", null ],
     [ "RTM_EXPORT", "group___kernel_service.html#gaafc7247c3c2221356093bc87ce5ed896", null ],
-    [ "divide", "group___kernel_service.html#ga2982bb502772e9905b3d4a791d5a5a62", null ],
+    [ "divide", "group___kernel_service.html#ga5ee64b938e9865cfe818edfa63c8b9fd", null ],
     [ "skip_atoi", "group___kernel_service.html#ga9fb03b6a91239b2f8a49858106ee38cd", null ],
-    [ "print_number", "group___kernel_service.html#ga5bd240284cac0868025b7e2aa379129c", null ],
+    [ "print_number", "group___kernel_service.html#ga45fd62ec81075276fc1ce5540840f195", null ],
     [ "rt_vsnprintf", "group___kernel_service.html#gac2d4cd92e18dd8afc759f00a1830aab6", null ],
     [ "RTM_EXPORT", "group___kernel_service.html#gab07d636f5c483e09b6ce319e6f5883c2", null ],
     [ "rt_snprintf", "group___kernel_service.html#ga940bcced7e89f112ac04bd715fdf4f24", null ],
