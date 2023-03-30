@@ -120,6 +120,42 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 <li>RT_ASSERT
 : <a class="el" href="rtdebug_8h.html#a6a86c5965ba3874257e3cb99a3536b70">rtdebug.h</a>
 </li>
+<li>rt_atomic_add
+: <a class="el" href="rtatomic_8h.html#a50d388c3456883623cf2c3a8e0318092">rtatomic.h</a>
+</li>
+<li>rt_atomic_and
+: <a class="el" href="rtatomic_8h.html#a5db8b0f5dbaad4795030081296103eef">rtatomic.h</a>
+</li>
+<li>rt_atomic_compare_exchange_strong
+: <a class="el" href="rtatomic_8h.html#a5d2d6e57feb1c4b5f35375c4de9f2f46">rtatomic.h</a>
+</li>
+<li>rt_atomic_exchange
+: <a class="el" href="rtatomic_8h.html#ab357eed64a4428c1889610c314efb4ae">rtatomic.h</a>
+</li>
+<li>rt_atomic_flag_clear
+: <a class="el" href="rtatomic_8h.html#a6762a0070dc3a75a86777fea32ebb8f2">rtatomic.h</a>
+</li>
+<li>rt_atomic_flag_test_and_set
+: <a class="el" href="rtatomic_8h.html#a300307a76526236c59c6822407dcee16">rtatomic.h</a>
+</li>
+<li>rt_atomic_load
+: <a class="el" href="rtatomic_8h.html#ab359224351b2131e34c8e13d8d423744">rtatomic.h</a>
+</li>
+<li>rt_atomic_or
+: <a class="el" href="rtatomic_8h.html#a99461bb57e40e9a3977026a6e13e28a2">rtatomic.h</a>
+</li>
+<li>rt_atomic_store
+: <a class="el" href="rtatomic_8h.html#a57b62872c290f85afef966061f0a2c69">rtatomic.h</a>
+</li>
+<li>rt_atomic_sub
+: <a class="el" href="rtatomic_8h.html#a15c78311ac4dcd91cf45b0e5aaf779b8">rtatomic.h</a>
+</li>
+<li>rt_atomic_t
+: <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rtdef.h</a>
+</li>
+<li>rt_atomic_xor
+: <a class="el" href="rtatomic_8h.html#a0d339c1549c0482e6b19f222137466a3">rtatomic.h</a>
+</li>
 <li>rt_base_t
 : <a class="el" href="group___basic_def.html#ga60c68ae91d1dfebfc2fa2a56869ede17">rtdef.h</a>
 </li>
@@ -152,13 +188,16 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 : <a class="el" href="cpu_8c.html#a939d345c2db2bfa552997f04bf19f8d0">cpu.c</a>
 </li>
 <li>rt_critical_level()
-: <a class="el" href="group___thread.html#gaf3f894e8efadefda238a5e5ab45c7e21">scheduler.c</a>
+: <a class="el" href="group___thread.html#gaf3f894e8efadefda238a5e5ab45c7e21">scheduler_mp.c</a>
+</li>
+<li>RT_CTASSERT
+: <a class="el" href="rtdef_8h.html#a4414b515f867c582420237e8c2d5ea15">rtdef.h</a>
 </li>
 <li>rt_current_priority
-: <a class="el" href="scheduler_8c.html#abf3ce40b5f683c168cbbd1aa38bc17d6">scheduler.c</a>
+: <a class="el" href="scheduler__up_8c.html#abf3ce40b5f683c168cbbd1aa38bc17d6">scheduler_up.c</a>
 </li>
 <li>rt_current_thread
-: <a class="el" href="scheduler_8c.html#a79f56a5699427ae8a615005dfbaf4325">scheduler.c</a>
+: <a class="el" href="scheduler__up_8c.html#a79f56a5699427ae8a615005dfbaf4325">scheduler_up.c</a>
 </li>
 <li>rt_custom_object_create()
 : <a class="el" href="group___kernel_object.html#ga75581e85adfc9cd4068c5144d19849b4">object.c</a>
@@ -412,8 +451,8 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 : <a class="el" href="group___device.html#ga23a6a0bf94d7ac84e205b25090ccecac">rtdef.h</a>
 </li>
 <li>rt_device_init()
-: <a class="el" href="group___device.html#ga04892007706fe586a1db33284571be7e">rtthread.h</a>
-, <a class="el" href="group___device.html#ga04892007706fe586a1db33284571be7e">device.c</a>
+: <a class="el" href="group___device.html#ga04892007706fe586a1db33284571be7e">device.c</a>
+, <a class="el" href="group___device.html#ga04892007706fe586a1db33284571be7e">rtthread.h</a>
 </li>
 <li>RT_DEVICE_OFLAG_CLOSE
 : <a class="el" href="group___device.html#gaded7e734d35ad96413265a830f2ae0c3">rtdef.h</a>
@@ -434,8 +473,8 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 : <a class="el" href="group___device.html#ga09cb4d4a3ba8481e39294eed833e9361">rtdef.h</a>
 </li>
 <li>rt_device_open()
-: <a class="el" href="group___device.html#gac0cd9f7a81722d69e8720ea4750c17a2">device.c</a>
-, <a class="el" href="group___device.html#gac0cd9f7a81722d69e8720ea4750c17a2">rtthread.h</a>
+: <a class="el" href="group___device.html#gac0cd9f7a81722d69e8720ea4750c17a2">rtthread.h</a>
+, <a class="el" href="group___device.html#gac0cd9f7a81722d69e8720ea4750c17a2">device.c</a>
 </li>
 <li>rt_device_read()
 : <a class="el" href="group___device.html#ga51642e30d61927aece593ee23d090b17">device.c</a>
@@ -504,7 +543,7 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 : <a class="el" href="group___error.html#gaa7a65ad3f8153cfac2ba087a3f58f6fa">rtdef.h</a>
 </li>
 <li>rt_enter_critical()
-: <a class="el" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a">scheduler.c</a>
+: <a class="el" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a">scheduler_mp.c</a>
 </li>
 <li>RT_EOK
 : <a class="el" href="group___error.html#gaaaddfb31f867cc924e0220470aaaec5f">rtdef.h</a>
@@ -533,8 +572,8 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 , <a class="el" href="group___i_p_c.html#ga3d752d98e73c0adcdd2b0df24e67efdb">rtthread.h</a>
 </li>
 <li>rt_event_delete()
-: <a class="el" href="group__event.html#ga840d6210713f186fe248a032a68d5e6d">ipc.c</a>
-, <a class="el" href="group___i_p_c.html#ga840d6210713f186fe248a032a68d5e6d">rtthread.h</a>
+: <a class="el" href="group___i_p_c.html#ga840d6210713f186fe248a032a68d5e6d">rtthread.h</a>
+, <a class="el" href="group__event.html#ga840d6210713f186fe248a032a68d5e6d">ipc.c</a>
 </li>
 <li>rt_event_detach()
 : <a class="el" href="group__event.html#ga43f0b137c7e6d5c2152f6b1d39b57616">ipc.c</a>
@@ -550,8 +589,8 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 : <a class="el" href="group___i_p_c.html#ga1685d2d8ef3af705fdc297405eda02ba">rtdef.h</a>
 </li>
 <li>rt_event_init()
-: <a class="el" href="group___i_p_c.html#gab0fad38227b1ebd616a807a09f2eb772">rtthread.h</a>
-, <a class="el" href="group__event.html#gab0fad38227b1ebd616a807a09f2eb772">ipc.c</a>
+: <a class="el" href="group__event.html#gab0fad38227b1ebd616a807a09f2eb772">ipc.c</a>
+, <a class="el" href="group___i_p_c.html#gab0fad38227b1ebd616a807a09f2eb772">rtthread.h</a>
 </li>
 <li>RT_EVENT_LENGTH
 : <a class="el" href="rtdef_8h.html#a048512b1452759236a87a8524a93760b">rtdef.h</a>
@@ -576,7 +615,7 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 : <a class="el" href="group___i_p_c.html#gad94b8b2a97683ff35478b7a0adef60df">rtdef.h</a>
 </li>
 <li>rt_exit_critical()
-: <a class="el" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df">scheduler.c</a>
+: <a class="el" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df">scheduler_mp.c</a>
 </li>
 <li>RT_FALSE
 : <a class="el" href="group___basic_def.html#gaad465603954df66df7791befd55ff325">rtdef.h</a>
@@ -605,14 +644,47 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 : <a class="el" href="group___kernel_service.html#ga82094ba21e55c2c207d47d1470161e97">kservice.c</a>
 </li>
 <li>rt_free_sethook()
-: <a class="el" href="group___hook.html#gaf556549fc541bfc634f37f2dca004547">kservice.c</a>
-, <a class="el" href="group___m_m.html#gaf556549fc541bfc634f37f2dca004547">rtthread.h</a>
+: <a class="el" href="group___m_m.html#gaf556549fc541bfc634f37f2dca004547">rtthread.h</a>
+, <a class="el" href="group___hook.html#gaf556549fc541bfc634f37f2dca004547">kservice.c</a>
 </li>
 <li>rt_get_errno()
 : <a class="el" href="group___kernel_service.html#ga17b8724a14746aa74d7c2969c3289fbc">kservice.c</a>
 </li>
 <li>rt_graphix_ops
 : <a class="el" href="group___device.html#gadcc41b249eb4c2f0fa6f0e2b302c5ced">rtdef.h</a>
+</li>
+<li>rt_hw_atomic_add()
+: <a class="el" href="rtatomic_8h.html#ac7f453e61c5864c93890cf9ac50475c2">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_and()
+: <a class="el" href="rtatomic_8h.html#aa15d9205c2b46f12f7d7c6f96f6ddd77">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_compare_exchange_strong()
+: <a class="el" href="rtatomic_8h.html#ab30234bfa858606161b30c3704177eb3">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_exchange()
+: <a class="el" href="rtatomic_8h.html#a2fc21df7faf2989293ce9d2b26851abf">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_flag_clear()
+: <a class="el" href="rtatomic_8h.html#a0a00ca3cf771591eaf1684158b80c636">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_flag_test_and_set()
+: <a class="el" href="rtatomic_8h.html#aeaf408c7abd89a517f48701033c09f48">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_load()
+: <a class="el" href="rtatomic_8h.html#abc7ab892730a3f7f70a8cf9f26038b31">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_or()
+: <a class="el" href="rtatomic_8h.html#a74e4e635a6abe4047152b530ba836c02">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_store()
+: <a class="el" href="rtatomic_8h.html#a4f24b20b48f5f1093d29bf7e3b048948">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_sub()
+: <a class="el" href="rtatomic_8h.html#a48f37ae0f94726c4cf021bf738b25bdf">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_xor()
+: <a class="el" href="rtatomic_8h.html#a30a86adaeece7623367f569bae6fc2d1">rtatomic.h</a>
 </li>
 <li>rt_hw_backtrace()
 : <a class="el" href="rthw_8h.html#a8bec14b21bfa3f01a8fc174b4dea8a6d">rthw.h</a>
@@ -663,12 +735,12 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 : <a class="el" href="rthw_8h.html#a43173043fd7fcbeb1f6d4ed6d6febbbd">rthw.h</a>
 </li>
 <li>rt_hw_cpu_reset()
-: <a class="el" href="rthw_8h.html#abe7a3d803d027af563d6aa604e94d821">rthw.h</a>
-, <a class="el" href="hardware_8h.html#abe7a3d803d027af563d6aa604e94d821">hardware.h</a>
+: <a class="el" href="hardware_8h.html#abe7a3d803d027af563d6aa604e94d821">hardware.h</a>
+, <a class="el" href="rthw_8h.html#abe7a3d803d027af563d6aa604e94d821">rthw.h</a>
 </li>
 <li>rt_hw_cpu_shutdown()
-: <a class="el" href="rthw_8h.html#a5575183b7ec3e1a5255ff373831a8ea6">rthw.h</a>
-, <a class="el" href="hardware_8h.html#a5575183b7ec3e1a5255ff373831a8ea6">hardware.h</a>
+: <a class="el" href="hardware_8h.html#a5575183b7ec3e1a5255ff373831a8ea6">hardware.h</a>
+, <a class="el" href="rthw_8h.html#a5575183b7ec3e1a5255ff373831a8ea6">rthw.h</a>
 </li>
 <li>rt_hw_dmb
 : <a class="el" href="rthw_8h.html#a8f06c280b36db2e86075fbe739b3afda">rthw.h</a>
@@ -756,8 +828,8 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 : <a class="el" href="rtthread_8h.html#a958860e3d739bbf4f7390a2591a9cfc4">rtthread.h</a>
 </li>
 <li>rt_interrupt_nest
-: <a class="el" href="group___kernel.html#ga96e100b95b71246bca1168792b59fa04">scheduler.c</a>
-, <a class="el" href="group___kernel.html#ga96e100b95b71246bca1168792b59fa04">irq.c</a>
+: <a class="el" href="group___kernel.html#ga96e100b95b71246bca1168792b59fa04">irq.c</a>
+, <a class="el" href="group___kernel.html#ga96e100b95b71246bca1168792b59fa04">scheduler_up.c</a>
 </li>
 <li>RT_INTERRUPTIBLE
 : <a class="el" href="group___thread.html#gga06fc87d81c62e9abb8790b6e5713c55ba871587c9d7bcf1cd9f7107c5221a5a29">rtdef.h</a>
@@ -867,8 +939,8 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 , <a class="el" href="group___i_p_c.html#ga7719d644b6f58399894dec1c6353ac37">rtthread.h</a>
 </li>
 <li>rt_mb_delete()
-: <a class="el" href="group__mailbox.html#ga71e9e49401cbbed83515ace6fa13c27b">ipc.c</a>
-, <a class="el" href="group___i_p_c.html#ga71e9e49401cbbed83515ace6fa13c27b">rtthread.h</a>
+: <a class="el" href="group___i_p_c.html#ga71e9e49401cbbed83515ace6fa13c27b">rtthread.h</a>
+, <a class="el" href="group__mailbox.html#ga71e9e49401cbbed83515ace6fa13c27b">ipc.c</a>
 </li>
 <li>rt_mb_detach()
 : <a class="el" href="group__mailbox.html#ga3312c6094d9c21af33a74f444a8c5993">ipc.c</a>
@@ -890,8 +962,8 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 , <a class="el" href="group___i_p_c.html#ga1ccea7ce9417dc7d1a446ed085e24012">rtthread.h</a>
 </li>
 <li>rt_mb_recv_killable()
-: <a class="el" href="group___i_p_c.html#ga007f010abaed3f902dff9e214e256294">rtthread.h</a>
-, <a class="el" href="group__mailbox.html#ga007f010abaed3f902dff9e214e256294">ipc.c</a>
+: <a class="el" href="group__mailbox.html#ga007f010abaed3f902dff9e214e256294">ipc.c</a>
+, <a class="el" href="group___i_p_c.html#ga007f010abaed3f902dff9e214e256294">rtthread.h</a>
 </li>
 <li>rt_mb_send()
 : <a class="el" href="group__mailbox.html#gac2b0d532eab2989b713fdb0b1fac6665">ipc.c</a>
@@ -932,8 +1004,8 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 : <a class="el" href="group___kernel_service.html#gaea53e9b7142ae50590412a22c8705dad">kservice.c</a>
 </li>
 <li>rt_memory_info()
-: <a class="el" href="group___kernel_service.html#gad8ab019984cc19958c95b5c2eb32256d">kservice.c</a>
-, <a class="el" href="group___m_m.html#ga6a043ee84954692789696a255ea65699">rtthread.h</a>
+: <a class="el" href="group___m_m.html#ga6a043ee84954692789696a255ea65699">rtthread.h</a>
+, <a class="el" href="group___kernel_service.html#gad8ab019984cc19958c95b5c2eb32256d">kservice.c</a>
 </li>
 <li>rt_memset()
 : <a class="el" href="group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2">kservice.c</a>
@@ -975,8 +1047,8 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 : <a class="el" href="group___m_m.html#gacd1967553fa041da8c8bf22d4a8b1c30">rtdef.h</a>
 </li>
 <li>rt_mq_control()
-: <a class="el" href="group__messagequeue.html#ga3b1ec7b2bfbc8029b0200755505d7c55">ipc.c</a>
-, <a class="el" href="group___i_p_c.html#ga3b1ec7b2bfbc8029b0200755505d7c55">rtthread.h</a>
+: <a class="el" href="group___i_p_c.html#ga3b1ec7b2bfbc8029b0200755505d7c55">rtthread.h</a>
+, <a class="el" href="group__messagequeue.html#ga3b1ec7b2bfbc8029b0200755505d7c55">ipc.c</a>
 </li>
 <li>rt_mq_create()
 : <a class="el" href="group__messagequeue.html#ga35acff654ecee2a76d5555e9683d8470">ipc.c</a>
@@ -994,16 +1066,16 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 : <a class="el" href="rtdef_8h.html#a38c43b3bd6a585297b57e3ef7d290e25">rtdef.h</a>
 </li>
 <li>rt_mq_init()
-: <a class="el" href="group___i_p_c.html#gaac5b76df894964c908271ab0951f7e86">rtthread.h</a>
-, <a class="el" href="group__messagequeue.html#gaac5b76df894964c908271ab0951f7e86">ipc.c</a>
+: <a class="el" href="group__messagequeue.html#gaac5b76df894964c908271ab0951f7e86">ipc.c</a>
+, <a class="el" href="group___i_p_c.html#gaac5b76df894964c908271ab0951f7e86">rtthread.h</a>
 </li>
 <li>rt_mq_recv()
 : <a class="el" href="group__messagequeue.html#ga1a676c587c7b403b2585a7152905e39a">ipc.c</a>
 , <a class="el" href="group___i_p_c.html#ga1a676c587c7b403b2585a7152905e39a">rtthread.h</a>
 </li>
 <li>rt_mq_recv_interruptible()
-: <a class="el" href="group__messagequeue.html#ga44827d42b5afa5fc5d1660c9f400e6a2">ipc.c</a>
-, <a class="el" href="group___i_p_c.html#ga44827d42b5afa5fc5d1660c9f400e6a2">rtthread.h</a>
+: <a class="el" href="group___i_p_c.html#ga44827d42b5afa5fc5d1660c9f400e6a2">rtthread.h</a>
+, <a class="el" href="group__messagequeue.html#ga44827d42b5afa5fc5d1660c9f400e6a2">ipc.c</a>
 </li>
 <li>rt_mq_recv_killable()
 : <a class="el" href="group__messagequeue.html#ga86685c39d7b8d02e85c02a9f6b561881">ipc.c</a>
@@ -1018,8 +1090,8 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 , <a class="el" href="group___i_p_c.html#gaad2e05be236e19973bb58803816ab404">rtthread.h</a>
 </li>
 <li>rt_mq_send_killable()
-: <a class="el" href="group___i_p_c.html#ga77d62ff6c3c18cc822e8ad6f71a7b691">rtthread.h</a>
-, <a class="el" href="group__messagequeue.html#ga77d62ff6c3c18cc822e8ad6f71a7b691">ipc.c</a>
+: <a class="el" href="group__messagequeue.html#ga77d62ff6c3c18cc822e8ad6f71a7b691">ipc.c</a>
+, <a class="el" href="group___i_p_c.html#ga77d62ff6c3c18cc822e8ad6f71a7b691">rtthread.h</a>
 </li>
 <li>rt_mq_send_wait()
 : <a class="el" href="group__messagequeue.html#ga0a041666764bd3a737e6451e6e40887a">ipc.c</a>
@@ -1045,8 +1117,8 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 , <a class="el" href="group___i_p_c.html#ga1e12cce5d8252dd3cc764ba00d429ae9">rtthread.h</a>
 </li>
 <li>rt_mutex_create()
-: <a class="el" href="group___i_p_c.html#ga5ce96ed48d83086aab6ecadebac6d0c6">rtthread.h</a>
-, <a class="el" href="group__mutex.html#ga5ce96ed48d83086aab6ecadebac6d0c6">ipc.c</a>
+: <a class="el" href="group__mutex.html#ga5ce96ed48d83086aab6ecadebac6d0c6">ipc.c</a>
+, <a class="el" href="group___i_p_c.html#ga5ce96ed48d83086aab6ecadebac6d0c6">rtthread.h</a>
 </li>
 <li>rt_mutex_delete()
 : <a class="el" href="group__mutex.html#ga8a74f51362fc566500bec135599dd5a9">ipc.c</a>
@@ -1057,8 +1129,8 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 , <a class="el" href="group___i_p_c.html#ga7a8b48c0e6884e2c22d08e9e7e98a613">rtthread.h</a>
 </li>
 <li>rt_mutex_drop_thread()
-: <a class="el" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372">ipc.c</a>
-, <a class="el" href="group___i_p_c.html#ga8ca03f1e5607cda3f739aff4048b8372">rtthread.h</a>
+: <a class="el" href="group___i_p_c.html#ga8ca03f1e5607cda3f739aff4048b8372">rtthread.h</a>
+, <a class="el" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372">ipc.c</a>
 </li>
 <li>rt_mutex_getprioceiling()
 : <a class="el" href="group__mutex.html#gaef430f1dbc50af1098589232fb54508c">ipc.c</a>
@@ -1268,16 +1340,22 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 , <a class="el" href="group___m_m.html#ga43bb369b655b2662fa0b3d654f447a67">rtthread.h</a>
 </li>
 <li>rt_schedule()
-: <a class="el" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24">scheduler.c</a>
+: <a class="el" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24">scheduler_mp.c</a>
 </li>
 <li>rt_schedule_insert_thread()
-: <a class="el" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654">scheduler.c</a>
+: <a class="el" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654">scheduler_mp.c</a>
 </li>
 <li>rt_schedule_remove_thread()
-: <a class="el" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164">scheduler.c</a>
+: <a class="el" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164">scheduler_mp.c</a>
+</li>
+<li>rt_scheduler_do_irq_switch()
+: <a class="el" href="group___thread.html#gabb4158a39c5ea956a96b22190ce0ed89">scheduler_mp.c</a>
+</li>
+<li>rt_scheduler_ipi_handler()
+: <a class="el" href="group___thread.html#ga268d9fc914d7f4b144568e5de5049b63">scheduler_mp.c</a>
 </li>
 <li>rt_scheduler_lock_nest
-: <a class="el" href="scheduler_8c.html#a62ab66877d27e607a00b4949fb1d6014">scheduler.c</a>
+: <a class="el" href="scheduler__up_8c.html#a62ab66877d27e607a00b4949fb1d6014">scheduler_up.c</a>
 </li>
 <li>rt_scheduler_sethook()
 : <a class="el" href="group___thread.html#ga1af67d388db8019327b5f86428e2ed14">rtthread.h</a>
@@ -1294,8 +1372,8 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 , <a class="el" href="group___i_p_c.html#ga61a4960ff4a173f1d1c35ede42e1227f">rtthread.h</a>
 </li>
 <li>rt_sem_delete()
-: <a class="el" href="group__semaphore.html#ga0e45d2b96aab649832b6756d68629bbe">ipc.c</a>
-, <a class="el" href="group___i_p_c.html#ga0e45d2b96aab649832b6756d68629bbe">rtthread.h</a>
+: <a class="el" href="group___i_p_c.html#ga0e45d2b96aab649832b6756d68629bbe">rtthread.h</a>
+, <a class="el" href="group__semaphore.html#ga0e45d2b96aab649832b6756d68629bbe">ipc.c</a>
 </li>
 <li>rt_sem_detach()
 : <a class="el" href="group__semaphore.html#ga7dd3560a50be21e132c71f622870c500">ipc.c</a>
@@ -1321,8 +1399,8 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 , <a class="el" href="group___i_p_c.html#gadd87e2484582c79465a6ce9b2f9351fd">rtthread.h</a>
 </li>
 <li>rt_sem_take_killable()
-: <a class="el" href="group__semaphore.html#ga4f2d13bc1f26a8355fa1239f98819f01">ipc.c</a>
-, <a class="el" href="group___i_p_c.html#gaa393b17a51e88199253e3819175ab5f9">rtthread.h</a>
+: <a class="el" href="group___i_p_c.html#gaa393b17a51e88199253e3819175ab5f9">rtthread.h</a>
+, <a class="el" href="group__semaphore.html#ga4f2d13bc1f26a8355fa1239f98819f01">ipc.c</a>
 </li>
 <li>rt_sem_trytake()
 : <a class="el" href="group__semaphore.html#gaf24da991e29df68a49062d89b95c7de5">ipc.c</a>
@@ -1418,6 +1496,39 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 <li>rt_snprintf()
 : <a class="el" href="group___kernel_service.html#ga940bcced7e89f112ac04bd715fdf4f24">kservice.c</a>
 </li>
+<li>rt_soft_atomic_add()
+: <a class="el" href="rtatomic_8h.html#a7bd5fd92bf49abef36366eda63cab775">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_and()
+: <a class="el" href="rtatomic_8h.html#a48e334b6d5317dcc456bbc4751b2fd97">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_compare_exchange_strong()
+: <a class="el" href="rtatomic_8h.html#af211bf0467ba89fe2b44694c2558ed2b">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_exchange()
+: <a class="el" href="rtatomic_8h.html#ac05326aecc8bab68487a7668ccff0cf6">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_flag_clear()
+: <a class="el" href="rtatomic_8h.html#ac2d8e551785eb12745da1e35b137b809">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_flag_test_and_set()
+: <a class="el" href="rtatomic_8h.html#ad70694d838646c7b571c30ee7958f850">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_load()
+: <a class="el" href="rtatomic_8h.html#a7ac77ebdf6da6b45f34c063c9d3d2a8e">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_or()
+: <a class="el" href="rtatomic_8h.html#af9f053600c96c34ed3f97ca1657e21e1">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_store()
+: <a class="el" href="rtatomic_8h.html#ae135e37e9c69e7962271d4e9872c0ed9">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_sub()
+: <a class="el" href="rtatomic_8h.html#a7bb2a925623f7dbcc26d87c36f34bdd9">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_xor()
+: <a class="el" href="rtatomic_8h.html#a8f43cacb900b883bf50714dba9dd9afa">rtatomic.h</a>
+</li>
 <li>rt_spin_lock
 : <a class="el" href="group___i_p_c.html#ga193443f7c046aecfad54da5aaaa65b52">rtthread.h</a>
 , <a class="el" href="cpu_8c.html#a9e3b84e1f0acebdd5ae36b0626b24240">cpu.c</a>
@@ -1478,16 +1589,18 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 : <a class="el" href="group___kernel_service.html#gad986e7ef38f22c0c612e8467a25a19ef">kservice.c</a>
 </li>
 <li>rt_system_heap_init()
-: <a class="el" href="group___kernel_service.html#ga7ccb4a60ea0018ba0060611b8b328026">kservice.c</a>
-, <a class="el" href="group___m_m.html#gafa6feb60f6204d1783bc3bc324b886e7">rtthread.h</a>
+: <a class="el" href="group___m_m.html#gafa6feb60f6204d1783bc3bc324b886e7">rtthread.h</a>
+, <a class="el" href="group___kernel_service.html#ga7ccb4a60ea0018ba0060611b8b328026">kservice.c</a>
 , <a class="el" href="group___system_init.html#gafa6feb60f6204d1783bc3bc324b886e7">systeminit.h</a>
 </li>
 <li>rt_system_scheduler_init()
-: <a class="el" href="group___thread.html#ga5aa2c0c67999e20ce8693ad3c8e624f0">scheduler.c</a>
+: <a class="el" href="group___thread.html#ga5aa2c0c67999e20ce8693ad3c8e624f0">scheduler_mp.c</a>
 , <a class="el" href="group___thread.html#ga5aa2c0c67999e20ce8693ad3c8e624f0">rtthread.h</a>
+, <a class="el" href="group___thread.html#ga5aa2c0c67999e20ce8693ad3c8e624f0">scheduler_up.c</a>
 </li>
 <li>rt_system_scheduler_start()
-: <a class="el" href="group___thread.html#ga9aa8a561e0caf5e13126834c4f4bb681">scheduler.c</a>
+: <a class="el" href="group___thread.html#ga9aa8a561e0caf5e13126834c4f4bb681">scheduler_mp.c</a>
+, <a class="el" href="group___thread.html#ga9aa8a561e0caf5e13126834c4f4bb681">scheduler_up.c</a>
 , <a class="el" href="group___thread.html#ga9aa8a561e0caf5e13126834c4f4bb681">rtthread.h</a>
 </li>
 <li>rt_system_timer_init()
@@ -1546,8 +1659,8 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 : <a class="el" href="group___thread.html#ga789a0782597b4d7f7c6c16eacc6084a8">thread.c</a>
 </li>
 <li>rt_thread_idle_delhook()
-: <a class="el" href="group___thread.html#gaf48521904309636f9ccdbf562199c0a5">idle.c</a>
-, <a class="el" href="group___thread.html#gaf48521904309636f9ccdbf562199c0a5">rtthread.h</a>
+: <a class="el" href="group___thread.html#gaf48521904309636f9ccdbf562199c0a5">rtthread.h</a>
+, <a class="el" href="group___thread.html#gaf48521904309636f9ccdbf562199c0a5">idle.c</a>
 </li>
 <li>rt_thread_idle_gethandler()
 : <a class="el" href="group___thread.html#gadd22f9965fffe9e940fd364f0838731f">idle.c</a>
@@ -1573,13 +1686,15 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 : <a class="el" href="group___thread.html#ga4ba0dbf06d5fa05f469da371ff6d2876">thread.c</a>
 </li>
 <li>rt_thread_priority_table
-: <a class="el" href="scheduler_8c.html#a4c3b532a90796416ca8446cab1be32ab">scheduler.c</a>
+: <a class="el" href="scheduler__mp_8c.html#a4c3b532a90796416ca8446cab1be32ab">scheduler_mp.c</a>
+, <a class="el" href="scheduler__up_8c.html#a4c3b532a90796416ca8446cab1be32ab">scheduler_up.c</a>
 </li>
 <li>RT_THREAD_READY
 : <a class="el" href="group___thread.html#ga3d2482a36a666c7e796f0fee67c0d3f3">rtdef.h</a>
 </li>
 <li>rt_thread_ready_priority_group
-: <a class="el" href="scheduler_8c.html#a5ba5c4bdc0965dc5223a9e6325902523">scheduler.c</a>
+: <a class="el" href="scheduler__mp_8c.html#a5ba5c4bdc0965dc5223a9e6325902523">scheduler_mp.c</a>
+, <a class="el" href="scheduler__up_8c.html#a5ba5c4bdc0965dc5223a9e6325902523">scheduler_up.c</a>
 </li>
 <li>rt_thread_resume()
 : <a class="el" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379">thread.c</a>
@@ -1626,11 +1741,11 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 <li>RT_THREAD_STAT_YIELD_MASK
 : <a class="el" href="group___thread.html#ga790bfc4df4e349e15c4bdf6de05a2493">rtdef.h</a>
 </li>
-<li>RT_THREAD_SUSPEND
-: <a class="el" href="group___thread.html#gad67bab390563b8b80a2ee7a847660f85">rtdef.h</a>
-</li>
 <li>rt_thread_suspend()
 : <a class="el" href="group___thread.html#gab75228a43588dc35570bce6a2c18f3f0">thread.c</a>
+</li>
+<li>RT_THREAD_SUSPEND
+: <a class="el" href="group___thread.html#gad67bab390563b8b80a2ee7a847660f85">rtdef.h</a>
 </li>
 <li>RT_THREAD_SUSPEND_INTERRUPTIBLE
 : <a class="el" href="group___thread.html#ga52105c3a810895c9c9103064b9be1141">rtdef.h</a>
@@ -1924,19 +2039,19 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 : <a class="el" href="group___device.html#ga129ac0e844b97c6f324ab5995f9cff6b">rtdef.h</a>
 </li>
 <li>RTM_EXPORT()
-: <a class="el" href="group___m_m.html#ga9350c64b4d8a9556bd2e1d255de901d8">mempool.c</a>
-, <a class="el" href="mem_8c.html#a8dfef34baf03cf32e9f4ff154ec69a41">mem.c</a>
-, <a class="el" href="group___m_m.html#gaf2356ceac07557457d8ee5ea5cccc083">mempool.c</a>
-, <a class="el" href="group___m_m.html#gaa005498116a87274684e59b386f09973">mem.c</a>
-, <a class="el" href="group___thread.html#gaba6ba9c744e797ac9aa446cecc1c38b8">thread.c</a>
-, <a class="el" href="group___m_m.html#ga0d6c4398fc18dfedf3bbb3250742befc">mem.c</a>
-, <a class="el" href="group___m_m.html#gaf2a515d9dddbbb95ef70c73522963417">mempool.c</a>
-, <a class="el" href="group___kernel_object.html#ga7167ae7d39f610dc3d0fe892148e7579">object.c</a>
-, <a class="el" href="group___thread.html#ga4488d5a82057fb2719ae27bfb49c9aa1">scheduler.c</a>
-, <a class="el" href="group___thread.html#gaf46cd7a5a8dcda6487729d64b8a88b12">thread.c</a>
+: <a class="el" href="group___m_m.html#gaf2a515d9dddbbb95ef70c73522963417">mempool.c</a>
 , <a class="el" href="group___kernel_service.html#ga6772a47765f855c55816a3e467b9da06">kservice.c</a>
-, <a class="el" href="group__messagequeue.html#gabaab068cd937167e59d10932e47eb338">ipc.c</a>
+, <a class="el" href="mem_8c.html#a76eee7ea1b55d3277596bfffb14537aa">mem.c</a>
+, <a class="el" href="group___m_m.html#gaffe981a4ce9d56ad844ad7b66688919e">mempool.c</a>
+, <a class="el" href="group___kernel_service.html#ga372da2fa37d359c9a39430a3863398ce">kservice.c</a>
+, <a class="el" href="group___kernel_object.html#ga7167ae7d39f610dc3d0fe892148e7579">object.c</a>
+, <a class="el" href="group___thread.html#ga4488d5a82057fb2719ae27bfb49c9aa1">scheduler_mp.c</a>
+, <a class="el" href="group___thread.html#gaf46cd7a5a8dcda6487729d64b8a88b12">thread.c</a>
+, <a class="el" href="group___kernel_service.html#gaafc7247c3c2221356093bc87ce5ed896">kservice.c</a>
+, <a class="el" href="group__messagequeue.html#ga93cfe66dd53511ed621985bdb06efd90">ipc.c</a>
 , <a class="el" href="group___kernel_service.html#ga540baed4a11d9cc814acfb69864ba61e">kservice.c</a>
+, <a class="el" href="mem_8c.html#a8dfef34baf03cf32e9f4ff154ec69a41">mem.c</a>
+, <a class="el" href="group___kernel_service.html#gab07d636f5c483e09b6ce319e6f5883c2">kservice.c</a>
 , <a class="el" href="dfs__posix_8c.html#a772f91b508ed9d81d8b4255021087922">dfs_posix.c</a>
 , <a class="el" href="group___clock.html#ga17c5a365e0d16a5105192267525a5bd1">timer.c</a>
 , <a class="el" href="group___thread.html#ga1c8b81f1c968b60efe958a68f780e294">thread.c</a>
@@ -1954,7 +2069,7 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 , <a class="el" href="driver_8c.html#ae1122e220e04a8fd1f86dc28cecb49cb">driver.c</a>
 , <a class="el" href="group__semaphore.html#ga5829989dc0e8f77f94ad516dd0cd68ad">ipc.c</a>
 , <a class="el" href="group___kernel.html#ga76dbe0b5dc612d11ad555104b13d9e3e">irq.c</a>
-, <a class="el" href="group__messagequeue.html#ga41f55c01f1f379a8dc5346a3bcbeefe4">ipc.c</a>
+, <a class="el" href="group__messagequeue.html#ga68a088043d6dd7676e2500a29127c73c">ipc.c</a>
 , <a class="el" href="group___kernel.html#gac5ba2b74c45bf1f7d3a00fba2b151d30">irq.c</a>
 , <a class="el" href="group___kernel_service.html#ga5eee138f5e5dec4d67693427a6a8ba02">kservice.c</a>
 , <a class="el" href="group__mailbox.html#gafd3ebb8b78d33605ed90111d0f699428">ipc.c</a>
@@ -1968,7 +2083,7 @@ $(document).ready(function(){initNavTree('globals_r.html',''); initResizable(); 
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">生成于 2023年 二月 21日 星期二 13:36:26 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2023年 三月 30日 星期四 16:11:52 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

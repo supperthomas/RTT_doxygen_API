@@ -1,15 +1,20 @@
 <map id="rt_schedule" name="rt_schedule">
-<area shape="rect" id="node1" title="This function will perform scheduling once. It will select one thread with the highest priority,..." alt="" coords="5,195,103,222"/>
-<area shape="rect" id="node2" href="$scheduler_8c.html#a73a2cade9b736d394cba56151e963d7d" title=" " alt="" coords="151,5,325,47"/>
-<area shape="rect" id="node4" href="$rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="157,71,319,98"/>
-<area shape="rect" id="node5" href="$rthw_8h.html#a90f76142bf9bdab92be383820c31a0da" title=" " alt="" coords="157,123,319,164"/>
-<area shape="rect" id="node6" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="373,305,548,331"/>
-<area shape="rect" id="node7" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="375,254,547,281"/>
-<area shape="rect" id="node8" href="$group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="167,188,309,229"/>
-<area shape="rect" id="node11" href="$group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="161,356,315,397"/>
-<area shape="rect" id="node3" href="$group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="426,13,495,39"/>
-<area shape="rect" id="node9" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="391,149,531,175"/>
-<area shape="rect" id="node10" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="385,199,537,226"/>
-<area shape="rect" id="node12" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="401,410,520,437"/>
-<area shape="rect" id="node13" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="403,359,519,386"/>
+<area shape="rect" id="node1" title="This function will perform one scheduling. It will select one thread with the highest priority level ..." alt="" coords="5,267,103,293"/>
+<area shape="rect" id="node2" href="$scheduler__mp_8c.html#a73a2cade9b736d394cba56151e963d7d" title=" " alt="" coords="151,45,325,86"/>
+<area shape="rect" id="node5" href="$cpu_8c.html#a67dc9de2bb58623b49aae1562853f86a" title="This fucntion will return the cpu object corresponding to index." alt="" coords="611,133,716,160"/>
+<area shape="rect" id="node6" href="$rthw_8h.html#aae958f36584a62b84cb51c129c11e14f" title=" " alt="" coords="157,547,319,573"/>
+<area shape="rect" id="node7" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="576,336,751,363"/>
+<area shape="rect" id="node8" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="577,395,749,421"/>
+<area shape="rect" id="node9" href="$group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654" title="This function will insert a thread to the system ready queue. The state of thread will be set as READ..." alt="" coords="380,227,521,269"/>
+<area shape="rect" id="node12" href="$group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="373,162,528,203"/>
+<area shape="rect" id="node15" href="$group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379" title="This function will resume a thread and put it to system ready queue." alt="" coords="169,395,307,421"/>
+<area shape="rect" id="node3" href="$group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="416,5,485,32"/>
+<area shape="rect" id="node4" href="$cpu_8c.html#a8fe8f3bfae1869fc0a0d179788433e11" title="This fucntion will return current cpu object." alt="" coords="404,56,497,83"/>
+<area shape="rect" id="node10" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="593,285,733,312"/>
+<area shape="rect" id="node11" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="587,235,739,261"/>
+<area shape="rect" id="node13" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="604,83,723,109"/>
+<area shape="rect" id="node14" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="799,445,915,472"/>
+<area shape="rect" id="node16" href="$group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91" title="This function will return the type of object without RT_Object_Class_Static flag." alt="" coords="592,521,735,548"/>
+<area shape="rect" id="node17" href="$group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2" title="This function will stop the timer" alt="" coords="396,445,505,472"/>
+<area shape="rect" id="node18" href="$timer_8c.html#a2cccbde486b4ce6cceaa8bbab892f3a1" title="Remove the timer" alt="" coords="603,445,724,472"/>
 </map>

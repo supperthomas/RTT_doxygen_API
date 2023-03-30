@@ -28,5 +28,6 @@ var group___basic_def =
     [ "rt_tick_t", "group___basic_def.html#ga66c400929925784dba020d671154978a", null ],
     [ "rt_flag_t", "group___basic_def.html#gac0517c5e13c1374877d8462b84e72755", null ],
     [ "rt_dev_t", "group___basic_def.html#ga79ffea5dac0a5c145822b5b1c9b55a09", null ],
-    [ "rt_off_t", "group___basic_def.html#ga0fd4981851ce935649b6723a81f2f1bf", null ]
+    [ "rt_off_t", "group___basic_def.html#ga0fd4981851ce935649b6723a81f2f1bf", null ],
+    [ "rt_atomic_t", "group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2", null ]
 ];

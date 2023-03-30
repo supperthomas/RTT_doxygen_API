@@ -1,7 +1,8 @@
 <map id="rt_schedule_remove_thread" name="rt_schedule_remove_thread">
-<area shape="rect" id="node1" title="This function will remove a thread from system ready queue." alt="" coords="5,74,160,115"/>
-<area shape="rect" id="node2" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="208,5,383,32"/>
-<area shape="rect" id="node3" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="209,56,381,83"/>
-<area shape="rect" id="node4" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="236,107,355,133"/>
-<area shape="rect" id="node5" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="237,157,353,184"/>
+<area shape="rect" id="node1" title="This function will remove a thread from system ready queue." alt="" coords="5,99,160,141"/>
+<area shape="rect" id="node2" href="$cpu_8c.html#a67dc9de2bb58623b49aae1562853f86a" title="This fucntion will return the cpu object corresponding to index." alt="" coords="243,5,348,32"/>
+<area shape="rect" id="node3" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="208,56,383,83"/>
+<area shape="rect" id="node4" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="209,107,381,133"/>
+<area shape="rect" id="node5" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="236,157,355,184"/>
+<area shape="rect" id="node6" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="237,208,353,235"/>
 </map>

@@ -131,7 +131,7 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 : <a class="el" href="cpu_8c.html#a939d345c2db2bfa552997f04bf19f8d0">cpu.c</a>
 </li>
 <li>rt_critical_level()
-: <a class="el" href="group___thread.html#gaf3f894e8efadefda238a5e5ab45c7e21">scheduler.c</a>
+: <a class="el" href="group___thread.html#gaf3f894e8efadefda238a5e5ab45c7e21">scheduler_mp.c</a>
 </li>
 <li>rt_custom_object_create()
 : <a class="el" href="group___kernel_object.html#ga75581e85adfc9cd4068c5144d19849b4">object.c</a>
@@ -151,8 +151,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 , <a class="el" href="group___device.html#ga40ed6da2d5ea7b1e28de21ff439db963">rtthread.h</a>
 </li>
 <li>rt_device_create()
-: <a class="el" href="group___device.html#ga61ad2adb3c48709087465f61c244733b">device.c</a>
-, <a class="el" href="group___device.html#ga61ad2adb3c48709087465f61c244733b">rtthread.h</a>
+: <a class="el" href="group___device.html#ga61ad2adb3c48709087465f61c244733b">rtthread.h</a>
+, <a class="el" href="group___device.html#ga61ad2adb3c48709087465f61c244733b">device.c</a>
 </li>
 <li>rt_device_destroy()
 : <a class="el" href="group___device.html#ga74b22c6a450071b23774fe24bf6fc78c">device.c</a>
@@ -198,7 +198,7 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 : <a class="el" href="driver_8c.html#a971a3038c832d82deac2a7aec85e5768">driver.c</a>
 </li>
 <li>rt_enter_critical()
-: <a class="el" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a">scheduler.c</a>
+: <a class="el" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a">scheduler_mp.c</a>
 </li>
 <li>rt_event_control()
 : <a class="el" href="group__event.html#ga3aeb964ccccdde76bb5e247c0a913fea">ipc.c</a>
@@ -217,8 +217,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 , <a class="el" href="group___i_p_c.html#ga43f0b137c7e6d5c2152f6b1d39b57616">rtthread.h</a>
 </li>
 <li>rt_event_init()
-: <a class="el" href="group__event.html#gab0fad38227b1ebd616a807a09f2eb772">ipc.c</a>
-, <a class="el" href="group___i_p_c.html#gab0fad38227b1ebd616a807a09f2eb772">rtthread.h</a>
+: <a class="el" href="group___i_p_c.html#gab0fad38227b1ebd616a807a09f2eb772">rtthread.h</a>
+, <a class="el" href="group__event.html#gab0fad38227b1ebd616a807a09f2eb772">ipc.c</a>
 </li>
 <li>rt_event_recv()
 : <a class="el" href="group__event.html#ga77e0517918bc7dabd458c2a751a59263">ipc.c</a>
@@ -233,19 +233,19 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 , <a class="el" href="group___i_p_c.html#ga6657cd85ef9e25e1f4002aa313865853">rtthread.h</a>
 </li>
 <li>rt_event_send()
-: <a class="el" href="group__event.html#ga92efdf32aaf073d733f3bafd02d730e5">ipc.c</a>
-, <a class="el" href="group___i_p_c.html#ga92efdf32aaf073d733f3bafd02d730e5">rtthread.h</a>
+: <a class="el" href="group___i_p_c.html#ga92efdf32aaf073d733f3bafd02d730e5">rtthread.h</a>
+, <a class="el" href="group__event.html#ga92efdf32aaf073d733f3bafd02d730e5">ipc.c</a>
 </li>
 <li>rt_exit_critical()
-: <a class="el" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df">scheduler.c</a>
+: <a class="el" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df">scheduler_mp.c</a>
 </li>
 <li>rt_free()
 : <a class="el" href="group___kernel_service.html#gad24f606383faa97aab028c0f9df843da">kservice.c</a>
 , <a class="el" href="group___m_m.html#ga6c1c24262479e6946fd04823878177f9">rtthread.h</a>
 </li>
 <li>rt_free_align()
-: <a class="el" href="group___m_m.html#gabf1ea8f43781620e7b08fb1868e32b92">rtthread.h</a>
-, <a class="el" href="group___kernel_service.html#ga50b04c4685e08f3c7923caaab600f6fc">kservice.c</a>
+: <a class="el" href="group___kernel_service.html#ga50b04c4685e08f3c7923caaab600f6fc">kservice.c</a>
+, <a class="el" href="group___m_m.html#gabf1ea8f43781620e7b08fb1868e32b92">rtthread.h</a>
 </li>
 <li>rt_free_sethook()
 : <a class="el" href="group___hook.html#gaf556549fc541bfc634f37f2dca004547">kservice.c</a>
@@ -253,6 +253,39 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 </li>
 <li>rt_get_errno()
 : <a class="el" href="group___kernel_service.html#ga17b8724a14746aa74d7c2969c3289fbc">kservice.c</a>
+</li>
+<li>rt_hw_atomic_add()
+: <a class="el" href="rtatomic_8h.html#ac7f453e61c5864c93890cf9ac50475c2">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_and()
+: <a class="el" href="rtatomic_8h.html#aa15d9205c2b46f12f7d7c6f96f6ddd77">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_compare_exchange_strong()
+: <a class="el" href="rtatomic_8h.html#ab30234bfa858606161b30c3704177eb3">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_exchange()
+: <a class="el" href="rtatomic_8h.html#a2fc21df7faf2989293ce9d2b26851abf">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_flag_clear()
+: <a class="el" href="rtatomic_8h.html#a0a00ca3cf771591eaf1684158b80c636">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_flag_test_and_set()
+: <a class="el" href="rtatomic_8h.html#aeaf408c7abd89a517f48701033c09f48">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_load()
+: <a class="el" href="rtatomic_8h.html#abc7ab892730a3f7f70a8cf9f26038b31">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_or()
+: <a class="el" href="rtatomic_8h.html#a74e4e635a6abe4047152b530ba836c02">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_store()
+: <a class="el" href="rtatomic_8h.html#a4f24b20b48f5f1093d29bf7e3b048948">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_sub()
+: <a class="el" href="rtatomic_8h.html#a48f37ae0f94726c4cf021bf738b25bdf">rtatomic.h</a>
+</li>
+<li>rt_hw_atomic_xor()
+: <a class="el" href="rtatomic_8h.html#a30a86adaeece7623367f569bae6fc2d1">rtatomic.h</a>
 </li>
 <li>rt_hw_backtrace()
 : <a class="el" href="rthw_8h.html#a8bec14b21bfa3f01a8fc174b4dea8a6d">rthw.h</a>
@@ -285,8 +318,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 , <a class="el" href="hardware_8h.html#aa56c3da0faca777694f042aa6557ca53">hardware.h</a>
 </li>
 <li>rt_hw_interrupt_enable()
-: <a class="el" href="hardware_8h.html#a566def229b448a1d209a14834501dc3a">hardware.h</a>
-, <a class="el" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a">rthw.h</a>
+: <a class="el" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a">rthw.h</a>
+, <a class="el" href="hardware_8h.html#a566def229b448a1d209a14834501dc3a">hardware.h</a>
 </li>
 <li>rt_hw_interrupt_init()
 : <a class="el" href="rthw_8h.html#ab40031c8c6d5fe45893912dc50b04639">rthw.h</a>
@@ -311,8 +344,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 : <a class="el" href="rthw_8h.html#acc406d7a1b0dbe420b6399e8e281942d">rthw.h</a>
 </li>
 <li>rt_hw_us_delay()
-: <a class="el" href="group___kernel_service.html#gac782adf90d6c32c6e757e9227a76dab6">kservice.c</a>
-, <a class="el" href="group___kernel_service.html#gac782adf90d6c32c6e757e9227a76dab6">rthw.h</a>
+: <a class="el" href="group___kernel_service.html#gac782adf90d6c32c6e757e9227a76dab6">rthw.h</a>
+, <a class="el" href="group___kernel_service.html#gac782adf90d6c32c6e757e9227a76dab6">kservice.c</a>
 </li>
 <li>rt_interrupt_enter()
 : <a class="el" href="group___kernel.html#ga020fb2151c8cbf1c1c0c59e615dc8d9e">irq.c</a>
@@ -322,8 +355,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 : <a class="el" href="rtthread_8h.html#a7fe1feee9c0028f9bb573f599394d765">rtthread.h</a>
 </li>
 <li>rt_interrupt_get_nest()
-: <a class="el" href="group___kernel.html#gaa6725f61bed47e0d5ac383eccf14d3f1">rtthread.h</a>
-, <a class="el" href="group___kernel.html#gaa6725f61bed47e0d5ac383eccf14d3f1">irq.c</a>
+: <a class="el" href="group___kernel.html#gaa6725f61bed47e0d5ac383eccf14d3f1">irq.c</a>
+, <a class="el" href="group___kernel.html#gaa6725f61bed47e0d5ac383eccf14d3f1">rtthread.h</a>
 </li>
 <li>rt_interrupt_leave()
 : <a class="el" href="group___kernel.html#gafcbcfbf20707e21e8922a837bba4908d">irq.c</a>
@@ -359,8 +392,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 , <a class="el" href="group___m_m.html#gaf2654f08787ce7935c635c0343970f6a">rtthread.h</a>
 </li>
 <li>rt_malloc_sethook()
-: <a class="el" href="group___m_m.html#ga909761c80493569b64558225d7f89e77">rtthread.h</a>
-, <a class="el" href="group___hook.html#ga909761c80493569b64558225d7f89e77">kservice.c</a>
+: <a class="el" href="group___hook.html#ga909761c80493569b64558225d7f89e77">kservice.c</a>
+, <a class="el" href="group___m_m.html#ga909761c80493569b64558225d7f89e77">rtthread.h</a>
 </li>
 <li>rt_mb_control()
 : <a class="el" href="group__mailbox.html#ga18c381ffe3aab6dea429c98ecfcea44c">ipc.c</a>
@@ -383,16 +416,16 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 , <a class="el" href="group___i_p_c.html#gac05bd0c179f754c32f83a7b013e8953b">rtthread.h</a>
 </li>
 <li>rt_mb_recv()
-: <a class="el" href="group__mailbox.html#ga4fe9492b9f797650c8a1ced2e9d8c9ae">ipc.c</a>
-, <a class="el" href="group___i_p_c.html#ga4fe9492b9f797650c8a1ced2e9d8c9ae">rtthread.h</a>
+: <a class="el" href="group___i_p_c.html#ga4fe9492b9f797650c8a1ced2e9d8c9ae">rtthread.h</a>
+, <a class="el" href="group__mailbox.html#ga4fe9492b9f797650c8a1ced2e9d8c9ae">ipc.c</a>
 </li>
 <li>rt_mb_recv_interruptibale()
 : <a class="el" href="group__mailbox.html#ga1ccea7ce9417dc7d1a446ed085e24012">ipc.c</a>
 , <a class="el" href="group___i_p_c.html#ga1ccea7ce9417dc7d1a446ed085e24012">rtthread.h</a>
 </li>
 <li>rt_mb_recv_killable()
-: <a class="el" href="group___i_p_c.html#ga007f010abaed3f902dff9e214e256294">rtthread.h</a>
-, <a class="el" href="group__mailbox.html#ga007f010abaed3f902dff9e214e256294">ipc.c</a>
+: <a class="el" href="group__mailbox.html#ga007f010abaed3f902dff9e214e256294">ipc.c</a>
+, <a class="el" href="group___i_p_c.html#ga007f010abaed3f902dff9e214e256294">rtthread.h</a>
 </li>
 <li>rt_mb_send()
 : <a class="el" href="group__mailbox.html#gac2b0d532eab2989b713fdb0b1fac6665">ipc.c</a>
@@ -469,12 +502,12 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 , <a class="el" href="group___i_p_c.html#ga35acff654ecee2a76d5555e9683d8470">rtthread.h</a>
 </li>
 <li>rt_mq_delete()
-: <a class="el" href="group__messagequeue.html#gacbf0bfedc6677ca8357d8b345c9026c9">ipc.c</a>
-, <a class="el" href="group___i_p_c.html#gacbf0bfedc6677ca8357d8b345c9026c9">rtthread.h</a>
+: <a class="el" href="group___i_p_c.html#gacbf0bfedc6677ca8357d8b345c9026c9">rtthread.h</a>
+, <a class="el" href="group__messagequeue.html#gacbf0bfedc6677ca8357d8b345c9026c9">ipc.c</a>
 </li>
 <li>rt_mq_detach()
-: <a class="el" href="group___i_p_c.html#ga1ed6238494fac3ab081a90d9c563a8f3">rtthread.h</a>
-, <a class="el" href="group__messagequeue.html#ga1ed6238494fac3ab081a90d9c563a8f3">ipc.c</a>
+: <a class="el" href="group__messagequeue.html#ga1ed6238494fac3ab081a90d9c563a8f3">ipc.c</a>
+, <a class="el" href="group___i_p_c.html#ga1ed6238494fac3ab081a90d9c563a8f3">rtthread.h</a>
 </li>
 <li>rt_mq_init()
 : <a class="el" href="group__messagequeue.html#gaac5b76df894964c908271ab0951f7e86">ipc.c</a>
@@ -505,8 +538,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 , <a class="el" href="group___i_p_c.html#ga77d62ff6c3c18cc822e8ad6f71a7b691">rtthread.h</a>
 </li>
 <li>rt_mq_send_wait()
-: <a class="el" href="group___i_p_c.html#ga0a041666764bd3a737e6451e6e40887a">rtthread.h</a>
-, <a class="el" href="group__messagequeue.html#ga0a041666764bd3a737e6451e6e40887a">ipc.c</a>
+: <a class="el" href="group__messagequeue.html#ga0a041666764bd3a737e6451e6e40887a">ipc.c</a>
+, <a class="el" href="group___i_p_c.html#ga0a041666764bd3a737e6451e6e40887a">rtthread.h</a>
 </li>
 <li>rt_mq_send_wait_interruptible()
 : <a class="el" href="group__messagequeue.html#gac888fea9179aa21a44fccb70771fac69">ipc.c</a>
@@ -537,8 +570,8 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 , <a class="el" href="group___i_p_c.html#ga7a8b48c0e6884e2c22d08e9e7e98a613">rtthread.h</a>
 </li>
 <li>rt_mutex_drop_thread()
-: <a class="el" href="group___i_p_c.html#ga8ca03f1e5607cda3f739aff4048b8372">rtthread.h</a>
-, <a class="el" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372">ipc.c</a>
+: <a class="el" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372">ipc.c</a>
+, <a class="el" href="group___i_p_c.html#ga8ca03f1e5607cda3f739aff4048b8372">rtthread.h</a>
 </li>
 <li>rt_mutex_getprioceiling()
 : <a class="el" href="group__mutex.html#gaef430f1dbc50af1098589232fb54508c">ipc.c</a>
@@ -618,17 +651,23 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 : <a class="el" href="group___kernel_object.html#gabfce5c06de6e1cd6b661b05cb9dd6242">rtthread.h</a>
 </li>
 <li>rt_realloc()
-: <a class="el" href="group___m_m.html#ga43bb369b655b2662fa0b3d654f447a67">rtthread.h</a>
-, <a class="el" href="group___kernel_service.html#gae613cb22dc97a3954536491058f059cf">kservice.c</a>
+: <a class="el" href="group___kernel_service.html#gae613cb22dc97a3954536491058f059cf">kservice.c</a>
+, <a class="el" href="group___m_m.html#ga43bb369b655b2662fa0b3d654f447a67">rtthread.h</a>
 </li>
 <li>rt_schedule()
-: <a class="el" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24">scheduler.c</a>
+: <a class="el" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24">scheduler_mp.c</a>
 </li>
 <li>rt_schedule_insert_thread()
-: <a class="el" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654">scheduler.c</a>
+: <a class="el" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654">scheduler_mp.c</a>
 </li>
 <li>rt_schedule_remove_thread()
-: <a class="el" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164">scheduler.c</a>
+: <a class="el" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164">scheduler_mp.c</a>
+</li>
+<li>rt_scheduler_do_irq_switch()
+: <a class="el" href="group___thread.html#gabb4158a39c5ea956a96b22190ce0ed89">scheduler_mp.c</a>
+</li>
+<li>rt_scheduler_ipi_handler()
+: <a class="el" href="group___thread.html#ga268d9fc914d7f4b144568e5de5049b63">scheduler_mp.c</a>
 </li>
 <li>rt_scheduler_sethook()
 : <a class="el" href="group___thread.html#ga1af67d388db8019327b5f86428e2ed14">rtthread.h</a>
@@ -730,6 +769,39 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 <li>rt_snprintf()
 : <a class="el" href="group___kernel_service.html#ga940bcced7e89f112ac04bd715fdf4f24">kservice.c</a>
 </li>
+<li>rt_soft_atomic_add()
+: <a class="el" href="rtatomic_8h.html#a7bd5fd92bf49abef36366eda63cab775">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_and()
+: <a class="el" href="rtatomic_8h.html#a48e334b6d5317dcc456bbc4751b2fd97">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_compare_exchange_strong()
+: <a class="el" href="rtatomic_8h.html#af211bf0467ba89fe2b44694c2558ed2b">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_exchange()
+: <a class="el" href="rtatomic_8h.html#ac05326aecc8bab68487a7668ccff0cf6">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_flag_clear()
+: <a class="el" href="rtatomic_8h.html#ac2d8e551785eb12745da1e35b137b809">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_flag_test_and_set()
+: <a class="el" href="rtatomic_8h.html#ad70694d838646c7b571c30ee7958f850">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_load()
+: <a class="el" href="rtatomic_8h.html#a7ac77ebdf6da6b45f34c063c9d3d2a8e">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_or()
+: <a class="el" href="rtatomic_8h.html#af9f053600c96c34ed3f97ca1657e21e1">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_store()
+: <a class="el" href="rtatomic_8h.html#ae135e37e9c69e7962271d4e9872c0ed9">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_sub()
+: <a class="el" href="rtatomic_8h.html#a7bb2a925623f7dbcc26d87c36f34bdd9">rtatomic.h</a>
+</li>
+<li>rt_soft_atomic_xor()
+: <a class="el" href="rtatomic_8h.html#a8f43cacb900b883bf50714dba9dd9afa">rtatomic.h</a>
+</li>
 <li>rt_spin_lock()
 : <a class="el" href="cpu_8c.html#a9e3b84e1f0acebdd5ae36b0626b24240">cpu.c</a>
 </li>
@@ -784,11 +856,13 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 , <a class="el" href="group___system_init.html#gafa6feb60f6204d1783bc3bc324b886e7">systeminit.h</a>
 </li>
 <li>rt_system_scheduler_init()
-: <a class="el" href="group___thread.html#ga5aa2c0c67999e20ce8693ad3c8e624f0">scheduler.c</a>
+: <a class="el" href="group___thread.html#ga5aa2c0c67999e20ce8693ad3c8e624f0">scheduler_mp.c</a>
+, <a class="el" href="group___thread.html#ga5aa2c0c67999e20ce8693ad3c8e624f0">scheduler_up.c</a>
 , <a class="el" href="group___thread.html#ga5aa2c0c67999e20ce8693ad3c8e624f0">rtthread.h</a>
 </li>
 <li>rt_system_scheduler_start()
-: <a class="el" href="group___thread.html#ga9aa8a561e0caf5e13126834c4f4bb681">scheduler.c</a>
+: <a class="el" href="group___thread.html#ga9aa8a561e0caf5e13126834c4f4bb681">scheduler_mp.c</a>
+, <a class="el" href="group___thread.html#ga9aa8a561e0caf5e13126834c4f4bb681">scheduler_up.c</a>
 , <a class="el" href="group___thread.html#ga9aa8a561e0caf5e13126834c4f4bb681">rtthread.h</a>
 </li>
 <li>rt_system_timer_init()
@@ -944,20 +1018,22 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 </li>
 <li>RTM_EXPORT()
 : <a class="el" href="group___m_m.html#gaf2a515d9dddbbb95ef70c73522963417">mempool.c</a>
-, <a class="el" href="mem_8c.html#a8dfef34baf03cf32e9f4ff154ec69a41">mem.c</a>
-, <a class="el" href="group___m_m.html#gaffe981a4ce9d56ad844ad7b66688919e">mempool.c</a>
-, <a class="el" href="group___kernel_service.html#ga372da2fa37d359c9a39430a3863398ce">kservice.c</a>
-, <a class="el" href="group___kernel_object.html#ga7167ae7d39f610dc3d0fe892148e7579">object.c</a>
-, <a class="el" href="group___thread.html#ga4488d5a82057fb2719ae27bfb49c9aa1">scheduler.c</a>
-, <a class="el" href="group___thread.html#gaf46cd7a5a8dcda6487729d64b8a88b12">thread.c</a>
-, <a class="el" href="group___kernel_service.html#gaafc7247c3c2221356093bc87ce5ed896">kservice.c</a>
+, <a class="el" href="mem_8c.html#a76eee7ea1b55d3277596bfffb14537aa">mem.c</a>
+, <a class="el" href="group___m_m.html#ga9350c64b4d8a9556bd2e1d255de901d8">mempool.c</a>
+, <a class="el" href="group___m_m.html#gaa005498116a87274684e59b386f09973">mem.c</a>
 , <a class="el" href="group___thread.html#gab3de035a2ad924c2934e795ebd26f431">thread.c</a>
-, <a class="el" href="group___kernel_service.html#gab07d636f5c483e09b6ce319e6f5883c2">kservice.c</a>
-, <a class="el" href="dfs__posix_8c.html#a904daf7f314b5d81f1de289d29b70950">dfs_posix.c</a>
+, <a class="el" href="group___kernel_object.html#ga7167ae7d39f610dc3d0fe892148e7579">object.c</a>
+, <a class="el" href="group___thread.html#ga4488d5a82057fb2719ae27bfb49c9aa1">scheduler_mp.c</a>
+, <a class="el" href="group___thread.html#gaf46cd7a5a8dcda6487729d64b8a88b12">thread.c</a>
+, <a class="el" href="group___kernel_service.html#ga6772a47765f855c55816a3e467b9da06">kservice.c</a>
+, <a class="el" href="mem_8c.html#a8dfef34baf03cf32e9f4ff154ec69a41">mem.c</a>
+, <a class="el" href="group___kernel_service.html#ga9a7f59eadf1785ec75149b6b14c81ab5">kservice.c</a>
+, <a class="el" href="dfs__posix_8c.html#a772f91b508ed9d81d8b4255021087922">dfs_posix.c</a>
+, <a class="el" href="group___clock.html#ga9c92dbc8ddc78947fbef8ca1c6c48d06">timer.c</a>
+, <a class="el" href="group___thread.html#gac5a78508d606c1c29afaeea1f729ebe9">thread.c</a>
 , <a class="el" href="group___clock.html#ga17c5a365e0d16a5105192267525a5bd1">timer.c</a>
 , <a class="el" href="group___thread.html#ga1c8b81f1c968b60efe958a68f780e294">thread.c</a>
-, <a class="el" href="dfs__posix_8c.html#ae17e02dc21ce2d8d4a075d757f7906f9">dfs_posix.c</a>
-, <a class="el" href="group___clock.html#ga9c92dbc8ddc78947fbef8ca1c6c48d06">timer.c</a>
+, <a class="el" href="group___clock.html#gab5b9c2018440ac8f431f859d618b2340">timer.c</a>
 , <a class="el" href="dfs_8c.html#ad8ff5e40a2d8e1a5f067d5f4adac3948">dfs.c</a>
 , <a class="el" href="dfs__posix_8c.html#a5fcbedf40cd555214643bdeb43e726f2">dfs_posix.c</a>
 , <a class="el" href="group__mutex.html#ga1e6a654bb2765f36df3936488b1fb617">ipc.c</a>
@@ -983,7 +1059,7 @@ $(document).ready(function(){initNavTree('globals_func_r.html',''); initResizabl
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">生成于 2023年 二月 21日 星期二 13:36:26 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2023年 三月 30日 星期四 16:11:52 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

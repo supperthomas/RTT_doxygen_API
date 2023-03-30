@@ -1,7 +1,8 @@
 <map id="rt_schedule_insert_thread" name="rt_schedule_insert_thread">
-<area shape="rect" id="node1" title="This function checks whether a scheduling is needed after an IRQ context switching...." alt="" coords="5,74,147,115"/>
-<area shape="rect" id="node2" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="195,5,369,32"/>
-<area shape="rect" id="node3" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="196,56,368,83"/>
-<area shape="rect" id="node4" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="212,107,352,133"/>
-<area shape="rect" id="node5" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="206,157,358,184"/>
+<area shape="rect" id="node1" title="This function will insert a thread to the system ready queue. The state of thread will be set as READ..." alt="" coords="5,99,147,141"/>
+<area shape="rect" id="node2" href="$cpu_8c.html#a67dc9de2bb58623b49aae1562853f86a" title="This fucntion will return the cpu object corresponding to index." alt="" coords="229,5,335,32"/>
+<area shape="rect" id="node3" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="195,56,369,83"/>
+<area shape="rect" id="node4" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="196,107,368,133"/>
+<area shape="rect" id="node5" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="212,157,352,184"/>
+<area shape="rect" id="node6" href="$group___kernel_service.html#ga31047c521c265353f8372043fb6ff5ef" title="insert a node before a list" alt="" coords="206,208,358,235"/>
 </map>

@@ -57,14 +57,15 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "dfs__private_8h.html#a0d8f64e3cef3541c7645a6d963178bb5",
-"group___clock.html#ga99f45ebed280630c456390adaa49c1b7",
-"group___device.html#gga429003537c58f674b39eb3f9defbd052aac19a7d8fedfb847854f2eedc2dceb5a",
-"group___i_p_c.html#gaf1c42d6c619445f9151e76c3242ef052",
-"group___kernel_service.html#ga6ed611144041bd54d06184f75801711c",
-"group___thread.html#ga1af67d388db8019327b5f86428e2ed14",
-"group__mailbox.html#ga18c381ffe3aab6dea429c98ecfcea44c",
-"kservice_8c.html#afd8abce6279fa835f39d56bec9dfc4a3",
-"structdfs__fnode.html#a3ce4a60cf3342b4c23d3b25ff71f60a2"
+"group___clock.html#ga77af135da16a0b9e1c4a351f4bee6dbd",
+"group___device.html#gga429003537c58f674b39eb3f9defbd052aa6bdf0c801df14e94498759a4e77a58c",
+"group___i_p_c.html#gaf01ab3359471613143fb0a1bc4317baa",
+"group___kernel_service.html#ga6dac97b487aa32006a7ad0f9bee7e92c",
+"group___thread.html#ga14855dffdd71dc43f7863cacb916c3b5",
+"group__finsh.html#gad37603360d3201083d8bae51bec8d124",
+"ipc_8c.html",
+"shell_8c.html#ae351601d69c6141ed83e576fcab64e0b",
+"structrt__thread.html#a6cca8c4a6cbf727dfaac6a48bb19351a"
 ];
 
 var SYNCONMSG = '点击 关闭 面板同步';

@@ -56,7 +56,9 @@ var group___thread =
       [ "RT_KILLABLE", "group___thread.html#gga06fc87d81c62e9abb8790b6e5713c55ba3bea1dae51f66e74cde0247ed99f8ac4", null ],
       [ "RT_UNINTERRUPTIBLE", "group___thread.html#gga06fc87d81c62e9abb8790b6e5713c55babf7d28fdc945b303ffeb9aaa21b4bd9d", null ]
     ] ],
+    [ "rt_scheduler_ipi_handler", "group___thread.html#ga268d9fc914d7f4b144568e5de5049b63", null ],
     [ "rt_schedule", "group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24", null ],
+    [ "rt_scheduler_do_irq_switch", "group___thread.html#gabb4158a39c5ea956a96b22190ce0ed89", null ],
     [ "rt_schedule_insert_thread", "group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654", null ],
     [ "rt_schedule_remove_thread", "group___thread.html#ga11893d937cb7c879abb12f8bfa4be164", null ],
     [ "rt_enter_critical", "group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a", null ],

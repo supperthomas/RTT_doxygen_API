@@ -1,0 +1,1106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-Thread RTOS: /home/runner/work/RTT_doxygen_API/RTT_doxygen_API/rt-thread/include/rtatomic.h 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="rtthread_logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-Thread RTOS
+   &#160;<span id="projectnumber">1.2.0</span>
+   </div>
+   <div id="projectbrief">An open source embedded real-time operating system</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('rtatomic_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">rtatomic.h 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="rthw_8h.html">rthw.h</a>&gt;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> rtatomic.h 的引用(Include)关系图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="rtatomic_8h__incl.png" border="0" usemap="#a_2home_2runner_2work_2_r_t_t__doxygen___a_p_i_2_r_t_t__doxygen___a_p_i_2rt-thread_2include_2rtatomic_8h" alt=""/></div>
+<map name="a_2home_2runner_2work_2_r_t_t__doxygen___a_p_i_2_r_t_t__doxygen___a_p_i_2rt-thread_2include_2rtatomic_8h" id="a_2home_2runner_2work_2_r_t_t__doxygen___a_p_i_2_r_t_t__doxygen___a_p_i_2rt-thread_2include_2rtatomic_8h">
+<area shape="rect" title=" " alt="" coords="65,5,299,61"/>
+<area shape="rect" href="rthw_8h.html" title=" " alt="" coords="151,109,213,136"/>
+<area shape="rect" href="rtthread_8h.html" title=" " alt="" coords="139,184,225,211"/>
+<area shape="rect" title=" " alt="" coords="22,408,105,435"/>
+<area shape="rect" href="rtdebug_8h.html" title=" " alt="" coords="21,333,105,360"/>
+<area shape="rect" href="rtdef_8h.html" title=" " alt="" coords="130,333,194,360"/>
+<area shape="rect" href="rtservice_8h.html" title=" " alt="" coords="137,259,227,285"/>
+<area shape="rect" href="rtm_8h.html" title=" " alt="" coords="252,259,309,285"/>
+<area shape="rect" title=" " alt="" coords="333,259,399,285"/>
+</map>
+</div>
+</div><h2 class="groupheader">宏定义说明</h2>
+<a id="ab359224351b2131e34c8e13d8d423744"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab359224351b2131e34c8e13d8d423744">&#9670;&nbsp;</a></span>rt_atomic_load</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define rt_atomic_load</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ptr</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="rtatomic_8h.html#a7ac77ebdf6da6b45f34c063c9d3d2a8e">rt_soft_atomic_load</a>(ptr)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57b62872c290f85afef966061f0a2c69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57b62872c290f85afef966061f0a2c69">&#9670;&nbsp;</a></span>rt_atomic_store</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define rt_atomic_store</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ptr, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">v&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="rtatomic_8h.html#ae135e37e9c69e7962271d4e9872c0ed9">rt_soft_atomic_store</a>(ptr, v)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50d388c3456883623cf2c3a8e0318092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50d388c3456883623cf2c3a8e0318092">&#9670;&nbsp;</a></span>rt_atomic_add</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define rt_atomic_add</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ptr, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">v&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="rtatomic_8h.html#a7bd5fd92bf49abef36366eda63cab775">rt_soft_atomic_add</a>(ptr, v)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a15c78311ac4dcd91cf45b0e5aaf779b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15c78311ac4dcd91cf45b0e5aaf779b8">&#9670;&nbsp;</a></span>rt_atomic_sub</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define rt_atomic_sub</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ptr, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">v&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="rtatomic_8h.html#a7bb2a925623f7dbcc26d87c36f34bdd9">rt_soft_atomic_sub</a>(ptr, v)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5db8b0f5dbaad4795030081296103eef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5db8b0f5dbaad4795030081296103eef">&#9670;&nbsp;</a></span>rt_atomic_and</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define rt_atomic_and</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ptr, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">v&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="rtatomic_8h.html#a48e334b6d5317dcc456bbc4751b2fd97">rt_soft_atomic_and</a>(ptr, v)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99461bb57e40e9a3977026a6e13e28a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99461bb57e40e9a3977026a6e13e28a2">&#9670;&nbsp;</a></span>rt_atomic_or</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define rt_atomic_or</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ptr, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">v&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="rtatomic_8h.html#af9f053600c96c34ed3f97ca1657e21e1">rt_soft_atomic_or</a>(ptr, v)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d339c1549c0482e6b19f222137466a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d339c1549c0482e6b19f222137466a3">&#9670;&nbsp;</a></span>rt_atomic_xor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define rt_atomic_xor</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ptr, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">v&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="rtatomic_8h.html#a8f43cacb900b883bf50714dba9dd9afa">rt_soft_atomic_xor</a>(ptr, v)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab357eed64a4428c1889610c314efb4ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab357eed64a4428c1889610c314efb4ae">&#9670;&nbsp;</a></span>rt_atomic_exchange</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define rt_atomic_exchange</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ptr, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">v&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="rtatomic_8h.html#ac05326aecc8bab68487a7668ccff0cf6">rt_soft_atomic_exchange</a>(ptr, v)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6762a0070dc3a75a86777fea32ebb8f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6762a0070dc3a75a86777fea32ebb8f2">&#9670;&nbsp;</a></span>rt_atomic_flag_clear</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define rt_atomic_flag_clear</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ptr</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="rtatomic_8h.html#ac2d8e551785eb12745da1e35b137b809">rt_soft_atomic_flag_clear</a>(ptr)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a300307a76526236c59c6822407dcee16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a300307a76526236c59c6822407dcee16">&#9670;&nbsp;</a></span>rt_atomic_flag_test_and_set</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define rt_atomic_flag_test_and_set</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ptr</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="rtatomic_8h.html#ad70694d838646c7b571c30ee7958f850">rt_soft_atomic_flag_test_and_set</a>(ptr)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d2d6e57feb1c4b5f35375c4de9f2f46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d2d6e57feb1c4b5f35375c4de9f2f46">&#9670;&nbsp;</a></span>rt_atomic_compare_exchange_strong</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define rt_atomic_compare_exchange_strong</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ptr, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">v, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">des&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="rtatomic_8h.html#af211bf0467ba89fe2b44694c2558ed2b">rt_soft_atomic_compare_exchange_strong</a>(ptr, v ,des)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">函数说明</h2>
+<a id="abc7ab892730a3f7f70a8cf9f26038b31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc7ab892730a3f7f70a8cf9f26038b31">&#9670;&nbsp;</a></span>rt_hw_atomic_load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_hw_atomic_load </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f24b20b48f5f1093d29bf7e3b048948"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f24b20b48f5f1093d29bf7e3b048948">&#9670;&nbsp;</a></span>rt_hw_atomic_store()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_hw_atomic_store </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a>&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7f453e61c5864c93890cf9ac50475c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7f453e61c5864c93890cf9ac50475c2">&#9670;&nbsp;</a></span>rt_hw_atomic_add()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_hw_atomic_add </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a>&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a48f37ae0f94726c4cf021bf738b25bdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48f37ae0f94726c4cf021bf738b25bdf">&#9670;&nbsp;</a></span>rt_hw_atomic_sub()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_hw_atomic_sub </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a>&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa15d9205c2b46f12f7d7c6f96f6ddd77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa15d9205c2b46f12f7d7c6f96f6ddd77">&#9670;&nbsp;</a></span>rt_hw_atomic_and()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_hw_atomic_and </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a>&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74e4e635a6abe4047152b530ba836c02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74e4e635a6abe4047152b530ba836c02">&#9670;&nbsp;</a></span>rt_hw_atomic_or()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_hw_atomic_or </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a>&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a30a86adaeece7623367f569bae6fc2d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30a86adaeece7623367f569bae6fc2d1">&#9670;&nbsp;</a></span>rt_hw_atomic_xor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_hw_atomic_xor </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a>&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2fc21df7faf2989293ce9d2b26851abf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fc21df7faf2989293ce9d2b26851abf">&#9670;&nbsp;</a></span>rt_hw_atomic_exchange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_hw_atomic_exchange </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a>&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a00ca3cf771591eaf1684158b80c636"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a00ca3cf771591eaf1684158b80c636">&#9670;&nbsp;</a></span>rt_hw_atomic_flag_clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_hw_atomic_flag_clear </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeaf408c7abd89a517f48701033c09f48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaf408c7abd89a517f48701033c09f48">&#9670;&nbsp;</a></span>rt_hw_atomic_flag_test_and_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_hw_atomic_flag_test_and_set </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab30234bfa858606161b30c3704177eb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab30234bfa858606161b30c3704177eb3">&#9670;&nbsp;</a></span>rt_hw_atomic_compare_exchange_strong()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_hw_atomic_compare_exchange_strong </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>old</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a>&#160;</td>
+          <td class="paramname"><em>new</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac05326aecc8bab68487a7668ccff0cf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac05326aecc8bab68487a7668ccff0cf6">&#9670;&nbsp;</a></span>rt_soft_atomic_exchange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rt_inline <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_soft_atomic_exchange </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a>&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="rtatomic_8h_ac05326aecc8bab68487a7668ccff0cf6_cgraph.png" border="0" usemap="#artatomic_8h_ac05326aecc8bab68487a7668ccff0cf6_cgraph" alt=""/></div>
+<map name="artatomic_8h_ac05326aecc8bab68487a7668ccff0cf6_cgraph" id="artatomic_8h_ac05326aecc8bab68487a7668ccff0cf6_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,191,57"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="239,5,413,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="240,56,412,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7bd5fd92bf49abef36366eda63cab775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bd5fd92bf49abef36366eda63cab775">&#9670;&nbsp;</a></span>rt_soft_atomic_add()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rt_inline <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_soft_atomic_add </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a>&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="rtatomic_8h_a7bd5fd92bf49abef36366eda63cab775_cgraph.png" border="0" usemap="#artatomic_8h_a7bd5fd92bf49abef36366eda63cab775_cgraph" alt=""/></div>
+<map name="artatomic_8h_a7bd5fd92bf49abef36366eda63cab775_cgraph" id="artatomic_8h_a7bd5fd92bf49abef36366eda63cab775_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,152,57"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="200,5,375,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="201,56,373,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7bb2a925623f7dbcc26d87c36f34bdd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bb2a925623f7dbcc26d87c36f34bdd9">&#9670;&nbsp;</a></span>rt_soft_atomic_sub()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rt_inline <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_soft_atomic_sub </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a>&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="rtatomic_8h_a7bb2a925623f7dbcc26d87c36f34bdd9_cgraph.png" border="0" usemap="#artatomic_8h_a7bb2a925623f7dbcc26d87c36f34bdd9_cgraph" alt=""/></div>
+<map name="artatomic_8h_a7bb2a925623f7dbcc26d87c36f34bdd9_cgraph" id="artatomic_8h_a7bb2a925623f7dbcc26d87c36f34bdd9_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,151,57"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="199,5,373,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="200,56,372,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8f43cacb900b883bf50714dba9dd9afa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f43cacb900b883bf50714dba9dd9afa">&#9670;&nbsp;</a></span>rt_soft_atomic_xor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rt_inline <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_soft_atomic_xor </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a>&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="rtatomic_8h_a8f43cacb900b883bf50714dba9dd9afa_cgraph.png" border="0" usemap="#artatomic_8h_a8f43cacb900b883bf50714dba9dd9afa_cgraph" alt=""/></div>
+<map name="artatomic_8h_a8f43cacb900b883bf50714dba9dd9afa_cgraph" id="artatomic_8h_a8f43cacb900b883bf50714dba9dd9afa_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,148,57"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="196,5,371,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="197,56,369,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a48e334b6d5317dcc456bbc4751b2fd97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48e334b6d5317dcc456bbc4751b2fd97">&#9670;&nbsp;</a></span>rt_soft_atomic_and()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rt_inline <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_soft_atomic_and </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a>&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="rtatomic_8h_a48e334b6d5317dcc456bbc4751b2fd97_cgraph.png" border="0" usemap="#artatomic_8h_a48e334b6d5317dcc456bbc4751b2fd97_cgraph" alt=""/></div>
+<map name="artatomic_8h_a48e334b6d5317dcc456bbc4751b2fd97_cgraph" id="artatomic_8h_a48e334b6d5317dcc456bbc4751b2fd97_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,152,57"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="200,5,375,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="201,56,373,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af9f053600c96c34ed3f97ca1657e21e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9f053600c96c34ed3f97ca1657e21e1">&#9670;&nbsp;</a></span>rt_soft_atomic_or()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rt_inline <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_soft_atomic_or </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a>&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="rtatomic_8h_af9f053600c96c34ed3f97ca1657e21e1_cgraph.png" border="0" usemap="#artatomic_8h_af9f053600c96c34ed3f97ca1657e21e1_cgraph" alt=""/></div>
+<map name="artatomic_8h_af9f053600c96c34ed3f97ca1657e21e1_cgraph" id="artatomic_8h_af9f053600c96c34ed3f97ca1657e21e1_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,140,57"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="188,5,363,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="189,56,361,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7ac77ebdf6da6b45f34c063c9d3d2a8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ac77ebdf6da6b45f34c063c9d3d2a8e">&#9670;&nbsp;</a></span>rt_soft_atomic_load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rt_inline <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_soft_atomic_load </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="rtatomic_8h_a7ac77ebdf6da6b45f34c063c9d3d2a8e_cgraph.png" border="0" usemap="#artatomic_8h_a7ac77ebdf6da6b45f34c063c9d3d2a8e_cgraph" alt=""/></div>
+<map name="artatomic_8h_a7ac77ebdf6da6b45f34c063c9d3d2a8e_cgraph" id="artatomic_8h_a7ac77ebdf6da6b45f34c063c9d3d2a8e_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,156,57"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="204,5,379,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="205,56,377,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae135e37e9c69e7962271d4e9872c0ed9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae135e37e9c69e7962271d4e9872c0ed9">&#9670;&nbsp;</a></span>rt_soft_atomic_store()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rt_inline void rt_soft_atomic_store </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a>&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="rtatomic_8h_ae135e37e9c69e7962271d4e9872c0ed9_cgraph.png" border="0" usemap="#artatomic_8h_ae135e37e9c69e7962271d4e9872c0ed9_cgraph" alt=""/></div>
+<map name="artatomic_8h_ae135e37e9c69e7962271d4e9872c0ed9_cgraph" id="artatomic_8h_ae135e37e9c69e7962271d4e9872c0ed9_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,160,57"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="208,5,383,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="209,56,381,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad70694d838646c7b571c30ee7958f850"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad70694d838646c7b571c30ee7958f850">&#9670;&nbsp;</a></span>rt_soft_atomic_flag_test_and_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rt_inline <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_soft_atomic_flag_test_and_set </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="rtatomic_8h_ad70694d838646c7b571c30ee7958f850_cgraph.png" border="0" usemap="#artatomic_8h_ad70694d838646c7b571c30ee7958f850_cgraph" alt=""/></div>
+<map name="artatomic_8h_ad70694d838646c7b571c30ee7958f850_cgraph" id="artatomic_8h_ad70694d838646c7b571c30ee7958f850_cgraph">
+<area shape="rect" title=" " alt="" coords="5,23,152,65"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="200,5,375,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="201,56,373,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac2d8e551785eb12745da1e35b137b809"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2d8e551785eb12745da1e35b137b809">&#9670;&nbsp;</a></span>rt_soft_atomic_flag_clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rt_inline void rt_soft_atomic_flag_clear </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="rtatomic_8h_ac2d8e551785eb12745da1e35b137b809_cgraph.png" border="0" usemap="#artatomic_8h_ac2d8e551785eb12745da1e35b137b809_cgraph" alt=""/></div>
+<map name="artatomic_8h_ac2d8e551785eb12745da1e35b137b809_cgraph" id="artatomic_8h_ac2d8e551785eb12745da1e35b137b809_cgraph">
+<area shape="rect" title=" " alt="" coords="5,23,152,65"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="200,5,375,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="201,56,373,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af211bf0467ba89fe2b44694c2558ed2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af211bf0467ba89fe2b44694c2558ed2b">&#9670;&nbsp;</a></span>rt_soft_atomic_compare_exchange_strong()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rt_inline <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> rt_soft_atomic_compare_exchange_strong </td>
+          <td>(</td>
+          <td class="paramtype">volatile <a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2">rt_atomic_t</a>&#160;</td>
+          <td class="paramname"><em>desired</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="rtatomic_8h_af211bf0467ba89fe2b44694c2558ed2b_cgraph.png" border="0" usemap="#artatomic_8h_af211bf0467ba89fe2b44694c2558ed2b_cgraph" alt=""/></div>
+<map name="artatomic_8h_af211bf0467ba89fe2b44694c2558ed2b_cgraph" id="artatomic_8h_af211bf0467ba89fe2b44694c2558ed2b_cgraph">
+<area shape="rect" title=" " alt="" coords="5,23,184,65"/>
+<area shape="rect" href="rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="232,5,407,32"/>
+<area shape="rect" href="rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="233,56,405,83"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="rtatomic_8h.html">rtatomic.h</a></li>
+    <li class="footer">生成于 2023年 三月 30日 星期四 16:11:52 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

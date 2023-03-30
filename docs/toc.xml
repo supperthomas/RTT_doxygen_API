@@ -35,6 +35,7 @@
       <topic label="rt_flag_t" href="group___basic_def.html#gac0517c5e13c1374877d8462b84e72755"/>
       <topic label="rt_dev_t" href="group___basic_def.html#ga79ffea5dac0a5c145822b5b1c9b55a09"/>
       <topic label="rt_off_t" href="group___basic_def.html#ga0fd4981851ce935649b6723a81f2f1bf"/>
+      <topic label="rt_atomic_t" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2"/>
     </topic>
     <topic label="Device Virtual File System" href="group___d_f_s.html">
       <topic label="File Descriptor" href="group___fd.html">
@@ -127,7 +128,9 @@
         <topic label="RT_KILLABLE" href="group___thread.html#gga06fc87d81c62e9abb8790b6e5713c55ba3bea1dae51f66e74cde0247ed99f8ac4"/>
         <topic label="RT_UNINTERRUPTIBLE" href="group___thread.html#gga06fc87d81c62e9abb8790b6e5713c55babf7d28fdc945b303ffeb9aaa21b4bd9d"/>
       </topic>
+      <topic label="rt_scheduler_ipi_handler" href="group___thread.html#ga268d9fc914d7f4b144568e5de5049b63"/>
       <topic label="rt_schedule" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24"/>
+      <topic label="rt_scheduler_do_irq_switch" href="group___thread.html#gabb4158a39c5ea956a96b22190ce0ed89"/>
       <topic label="rt_schedule_insert_thread" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654"/>
       <topic label="rt_schedule_remove_thread" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164"/>
       <topic label="rt_enter_critical" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a"/>
@@ -1486,7 +1489,7 @@
               <topic label="dfs_fd_lock" href="dfs_8c.html#ab07583e89629765d9c59822a59f43edf"/>
               <topic label="dfs_unlock" href="dfs_8c.html#a2ac674bd319f61a6b1c9e2338018b523"/>
               <topic label="fd_is_open" href="group___fd.html#gaac5ef888b25e5c4a32667c5b9589d3d8"/>
-              <topic label="sys_dup2" href="dfs_8c.html#a1850551082dfa707be9a1dc045de9418"/>
+              <topic label="sys_dup2" href="dfs_8c.html#aeaa83fb23ff286a6fbdac543fed90954"/>
               <topic label="fd_get_fd_index_form_fdt" href="dfs_8c.html#a9893c332705fa8fa32256645be5fa7e9"/>
               <topic label="fd_get_fd_index" href="dfs_8c.html#ae01c0e13f7752e6e6f379f47c18daeb3"/>
               <topic label="fd_associate" href="dfs_8c.html#a18c67724ec748f938a1bcc6a9e0814c5"/>
@@ -1739,6 +1742,41 @@
         </topic>
       </topic>
       <topic label="include" href="dir_d44c64559bbebec7f509842c48db8b23.html">
+        <topic label="rtatomic.h" href="rtatomic_8h.html">
+          <topic label="rt_atomic_load" href="rtatomic_8h.html#ab359224351b2131e34c8e13d8d423744"/>
+          <topic label="rt_atomic_store" href="rtatomic_8h.html#a57b62872c290f85afef966061f0a2c69"/>
+          <topic label="rt_atomic_add" href="rtatomic_8h.html#a50d388c3456883623cf2c3a8e0318092"/>
+          <topic label="rt_atomic_sub" href="rtatomic_8h.html#a15c78311ac4dcd91cf45b0e5aaf779b8"/>
+          <topic label="rt_atomic_and" href="rtatomic_8h.html#a5db8b0f5dbaad4795030081296103eef"/>
+          <topic label="rt_atomic_or" href="rtatomic_8h.html#a99461bb57e40e9a3977026a6e13e28a2"/>
+          <topic label="rt_atomic_xor" href="rtatomic_8h.html#a0d339c1549c0482e6b19f222137466a3"/>
+          <topic label="rt_atomic_exchange" href="rtatomic_8h.html#ab357eed64a4428c1889610c314efb4ae"/>
+          <topic label="rt_atomic_flag_clear" href="rtatomic_8h.html#a6762a0070dc3a75a86777fea32ebb8f2"/>
+          <topic label="rt_atomic_flag_test_and_set" href="rtatomic_8h.html#a300307a76526236c59c6822407dcee16"/>
+          <topic label="rt_atomic_compare_exchange_strong" href="rtatomic_8h.html#a5d2d6e57feb1c4b5f35375c4de9f2f46"/>
+          <topic label="rt_hw_atomic_load" href="rtatomic_8h.html#abc7ab892730a3f7f70a8cf9f26038b31"/>
+          <topic label="rt_hw_atomic_store" href="rtatomic_8h.html#a4f24b20b48f5f1093d29bf7e3b048948"/>
+          <topic label="rt_hw_atomic_add" href="rtatomic_8h.html#ac7f453e61c5864c93890cf9ac50475c2"/>
+          <topic label="rt_hw_atomic_sub" href="rtatomic_8h.html#a48f37ae0f94726c4cf021bf738b25bdf"/>
+          <topic label="rt_hw_atomic_and" href="rtatomic_8h.html#aa15d9205c2b46f12f7d7c6f96f6ddd77"/>
+          <topic label="rt_hw_atomic_or" href="rtatomic_8h.html#a74e4e635a6abe4047152b530ba836c02"/>
+          <topic label="rt_hw_atomic_xor" href="rtatomic_8h.html#a30a86adaeece7623367f569bae6fc2d1"/>
+          <topic label="rt_hw_atomic_exchange" href="rtatomic_8h.html#a2fc21df7faf2989293ce9d2b26851abf"/>
+          <topic label="rt_hw_atomic_flag_clear" href="rtatomic_8h.html#a0a00ca3cf771591eaf1684158b80c636"/>
+          <topic label="rt_hw_atomic_flag_test_and_set" href="rtatomic_8h.html#aeaf408c7abd89a517f48701033c09f48"/>
+          <topic label="rt_hw_atomic_compare_exchange_strong" href="rtatomic_8h.html#ab30234bfa858606161b30c3704177eb3"/>
+          <topic label="rt_soft_atomic_exchange" href="rtatomic_8h.html#ac05326aecc8bab68487a7668ccff0cf6"/>
+          <topic label="rt_soft_atomic_add" href="rtatomic_8h.html#a7bd5fd92bf49abef36366eda63cab775"/>
+          <topic label="rt_soft_atomic_sub" href="rtatomic_8h.html#a7bb2a925623f7dbcc26d87c36f34bdd9"/>
+          <topic label="rt_soft_atomic_xor" href="rtatomic_8h.html#a8f43cacb900b883bf50714dba9dd9afa"/>
+          <topic label="rt_soft_atomic_and" href="rtatomic_8h.html#a48e334b6d5317dcc456bbc4751b2fd97"/>
+          <topic label="rt_soft_atomic_or" href="rtatomic_8h.html#af9f053600c96c34ed3f97ca1657e21e1"/>
+          <topic label="rt_soft_atomic_load" href="rtatomic_8h.html#a7ac77ebdf6da6b45f34c063c9d3d2a8e"/>
+          <topic label="rt_soft_atomic_store" href="rtatomic_8h.html#ae135e37e9c69e7962271d4e9872c0ed9"/>
+          <topic label="rt_soft_atomic_flag_test_and_set" href="rtatomic_8h.html#ad70694d838646c7b571c30ee7958f850"/>
+          <topic label="rt_soft_atomic_flag_clear" href="rtatomic_8h.html#ac2d8e551785eb12745da1e35b137b809"/>
+          <topic label="rt_soft_atomic_compare_exchange_strong" href="rtatomic_8h.html#af211bf0467ba89fe2b44694c2558ed2b"/>
+        </topic>
         <topic label="rtdbg.h" href="rtdbg_8h.html">
           <topic label="DLOG" href="rtdbg_8h.html#a87fe05eb8767a6b1abf71eea0bdcfcac"/>
           <topic label="DBG_ERROR" href="rtdbg_8h.html#a004bc89ac4c6725bbf5f2291977392e0"/>
@@ -1792,6 +1830,7 @@
           <topic label="RT_MB_ENTRY_MAX" href="rtdef_8h.html#a859e07f7f71726d4fd0781b00b9861d6"/>
           <topic label="RT_MQ_ENTRY_MAX" href="rtdef_8h.html#a38c43b3bd6a585297b57e3ef7d290e25"/>
           <topic label="RT_UNUSED" href="rtdef_8h.html#a6be8b4b10fed3667deba827ed6dcedfc"/>
+          <topic label="RT_CTASSERT" href="rtdef_8h.html#a4414b515f867c582420237e8c2d5ea15"/>
           <topic label="INIT_EXPORT" href="rtdef_8h.html#acf0c1996737bb6f6b522da1e892651a5"/>
           <topic label="INIT_BOARD_EXPORT" href="rtdef_8h.html#a78777415f5aabee4917e1ad14d26bb94"/>
           <topic label="INIT_PREV_EXPORT" href="rtdef_8h.html#aedf0b8fa260a87d27e3115306ce53aae"/>
@@ -1954,6 +1993,7 @@
           <topic label="rt_flag_t" href="group___basic_def.html#gac0517c5e13c1374877d8462b84e72755"/>
           <topic label="rt_dev_t" href="group___basic_def.html#ga79ffea5dac0a5c145822b5b1c9b55a09"/>
           <topic label="rt_off_t" href="group___basic_def.html#ga0fd4981851ce935649b6723a81f2f1bf"/>
+          <topic label="rt_atomic_t" href="group___basic_def.html#ga267fc9b901dccc8e172cb3dc5b48a8e2"/>
           <topic label="rt_list_t" href="rtdef_8h.html#a8e0e590336e9435f976bf672d844547c"/>
           <topic label="rt_slist_t" href="rtdef_8h.html#af1dfcf30fd6cf658b0cc48dbf0d063da"/>
           <topic label="rt_object_t" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70"/>
@@ -2729,10 +2769,30 @@
           <topic label="rt_custom_object_destroy" href="group___kernel_object.html#ga50c46982eda3aeab85fa9e2d94302d62"/>
           <topic label="_object_container" href="object_8c.html#ace04fd2b2f95030c4a99b198fb51ba82"/>
         </topic>
-        <topic label="scheduler.c" href="scheduler_8c.html">
-          <topic label="__on_rt_scheduler_hook" href="scheduler_8c.html#a93d8e7f2e449d21cc9942f279cc98a20"/>
-          <topic label="__on_rt_scheduler_switch_hook" href="scheduler_8c.html#af73fde4afc2d5c9fb50c183980183c48"/>
-          <topic label="_scheduler_get_highest_priority_thread" href="scheduler_8c.html#a73a2cade9b736d394cba56151e963d7d"/>
+        <topic label="scheduler_mp.c" href="scheduler__mp_8c.html">
+          <topic label="__on_rt_scheduler_hook" href="scheduler__mp_8c.html#a93d8e7f2e449d21cc9942f279cc98a20"/>
+          <topic label="__on_rt_scheduler_switch_hook" href="scheduler__mp_8c.html#af73fde4afc2d5c9fb50c183980183c48"/>
+          <topic label="_scheduler_get_highest_priority_thread" href="scheduler__mp_8c.html#a73a2cade9b736d394cba56151e963d7d"/>
+          <topic label="rt_system_scheduler_init" href="group___thread.html#ga5aa2c0c67999e20ce8693ad3c8e624f0"/>
+          <topic label="rt_system_scheduler_start" href="group___thread.html#ga9aa8a561e0caf5e13126834c4f4bb681"/>
+          <topic label="rt_scheduler_ipi_handler" href="group___thread.html#ga268d9fc914d7f4b144568e5de5049b63"/>
+          <topic label="rt_schedule" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24"/>
+          <topic label="rt_scheduler_do_irq_switch" href="group___thread.html#gabb4158a39c5ea956a96b22190ce0ed89"/>
+          <topic label="rt_schedule_insert_thread" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654"/>
+          <topic label="rt_schedule_remove_thread" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164"/>
+          <topic label="rt_enter_critical" href="group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a"/>
+          <topic label="RTM_EXPORT" href="group___thread.html#ga4488d5a82057fb2719ae27bfb49c9aa1"/>
+          <topic label="rt_exit_critical" href="group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df"/>
+          <topic label="RTM_EXPORT" href="group___thread.html#gac685bcefc9dda0231e162072529b8ed3"/>
+          <topic label="rt_critical_level" href="group___thread.html#gaf3f894e8efadefda238a5e5ab45c7e21"/>
+          <topic label="RTM_EXPORT" href="group___thread.html#gad8b065f4c80d584bec3847e731d5ac69"/>
+          <topic label="rt_thread_priority_table" href="scheduler__mp_8c.html#a4c3b532a90796416ca8446cab1be32ab"/>
+          <topic label="rt_thread_ready_priority_group" href="scheduler__mp_8c.html#a5ba5c4bdc0965dc5223a9e6325902523"/>
+        </topic>
+        <topic label="scheduler_up.c" href="scheduler__up_8c.html">
+          <topic label="__on_rt_scheduler_hook" href="scheduler__up_8c.html#a93d8e7f2e449d21cc9942f279cc98a20"/>
+          <topic label="__on_rt_scheduler_switch_hook" href="scheduler__up_8c.html#af73fde4afc2d5c9fb50c183980183c48"/>
+          <topic label="_scheduler_get_highest_priority_thread" href="scheduler__up_8c.html#a73a2cade9b736d394cba56151e963d7d"/>
           <topic label="rt_system_scheduler_init" href="group___thread.html#ga5aa2c0c67999e20ce8693ad3c8e624f0"/>
           <topic label="rt_system_scheduler_start" href="group___thread.html#ga9aa8a561e0caf5e13126834c4f4bb681"/>
           <topic label="rt_schedule" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24"/>
@@ -2744,12 +2804,12 @@
           <topic label="RTM_EXPORT" href="group___thread.html#gac685bcefc9dda0231e162072529b8ed3"/>
           <topic label="rt_critical_level" href="group___thread.html#gaf3f894e8efadefda238a5e5ab45c7e21"/>
           <topic label="RTM_EXPORT" href="group___thread.html#gad8b065f4c80d584bec3847e731d5ac69"/>
-          <topic label="rt_thread_priority_table" href="scheduler_8c.html#a4c3b532a90796416ca8446cab1be32ab"/>
-          <topic label="rt_thread_ready_priority_group" href="scheduler_8c.html#a5ba5c4bdc0965dc5223a9e6325902523"/>
+          <topic label="rt_thread_priority_table" href="scheduler__up_8c.html#a4c3b532a90796416ca8446cab1be32ab"/>
+          <topic label="rt_thread_ready_priority_group" href="scheduler__up_8c.html#a5ba5c4bdc0965dc5223a9e6325902523"/>
           <topic label="rt_interrupt_nest" href="group___kernel.html#ga96e100b95b71246bca1168792b59fa04"/>
-          <topic label="rt_scheduler_lock_nest" href="scheduler_8c.html#a62ab66877d27e607a00b4949fb1d6014"/>
-          <topic label="rt_current_thread" href="scheduler_8c.html#a79f56a5699427ae8a615005dfbaf4325"/>
-          <topic label="rt_current_priority" href="scheduler_8c.html#abf3ce40b5f683c168cbbd1aa38bc17d6"/>
+          <topic label="rt_scheduler_lock_nest" href="scheduler__up_8c.html#a62ab66877d27e607a00b4949fb1d6014"/>
+          <topic label="rt_current_thread" href="scheduler__up_8c.html#a79f56a5699427ae8a615005dfbaf4325"/>
+          <topic label="rt_current_priority" href="scheduler__up_8c.html#abf3ce40b5f683c168cbbd1aa38bc17d6"/>
         </topic>
         <topic label="signal.c" href="signal_8c.html"/>
         <topic label="slab.c" href="slab_8c.html"/>

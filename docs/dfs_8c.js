@@ -7,7 +7,7 @@ var dfs_8c =
     [ "dfs_fd_lock", "dfs_8c.html#ab07583e89629765d9c59822a59f43edf", null ],
     [ "dfs_unlock", "dfs_8c.html#a2ac674bd319f61a6b1c9e2338018b523", null ],
     [ "fd_is_open", "group___fd.html#gaac5ef888b25e5c4a32667c5b9589d3d8", null ],
-    [ "sys_dup2", "dfs_8c.html#a1850551082dfa707be9a1dc045de9418", null ],
+    [ "sys_dup2", "dfs_8c.html#aeaa83fb23ff286a6fbdac543fed90954", null ],
     [ "fd_get_fd_index_form_fdt", "dfs_8c.html#a9893c332705fa8fa32256645be5fa7e9", null ],
     [ "fd_get_fd_index", "dfs_8c.html#ae01c0e13f7752e6e6f379f47c18daeb3", null ],
     [ "fd_associate", "dfs_8c.html#a18c67724ec748f938a1bcc6a9e0814c5", null ],

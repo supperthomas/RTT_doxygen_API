@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RT-Thread RTOS: /home/runner/work/RTT_doxygen_API/RTT_doxygen_API/rt-thread/src/scheduler_up.c 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="rtthread_logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">RT-Thread RTOS
+   &#160;<span id="projectnumber">1.2.0</span>
+   </div>
+   <div id="projectbrief">An open source embedded real-time operating system</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('scheduler__up_8c.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">scheduler_up.c 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="rtthread_8h.html">rtthread.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="rthw_8h.html">rthw.h</a>&gt;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> scheduler_up.c 的引用(Include)关系图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="scheduler__up_8c__incl.png" border="0" usemap="#a_2home_2runner_2work_2_r_t_t__doxygen___a_p_i_2_r_t_t__doxygen___a_p_i_2rt-thread_2src_2scheduler__up_8c" alt=""/></div>
+<map name="a_2home_2runner_2work_2_r_t_t__doxygen___a_p_i_2_r_t_t__doxygen___a_p_i_2rt-thread_2src_2scheduler__up_8c" id="a_2home_2runner_2work_2_r_t_t__doxygen___a_p_i_2_r_t_t__doxygen___a_p_i_2rt-thread_2src_2scheduler__up_8c">
+<area shape="rect" title=" " alt="" coords="65,5,300,61"/>
+<area shape="rect" href="rtthread_8h.html" title=" " alt="" coords="139,184,226,211"/>
+<area shape="rect" href="rthw_8h.html" title=" " alt="" coords="186,109,248,136"/>
+<area shape="rect" title=" " alt="" coords="22,408,105,435"/>
+<area shape="rect" href="rtdebug_8h.html" title=" " alt="" coords="22,333,106,360"/>
+<area shape="rect" href="rtdef_8h.html" title=" " alt="" coords="130,333,194,360"/>
+<area shape="rect" href="rtservice_8h.html" title=" " alt="" coords="137,259,228,285"/>
+<area shape="rect" href="rtm_8h.html" title=" " alt="" coords="252,259,310,285"/>
+<area shape="rect" title=" " alt="" coords="334,259,399,285"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:gae9f99bb5e2e2032b10ddda7a03eefe24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24">rt_schedule</a> (void)</td></tr>
+<tr class="separator:gae9f99bb5e2e2032b10ddda7a03eefe24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae3b532499fffe26f36b7ed8b9e3e4654"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654">rt_schedule_insert_thread</a> (struct <a class="el" href="structrt__thread.html">rt_thread</a> *thread)</td></tr>
+<tr class="separator:gae3b532499fffe26f36b7ed8b9e3e4654"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga11893d937cb7c879abb12f8bfa4be164"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___thread.html#ga11893d937cb7c879abb12f8bfa4be164">rt_schedule_remove_thread</a> (struct <a class="el" href="structrt__thread.html">rt_thread</a> *thread)</td></tr>
+<tr class="separator:ga11893d937cb7c879abb12f8bfa4be164"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf3f894e8efadefda238a5e5ab45c7e21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga5acba55f46553417996ac70828b874da">rt_uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___thread.html#gaf3f894e8efadefda238a5e5ab45c7e21">rt_critical_level</a> (void)</td></tr>
+<tr class="separator:gaf3f894e8efadefda238a5e5ab45c7e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">宏定义说明</h2>
+<a id="a93d8e7f2e449d21cc9942f279cc98a20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93d8e7f2e449d21cc9942f279cc98a20">&#9670;&nbsp;</a></span>__on_rt_scheduler_hook</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __on_rt_scheduler_hook</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">from, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">to&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="group___kernel_object.html#ga157182cc01efae05cf23d2e80f93c4cd">__ON_HOOK_ARGS</a>(rt_scheduler_hook, (from, to))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af73fde4afc2d5c9fb50c183980183c48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af73fde4afc2d5c9fb50c183980183c48">&#9670;&nbsp;</a></span>__on_rt_scheduler_switch_hook</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __on_rt_scheduler_switch_hook</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">tid</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group___kernel_object.html#ga157182cc01efae05cf23d2e80f93c4cd">__ON_HOOK_ARGS</a>(rt_scheduler_switch_hook, (tid))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">函数说明</h2>
+<a id="a73a2cade9b736d394cba56151e963d7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73a2cade9b736d394cba56151e963d7d">&#9670;&nbsp;</a></span>_scheduler_get_highest_priority_thread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static struct <a class="el" href="structrt__thread.html">rt_thread</a>* _scheduler_get_highest_priority_thread </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga958cc0f5d3f7bf59850cd8bd13a4aeb0">rt_ubase_t</a> *&#160;</td>
+          <td class="paramname"><em>highest_prio</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="scheduler__up_8c_a73a2cade9b736d394cba56151e963d7d_cgraph.png" border="0" usemap="#ascheduler__up_8c_a73a2cade9b736d394cba56151e963d7d_cgraph" alt=""/></div>
+<map name="ascheduler__up_8c_a73a2cade9b736d394cba56151e963d7d_cgraph" id="ascheduler__up_8c_a73a2cade9b736d394cba56151e963d7d_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,180,47"/>
+<area shape="rect" href="group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="228,13,297,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">变量说明</h2>
+<a id="a4c3b532a90796416ca8446cab1be32ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c3b532a90796416ca8446cab1be32ab">&#9670;&nbsp;</a></span>rt_thread_priority_table</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="rtdef_8h.html#a8e0e590336e9435f976bf672d844547c">rt_list_t</a> rt_thread_priority_table[RT_THREAD_PRIORITY_MAX]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ba5c4bdc0965dc5223a9e6325902523"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ba5c4bdc0965dc5223a9e6325902523">&#9670;&nbsp;</a></span>rt_thread_ready_priority_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#gaa0f407376acf6e5854ea411316811418">rt_uint32_t</a> rt_thread_ready_priority_group</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62ab66877d27e607a00b4949fb1d6014"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62ab66877d27e607a00b4949fb1d6014">&#9670;&nbsp;</a></span>rt_scheduler_lock_nest</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#gad48863e8de10f558c764213f434d14cd">rt_int16_t</a> rt_scheduler_lock_nest</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a79f56a5699427ae8a615005dfbaf4325"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79f56a5699427ae8a615005dfbaf4325">&#9670;&nbsp;</a></span>rt_current_thread</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structrt__thread.html">rt_thread</a>* rt_current_thread = <a class="el" href="group___basic_def.html#gab3633bbb2a09b3406b19463ffc634345">RT_NULL</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf3ce40b5f683c168cbbd1aa38bc17d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf3ce40b5f683c168cbbd1aa38bc17d6">&#9670;&nbsp;</a></span>rt_current_priority</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga585e2ad0fbab0f83817cb61373465df6">rt_uint8_t</a> rt_current_priority</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="scheduler__up_8c.html">scheduler_up.c</a></li>
+    <li class="footer">生成于 2023年 三月 30日 星期四 16:11:52 , 为 RT-Thread RTOS使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

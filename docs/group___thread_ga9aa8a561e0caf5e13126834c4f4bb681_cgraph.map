@@ -1,11 +1,13 @@
 <map id="rt_system_scheduler_start" name="rt_system_scheduler_start">
-<area shape="rect" id="node1" title="This function will startup the scheduler. It will select one thread with the highest priority level,..." alt="" coords="5,64,163,105"/>
-<area shape="rect" id="node2" href="$scheduler_8c.html#a73a2cade9b736d394cba56151e963d7d" title=" " alt="" coords="215,5,389,47"/>
-<area shape="rect" id="node4" href="$rthw_8h.html#a3bbe3104ec0718435fa63f83c0c66787" title=" " alt="" coords="211,71,393,98"/>
-<area shape="rect" id="node5" href="$group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="225,123,379,164"/>
-<area shape="rect" id="node3" href="$group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="494,13,563,39"/>
-<area shape="rect" id="node6" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="441,71,616,98"/>
-<area shape="rect" id="node7" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="443,122,615,149"/>
-<area shape="rect" id="node8" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="469,173,588,199"/>
-<area shape="rect" id="node9" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="471,223,587,250"/>
+<area shape="rect" id="node1" title="This function will startup the scheduler. It will select one thread with the highest priority level,..." alt="" coords="5,115,163,157"/>
+<area shape="rect" id="node2" href="$scheduler__mp_8c.html#a73a2cade9b736d394cba56151e963d7d" title=" " alt="" coords="215,49,389,90"/>
+<area shape="rect" id="node5" href="$rthw_8h.html#a3bbe3104ec0718435fa63f83c0c66787" title=" " alt="" coords="211,123,393,149"/>
+<area shape="rect" id="node6" href="$group___thread.html#ga11893d937cb7c879abb12f8bfa4be164" title="This function will remove a thread from system ready queue." alt="" coords="225,191,379,233"/>
+<area shape="rect" id="node3" href="$group___kernel_service.html#gaf225812decad1a6d9036626273ba9e65" title=" " alt="" coords="494,5,563,32"/>
+<area shape="rect" id="node4" href="$cpu_8c.html#a8fe8f3bfae1869fc0a0d179788433e11" title="This fucntion will return current cpu object." alt="" coords="482,56,575,83"/>
+<area shape="rect" id="node7" href="$cpu_8c.html#a67dc9de2bb58623b49aae1562853f86a" title="This fucntion will return the cpu object corresponding to index." alt="" coords="476,107,581,133"/>
+<area shape="rect" id="node8" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="441,157,616,184"/>
+<area shape="rect" id="node9" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="443,208,615,235"/>
+<area shape="rect" id="node10" href="$group___kernel_service.html#ga2b25b69a89568b7f2bf6ed5e9e70da74" title="tests whether a list is empty" alt="" coords="469,259,588,285"/>
+<area shape="rect" id="node11" href="$group___kernel_service.html#ga0525e5898dd57464613551b887256c28" title="remove node from list." alt="" coords="471,309,587,336"/>
 </map>
