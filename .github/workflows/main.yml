@@ -28,7 +28,7 @@ jobs:
         run: |
           git submodule update --remote
           ls 
-          cp Doxyfile rt-thread/documentation/doxygen/Doxyfile
+          #cp Doxyfile rt-thread/documentation/doxygen/Doxyfile
           cd rt-thread/documentation/doxygen
           doxygen Doxyfile
           cd ../../../
