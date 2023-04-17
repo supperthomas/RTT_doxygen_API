@@ -1,45 +1,39 @@
 var indexSectionsWithContent =
 {
-  0: "_abcdefghiklmnoprstuvwxyz",
-  1: "dfr",
-  2: "bcdfhikmorst",
-  3: "_abcdfgilmoprstuvw",
-  4: "_abcdefghilmnoprstuvwxy",
-  5: "crs",
-  6: "ir",
-  7: "rw",
-  8: "_bdfhilmnrstu",
-  9: "abcdefhikmorst",
-  10: "i"
+  0: "_abcdefghiklmnoprstuvwxy",
+  1: "r",
+  2: "_acdfgilmorstuw",
+  3: "bcdefhilmnoprstuvwxy",
+  4: "r",
+  5: "r",
+  6: "r",
+  7: "abcdefhikmorst",
+  8: "i"
 };
 
 var indexSectionNames =
 {
   0: "all",
   1: "classes",
-  2: "files",
-  3: "functions",
-  4: "variables",
-  5: "typedefs",
-  6: "enums",
-  7: "enumvalues",
-  8: "defines",
-  9: "groups",
-  10: "pages"
+  2: "functions",
+  3: "variables",
+  4: "typedefs",
+  5: "enums",
+  6: "enumvalues",
+  7: "groups",
+  8: "pages"
 };
 
 var indexSectionLabels =
 {
-  0: "全部",
-  1: "结构体",
-  2: "文件",
-  3: "函数",
-  4: "变量",
-  5: "类型定义",
-  6: "枚举",
-  7: "枚举值",
-  8: "宏定义",
-  9: "组",
-  10: "页"
+  0: "All",
+  1: "Data Structures",
+  2: "Functions",
+  3: "Variables",
+  4: "Typedefs",
+  5: "Enumerations",
+  6: "Enumerator",
+  7: "Modules",
+  8: "Pages"
 };
 

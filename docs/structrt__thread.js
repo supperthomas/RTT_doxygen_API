@@ -1,10 +1,5 @@
 var structrt__thread =
 [
-    [ "name", "structrt__thread.html#ac2f8a84bd79c12e9c61083ee4db9baf4", null ],
-    [ "type", "structrt__thread.html#a9e66117dc5b76db6d0d78aa3077b57da", null ],
-    [ "flags", "structrt__thread.html#a0a62e2cba8609469b351472d615fd326", null ],
-    [ "module_id", "structrt__thread.html#a6cca8c4a6cbf727dfaac6a48bb19351a", null ],
-    [ "list", "structrt__thread.html#a30dd781aa72ce771beef5ed7a4cdbbd7", null ],
     [ "tlist", "structrt__thread.html#a8484a36933357e7c6f871364d9f2d3a9", null ],
     [ "sp", "structrt__thread.html#abc9d01c30e0fc9872df2fd5c044e31e0", null ],
     [ "entry", "structrt__thread.html#adcdaf75f05998c6485544c337526da52", null ],
@@ -16,10 +11,6 @@ var structrt__thread =
     [ "current_priority", "structrt__thread.html#a90875799a0ea47e5558f104702a20548", null ],
     [ "init_priority", "structrt__thread.html#a281785b80ad0dc2e7d0c5404d32c67f9", null ],
     [ "number_mask", "structrt__thread.html#a5dbed340b3ba61be1e2cd7d3fdf2af56", null ],
-    [ "taken_object_list", "structrt__thread.html#af9fc9a55038f246143ec9bd0922aef5d", null ],
-    [ "pending_object", "structrt__thread.html#a7922fec600b54b859713169c5c2e7566", null ],
-    [ "event_set", "structrt__thread.html#ad248eb0b1fb301dba99bd1d700092502", null ],
-    [ "event_info", "structrt__thread.html#abbda613a94f781b857d4888bfd78fd2d", null ],
     [ "init_tick", "structrt__thread.html#a3da450b626778b5cf1125174783c1989", null ],
     [ "remaining_tick", "structrt__thread.html#a763db3299b6a4c69ad7aa5b7815f3daf", null ],
     [ "thread_timer", "structrt__thread.html#ac787f3fbcdc5f8d012f2d6d9923f5560", null ],

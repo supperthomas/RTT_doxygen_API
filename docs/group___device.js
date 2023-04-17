@@ -1,9 +1,6 @@
 var group___device =
 [
-    [ "rt_wqueue", "structrt__wqueue.html", [
-      [ "flag", "structrt__wqueue.html#a1c815cdd4cadfd3a5d47c2913b36e08b", null ],
-      [ "waiting_list", "structrt__wqueue.html#a46bfc2350c808eb724dff8dd83d2f24b", null ]
-    ] ],
+    [ "rt_wqueue", "structrt__wqueue.html", null ],
     [ "rt_device", "structrt__device.html", [
       [ "parent", "structrt__device.html#a52df486399b65f49455698b55b656d8d", null ],
       [ "type", "structrt__device.html#a0b8dba8f32d49291b85e54d13520b871", null ],
@@ -11,43 +8,9 @@ var group___device =
       [ "open_flag", "structrt__device.html#a0585a1c5e745441dd6d56663ed9e6cd4", null ],
       [ "ref_count", "structrt__device.html#a432bca55aa2144bc5761015f57f017c3", null ],
       [ "device_id", "structrt__device.html#a31db6fb6da677fd9904a8ca436bff640", null ],
-      [ "rx_indicate", "structrt__device.html#af1bcd6c1784972edcf176a9f190a2926", null ],
-      [ "tx_complete", "structrt__device.html#ae930c0375bafb5951d88b350da30284a", null ],
-      [ "init", "structrt__device.html#a76612d6eb985afeb588136b86a14c20a", null ],
-      [ "open", "structrt__device.html#a76f516ff57432c7c28fe40a5a0f2301d", null ],
-      [ "close", "structrt__device.html#a8525376a9c62c863e81144bef99c0e8a", null ],
-      [ "read", "structrt__device.html#ab54005b92c2a7002ec0dbf6d2876d764", null ],
-      [ "write", "structrt__device.html#aae248ff8487adedcf5044cc896bd91ac", null ],
-      [ "control", "structrt__device.html#ae5d1b1f7ee4a2f17e2c3dd740c885b08", null ],
       [ "user_data", "structrt__device.html#a7abe4976f1632005eb09e0ed59ba99ef", null ]
     ] ],
-    [ "rt_device_id", "structrt__device__id.html", [
-      [ "compatible", "structrt__device__id.html#a7ee123244b852297982fefea1b8df9c3", null ],
-      [ "data", "structrt__device__id.html#addec002671af0cb6beae46ae7ef53534", null ]
-    ] ],
-    [ "rt_driver", "structrt__driver.html", [
-      [ "init", "structrt__driver.html#ac030011a7a74206432efcfa30032b71e", null ],
-      [ "open", "structrt__driver.html#a31896d018d2a565868323208965da2fb", null ],
-      [ "close", "structrt__driver.html#aa540eb846eea99491c1e3fc4135d967e", null ],
-      [ "read", "structrt__driver.html#a775cbb2968c7a5211d6622fc6a82a773", null ],
-      [ "write", "structrt__driver.html#a8a41ce328c3d6017f09874f87916f0b1", null ],
-      [ "control", "structrt__driver.html#a1f7d504dd67cebfb3c419f0603becdcd", null ],
-      [ "fops", "structrt__driver.html#af9aa182812081b4b9eb3afd952802954", null ],
-      [ "name", "structrt__driver.html#a61f108417ae702f8f0df98436304d098", null ],
-      [ "dev_type", "structrt__driver.html#af2748725aedc5867e3488ff18a19f7f5", null ],
-      [ "device_size", "structrt__driver.html#a494048ac5ef9fbde8c051d98e6db75f3", null ],
-      [ "flag", "structrt__driver.html#afe0f3f8caed239ba6e13d8c1287fe3af", null ],
-      [ "dev_match", "structrt__driver.html#a9f07099b7543a4bcb6af326c01152ca3", null ],
-      [ "probe", "structrt__driver.html#a72211de6cc2cc6e2d579fda689d28319", null ],
-      [ "probe_init", "structrt__driver.html#a8bfa35af29dad5c3675d057d9524e798", null ],
-      [ "remove", "structrt__driver.html#a4d70256c2bd04349f60d2e15f0b805ec", null ],
-      [ "ops", "structrt__driver.html#aafc63b49487d70378049804c786742f4", null ],
-      [ "drv_priv_data", "structrt__driver.html#ad6474f077b0e1a47ba1601fb4b9c84dd", null ]
-    ] ],
-    [ "rt_device_notify", "structrt__device__notify.html", [
-      [ "notify", "structrt__device__notify.html#a3c1d9870740fdb7d82d95de364c2f821", null ],
-      [ "dev", "structrt__device__notify.html#a30f17c049abd55e78ec9f2e023f41035", null ]
-    ] ],
+    [ "rt_device_notify", "structrt__device__notify.html", null ],
     [ "rt_device_blk_geometry", "structrt__device__blk__geometry.html", [
       [ "sector_count", "structrt__device__blk__geometry.html#a53a0003e18ada3caeb83273dc6a7a7e5", null ],
       [ "bytes_per_sector", "structrt__device__blk__geometry.html#aeb4ef7bd1c3f03f07f6fab722aa1fad5", null ],
@@ -72,13 +35,7 @@ var group___device =
       [ "width", "structrt__device__rect__info.html#a1f6ad5365962a838cea665a3db53f2cb", null ],
       [ "height", "structrt__device__rect__info.html#a0cad394b7fcd23e9f48950c211dc6ebd", null ]
     ] ],
-    [ "rt_device_graphic_ops", "structrt__device__graphic__ops.html", [
-      [ "set_pixel", "structrt__device__graphic__ops.html#a3bdfa4babe0f625882a2771300a505a4", null ],
-      [ "get_pixel", "structrt__device__graphic__ops.html#ad1986cb7558ee6fb15d1071475b09e10", null ],
-      [ "draw_hline", "structrt__device__graphic__ops.html#a819529d5989583d102fbafe4fa158c0e", null ],
-      [ "draw_vline", "structrt__device__graphic__ops.html#a0d83ac0c8a9c1c06e8e5a216ec5fbf3f", null ],
-      [ "blit_line", "structrt__device__graphic__ops.html#afa063d3541d1ea94896737aa0a0b9125", null ]
-    ] ],
+    [ "rt_device_graphic_ops", "structrt__device__graphic__ops.html", null ],
     [ "RT_DEVICE_FLAG_DEACTIVATE", "group___device.html#ga2944a0dadfee3da236244108ee64ef23", null ],
     [ "RT_DEVICE_FLAG_RDONLY", "group___device.html#gae55023ca390d9c9db1e36f47d70b7bef", null ],
     [ "RT_DEVICE_FLAG_WRONLY", "group___device.html#ga23a6a0bf94d7ac84e205b25090ccecac", null ],
@@ -117,26 +74,9 @@ var group___device =
     [ "RT_DEVICE_CTRL_BLK_PARTITION", "group___device.html#ga52b203b508071c38c0584628db4e2369", null ],
     [ "RT_DEVICE_CTRL_NETIF_GETMAC", "group___device.html#gac34cb62d4a941224ca03c2362ec78d8f", null ],
     [ "RT_DEVICE_CTRL_MTD_FORMAT", "group___device.html#gaf39ce3167e521f3e8bea8cd32eb97ce2", null ],
-    [ "RT_DRIVER_MATCH_DTS", "group___device.html#gab3d226015bcffefd4944edc5632f8d83", null ],
     [ "RT_DEVICE_CTRL_CURSOR_SET_POSITION", "group___device.html#ga1778cc1071e28653d95e2027f1f47141", null ],
-    [ "RT_DEVICE_CTRL_CURSOR_SET_TYPE", "group___device.html#gac62921da79d874956f12f1b7c7d20cec", null ],
     [ "RTGRAPHIC_CTRL_RECT_UPDATE", "group___device.html#ga19d8e9e0bbc3fe1264173764f7e881b2", null ],
-    [ "RTGRAPHIC_CTRL_POWERON", "group___device.html#ga9dbeec2d4db6117e18c5bb0e6c8127da", null ],
-    [ "RTGRAPHIC_CTRL_POWEROFF", "group___device.html#ga42f57e344854ca479c174f316afe0441", null ],
-    [ "RTGRAPHIC_CTRL_GET_INFO", "group___device.html#ga02b99262b0867c4f99613aca4bc4419c", null ],
-    [ "RTGRAPHIC_CTRL_SET_MODE", "group___device.html#gadfbacdea2a02ed10c797d94eeb5b0afa", null ],
-    [ "RTGRAPHIC_CTRL_GET_EXT", "group___device.html#ga174deefe0bfe90b2e477694be86d4227", null ],
-    [ "RTGRAPHIC_CTRL_SET_BRIGHTNESS", "group___device.html#ga4c58e178af9465f0045559d5203b27b5", null ],
-    [ "RTGRAPHIC_CTRL_GET_BRIGHTNESS", "group___device.html#gad3f1ff0c6eca5cc0582a7887c698d734", null ],
-    [ "RTGRAPHIC_CTRL_GET_MODE", "group___device.html#ga92b5d943cb826806be3bb6986532a3b5", null ],
-    [ "RTGRAPHIC_CTRL_GET_STATUS", "group___device.html#gaf339f748c0a7a99278900e511ebdbff2", null ],
-    [ "RTGRAPHIC_CTRL_PAN_DISPLAY", "group___device.html#ga1af69c96d9322ff403cffea580024893", null ],
-    [ "RTGRAPHIC_CTRL_WAIT_VSYNC", "group___device.html#ga324b8b68a46b3cc0aa622ba0341942a8", null ],
     [ "RTGRAPHIC_PIXEL_POSITION", "group___device.html#ga129ac0e844b97c6f324ab5995f9cff6b", null ],
-    [ "rt_graphix_ops", "group___device.html#gadcc41b249eb4c2f0fa6f0e2b302c5ced", null ],
-    [ "rt_device_t", "group___device.html#ga896a5cd63480a02303252f41782379b1", null ],
-    [ "rt_wqueue_t", "group___device.html#gacd3fb691ee4def6d6dcbaaf245dc1eac", null ],
-    [ "rt_driver_t", "group___device.html#gabc46402474b270ced270ae4aae26186d", null ],
     [ "rt_device_class_type", "group___device.html#ga429003537c58f674b39eb3f9defbd052", [
       [ "RT_Device_Class_Char", "group___device.html#gga429003537c58f674b39eb3f9defbd052aca8110723cd932d3bb56c656f0ed5b62", null ],
       [ "RT_Device_Class_Block", "group___device.html#gga429003537c58f674b39eb3f9defbd052a677c6cfb5e8c1a16569048ac404dcd47", null ],
@@ -169,21 +109,7 @@ var group___device =
       [ "RT_Device_Class_WDT", "group___device.html#gga429003537c58f674b39eb3f9defbd052ae4d2034c0053172b966d5d045e878a52", null ],
       [ "RT_Device_Class_PWM", "group___device.html#gga429003537c58f674b39eb3f9defbd052a5a3d1f0ef04dd668bd58e439d1a0ca21", null ],
       [ "RT_Device_Class_Bus", "group___device.html#gga429003537c58f674b39eb3f9defbd052a44e3218dba8632efa59fae8ee142e9d0", null ],
-      [ "RT_Device_Class_Unknown", "group___device.html#gga429003537c58f674b39eb3f9defbd052ae580460bedb868d5242e8115a41bf00a", null ],
-      [ "RTGRAPHIC_PIXEL_FORMAT_MONO", "group___device.html#ggadf764cbdea00d65edcd07bb9953ad2b7aff9abc99ba1efa3afe92c1004b25ed10", null ],
-      [ "RTGRAPHIC_PIXEL_FORMAT_GRAY4", "group___device.html#ggadf764cbdea00d65edcd07bb9953ad2b7a302bf9537701cfd73ab2976a631c8823", null ],
-      [ "RTGRAPHIC_PIXEL_FORMAT_GRAY16", "group___device.html#ggadf764cbdea00d65edcd07bb9953ad2b7ae11b21540dca2fc9a46290853a9a34a1", null ],
-      [ "RTGRAPHIC_PIXEL_FORMAT_RGB332", "group___device.html#ggadf764cbdea00d65edcd07bb9953ad2b7aec192d0f95a2061563cc18b375873b13", null ],
-      [ "RTGRAPHIC_PIXEL_FORMAT_RGB444", "group___device.html#ggadf764cbdea00d65edcd07bb9953ad2b7a1053d77fe95d5727bfb55b61ff40a750", null ],
-      [ "RTGRAPHIC_PIXEL_FORMAT_RGB565", "group___device.html#ggadf764cbdea00d65edcd07bb9953ad2b7aad9ed34d766e8f51824553791c7a7602", null ],
-      [ "RTGRAPHIC_PIXEL_FORMAT_RGB565P", "group___device.html#ggadf764cbdea00d65edcd07bb9953ad2b7ab2ee4831c4bfc6b5fbe9ae56b5ba4ae1", null ],
-      [ "RTGRAPHIC_PIXEL_FORMAT_BGR565", "group___device.html#ggadf764cbdea00d65edcd07bb9953ad2b7a917d9a2876fc9672bbb24c58946a5972", null ],
-      [ "RTGRAPHIC_PIXEL_FORMAT_RGB666", "group___device.html#ggadf764cbdea00d65edcd07bb9953ad2b7a9be130c0e2d98daf76aa2cec34b7b23c", null ],
-      [ "RTGRAPHIC_PIXEL_FORMAT_RGB888", "group___device.html#ggadf764cbdea00d65edcd07bb9953ad2b7a8c7f273a55afedc23b2082dd6f32c72a", null ],
-      [ "RTGRAPHIC_PIXEL_FORMAT_BGR888", "group___device.html#ggadf764cbdea00d65edcd07bb9953ad2b7add073ee5f8fc6c6ac0e5a6359e0c30bc", null ],
-      [ "RTGRAPHIC_PIXEL_FORMAT_ARGB888", "group___device.html#ggadf764cbdea00d65edcd07bb9953ad2b7a14de95f7944ad067ead2cc9af46774ca", null ],
-      [ "RTGRAPHIC_PIXEL_FORMAT_ABGR888", "group___device.html#ggadf764cbdea00d65edcd07bb9953ad2b7a03b8b6070de7b157fc42284b5aa3ce52", null ],
-      [ "RTGRAPHIC_PIXEL_FORMAT_RESERVED", "group___device.html#ggadf764cbdea00d65edcd07bb9953ad2b7ad52a276f1d053c90f865f6dccbe7e647", null ]
+      [ "RT_Device_Class_Unknown", "group___device.html#gga429003537c58f674b39eb3f9defbd052ae580460bedb868d5242e8115a41bf00a", null ]
     ] ],
     [ "rt_device_find", "group___device.html#ga7fb604dd486fbf5e48004b4d94d8eb3e", null ],
     [ "rt_device_register", "group___device.html#gaaa44b227c43321faffb198ef9c0bb17e", null ],

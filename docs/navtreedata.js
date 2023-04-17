@@ -30,24 +30,12 @@ var NAVTREE =
       [ "Kernel API", "index.html#kernel_service", null ],
       [ "System Initialization", "index.html#system_init", null ]
     ] ],
-    [ "模块", "modules.html", "modules" ],
-    [ "结构体", "annotated.html", [
-      [ "结构体", "annotated.html", "annotated_dup" ],
-      [ "成员变量", "functions.html", [
-        [ "全部", "functions.html", "functions_dup" ],
-        [ "变量", "functions_vars.html", "functions_vars" ]
-      ] ]
-    ] ],
-    [ "文件", "files.html", [
-      [ "文件列表", "files.html", "files_dup" ],
-      [ "全局定义", "globals.html", [
-        [ "全部", "globals.html", "globals_dup" ],
-        [ "函数", "globals_func.html", "globals_func" ],
-        [ "变量", "globals_vars.html", null ],
-        [ "类型定义", "globals_type.html", null ],
-        [ "枚举", "globals_enum.html", null ],
-        [ "枚举值", "globals_eval.html", null ],
-        [ "宏定义", "globals_defs.html", "globals_defs" ]
+    [ "Modules", "modules.html", "modules" ],
+    [ "Data Structures", "annotated.html", [
+      [ "Data Structures", "annotated.html", "annotated_dup" ],
+      [ "Data Fields", "functions.html", [
+        [ "All", "functions.html", null ],
+        [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ]
   ] ]
@@ -56,17 +44,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"dfs__private_8h.html#a0d8f64e3cef3541c7645a6d963178bb5",
-"group___clock.html#ga77af135da16a0b9e1c4a351f4bee6dbd",
-"group___device.html#gga429003537c58f674b39eb3f9defbd052aa6bdf0c801df14e94498759a4e77a58c",
-"group___i_p_c.html#gaf01ab3359471613143fb0a1bc4317baa",
-"group___kernel_service.html#ga6dac97b487aa32006a7ad0f9bee7e92c",
-"group___thread.html#ga14855dffdd71dc43f7863cacb916c3b5",
-"group__finsh.html#gad37603360d3201083d8bae51bec8d124",
-"ipc_8c.html",
-"shell_8c.html#ae351601d69c6141ed83e576fcab64e0b",
-"structrt__thread.html#a6cca8c4a6cbf727dfaac6a48bb19351a"
+"group___i_p_c.html#ga43f0b137c7e6d5c2152f6b1d39b57616",
+"group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372"
 ];
 
-var SYNCONMSG = '点击 关闭 面板同步';
-var SYNCOFFMSG = '点击 开启 面板同步';
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';

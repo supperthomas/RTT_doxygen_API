@@ -14,10 +14,6 @@ var group___kernel_object =
     ] ],
     [ "RT_OBJECT_FLAG_MODULE", "group___kernel_object.html#gadc83c17483bce09fad91cc8b2a3d0ed5", null ],
     [ "RT_OBJECT_HOOK_CALL", "group___kernel_object.html#ga40f88eaca0029aea304a7757c85431b8", null ],
-    [ "__ON_HOOK_ARGS", "group___kernel_object.html#ga157182cc01efae05cf23d2e80f93c4cd", null ],
-    [ "__on_rt_interrupt_switch_hook", "group___kernel_object.html#gaee1cb9e1d1f59dde1bc82075abbe9727", null ],
-    [ "__on_rt_malloc_hook", "group___kernel_object.html#ga9f35060c31526bf252bc2e1b54976e46", null ],
-    [ "__on_rt_free_hook", "group___kernel_object.html#ga4bf66908e0dd05ea80d4cf6f96640d72", null ],
     [ "rt_object_t", "group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70", null ],
     [ "rt_object_class_type", "group___kernel_object.html#ga38a532bcb1bd3f12685db4219b761b56", [
       [ "RT_Object_Class_Null", "group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a8bd7977afdebe3101f16c9c0c9aa5cb0", null ],
@@ -39,11 +35,8 @@ var group___kernel_object =
       [ "RT_Object_Class_Static", "group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56ac3a51281d7f8fee902e6324673d39cec", null ]
     ] ],
     [ "rt_object_get_information", "group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b", null ],
-    [ "RTM_EXPORT", "group___kernel_object.html#ga7167ae7d39f610dc3d0fe892148e7579", null ],
     [ "rt_object_get_length", "group___kernel_object.html#ga999d82dfa646d3c4416698f35e37ed65", null ],
-    [ "RTM_EXPORT", "group___kernel_object.html#gaff8a8eeb6feb5b69a873f7bf55816f86", null ],
     [ "rt_object_get_pointers", "group___kernel_object.html#gaa6879a7d034c9ccc56ab3a4cb8fd75f6", null ],
-    [ "RTM_EXPORT", "group___kernel_object.html#ga7ea8ef4694447ec1f1d934cf76e4a2e9", null ],
     [ "rt_object_init", "group___kernel_object.html#ga0a86356c83e8264841fcb83255f72014", null ],
     [ "rt_object_detach", "group___kernel_object.html#gad3a5cf0c036738c6f0ee560a62bc93be", null ],
     [ "rt_object_allocate", "group___kernel_object.html#ga661bb999394a29404c20c7f3e58e5f64", null ],
@@ -52,10 +45,5 @@ var group___kernel_object =
     [ "rt_object_get_type", "group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91", null ],
     [ "rt_object_find", "group___kernel_object.html#ga6c82dbb4ae114918c5c96d0dca3957eb", null ],
     [ "rt_custom_object_create", "group___kernel_object.html#ga75581e85adfc9cd4068c5144d19849b4", null ],
-    [ "rt_custom_object_destroy", "group___kernel_object.html#ga50c46982eda3aeab85fa9e2d94302d62", null ],
-    [ "rt_object_attach_sethook", "group___kernel_object.html#ga8bac83f313b9fb0215c424bec05174bd", null ],
-    [ "rt_object_detach_sethook", "group___kernel_object.html#ga28dd3af85707fc6c9bf548fe53460aca", null ],
-    [ "rt_object_trytake_sethook", "group___kernel_object.html#gabfce5c06de6e1cd6b661b05cb9dd6242", null ],
-    [ "rt_object_take_sethook", "group___kernel_object.html#ga69054a027dcc8483b65fd48740eb3717", null ],
-    [ "rt_object_put_sethook", "group___kernel_object.html#gad107a57fce56ef991d673fa21c6d065a", null ]
+    [ "rt_custom_object_destroy", "group___kernel_object.html#ga50c46982eda3aeab85fa9e2d94302d62", null ]
 ];

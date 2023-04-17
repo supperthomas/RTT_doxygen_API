@@ -1,5 +1,0 @@
-<map id="dfs_fdtable_get" name="dfs_fdtable_get">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,128,32"/>
-<area shape="rect" id="node2" href="$group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7" title="This function will return self thread object." alt="" coords="176,5,288,32"/>
-<area shape="rect" id="node3" href="$cpu_8c.html#a8fe8f3bfae1869fc0a0d179788433e11" title="This fucntion will return current cpu object." alt="" coords="336,5,429,32"/>
-</map>

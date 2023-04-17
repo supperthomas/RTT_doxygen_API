@@ -1,8 +1,0 @@
-<map id="rt_mutex" name="rt_mutex">
-<area shape="rect" id="node1" title=" " alt="" coords="399,829,534,951"/>
-<area shape="rect" id="node2" href="$structrt__ipc__object.html" title=" " alt="" coords="414,381,519,458"/>
-<area shape="rect" id="node3" href="$structrt__list__node.html" title=" " alt="" coords="226,5,325,83"/>
-<area shape="rect" id="node4" href="$structrt__object.html" title=" " alt="" coords="223,145,328,267"/>
-<area shape="rect" id="node5" href="$structrt__thread.html" title=" " alt="" coords="160,543,269,767"/>
-<area shape="rect" id="node6" href="$structrt__timer.html" title=" " alt="" coords="93,359,216,480"/>
-</map>

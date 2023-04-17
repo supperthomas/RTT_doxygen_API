@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['telldir_1677',['telldir',['../dfs__posix_8c.html#aaf08168ca632ba3f9385aa53261ae63d',1,'dfs_posix.c']]]
+  ['write_800',['write',['../group___fs_posix_api.html#ga002bcdf1c8657ced6227e79db68f883d',1,'dfs_posix.c']]]
 ];

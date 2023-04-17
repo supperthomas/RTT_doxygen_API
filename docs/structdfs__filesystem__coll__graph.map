@@ -1,8 +1,0 @@
-<map id="dfs_filesystem" name="dfs_filesystem">
-<area shape="rect" id="node1" title=" " alt="" coords="99,733,216,825"/>
-<area shape="rect" id="node2" href="$structdfs__filesystem__ops.html" title=" " alt="" coords="5,439,152,634"/>
-<area shape="rect" id="node3" href="$structdfs__file__ops.html" title=" " alt="" coords="29,145,128,340"/>
-<area shape="rect" id="node4" href="$structrt__device.html" title=" " alt="" coords="177,403,295,671"/>
-<area shape="rect" id="node5" href="$structrt__object.html" title=" " alt="" coords="183,182,289,303"/>
-<area shape="rect" id="node6" href="$structrt__list__node.html" title=" " alt="" coords="187,5,285,83"/>
-</map>

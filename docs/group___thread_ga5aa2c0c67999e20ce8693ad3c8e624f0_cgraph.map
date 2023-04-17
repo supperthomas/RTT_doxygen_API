@@ -1,6 +1,0 @@
-<map id="rt_system_scheduler_init" name="rt_system_scheduler_init">
-<area shape="rect" id="node1" title="This function will initialize the system scheduler." alt="" coords="5,56,191,83"/>
-<area shape="rect" id="node2" href="$cpu_8c.html#a67dc9de2bb58623b49aae1562853f86a" title="This fucntion will return the cpu object corresponding to index." alt="" coords="239,5,344,32"/>
-<area shape="rect" id="node3" href="$group___kernel_service.html#ga7103f52aa8c7402c9e87f03942d8bc9f" title="initialize a list" alt="" coords="248,56,335,83"/>
-<area shape="rect" id="node4" href="$group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="245,107,338,133"/>
-</map>

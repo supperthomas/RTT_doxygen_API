@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['addr_1690',['addr',['../structrt__module__symtab.html#aa6b54a6f9c8610fefb912e94cf406aa4',1,'rt_module_symtab::addr()'],['../structdfs__mmap2__args.html#ab7dd7b9e3f8623ddc7cbe5e16840ca73',1,'dfs_mmap2_args::addr()']]],
-  ['address_1691',['address',['../structrt__memory.html#a6e777cc1d094999487cf59c51617526d',1,'rt_memory']]],
-  ['algorithm_1692',['algorithm',['../structrt__memory.html#abc280df2fc3d3e27293154001dc5644b',1,'rt_memory']]]
+  ['ceiling_5fpriority_807',['ceiling_priority',['../structrt__mutex.html#a553baab42ad2126726f1737af9aa6853',1,'rt_mutex']]],
+  ['cleanup_808',['cleanup',['../structrt__thread.html#adff54753361e1c2a06d471d1cae5fea9',1,'rt_thread']]],
+  ['current_5fpriority_809',['current_priority',['../structrt__thread.html#a90875799a0ea47e5558f104702a20548',1,'rt_thread']]]
 ];

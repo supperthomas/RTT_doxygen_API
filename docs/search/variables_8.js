@@ -1,6 +1,10 @@
 var searchData=
 [
-  ['handler_1744',['handler',['../structrt__irq__desc.html#a01e9cfd837caa48b96d58824f9d084ae',1,'rt_irq_desc']]],
-  ['height_1745',['height',['../structrt__device__graphic__info.html#ad8c8c9fda6f3109169267dc81aed5deb',1,'rt_device_graphic_info::height()'],['../structrt__device__rect__info.html#a0cad394b7fcd23e9f48950c211dc6ebd',1,'rt_device_rect_info::height()']]],
-  ['hold_1746',['hold',['../structrt__mutex.html#af92bda0f20eac114ac96d5bb2ab05f37',1,'rt_mutex']]]
+  ['max_5fmsgs_821',['max_msgs',['../structrt__messagequeue.html#ac14765aec551079b253e817ff8e5373b',1,'rt_messagequeue']]],
+  ['module_5fid_822',['module_id',['../structrt__object.html#a77ec1d0595edbc3e609d982fe71ba58e',1,'rt_object']]],
+  ['msg_5fpool_823',['msg_pool',['../structrt__mailbox.html#acc9ce56e67d966880e2ea2c7761b16c4',1,'rt_mailbox::msg_pool()'],['../structrt__messagequeue.html#add66b801d59516f96b5657f820db545c',1,'rt_messagequeue::msg_pool()']]],
+  ['msg_5fqueue_5ffree_824',['msg_queue_free',['../structrt__messagequeue.html#af45a62f5084904df25be7d63b2252c85',1,'rt_messagequeue']]],
+  ['msg_5fqueue_5fhead_825',['msg_queue_head',['../structrt__messagequeue.html#aaf1a21b9e2f00b53544ed695e4d2aacc',1,'rt_messagequeue']]],
+  ['msg_5fqueue_5ftail_826',['msg_queue_tail',['../structrt__messagequeue.html#a3c28b474eea1aaacfc75e870dbd50162',1,'rt_messagequeue']]],
+  ['msg_5fsize_827',['msg_size',['../structrt__messagequeue.html#a63b5552f40bacdf02983bf9cf4cad24d',1,'rt_messagequeue']]]
 ];

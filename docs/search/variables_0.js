@@ -1,12 +1,9 @@
 var searchData=
 [
-  ['_5f_5flowest_5fbit_5fbitmap_1681',['__lowest_bit_bitmap',['../group___kernel_service.html#ga950236813017695daf4f92a27f735ba8',1,'kservice.c']]],
-  ['_5f_5frt_5ferrno_1682',['__rt_errno',['../group___kernel_service.html#ga33a17bcb73ff2ee4e19e4d0f077236e0',1,'kservice.c']]],
-  ['_5ffdtab_1683',['_fdtab',['../dfs_8c.html#a0d3d2fa5615135a4857fd0269ce12a9d',1,'dfs.c']]],
-  ['_5flock_1684',['_lock',['../group___kernel_service.html#ga9d789bfd18768768bee3706281458682',1,'kservice.c']]],
-  ['_5fobject_5fcontainer_1685',['_object_container',['../object_8c.html#ace04fd2b2f95030c4a99b198fb51ba82',1,'object.c']]],
-  ['_5frt_5fthread_5fdefunct_1686',['_rt_thread_defunct',['../idle_8c.html#ad751d124fadde3277f8e53d12b7eb711',1,'idle.c']]],
-  ['_5fsyscall_5ftable_5fbegin_1687',['_syscall_table_begin',['../components_2finsh_2finsh_8h.html#a7a6d87bb74cf8a72a6bea49337bca645',1,'_syscall_table_begin():&#160;shell.c'],['../shell_8c.html#a7a6d87bb74cf8a72a6bea49337bca645',1,'_syscall_table_begin():&#160;shell.c']]],
-  ['_5fsyscall_5ftable_5fend_1688',['_syscall_table_end',['../components_2finsh_2finsh_8h.html#a190582427dac18480d37339f1bed9aef',1,'_syscall_table_end():&#160;finsh.h'],['../shell_8c.html#aa6fb70fca1e55f691f8c7f13fa7fe592',1,'_syscall_table_end():&#160;shell.c']]],
-  ['_5ftimer_5flist_1689',['_timer_list',['../timer_8c.html#ad891b62cef11631099f9ae9f70df246f',1,'timer.c']]]
+  ['bits_5fper_5fpixel_801',['bits_per_pixel',['../structrt__device__graphic__info.html#a421bd32816ea1dad3add44d1c78f9273',1,'rt_device_graphic_info']]],
+  ['block_5ffree_5fcount_802',['block_free_count',['../structrt__mempool.html#ae9af793d845659781f7c14ed4d23c235',1,'rt_mempool']]],
+  ['block_5flist_803',['block_list',['../structrt__mempool.html#ad3fcb1189ca2dff9be268e285992c625',1,'rt_mempool']]],
+  ['block_5fsize_804',['block_size',['../structrt__mempool.html#a3a5bbd0c25f8e166cf0cee6568d5f22b',1,'rt_mempool::block_size()'],['../structrt__device__blk__geometry.html#a02cdb472708dfa348c9e59a65574e936',1,'rt_device_blk_geometry::block_size()']]],
+  ['block_5ftotal_5fcount_805',['block_total_count',['../structrt__mempool.html#a25efbd1cdd87127c5221ee8688e04277',1,'rt_mempool']]],
+  ['bytes_5fper_5fsector_806',['bytes_per_sector',['../structrt__device__blk__geometry.html#aeb4ef7bd1c3f03f07f6fab722aa1fad5',1,'rt_device_blk_geometry']]]
 ];

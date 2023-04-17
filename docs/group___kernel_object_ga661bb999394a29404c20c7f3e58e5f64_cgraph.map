@@ -1,9 +1,0 @@
-<map id="rt_object_allocate" name="rt_object_allocate">
-<area shape="rect" id="node1" title="This function will allocate an object from object system." alt="" coords="5,132,144,159"/>
-<area shape="rect" id="node2" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="200,5,375,32"/>
-<area shape="rect" id="node3" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="201,56,373,83"/>
-<area shape="rect" id="node4" href="$group___kernel_service.html#ga7d57c901bb0ee4e1b9ed92a5a196cc39" title="insert a node after a list" alt="" coords="217,107,357,133"/>
-<area shape="rect" id="node5" href="$group___kernel_service.html#ga3a32f9ba466a610a23e127c74f37d7c2" title=" " alt="" coords="241,157,334,184"/>
-<area shape="rect" id="node6" href="$group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="192,208,383,235"/>
-<area shape="rect" id="node7" href="$group___kernel_service.html#ga957603c5eb06432c5344d876280e56a2" title=" " alt="" coords="244,259,331,285"/>
-</map>

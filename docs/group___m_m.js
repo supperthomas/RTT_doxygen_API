@@ -1,13 +1,5 @@
 var group___m_m =
 [
-    [ "rt_memory", "structrt__memory.html", [
-      [ "parent", "structrt__memory.html#a825860ab4306cc524bfa55e37e4849f5", null ],
-      [ "algorithm", "structrt__memory.html#abc280df2fc3d3e27293154001dc5644b", null ],
-      [ "address", "structrt__memory.html#a6e777cc1d094999487cf59c51617526d", null ],
-      [ "total", "structrt__memory.html#a562fc81e959e962340e2bf237c28f700", null ],
-      [ "used", "structrt__memory.html#afcf5c0e444ed890080aa24c1494cd4b6", null ],
-      [ "max", "structrt__memory.html#a9eba335f911a7bd3bb0973ea499fc584", null ]
-    ] ],
     [ "rt_mempool", "structrt__mempool.html", [
       [ "parent", "structrt__mempool.html#ac60b315b45b2a3f15c8f5763c0a88886", null ],
       [ "start_address", "structrt__mempool.html#a8c4783f5987099205e935f9124760d3c", null ],
@@ -18,29 +10,15 @@ var group___m_m =
       [ "block_free_count", "structrt__mempool.html#ae9af793d845659781f7c14ed4d23c235", null ],
       [ "suspend_thread", "structrt__mempool.html#aa494ddf482327e878499499a874e8ef3", null ]
     ] ],
-    [ "rt_mem_t", "group___m_m.html#gafde298b9d967f53f8ce3e8d7293edd10", null ],
-    [ "rt_smem_t", "group___m_m.html#ga4880147b2aef9d5e2be045a998d9d4b3", null ],
-    [ "rt_mp_t", "group___m_m.html#gacd1967553fa041da8c8bf22d4a8b1c30", null ],
     [ "rt_smem_alloc", "group___m_m.html#ga80448818ad067205d76e94f8c97e5fe9", null ],
-    [ "RTM_EXPORT", "group___m_m.html#ga0d6c4398fc18dfedf3bbb3250742befc", null ],
     [ "rt_smem_realloc", "group___m_m.html#gab3db5c0cc04b7a3e1d06c2a6da2e6d5c", null ],
-    [ "RTM_EXPORT", "group___m_m.html#ga1ce8e3c656accf4a08583b7a1d6b31d5", null ],
     [ "rt_smem_free", "group___m_m.html#ga0be498288489171f107c04ed44314ef0", null ],
-    [ "RTM_EXPORT", "group___m_m.html#gaa005498116a87274684e59b386f09973", null ],
     [ "rt_mp_init", "group___m_m.html#ga1a6bc99e5cb8663be2f1882410448f94", null ],
-    [ "RTM_EXPORT", "group___m_m.html#gaffe981a4ce9d56ad844ad7b66688919e", null ],
     [ "rt_mp_detach", "group___m_m.html#ga65fc7bef71be142744e517eebe13fc04", null ],
-    [ "RTM_EXPORT", "group___m_m.html#gae9e13d3516d55a6739b66e9e5d306e13", null ],
     [ "rt_mp_create", "group___m_m.html#gabe8c74161a1d6f456e67efb2c16195b7", null ],
-    [ "RTM_EXPORT", "group___m_m.html#ga965cd34cc61ff644c58e3026be511f9a", null ],
     [ "rt_mp_delete", "group___m_m.html#gace1b1218858d5ec8a95be226ae897f26", null ],
-    [ "RTM_EXPORT", "group___m_m.html#gaf2356ceac07557457d8ee5ea5cccc083", null ],
     [ "rt_mp_alloc", "group___m_m.html#ga531984d42851ffa0fd7a14bf67f15c22", null ],
-    [ "RTM_EXPORT", "group___m_m.html#ga9350c64b4d8a9556bd2e1d255de901d8", null ],
     [ "rt_mp_free", "group___m_m.html#ga65371665abde3bed7379c72d5ea225e2", null ],
-    [ "RTM_EXPORT", "group___m_m.html#gaf2a515d9dddbbb95ef70c73522963417", null ],
-    [ "rt_mp_alloc_sethook", "group___m_m.html#ga358d3559267d1c8c66c836ed2e08433b", null ],
-    [ "rt_mp_free_sethook", "group___m_m.html#gafd43b13db5623925756b7a3968aa3b01", null ],
     [ "rt_system_heap_init", "group___m_m.html#gafa6feb60f6204d1783bc3bc324b886e7", null ],
     [ "rt_malloc", "group___m_m.html#ga27d146d7a9082765703ab218def0617f", null ],
     [ "rt_free", "group___m_m.html#ga6c1c24262479e6946fd04823878177f9", null ],

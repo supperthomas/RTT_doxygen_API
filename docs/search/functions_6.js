@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getcwd_1356',['getcwd',['../dfs__posix_8c.html#a3284211bd28346254245c9d4fd071d7f',1,'dfs_posix.c']]]
+  ['ioctl_615',['ioctl',['../group___fs_posix_api.html#ga8a417d26511063dead927c201c3d037c',1,'dfs_posix.c']]]
 ];

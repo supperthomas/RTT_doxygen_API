@@ -1,6 +1,0 @@
-<map id="rt_object_get_length" name="rt_object_get_length">
-<area shape="rect" id="node1" title="This function will return the length of object list in object container." alt="" coords="5,56,160,83"/>
-<area shape="rect" id="node2" href="$rthw_8h.html#aa56c3da0faca777694f042aa6557ca53" title=" " alt="" coords="216,5,391,32"/>
-<area shape="rect" id="node3" href="$rthw_8h.html#a566def229b448a1d209a14834501dc3a" title=" " alt="" coords="217,56,389,83"/>
-<area shape="rect" id="node4" href="$group___kernel_object.html#ga8cb85e5812b8e7c3705fb3c7702c992b" title="This function will return the specified type of object information." alt="" coords="208,107,399,133"/>
-</map>
