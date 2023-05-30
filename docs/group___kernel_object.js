@@ -44,6 +44,7 @@ var group___kernel_object =
     [ "rt_object_is_systemobject", "group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac", null ],
     [ "rt_object_get_type", "group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91", null ],
     [ "rt_object_find", "group___kernel_object.html#ga6c82dbb4ae114918c5c96d0dca3957eb", null ],
+    [ "rt_object_get_name", "group___kernel_object.html#ga49942be6b9cf766f38f0ec5fe00524b2", null ],
     [ "rt_custom_object_create", "group___kernel_object.html#ga75581e85adfc9cd4068c5144d19849b4", null ],
     [ "rt_custom_object_destroy", "group___kernel_object.html#ga50c46982eda3aeab85fa9e2d94302d62", null ]
 ];

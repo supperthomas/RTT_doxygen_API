@@ -164,6 +164,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga8e9948d16704c567feb38b9d98618a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6c82dbb4ae114918c5c96d0dca3957eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga6c82dbb4ae114918c5c96d0dca3957eb">rt_object_find</a> (const char *name, <a class="el" href="group___basic_def.html#ga585e2ad0fbab0f83817cb61373465df6">rt_uint8_t</a> type)</td></tr>
 <tr class="separator:ga6c82dbb4ae114918c5c96d0dca3957eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga49942be6b9cf766f38f0ec5fe00524b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga49942be6b9cf766f38f0ec5fe00524b2">rt_object_get_name</a> (<a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a> object, char *name, <a class="el" href="group___basic_def.html#ga585e2ad0fbab0f83817cb61373465df6">rt_uint8_t</a> name_size)</td></tr>
+<tr class="separator:ga49942be6b9cf766f38f0ec5fe00524b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga75581e85adfc9cd4068c5144d19849b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga75581e85adfc9cd4068c5144d19849b4">rt_custom_object_create</a> (const char *name, void *data, <a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>(*data_destroy)(void *))</td></tr>
 <tr class="separator:ga75581e85adfc9cd4068c5144d19849b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga50c46982eda3aeab85fa9e2d94302d62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga50c46982eda3aeab85fa9e2d94302d62">rt_custom_object_destroy</a> (<a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a> obj)</td></tr>
@@ -639,6 +641,52 @@ Figure 2: Kernel Object</div></div>
 
 </div>
 </div>
+<a id="ga49942be6b9cf766f38f0ec5fe00524b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga49942be6b9cf766f38f0ec5fe00524b2">&#9670;&nbsp;</a></span>rt_object_get_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_object_get_name </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a>&#160;</td>
+          <td class="paramname"><em>object</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga585e2ad0fbab0f83817cb61373465df6">rt_uint8_t</a>&#160;</td>
+          <td class="paramname"><em>name_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will return the name of the specified object container. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">object</td><td>the specified object to be get name </td></tr>
+    <tr><td class="paramname">name</td><td>buffer to store the object name string </td></tr>
+    <tr><td class="paramname">name_size</td><td>maximum size of the buffer to store object name</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>-RT_EINVAL if any parameter is invalid or RT_EOK if the operation is successfully executed</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>this function shall not be invoked in interrupt status </dd></dl>
+
+</div>
+</div>
 <a id="ga75581e85adfc9cd4068c5144d19849b4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga75581e85adfc9cd4068c5144d19849b4">&#9670;&nbsp;</a></span>rt_custom_object_create()</h2>
 
@@ -715,7 +763,7 @@ Figure 2: Kernel Object</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Apr 30 2023 16:09:57 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue May 30 2023 16:10:29 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

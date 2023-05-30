@@ -170,6 +170,7 @@
         <topic label="rt_thread_suspend_with_flag" href="group___thread.html#ga537adfa695f87cdea6310ec3f66fced0"/>
         <topic label="rt_thread_resume" href="group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379"/>
         <topic label="rt_thread_find" href="group___thread.html#ga789a0782597b4d7f7c6c16eacc6084a8"/>
+        <topic label="rt_thread_get_name" href="group___thread.html#ga0e2474c7ee1c6eb90f676ecbbc904363"/>
         <topic label="rt_thread_idle_init" href="group___thread.html#gae0dcacf89c3d97272b185f7162a3e0c3"/>
         <topic label="rt_thread_idle_delhook" href="group___thread.html#gaf48521904309636f9ccdbf562199c0a5"/>
         <topic label="rt_thread_idle_gethandler" href="group___thread.html#gadd22f9965fffe9e940fd364f0838731f"/>
@@ -271,6 +272,7 @@
         <topic label="rt_object_is_systemobject" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac"/>
         <topic label="rt_object_get_type" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91"/>
         <topic label="rt_object_find" href="group___kernel_object.html#ga6c82dbb4ae114918c5c96d0dca3957eb"/>
+        <topic label="rt_object_get_name" href="group___kernel_object.html#ga49942be6b9cf766f38f0ec5fe00524b2"/>
         <topic label="rt_custom_object_create" href="group___kernel_object.html#ga75581e85adfc9cd4068c5144d19849b4"/>
         <topic label="rt_custom_object_destroy" href="group___kernel_object.html#ga50c46982eda3aeab85fa9e2d94302d62"/>
       </topic>
@@ -435,9 +437,9 @@
         <topic label="rt_mp_alloc" href="group___m_m.html#ga531984d42851ffa0fd7a14bf67f15c22"/>
         <topic label="rt_mp_free" href="group___m_m.html#ga65371665abde3bed7379c72d5ea225e2"/>
         <topic label="rt_system_heap_init" href="group___m_m.html#gafa6feb60f6204d1783bc3bc324b886e7"/>
-        <topic label="rt_malloc" href="group___m_m.html#ga27d146d7a9082765703ab218def0617f"/>
+        <topic label="rt_malloc" href="group___m_m.html#ga27d0e5bc7d083dae44480a281fe47ae3"/>
         <topic label="rt_free" href="group___m_m.html#ga6c1c24262479e6946fd04823878177f9"/>
-        <topic label="rt_realloc" href="group___m_m.html#ga43bb369b655b2662fa0b3d654f447a67"/>
+        <topic label="rt_realloc" href="group___m_m.html#gad8bf35db788a0c7fdea8ec26daa65a66"/>
         <topic label="rt_calloc" href="group___m_m.html#gacf5395171f8ad2ad6bc5e1c61b8b0d88"/>
         <topic label="rt_malloc_align" href="group___m_m.html#gaf2654f08787ce7935c635c0343970f6a"/>
         <topic label="rt_free_align" href="group___m_m.html#gabf1ea8f43781620e7b08fb1868e32b92"/>
@@ -623,9 +625,9 @@
         <topic label="rt_sprintf" href="group___kernel_service.html#ga016ffbbe874d3582a3165001166fd4eb"/>
         <topic label="rt_system_heap_init" href="group___kernel_service.html#ga7ccb4a60ea0018ba0060611b8b328026"/>
         <topic label="rt_malloc" href="group___kernel_service.html#gad551ed7184fb8b7ebad5c1f344045638"/>
-        <topic label="rt_realloc" href="group___kernel_service.html#gae613cb22dc97a3954536491058f059cf"/>
+        <topic label="rt_realloc" href="group___kernel_service.html#ga20e69f96b0b7406a89b190ef3ea8b061"/>
         <topic label="rt_calloc" href="group___kernel_service.html#gaafdebcff4e69edeaaf49ade9be5460ce"/>
-        <topic label="rt_free" href="group___kernel_service.html#gad24f606383faa97aab028c0f9df843da"/>
+        <topic label="rt_free" href="group___kernel_service.html#gad8aa75e756b7e1496052e0a02e89834d"/>
         <topic label="rt_memory_info" href="group___kernel_service.html#gad8ab019984cc19958c95b5c2eb32256d"/>
         <topic label="rt_malloc_align" href="group___kernel_service.html#ga7337fae7fa792a9adfe5be4b3acd04aa"/>
         <topic label="rt_free_align" href="group___kernel_service.html#ga50b04c4685e08f3c7923caaab600f6fc"/>

@@ -165,6 +165,8 @@ Functions</h2></td></tr>
 <tr class="separator:gab4f29aff4fec96d92f6321fa7b00c379"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga789a0782597b4d7f7c6c16eacc6084a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structrt__thread.html">rt_thread_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___thread.html#ga789a0782597b4d7f7c6c16eacc6084a8">rt_thread_find</a> (char *name)</td></tr>
 <tr class="separator:ga789a0782597b4d7f7c6c16eacc6084a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0e2474c7ee1c6eb90f676ecbbc904363"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___thread.html#ga0e2474c7ee1c6eb90f676ecbbc904363">rt_thread_get_name</a> (<a class="el" href="structrt__thread.html">rt_thread_t</a> thread, char *name, <a class="el" href="group___basic_def.html#ga585e2ad0fbab0f83817cb61373465df6">rt_uint8_t</a> name_size)</td></tr>
+<tr class="separator:ga0e2474c7ee1c6eb90f676ecbbc904363"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae0dcacf89c3d97272b185f7162a3e0c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___thread.html#gae0dcacf89c3d97272b185f7162a3e0c3">rt_thread_idle_init</a> (void)</td></tr>
 <tr class="separator:gae0dcacf89c3d97272b185f7162a3e0c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf48521904309636f9ccdbf562199c0a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___thread.html#gaf48521904309636f9ccdbf562199c0a5">rt_thread_idle_delhook</a> (void(*hook)(void))</td></tr>
@@ -985,6 +987,52 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ga0e2474c7ee1c6eb90f676ecbbc904363"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0e2474c7ee1c6eb90f676ecbbc904363">&#9670;&nbsp;</a></span>rt_thread_get_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_thread_get_name </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structrt__thread.html">rt_thread_t</a>&#160;</td>
+          <td class="paramname"><em>thread</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___basic_def.html#ga585e2ad0fbab0f83817cb61373465df6">rt_uint8_t</a>&#160;</td>
+          <td class="paramname"><em>name_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will return the name of the specified thread. </p>
+<dl class="section note"><dt>Note</dt><dd>Please don't invoke this function in interrupt status</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">thread</td><td>the thread to retrieve thread name </td></tr>
+    <tr><td class="paramname">name</td><td>buffer to store the thread name string </td></tr>
+    <tr><td class="paramname">name_size</td><td>maximum size of the buffer to store the thread name</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the return value is RT_EOK, the function is successfully executed If the return value is -RT_EINVAL, it means this operation failed </dd></dl>
+
+</div>
+</div>
 <a id="gae0dcacf89c3d97272b185f7162a3e0c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gae0dcacf89c3d97272b185f7162a3e0c3">&#9670;&nbsp;</a></span>rt_thread_idle_init()</h2>
 
@@ -1308,7 +1356,7 @@ this function is only implemented in scheduler_mp.c. </dd></dl>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Apr 30 2023 16:09:57 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue May 30 2023 16:10:29 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

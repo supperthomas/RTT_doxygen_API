@@ -49,6 +49,7 @@ var group___thread =
     [ "rt_thread_suspend_with_flag", "group___thread.html#ga537adfa695f87cdea6310ec3f66fced0", null ],
     [ "rt_thread_resume", "group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379", null ],
     [ "rt_thread_find", "group___thread.html#ga789a0782597b4d7f7c6c16eacc6084a8", null ],
+    [ "rt_thread_get_name", "group___thread.html#ga0e2474c7ee1c6eb90f676ecbbc904363", null ],
     [ "rt_thread_idle_init", "group___thread.html#gae0dcacf89c3d97272b185f7162a3e0c3", null ],
     [ "rt_thread_idle_delhook", "group___thread.html#gaf48521904309636f9ccdbf562199c0a5", null ],
     [ "rt_thread_idle_gethandler", "group___thread.html#gadd22f9965fffe9e940fd364f0838731f", null ],
