@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['other_20useful_20kernel_20service_962',['Other useful kernel service',['../group___kernel_service.html',1,'']]]
+  ['other_20useful_20kernel_20service_887',['Other useful kernel service',['../group___kernel_service.html',1,'']]]
 ];

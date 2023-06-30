@@ -85,8 +85,7 @@ $(document).ready(function(){initNavTree('group___d_f_s.html',''); initResizable
 
 <div class="header">
   <div class="summary">
-<a href="#groups">Modules</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#groups">Modules</a>  </div>
   <div class="headertitle">
 <div class="title">Device Virtual File System</div>  </div>
 </div><!--header-->
@@ -102,21 +101,6 @@ Modules</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:group___fs_posix_api"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___fs_posix_api.html">File POSIX API</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ga059e3377e4d073cfbe2987536a7ce4dd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s.html#ga059e3377e4d073cfbe2987536a7ce4dd">dfs_init</a> (void)</td></tr>
-<tr class="separator:ga059e3377e4d073cfbe2987536a7ce4dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8fbd44e83279d3da28d999d25bca8952"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s.html#ga8fbd44e83279d3da28d999d25bca8952">dfs_lock</a> (void)</td></tr>
-<tr class="separator:ga8fbd44e83279d3da28d999d25bca8952"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2ac674bd319f61a6b1c9e2338018b523"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s.html#ga2ac674bd319f61a6b1c9e2338018b523">dfs_unlock</a> (void)</td></tr>
-<tr class="separator:ga2ac674bd319f61a6b1c9e2338018b523"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga90fc91be4455e48fd7d3f2a33ce599ee"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s.html#ga90fc91be4455e48fd7d3f2a33ce599ee">dfs_subdir</a> (const char *directory, const char *filename)</td></tr>
-<tr class="separator:ga90fc91be4455e48fd7d3f2a33ce599ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabd8ed9059034edfcf320864d0e537b9d"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s.html#gabd8ed9059034edfcf320864d0e537b9d">dfs_normalize_path</a> (const char *directory, const char *filename)</td></tr>
-<tr class="separator:gabd8ed9059034edfcf320864d0e537b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5247901b7de0732ec9d502de751acfdd"><td class="memItemLeft" align="right" valign="top">struct dfs_fdtable *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s.html#ga5247901b7de0732ec9d502de751acfdd">dfs_fdtable_get</a> (void)</td></tr>
-<tr class="separator:ga5247901b7de0732ec9d502de751acfdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>DFS is a virtual file system in RT-Thread RTOS. </p>
@@ -126,165 +110,12 @@ Functions</h2></td></tr>
 <div class="caption">
 Figure 4: Device Virtual File System Architecture</div></div>
 <p>The DFS specifies an interface between the kernel and a concrete file system. Therefore, it is easy to add support for new file system types to the kernel simply by fulfilling the interface. </p>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ga059e3377e4d073cfbe2987536a7ce4dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga059e3377e4d073cfbe2987536a7ce4dd">&#9670;&nbsp;</a></span>dfs_init()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int dfs_init </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>this function will initialize device file system. </p>
-
-</div>
-</div>
-<a id="ga8fbd44e83279d3da28d999d25bca8952"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8fbd44e83279d3da28d999d25bca8952">&#9670;&nbsp;</a></span>dfs_lock()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void dfs_lock </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>this function will lock device file system.</p>
-<dl class="section note"><dt>Note</dt><dd>please don't invoke it on ISR. </dd></dl>
-
-</div>
-</div>
-<a id="ga2ac674bd319f61a6b1c9e2338018b523"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2ac674bd319f61a6b1c9e2338018b523">&#9670;&nbsp;</a></span>dfs_unlock()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void dfs_unlock </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>this function will lock device file system.</p>
-<dl class="section note"><dt>Note</dt><dd>please don't invoke it on ISR. </dd></dl>
-
-</div>
-</div>
-<a id="ga90fc91be4455e48fd7d3f2a33ce599ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga90fc91be4455e48fd7d3f2a33ce599ee">&#9670;&nbsp;</a></span>dfs_subdir()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const char* dfs_subdir </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>directory</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>filename</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>this function will return a sub-path name under directory.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">directory</td><td>the parent directory. </td></tr>
-    <tr><td class="paramname">filename</td><td>the filename.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the subdir pointer in filename </dd></dl>
-
-</div>
-</div>
-<a id="gabd8ed9059034edfcf320864d0e537b9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabd8ed9059034edfcf320864d0e537b9d">&#9670;&nbsp;</a></span>dfs_normalize_path()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">char* dfs_normalize_path </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>directory</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>filename</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>this function will normalize a path according to specified parent directory and file name.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">directory</td><td>the parent path </td></tr>
-    <tr><td class="paramname">filename</td><td>the file name</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the built full file path (absolute path) </dd></dl>
-
-</div>
-</div>
-<a id="ga5247901b7de0732ec9d502de751acfdd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5247901b7de0732ec9d502de751acfdd">&#9670;&nbsp;</a></span>dfs_fdtable_get()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct dfs_fdtable* dfs_fdtable_get </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>This function will get the file descriptor table of current process. </p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue May 30 2023 16:10:29 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Jun 30 2023 16:11:25 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

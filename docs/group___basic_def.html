@@ -104,6 +104,8 @@ Macros</h2></td></tr>
 <tr class="separator:ga5e3d4a1b993df67473bc161096dba218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaad465603954df66df7791befd55ff325"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___basic_def.html#gaad465603954df66df7791befd55ff325">RT_FALSE</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:gaad465603954df66df7791befd55ff325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1b0b9b05f7d9d6655303b486f22fb4ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___basic_def.html#ga1b0b9b05f7d9d6655303b486f22fb4ac">RT_IS_ALIGN</a>(addr,  align)&#160;&#160;&#160;((!(addr &amp; (align - 1))) &amp;&amp; (addr != RT_NULL))</td></tr>
+<tr class="separator:ga1b0b9b05f7d9d6655303b486f22fb4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8e803706fb0e206869f5f706c1289949"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___basic_def.html#ga8e803706fb0e206869f5f706c1289949">RT_ALIGN</a>(size,  align)&#160;&#160;&#160;(((size) + (align) - 1) &amp; ~((align) - 1))</td></tr>
 <tr class="separator:ga8e803706fb0e206869f5f706c1289949"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadf0d0c14b78871331bac6701d7ee6e42"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___basic_def.html#gadf0d0c14b78871331bac6701d7ee6e42">RT_ALIGN_DOWN</a>(size,  align)&#160;&#160;&#160;((size) &amp; ~((align) - 1))</td></tr>
@@ -227,6 +229,35 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>boolean fails </p>
+
+</div>
+</div>
+<a id="ga1b0b9b05f7d9d6655303b486f22fb4ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1b0b9b05f7d9d6655303b486f22fb4ac">&#9670;&nbsp;</a></span>RT_IS_ALIGN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_IS_ALIGN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">addr, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">align&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((!(addr &amp; (align - 1))) &amp;&amp; (addr != RT_NULL))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return true(1) or false(0). <a class="el" href="group___basic_def.html#ga1b0b9b05f7d9d6655303b486f22fb4ac">RT_IS_ALIGN(128, 4)</a> is judging whether 128 aligns with 4. The result is 1, which means 128 aligns with 4. </p><dl class="section note"><dt>Note</dt><dd>If the address is NULL, false(0) will be returned </dd></dl>
 
 </div>
 </div>
@@ -579,7 +610,7 @@ Typedefs</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue May 30 2023 16:10:29 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Jun 30 2023 16:11:25 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

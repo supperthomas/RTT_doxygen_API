@@ -93,34 +93,81 @@ $(document).ready(function(){initNavTree('group___fd.html',''); initResizable();
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaac5ef888b25e5c4a32667c5b9589d3d8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___fd.html#gaac5ef888b25e5c4a32667c5b9589d3d8">fd_is_open</a> (const char *pathname)</td></tr>
-<tr class="separator:gaac5ef888b25e5c4a32667c5b9589d3d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae0be651487b5e6ead6a5e96075f2a74e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___fd.html#gae0be651487b5e6ead6a5e96075f2a74e">fdt_fd_new</a> (struct dfs_fdtable *fdt)</td></tr>
+<tr class="separator:gae0be651487b5e6ead6a5e96075f2a74e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6752b03bb7e5a6662c16bfd9cf430ea0"><td class="memItemLeft" align="right" valign="top">struct dfs_file *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___fd.html#ga6752b03bb7e5a6662c16bfd9cf430ea0">fdt_fd_get</a> (struct dfs_fdtable *fdt, int fd)</td></tr>
+<tr class="separator:ga6752b03bb7e5a6662c16bfd9cf430ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga79252d856cffbc461cc6e8fd9d614f09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___fd.html#ga79252d856cffbc461cc6e8fd9d614f09">fd_release</a> (int fd)</td></tr>
+<tr class="separator:ga79252d856cffbc461cc6e8fd9d614f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="gaac5ef888b25e5c4a32667c5b9589d3d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaac5ef888b25e5c4a32667c5b9589d3d8">&#9670;&nbsp;</a></span>fd_is_open()</h2>
+<a id="gae0be651487b5e6ead6a5e96075f2a74e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae0be651487b5e6ead6a5e96075f2a74e">&#9670;&nbsp;</a></span>fdt_fd_new()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int fd_is_open </td>
+          <td class="memname">int fdt_fd_new </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>pathname</em></td><td>)</td>
+          <td class="paramtype">struct dfs_fdtable *&#160;</td>
+          <td class="paramname"><em>fdt</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This function will return whether this file has been opend.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pathname</td><td>the file path name.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>0 on file has been open successfully, -1 on open failed. </dd></dl>
+<p>This function will allocate a file descriptor.</p>
+<dl class="section return"><dt>Returns</dt><dd>-1 on failed or the allocated file descriptor. </dd></dl>
+
+</div>
+</div>
+<a id="ga6752b03bb7e5a6662c16bfd9cf430ea0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6752b03bb7e5a6662c16bfd9cf430ea0">&#9670;&nbsp;</a></span>fdt_fd_get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct dfs_file* fdt_fd_get </td>
+          <td>(</td>
+          <td class="paramtype">struct dfs_fdtable *&#160;</td>
+          <td class="paramname"><em>fdt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This function will return a file descriptor structure according to file descriptor.</p>
+<dl class="section return"><dt>Returns</dt><dd>NULL on on this file descriptor or the file descriptor structure pointer. </dd></dl>
+
+</div>
+</div>
+<a id="ga79252d856cffbc461cc6e8fd9d614f09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga79252d856cffbc461cc6e8fd9d614f09">&#9670;&nbsp;</a></span>fd_release()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fd_release </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This function will put the file descriptor. </p>
 
 </div>
 </div>
@@ -129,7 +176,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue May 30 2023 16:10:29 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Jun 30 2023 16:11:25 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

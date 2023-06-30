@@ -5,6 +5,7 @@ var group___basic_def =
     [ "RT_VERSION_PATCH", "group___basic_def.html#ga09216d9e0ab2cfac3dd5dcaf27cf0a0e", null ],
     [ "RT_TRUE", "group___basic_def.html#ga5e3d4a1b993df67473bc161096dba218", null ],
     [ "RT_FALSE", "group___basic_def.html#gaad465603954df66df7791befd55ff325", null ],
+    [ "RT_IS_ALIGN", "group___basic_def.html#ga1b0b9b05f7d9d6655303b486f22fb4ac", null ],
     [ "RT_ALIGN", "group___basic_def.html#ga8e803706fb0e206869f5f706c1289949", null ],
     [ "RT_ALIGN_DOWN", "group___basic_def.html#gadf0d0c14b78871331bac6701d7ee6e42", null ],
     [ "rt_bool_t", "group___basic_def.html#ga3e03a3519ef7e33d13ebd34c482db49c", null ],

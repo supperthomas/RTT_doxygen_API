@@ -11,6 +11,7 @@
       <topic label="RT_VERSION_PATCH" href="group___basic_def.html#ga09216d9e0ab2cfac3dd5dcaf27cf0a0e"/>
       <topic label="RT_TRUE" href="group___basic_def.html#ga5e3d4a1b993df67473bc161096dba218"/>
       <topic label="RT_FALSE" href="group___basic_def.html#gaad465603954df66df7791befd55ff325"/>
+      <topic label="RT_IS_ALIGN" href="group___basic_def.html#ga1b0b9b05f7d9d6655303b486f22fb4ac"/>
       <topic label="RT_ALIGN" href="group___basic_def.html#ga8e803706fb0e206869f5f706c1289949"/>
       <topic label="RT_ALIGN_DOWN" href="group___basic_def.html#gadf0d0c14b78871331bac6701d7ee6e42"/>
       <topic label="rt_bool_t" href="group___basic_def.html#ga3e03a3519ef7e33d13ebd34c482db49c"/>
@@ -35,32 +36,13 @@
     </topic>
     <topic label="Device Virtual File System" href="group___d_f_s.html">
       <topic label="File Descriptor" href="group___fd.html">
-        <topic label="fd_is_open" href="group___fd.html#gaac5ef888b25e5c4a32667c5b9589d3d8"/>
+        <topic label="fdt_fd_new" href="group___fd.html#gae0be651487b5e6ead6a5e96075f2a74e"/>
+        <topic label="fdt_fd_get" href="group___fd.html#ga6752b03bb7e5a6662c16bfd9cf430ea0"/>
+        <topic label="fd_release" href="group___fd.html#ga79252d856cffbc461cc6e8fd9d614f09"/>
       </topic>
       <topic label="File System API" href="group___fs_api.html">
-        <topic label="dfs_register" href="group___fs_api.html#ga50104477b4ee48dfa421235640b5a498"/>
-        <topic label="dfs_filesystem_lookup" href="group___fs_api.html#ga1ecf73109f4592e4209471c7d6b90365"/>
-        <topic label="dfs_filesystem_get_mounted_path" href="group___fs_api.html#ga3cb60463a06968dd3ef54118d003a57b"/>
-        <topic label="dfs_filesystem_get_partition" href="group___fs_api.html#ga88118b6ca2e4cb0dda9c312220026297"/>
-        <topic label="dfs_mount" href="group___fs_api.html#ga702705756723b44edb0e15d9ac17e114"/>
-        <topic label="dfs_unmount" href="group___fs_api.html#ga7b98c02de9e4f4716890faf98c8197af"/>
-        <topic label="dfs_mkfs" href="group___fs_api.html#ga496d9227cdf71e5f42207faf2c2cd6c1"/>
-        <topic label="dfs_statfs" href="group___fs_api.html#ga23bdcfa90747eee0d4004aaab2744e08"/>
       </topic>
       <topic label="File API" href="group___file_api.html">
-        <topic label="dfs_file_is_open" href="group___file_api.html#ga93bdc39dc4d310738b84a0aa6fb34950"/>
-        <topic label="dfs_file_open" href="group___file_api.html#ga96f4c10d033ee401a9c870ad81f65357"/>
-        <topic label="dfs_file_close" href="group___file_api.html#gaf65f22dae0ca8bf7b2794a32a68a44f1"/>
-        <topic label="dfs_file_ioctl" href="group___file_api.html#gaa7b41319b2403c4f4d62cd26e4f0af2b"/>
-        <topic label="dfs_file_read" href="group___file_api.html#gae0b5cbd913138a28b151ffabfd9b970a"/>
-        <topic label="dfs_file_getdents" href="group___file_api.html#gad03413f416507ec5de0eab6756cf01ca"/>
-        <topic label="dfs_file_unlink" href="group___file_api.html#ga5e4ad5654aba88c0e37c3f8c1c7dfe66"/>
-        <topic label="dfs_file_write" href="group___file_api.html#ga59f8f63d4b846ead4f3c9769a0152a37"/>
-        <topic label="dfs_file_flush" href="group___file_api.html#ga4ff15c19fde9892033a348e4e5e16293"/>
-        <topic label="dfs_file_lseek" href="group___file_api.html#ga6057cd4e091e6fa9567b7f451c56ff1b"/>
-        <topic label="dfs_file_stat" href="group___file_api.html#gae3b60867436d7b3be91af7cc40299f13"/>
-        <topic label="dfs_file_rename" href="group___file_api.html#gaf8756544960620bf56886c0020e35e4f"/>
-        <topic label="dfs_file_ftruncate" href="group___file_api.html#gad1855277ab463ff75fa2ce7dd4aa592a"/>
       </topic>
       <topic label="File POSIX API" href="group___fs_posix_api.html">
         <topic label="open" href="group___fs_posix_api.html#ga94873fa89201b877351b663b9f5b040d"/>
@@ -91,12 +73,6 @@
         <topic label="setcwd" href="group___fs_posix_api.html#ga56f653c54be70947404b5c7931022624"/>
         <topic label="getcwd" href="group___fs_posix_api.html#ga3284211bd28346254245c9d4fd071d7f"/>
       </topic>
-      <topic label="dfs_init" href="group___d_f_s.html#ga059e3377e4d073cfbe2987536a7ce4dd"/>
-      <topic label="dfs_lock" href="group___d_f_s.html#ga8fbd44e83279d3da28d999d25bca8952"/>
-      <topic label="dfs_unlock" href="group___d_f_s.html#ga2ac674bd319f61a6b1c9e2338018b523"/>
-      <topic label="dfs_subdir" href="group___d_f_s.html#ga90fc91be4455e48fd7d3f2a33ce599ee"/>
-      <topic label="dfs_normalize_path" href="group___d_f_s.html#gabd8ed9059034edfcf320864d0e537b9d"/>
-      <topic label="dfs_fdtable_get" href="group___d_f_s.html#ga5247901b7de0732ec9d502de751acfdd"/>
     </topic>
     <topic label="finsh shell" href="group__finsh.html">
       <topic label="FINSH_FUNCTION_EXPORT" href="group__finsh.html#ga944b96ca55cb370cfe92211c68a55664"/>
@@ -564,19 +540,6 @@
           <topic label="RT_Device_Class_Bus" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a44e3218dba8632efa59fae8ee142e9d0"/>
           <topic label="RT_Device_Class_Unknown" href="group___device.html#gga429003537c58f674b39eb3f9defbd052ae580460bedb868d5242e8115a41bf00a"/>
         </topic>
-        <topic label="rt_device_find" href="group___device.html#ga7fb604dd486fbf5e48004b4d94d8eb3e"/>
-        <topic label="rt_device_register" href="group___device.html#gaaa44b227c43321faffb198ef9c0bb17e"/>
-        <topic label="rt_device_unregister" href="group___device.html#ga76cf284581e36b7e2244398efbf850b5"/>
-        <topic label="rt_device_create" href="group___device.html#ga61ad2adb3c48709087465f61c244733b"/>
-        <topic label="rt_device_destroy" href="group___device.html#ga74b22c6a450071b23774fe24bf6fc78c"/>
-        <topic label="rt_device_set_rx_indicate" href="group___device.html#ga07dfc7fd340b9449d2bd732159ed237f"/>
-        <topic label="rt_device_set_tx_complete" href="group___device.html#gae6340392a3848e3f5e324aa984375b07"/>
-        <topic label="rt_device_init" href="group___device.html#ga04892007706fe586a1db33284571be7e"/>
-        <topic label="rt_device_open" href="group___device.html#gac0cd9f7a81722d69e8720ea4750c17a2"/>
-        <topic label="rt_device_close" href="group___device.html#ga914535247ea0e5477002553ad38b1482"/>
-        <topic label="rt_device_read" href="group___device.html#ga51642e30d61927aece593ee23d090b17"/>
-        <topic label="rt_device_write" href="group___device.html#ga4f1525de3aec696b4781b790df9759df"/>
-        <topic label="rt_device_control" href="group___device.html#ga40ed6da2d5ea7b1e28de21ff439db963"/>
       </topic>
       <topic label="Runtime Trace and Record" href="group___hook.html">
         <topic label="rt_malloc_sethook" href="group___hook.html#ga909761c80493569b64558225d7f89e77"/>

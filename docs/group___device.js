@@ -110,18 +110,5 @@ var group___device =
       [ "RT_Device_Class_PWM", "group___device.html#gga429003537c58f674b39eb3f9defbd052a5a3d1f0ef04dd668bd58e439d1a0ca21", null ],
       [ "RT_Device_Class_Bus", "group___device.html#gga429003537c58f674b39eb3f9defbd052a44e3218dba8632efa59fae8ee142e9d0", null ],
       [ "RT_Device_Class_Unknown", "group___device.html#gga429003537c58f674b39eb3f9defbd052ae580460bedb868d5242e8115a41bf00a", null ]
-    ] ],
-    [ "rt_device_find", "group___device.html#ga7fb604dd486fbf5e48004b4d94d8eb3e", null ],
-    [ "rt_device_register", "group___device.html#gaaa44b227c43321faffb198ef9c0bb17e", null ],
-    [ "rt_device_unregister", "group___device.html#ga76cf284581e36b7e2244398efbf850b5", null ],
-    [ "rt_device_create", "group___device.html#ga61ad2adb3c48709087465f61c244733b", null ],
-    [ "rt_device_destroy", "group___device.html#ga74b22c6a450071b23774fe24bf6fc78c", null ],
-    [ "rt_device_set_rx_indicate", "group___device.html#ga07dfc7fd340b9449d2bd732159ed237f", null ],
-    [ "rt_device_set_tx_complete", "group___device.html#gae6340392a3848e3f5e324aa984375b07", null ],
-    [ "rt_device_init", "group___device.html#ga04892007706fe586a1db33284571be7e", null ],
-    [ "rt_device_open", "group___device.html#gac0cd9f7a81722d69e8720ea4750c17a2", null ],
-    [ "rt_device_close", "group___device.html#ga914535247ea0e5477002553ad38b1482", null ],
-    [ "rt_device_read", "group___device.html#ga51642e30d61927aece593ee23d090b17", null ],
-    [ "rt_device_write", "group___device.html#ga4f1525de3aec696b4781b790df9759df", null ],
-    [ "rt_device_control", "group___device.html#ga40ed6da2d5ea7b1e28de21ff439db963", null ]
+    ] ]
 ];
