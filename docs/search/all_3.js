@@ -1,7 +1,7 @@
 var searchData=
 [
   ['ceiling_5fpriority_15',['ceiling_priority',['../structrt__mutex.html#a553baab42ad2126726f1737af9aa6853',1,'rt_mutex']]],
-  ['cleanup_16',['cleanup',['../structrt__thread.html#adff54753361e1c2a06d471d1cae5fea9',1,'rt_thread']]],
+  ['cleanup_16',['cleanup',['../structrt__thread.html#a87949a3f570e2704d1a44e9844696600',1,'rt_thread']]],
   ['clock_20and_20timer_20management_17',['Clock and Timer Management',['../group___clock.html',1,'']]],
   ['close_18',['close',['../group___fs_posix_api.html#gaafbcde67669a1b96577e735ddebd8634',1,'dfs_posix.c']]],
   ['closedir_19',['closedir',['../group___fs_posix_api.html#ga058e669d865116ec6419ea3a52207830',1,'dfs_posix.c']]],

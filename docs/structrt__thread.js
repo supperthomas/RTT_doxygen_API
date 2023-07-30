@@ -14,6 +14,6 @@ var structrt__thread =
     [ "init_tick", "structrt__thread.html#a3da450b626778b5cf1125174783c1989", null ],
     [ "remaining_tick", "structrt__thread.html#a763db3299b6a4c69ad7aa5b7815f3daf", null ],
     [ "thread_timer", "structrt__thread.html#ac787f3fbcdc5f8d012f2d6d9923f5560", null ],
-    [ "cleanup", "structrt__thread.html#adff54753361e1c2a06d471d1cae5fea9", null ],
+    [ "cleanup", "structrt__thread.html#a87949a3f570e2704d1a44e9844696600", null ],
     [ "user_data", "structrt__thread.html#ae900a16f917b54753b4c218021d99a8e", null ]
 ];

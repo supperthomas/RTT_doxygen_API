@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"structrt__device__blk__sectors.html#aada050e071fecc9c9c9dabe829aa1002":[1,4,5,4,0],
 "structrt__device__graphic__info.html":[1,4,5,5],
 "structrt__device__graphic__info.html#a005a28be4512dc1bcd657331868597e0":[1,4,5,5,3],
 "structrt__device__graphic__info.html#a2bb36d6effd52eeeddd0c9557615aef6":[1,4,5,5,0],
@@ -82,12 +83,12 @@ var NAVTREEINDEX2 =
 "structrt__thread.html#a5dbed340b3ba61be1e2cd7d3fdf2af56":[1,4,0,0,10],
 "structrt__thread.html#a763db3299b6a4c69ad7aa5b7815f3daf":[1,4,0,0,12],
 "structrt__thread.html#a8484a36933357e7c6f871364d9f2d3a9":[1,4,0,0,0],
+"structrt__thread.html#a87949a3f570e2704d1a44e9844696600":[1,4,0,0,14],
 "structrt__thread.html#a90875799a0ea47e5558f104702a20548":[1,4,0,0,8],
 "structrt__thread.html#abc9d01c30e0fc9872df2fd5c044e31e0":[1,4,0,0,1],
 "structrt__thread.html#ac787f3fbcdc5f8d012f2d6d9923f5560":[1,4,0,0,13],
 "structrt__thread.html#adcdaf75f05998c6485544c337526da52":[1,4,0,0,2],
 "structrt__thread.html#adf14bbabd599363a418c687a668fa164":[1,4,0,0,5],
-"structrt__thread.html#adff54753361e1c2a06d471d1cae5fea9":[1,4,0,0,14],
 "structrt__thread.html#ae900a16f917b54753b4c218021d99a8e":[1,4,0,0,15],
 "structrt__timer.html":[1,4,1,0],
 "structrt__timer.html#a1a3b0ccd5039808ff180c0507812d629":[1,4,1,0,0],

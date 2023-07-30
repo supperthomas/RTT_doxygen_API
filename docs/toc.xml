@@ -111,7 +111,7 @@
           <topic label="init_tick" href="structrt__thread.html#a3da450b626778b5cf1125174783c1989"/>
           <topic label="remaining_tick" href="structrt__thread.html#a763db3299b6a4c69ad7aa5b7815f3daf"/>
           <topic label="thread_timer" href="structrt__thread.html#ac787f3fbcdc5f8d012f2d6d9923f5560"/>
-          <topic label="cleanup" href="structrt__thread.html#adff54753361e1c2a06d471d1cae5fea9"/>
+          <topic label="cleanup" href="structrt__thread.html#a87949a3f570e2704d1a44e9844696600"/>
           <topic label="user_data" href="structrt__thread.html#ae900a16f917b54753b4c218021d99a8e"/>
         </topic>
         <topic label="RT_THREAD_INIT" href="group___thread.html#gae743a0f57a34ce46c0687ff787972ded"/>
@@ -618,6 +618,7 @@
         <topic label="RT_ETRAP" href="group___error.html#ga846bfee9b17336beaac08c5f98498e7b"/>
         <topic label="RT_ENOENT" href="group___error.html#gaee840be70e5caf984e4b5ecf7fc22052"/>
         <topic label="RT_ENOSPC" href="group___error.html#gac3aab3da633303d0c5e8fc1bd178db9a"/>
+        <topic label="RT_EPERM" href="group___error.html#ga0aa4c078491d908951597e93c8b560dc"/>
       </topic>
       <topic label="rt_interrupt_enter" href="group___kernel.html#ga020fb2151c8cbf1c1c0c59e615dc8d9e"/>
       <topic label="rt_interrupt_leave" href="group___kernel.html#gafcbcfbf20707e21e8922a837bba4908d"/>
@@ -757,7 +758,7 @@
         <topic label="init_tick" href="structrt__thread.html#a3da450b626778b5cf1125174783c1989"/>
         <topic label="remaining_tick" href="structrt__thread.html#a763db3299b6a4c69ad7aa5b7815f3daf"/>
         <topic label="thread_timer" href="structrt__thread.html#ac787f3fbcdc5f8d012f2d6d9923f5560"/>
-        <topic label="cleanup" href="structrt__thread.html#adff54753361e1c2a06d471d1cae5fea9"/>
+        <topic label="cleanup" href="structrt__thread.html#a87949a3f570e2704d1a44e9844696600"/>
         <topic label="user_data" href="structrt__thread.html#ae900a16f917b54753b4c218021d99a8e"/>
       </topic>
       <topic label="rt_timer" href="structrt__timer.html">
