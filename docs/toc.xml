@@ -72,6 +72,8 @@
         <topic label="access" href="group___fs_posix_api.html#gaa6adc1f71f9027c8bdd8e88e8c843049"/>
         <topic label="setcwd" href="group___fs_posix_api.html#ga56f653c54be70947404b5c7931022624"/>
         <topic label="getcwd" href="group___fs_posix_api.html#ga3284211bd28346254245c9d4fd071d7f"/>
+        <topic label="pread" href="group___fs_posix_api.html#gaeac0e21c369f7387cc3f8a9f55b03329"/>
+        <topic label="pwrite" href="group___fs_posix_api.html#gae70b9256c770cb7731fb9fb31f69e9cd"/>
       </topic>
     </topic>
     <topic label="finsh shell" href="group__finsh.html">
@@ -91,8 +93,6 @@
       <topic label="rt_hw_interrupt_mask" href="group__bsp.html#ga9528763a2ebf52c2be6e9349704672fc"/>
       <topic label="rt_hw_interrupt_umask" href="group__bsp.html#gaf08efe992a1717a83757e99295a1b33c"/>
       <topic label="rt_hw_interrupt_install" href="group__bsp.html#gae967a258c431792b35e4e72d1691d233"/>
-      <topic label="rt_hw_cpu_reset" href="group__bsp.html#gabe7a3d803d027af563d6aa604e94d821"/>
-      <topic label="rt_hw_cpu_shutdown" href="group__bsp.html#ga5575183b7ec3e1a5255ff373831a8ea6"/>
     </topic>
     <topic label="RT-Thread Kernel API" href="group___kernel.html">
       <topic label="Thread Management" href="group___thread.html">

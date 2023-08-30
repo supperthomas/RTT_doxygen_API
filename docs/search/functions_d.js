@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unlink_729',['unlink',['../group___fs_posix_api.html#gaf3cee068f32a919cdd638e0578c1e5f8',1,'dfs_posix.c']]]
+  ['telldir_728',['telldir',['../group___fs_posix_api.html#gaaf08168ca632ba3f9385aa53261ae63d',1,'dfs_posix.c']]]
 ];

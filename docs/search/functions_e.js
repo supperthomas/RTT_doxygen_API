@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['write_730',['write',['../group___fs_posix_api.html#ga002bcdf1c8657ced6227e79db68f883d',1,'dfs_posix.c']]]
+  ['unlink_729',['unlink',['../group___fs_posix_api.html#gaf3cee068f32a919cdd638e0578c1e5f8',1,'dfs_posix.c']]]
 ];

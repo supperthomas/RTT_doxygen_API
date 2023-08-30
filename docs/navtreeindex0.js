@@ -188,7 +188,9 @@ var NAVTREEINDEX0 =
 "group___fs_posix_api.html#gac1759a877da2f37512096f3a491e4112":[1,1,3,9],
 "group___fs_posix_api.html#gac21b705a5ebd42c4c46363250ab817bc":[1,1,3,8],
 "group___fs_posix_api.html#gacfc4bf677fc9f8be66d9624175cb3775":[1,1,3,11],
+"group___fs_posix_api.html#gae70b9256c770cb7731fb9fb31f69e9cd":[1,1,3,28],
 "group___fs_posix_api.html#gae7af18cc5fa39f42a3be1bf1eb24119d":[1,1,3,14],
+"group___fs_posix_api.html#gaeac0e21c369f7387cc3f8a9f55b03329":[1,1,3,27],
 "group___fs_posix_api.html#gaf3cee068f32a919cdd638e0578c1e5f8":[1,1,3,7],
 "group___fs_posix_api.html#gafddc24a65767ae35f275be8ccf53e036":[1,1,3,1],
 "group___hook.html":[1,4,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "group___i_p_c.html#gad9a5760bc4c7faeb08a7d9c112506f76":[1,4,3,29],
 "group___i_p_c.html#gada983d7f4521fdb0f7a5cf6d0a1ac800":[1,4,3,38],
 "group___i_p_c.html#gae7ea862e2d1edce01e015bdffe49d586":[1,4,3,12],
-"group___i_p_c.html#gaef430f1dbc50af1098589232fb54508c":[1,4,3,37],
-"group___i_p_c.html#gaf1c42d6c619445f9151e76c3242ef052":[1,4,3,19],
-"group___i_p_c.html#gaf24da991e29df68a49062d89b95c7de5":[1,4,3,28]
+"group___i_p_c.html#gaef430f1dbc50af1098589232fb54508c":[1,4,3,37]
 };

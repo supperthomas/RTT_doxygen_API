@@ -147,6 +147,10 @@ Functions</h2></td></tr>
 <tr class="separator:ga56f653c54be70947404b5c7931022624"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3284211bd28346254245c9d4fd071d7f"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___fs_posix_api.html#ga3284211bd28346254245c9d4fd071d7f">getcwd</a> (char *buf, size_t size)</td></tr>
 <tr class="separator:ga3284211bd28346254245c9d4fd071d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeac0e21c369f7387cc3f8a9f55b03329"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___fs_posix_api.html#gaeac0e21c369f7387cc3f8a9f55b03329">pread</a> (int fd, void *buf, size_t len, off_t offset)</td></tr>
+<tr class="separator:gaeac0e21c369f7387cc3f8a9f55b03329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae70b9256c770cb7731fb9fb31f69e9cd"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___fs_posix_api.html#gae70b9256c770cb7731fb9fb31f69e9cd">pwrite</a> (int fd, const void *buf, size_t len, off_t offset)</td></tr>
+<tr class="separator:gae70b9256c770cb7731fb9fb31f69e9cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -1076,12 +1080,114 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="gaeac0e21c369f7387cc3f8a9f55b03329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeac0e21c369f7387cc3f8a9f55b03329">&#9670;&nbsp;</a></span>pread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ssize_t pread </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">off_t&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this function is a POSIX compliant version, which will read specified data buffer length for an open file descriptor.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fd</td><td>the file descriptor. </td></tr>
+    <tr><td class="paramname">buf</td><td>the buffer to save the read data. </td></tr>
+    <tr><td class="paramname">len</td><td>the maximal length of data buffer </td></tr>
+    <tr><td class="paramname">offset</td><td>the file pos</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the actual read data buffer length. If the returned value is 0, it may be reach the end of file, please check errno. </dd></dl>
+
+</div>
+</div>
+<a id="gae70b9256c770cb7731fb9fb31f69e9cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae70b9256c770cb7731fb9fb31f69e9cd">&#9670;&nbsp;</a></span>pwrite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ssize_t pwrite </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">off_t&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this function is a POSIX compliant version, which will write specified data buffer length for an open file descriptor.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fd</td><td>the file descriptor </td></tr>
+    <tr><td class="paramname">buf</td><td>the data buffer to be written. </td></tr>
+    <tr><td class="paramname">len</td><td>the data buffer length. </td></tr>
+    <tr><td class="paramname">offset</td><td>the file pos</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the actual written data buffer length. </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jul 30 2023 16:09:56 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed Aug 30 2023 16:10:26 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

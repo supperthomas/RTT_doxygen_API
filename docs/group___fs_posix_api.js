@@ -26,5 +26,7 @@ var group___fs_posix_api =
     [ "closedir", "group___fs_posix_api.html#ga058e669d865116ec6419ea3a52207830", null ],
     [ "access", "group___fs_posix_api.html#gaa6adc1f71f9027c8bdd8e88e8c843049", null ],
     [ "setcwd", "group___fs_posix_api.html#ga56f653c54be70947404b5c7931022624", null ],
-    [ "getcwd", "group___fs_posix_api.html#ga3284211bd28346254245c9d4fd071d7f", null ]
+    [ "getcwd", "group___fs_posix_api.html#ga3284211bd28346254245c9d4fd071d7f", null ],
+    [ "pread", "group___fs_posix_api.html#gaeac0e21c369f7387cc3f8a9f55b03329", null ],
+    [ "pwrite", "group___fs_posix_api.html#gae70b9256c770cb7731fb9fb31f69e9cd", null ]
 ];
