@@ -11,8 +11,8 @@ var group___error =
     [ "RT_EIO", "group___error.html#ga4e6d153e65d54083ee2e7f7108554859", null ],
     [ "RT_EINTR", "group___error.html#ga23b1ebea0d39b755be34bea061572f81", null ],
     [ "RT_EINVAL", "group___error.html#ga46a1429ec0c968e558187848107e30fc", null ],
-    [ "RT_ETRAP", "group___error.html#ga846bfee9b17336beaac08c5f98498e7b", null ],
     [ "RT_ENOENT", "group___error.html#gaee840be70e5caf984e4b5ecf7fc22052", null ],
     [ "RT_ENOSPC", "group___error.html#gac3aab3da633303d0c5e8fc1bd178db9a", null ],
-    [ "RT_EPERM", "group___error.html#ga0aa4c078491d908951597e93c8b560dc", null ]
+    [ "RT_EPERM", "group___error.html#ga0aa4c078491d908951597e93c8b560dc", null ],
+    [ "RT_ETRAP", "group___error.html#ga846bfee9b17336beaac08c5f98498e7b", null ]
 ];

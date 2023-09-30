@@ -615,10 +615,10 @@
         <topic label="RT_EIO" href="group___error.html#ga4e6d153e65d54083ee2e7f7108554859"/>
         <topic label="RT_EINTR" href="group___error.html#ga23b1ebea0d39b755be34bea061572f81"/>
         <topic label="RT_EINVAL" href="group___error.html#ga46a1429ec0c968e558187848107e30fc"/>
-        <topic label="RT_ETRAP" href="group___error.html#ga846bfee9b17336beaac08c5f98498e7b"/>
         <topic label="RT_ENOENT" href="group___error.html#gaee840be70e5caf984e4b5ecf7fc22052"/>
         <topic label="RT_ENOSPC" href="group___error.html#gac3aab3da633303d0c5e8fc1bd178db9a"/>
         <topic label="RT_EPERM" href="group___error.html#ga0aa4c078491d908951597e93c8b560dc"/>
+        <topic label="RT_ETRAP" href="group___error.html#ga846bfee9b17336beaac08c5f98498e7b"/>
       </topic>
       <topic label="rt_interrupt_enter" href="group___kernel.html#ga020fb2151c8cbf1c1c0c59e615dc8d9e"/>
       <topic label="rt_interrupt_leave" href="group___kernel.html#gafcbcfbf20707e21e8922a837bba4908d"/>
