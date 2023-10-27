@@ -14,5 +14,6 @@ var group___error =
     [ "RT_ENOENT", "group___error.html#gaee840be70e5caf984e4b5ecf7fc22052", null ],
     [ "RT_ENOSPC", "group___error.html#gac3aab3da633303d0c5e8fc1bd178db9a", null ],
     [ "RT_EPERM", "group___error.html#ga0aa4c078491d908951597e93c8b560dc", null ],
-    [ "RT_ETRAP", "group___error.html#ga846bfee9b17336beaac08c5f98498e7b", null ]
+    [ "RT_ETRAP", "group___error.html#ga846bfee9b17336beaac08c5f98498e7b", null ],
+    [ "RT_EFAULT", "group___error.html#gad82af9038c8e761ae4f6cc3195714c41", null ]
 ];

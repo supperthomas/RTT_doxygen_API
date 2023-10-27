@@ -98,6 +98,7 @@
       <topic label="Thread Management" href="group___thread.html">
         <topic label="rt_thread" href="structrt__thread.html">
           <topic label="tlist" href="structrt__thread.html#a8484a36933357e7c6f871364d9f2d3a9"/>
+          <topic label="tlist_schedule" href="structrt__thread.html#a3b44eb5d0846909c11a30537c4985fc7"/>
           <topic label="sp" href="structrt__thread.html#abc9d01c30e0fc9872df2fd5c044e31e0"/>
           <topic label="entry" href="structrt__thread.html#adcdaf75f05998c6485544c337526da52"/>
           <topic label="parameter" href="structrt__thread.html#a153b0810eaeb3c0508f3fdc9027a301e"/>
@@ -108,8 +109,8 @@
           <topic label="current_priority" href="structrt__thread.html#a90875799a0ea47e5558f104702a20548"/>
           <topic label="init_priority" href="structrt__thread.html#a281785b80ad0dc2e7d0c5404d32c67f9"/>
           <topic label="number_mask" href="structrt__thread.html#a5dbed340b3ba61be1e2cd7d3fdf2af56"/>
-          <topic label="init_tick" href="structrt__thread.html#a3da450b626778b5cf1125174783c1989"/>
-          <topic label="remaining_tick" href="structrt__thread.html#a763db3299b6a4c69ad7aa5b7815f3daf"/>
+          <topic label="init_tick" href="structrt__thread.html#af2aba2d01860bd205fbc6efbba6838a9"/>
+          <topic label="remaining_tick" href="structrt__thread.html#a4532e24d33f6876a2e300cae0ecb83bc"/>
           <topic label="thread_timer" href="structrt__thread.html#ac787f3fbcdc5f8d012f2d6d9923f5560"/>
           <topic label="cleanup" href="structrt__thread.html#a87949a3f570e2704d1a44e9844696600"/>
           <topic label="user_data" href="structrt__thread.html#ae900a16f917b54753b4c218021d99a8e"/>
@@ -439,32 +440,6 @@
         </topic>
         <topic label="rt_device_notify" href="structrt__device__notify.html">
         </topic>
-        <topic label="rt_device_blk_geometry" href="structrt__device__blk__geometry.html">
-          <topic label="sector_count" href="structrt__device__blk__geometry.html#a53a0003e18ada3caeb83273dc6a7a7e5"/>
-          <topic label="bytes_per_sector" href="structrt__device__blk__geometry.html#aeb4ef7bd1c3f03f07f6fab722aa1fad5"/>
-          <topic label="block_size" href="structrt__device__blk__geometry.html#a02cdb472708dfa348c9e59a65574e936"/>
-        </topic>
-        <topic label="rt_device_blk_sectors" href="structrt__device__blk__sectors.html">
-          <topic label="sector_begin" href="structrt__device__blk__sectors.html#aada050e071fecc9c9c9dabe829aa1002"/>
-          <topic label="sector_end" href="structrt__device__blk__sectors.html#a396bc17047978aa401bcdb9ea625913a"/>
-        </topic>
-        <topic label="rt_device_graphic_info" href="structrt__device__graphic__info.html">
-          <topic label="pixel_format" href="structrt__device__graphic__info.html#a2bb36d6effd52eeeddd0c9557615aef6"/>
-          <topic label="bits_per_pixel" href="structrt__device__graphic__info.html#a421bd32816ea1dad3add44d1c78f9273"/>
-          <topic label="pitch" href="structrt__device__graphic__info.html#abab1e2be612e1e286964d01289542235"/>
-          <topic label="width" href="structrt__device__graphic__info.html#a005a28be4512dc1bcd657331868597e0"/>
-          <topic label="height" href="structrt__device__graphic__info.html#ad8c8c9fda6f3109169267dc81aed5deb"/>
-          <topic label="framebuffer" href="structrt__device__graphic__info.html#ae54ef435f8e5bc5317bc3c6cd1d2b65b"/>
-          <topic label="smem_len" href="structrt__device__graphic__info.html#abc457279cfe250f0a64dbdbad8dbcae6"/>
-        </topic>
-        <topic label="rt_device_rect_info" href="structrt__device__rect__info.html">
-          <topic label="x" href="structrt__device__rect__info.html#aa76f3dd7ea14057db862c7ffad524799"/>
-          <topic label="y" href="structrt__device__rect__info.html#a11bcb47ee4fddef2852f99a539f045ee"/>
-          <topic label="width" href="structrt__device__rect__info.html#a1f6ad5365962a838cea665a3db53f2cb"/>
-          <topic label="height" href="structrt__device__rect__info.html#a0cad394b7fcd23e9f48950c211dc6ebd"/>
-        </topic>
-        <topic label="rt_device_graphic_ops" href="structrt__device__graphic__ops.html">
-        </topic>
         <topic label="RT_DEVICE_FLAG_DEACTIVATE" href="group___device.html#ga2944a0dadfee3da236244108ee64ef23"/>
         <topic label="RT_DEVICE_FLAG_RDONLY" href="group___device.html#gae55023ca390d9c9db1e36f47d70b7bef"/>
         <topic label="RT_DEVICE_FLAG_WRONLY" href="group___device.html#ga23a6a0bf94d7ac84e205b25090ccecac"/>
@@ -495,17 +470,6 @@
         <topic label="RT_DEVICE_CTRL_CONSOLE_OFLAG" href="group___device.html#gaa3071a2126e86f3be9089548a559cc87"/>
         <topic label="RT_DEVICE_CTRL_MASK" href="group___device.html#gaf9484a24772375782e1aee3c6c9062f2"/>
         <topic label="RT_DEVICE_CTRL_BASE" href="group___device.html#ga84ca7227cef307374363fee129dec0cb"/>
-        <topic label="RT_DEVICE_CTRL_CHAR_STREAM" href="group___device.html#gaa4f5ab88e23994edc48e6e33d8c763d8"/>
-        <topic label="RT_DEVICE_CTRL_BLK_GETGEOME" href="group___device.html#ga4cd94b03d0c06f7bfc5f41d231819775"/>
-        <topic label="RT_DEVICE_CTRL_BLK_SYNC" href="group___device.html#ga6d24e14500d918c32389e1ed59745cb2"/>
-        <topic label="RT_DEVICE_CTRL_BLK_ERASE" href="group___device.html#ga6dd2bcb09b580d4b066b21fe075da08a"/>
-        <topic label="RT_DEVICE_CTRL_BLK_AUTOREFRESH" href="group___device.html#gab983ea45f955f1e0f42d9bbc67ae9ff5"/>
-        <topic label="RT_DEVICE_CTRL_BLK_PARTITION" href="group___device.html#ga52b203b508071c38c0584628db4e2369"/>
-        <topic label="RT_DEVICE_CTRL_NETIF_GETMAC" href="group___device.html#gac34cb62d4a941224ca03c2362ec78d8f"/>
-        <topic label="RT_DEVICE_CTRL_MTD_FORMAT" href="group___device.html#gaf39ce3167e521f3e8bea8cd32eb97ce2"/>
-        <topic label="RT_DEVICE_CTRL_CURSOR_SET_POSITION" href="group___device.html#ga1778cc1071e28653d95e2027f1f47141"/>
-        <topic label="RTGRAPHIC_CTRL_RECT_UPDATE" href="group___device.html#ga19d8e9e0bbc3fe1264173764f7e881b2"/>
-        <topic label="RTGRAPHIC_PIXEL_POSITION" href="group___device.html#ga129ac0e844b97c6f324ab5995f9cff6b"/>
         <topic label="rt_device_class_type" href="group___device.html#ga429003537c58f674b39eb3f9defbd052">
           <topic label="RT_Device_Class_Char" href="group___device.html#gga429003537c58f674b39eb3f9defbd052aca8110723cd932d3bb56c656f0ed5b62"/>
           <topic label="RT_Device_Class_Block" href="group___device.html#gga429003537c58f674b39eb3f9defbd052a677c6cfb5e8c1a16569048ac404dcd47"/>
@@ -619,6 +583,7 @@
         <topic label="RT_ENOSPC" href="group___error.html#gac3aab3da633303d0c5e8fc1bd178db9a"/>
         <topic label="RT_EPERM" href="group___error.html#ga0aa4c078491d908951597e93c8b560dc"/>
         <topic label="RT_ETRAP" href="group___error.html#ga846bfee9b17336beaac08c5f98498e7b"/>
+        <topic label="RT_EFAULT" href="group___error.html#gad82af9038c8e761ae4f6cc3195714c41"/>
       </topic>
       <topic label="rt_interrupt_enter" href="group___kernel.html#ga020fb2151c8cbf1c1c0c59e615dc8d9e"/>
       <topic label="rt_interrupt_leave" href="group___kernel.html#gafcbcfbf20707e21e8922a837bba4908d"/>
@@ -648,33 +613,9 @@
         <topic label="device_id" href="structrt__device.html#a31db6fb6da677fd9904a8ca436bff640"/>
         <topic label="user_data" href="structrt__device.html#a7abe4976f1632005eb09e0ed59ba99ef"/>
       </topic>
-      <topic label="rt_device_blk_geometry" href="structrt__device__blk__geometry.html">
-        <topic label="sector_count" href="structrt__device__blk__geometry.html#a53a0003e18ada3caeb83273dc6a7a7e5"/>
-        <topic label="bytes_per_sector" href="structrt__device__blk__geometry.html#aeb4ef7bd1c3f03f07f6fab722aa1fad5"/>
-        <topic label="block_size" href="structrt__device__blk__geometry.html#a02cdb472708dfa348c9e59a65574e936"/>
-      </topic>
-      <topic label="rt_device_blk_sectors" href="structrt__device__blk__sectors.html">
-        <topic label="sector_begin" href="structrt__device__blk__sectors.html#aada050e071fecc9c9c9dabe829aa1002"/>
-        <topic label="sector_end" href="structrt__device__blk__sectors.html#a396bc17047978aa401bcdb9ea625913a"/>
-      </topic>
-      <topic label="rt_device_graphic_info" href="structrt__device__graphic__info.html">
-        <topic label="pixel_format" href="structrt__device__graphic__info.html#a2bb36d6effd52eeeddd0c9557615aef6"/>
-        <topic label="bits_per_pixel" href="structrt__device__graphic__info.html#a421bd32816ea1dad3add44d1c78f9273"/>
-        <topic label="pitch" href="structrt__device__graphic__info.html#abab1e2be612e1e286964d01289542235"/>
-        <topic label="width" href="structrt__device__graphic__info.html#a005a28be4512dc1bcd657331868597e0"/>
-        <topic label="height" href="structrt__device__graphic__info.html#ad8c8c9fda6f3109169267dc81aed5deb"/>
-        <topic label="framebuffer" href="structrt__device__graphic__info.html#ae54ef435f8e5bc5317bc3c6cd1d2b65b"/>
-        <topic label="smem_len" href="structrt__device__graphic__info.html#abc457279cfe250f0a64dbdbad8dbcae6"/>
-      </topic>
-      <topic label="rt_device_graphic_ops" href="structrt__device__graphic__ops.html">
-      </topic>
       <topic label="rt_device_notify" href="structrt__device__notify.html">
       </topic>
-      <topic label="rt_device_rect_info" href="structrt__device__rect__info.html">
-        <topic label="x" href="structrt__device__rect__info.html#aa76f3dd7ea14057db862c7ffad524799"/>
-        <topic label="y" href="structrt__device__rect__info.html#a11bcb47ee4fddef2852f99a539f045ee"/>
-        <topic label="width" href="structrt__device__rect__info.html#a1f6ad5365962a838cea665a3db53f2cb"/>
-        <topic label="height" href="structrt__device__rect__info.html#a0cad394b7fcd23e9f48950c211dc6ebd"/>
+      <topic label="rt_hw_backtrace_frame" href="structrt__hw__backtrace__frame.html">
       </topic>
       <topic label="rt_ipc_object" href="structrt__ipc__object.html">
         <topic label="parent" href="structrt__ipc__object.html#a1113d054268319ad7840b3362eba7ad2"/>
@@ -745,6 +686,7 @@
       </topic>
       <topic label="rt_thread" href="structrt__thread.html">
         <topic label="tlist" href="structrt__thread.html#a8484a36933357e7c6f871364d9f2d3a9"/>
+        <topic label="tlist_schedule" href="structrt__thread.html#a3b44eb5d0846909c11a30537c4985fc7"/>
         <topic label="sp" href="structrt__thread.html#abc9d01c30e0fc9872df2fd5c044e31e0"/>
         <topic label="entry" href="structrt__thread.html#adcdaf75f05998c6485544c337526da52"/>
         <topic label="parameter" href="structrt__thread.html#a153b0810eaeb3c0508f3fdc9027a301e"/>
@@ -755,8 +697,8 @@
         <topic label="current_priority" href="structrt__thread.html#a90875799a0ea47e5558f104702a20548"/>
         <topic label="init_priority" href="structrt__thread.html#a281785b80ad0dc2e7d0c5404d32c67f9"/>
         <topic label="number_mask" href="structrt__thread.html#a5dbed340b3ba61be1e2cd7d3fdf2af56"/>
-        <topic label="init_tick" href="structrt__thread.html#a3da450b626778b5cf1125174783c1989"/>
-        <topic label="remaining_tick" href="structrt__thread.html#a763db3299b6a4c69ad7aa5b7815f3daf"/>
+        <topic label="init_tick" href="structrt__thread.html#af2aba2d01860bd205fbc6efbba6838a9"/>
+        <topic label="remaining_tick" href="structrt__thread.html#a4532e24d33f6876a2e300cae0ecb83bc"/>
         <topic label="thread_timer" href="structrt__thread.html#ac787f3fbcdc5f8d012f2d6d9923f5560"/>
         <topic label="cleanup" href="structrt__thread.html#a87949a3f570e2704d1a44e9844696600"/>
         <topic label="user_data" href="structrt__thread.html#ae900a16f917b54753b4c218021d99a8e"/>

@@ -1,12 +1,8 @@
 var annotated_dup =
 [
     [ "rt_device", "structrt__device.html", "structrt__device" ],
-    [ "rt_device_blk_geometry", "structrt__device__blk__geometry.html", "structrt__device__blk__geometry" ],
-    [ "rt_device_blk_sectors", "structrt__device__blk__sectors.html", "structrt__device__blk__sectors" ],
-    [ "rt_device_graphic_info", "structrt__device__graphic__info.html", "structrt__device__graphic__info" ],
-    [ "rt_device_graphic_ops", "structrt__device__graphic__ops.html", null ],
     [ "rt_device_notify", "structrt__device__notify.html", null ],
-    [ "rt_device_rect_info", "structrt__device__rect__info.html", "structrt__device__rect__info" ],
+    [ "rt_hw_backtrace_frame", "structrt__hw__backtrace__frame.html", null ],
     [ "rt_ipc_object", "structrt__ipc__object.html", "structrt__ipc__object" ],
     [ "rt_list_node", "structrt__list__node.html", "structrt__list__node" ],
     [ "rt_mailbox", "structrt__mailbox.html", "structrt__mailbox" ],

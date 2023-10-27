@@ -11,31 +11,6 @@ var group___device =
       [ "user_data", "structrt__device.html#a7abe4976f1632005eb09e0ed59ba99ef", null ]
     ] ],
     [ "rt_device_notify", "structrt__device__notify.html", null ],
-    [ "rt_device_blk_geometry", "structrt__device__blk__geometry.html", [
-      [ "sector_count", "structrt__device__blk__geometry.html#a53a0003e18ada3caeb83273dc6a7a7e5", null ],
-      [ "bytes_per_sector", "structrt__device__blk__geometry.html#aeb4ef7bd1c3f03f07f6fab722aa1fad5", null ],
-      [ "block_size", "structrt__device__blk__geometry.html#a02cdb472708dfa348c9e59a65574e936", null ]
-    ] ],
-    [ "rt_device_blk_sectors", "structrt__device__blk__sectors.html", [
-      [ "sector_begin", "structrt__device__blk__sectors.html#aada050e071fecc9c9c9dabe829aa1002", null ],
-      [ "sector_end", "structrt__device__blk__sectors.html#a396bc17047978aa401bcdb9ea625913a", null ]
-    ] ],
-    [ "rt_device_graphic_info", "structrt__device__graphic__info.html", [
-      [ "pixel_format", "structrt__device__graphic__info.html#a2bb36d6effd52eeeddd0c9557615aef6", null ],
-      [ "bits_per_pixel", "structrt__device__graphic__info.html#a421bd32816ea1dad3add44d1c78f9273", null ],
-      [ "pitch", "structrt__device__graphic__info.html#abab1e2be612e1e286964d01289542235", null ],
-      [ "width", "structrt__device__graphic__info.html#a005a28be4512dc1bcd657331868597e0", null ],
-      [ "height", "structrt__device__graphic__info.html#ad8c8c9fda6f3109169267dc81aed5deb", null ],
-      [ "framebuffer", "structrt__device__graphic__info.html#ae54ef435f8e5bc5317bc3c6cd1d2b65b", null ],
-      [ "smem_len", "structrt__device__graphic__info.html#abc457279cfe250f0a64dbdbad8dbcae6", null ]
-    ] ],
-    [ "rt_device_rect_info", "structrt__device__rect__info.html", [
-      [ "x", "structrt__device__rect__info.html#aa76f3dd7ea14057db862c7ffad524799", null ],
-      [ "y", "structrt__device__rect__info.html#a11bcb47ee4fddef2852f99a539f045ee", null ],
-      [ "width", "structrt__device__rect__info.html#a1f6ad5365962a838cea665a3db53f2cb", null ],
-      [ "height", "structrt__device__rect__info.html#a0cad394b7fcd23e9f48950c211dc6ebd", null ]
-    ] ],
-    [ "rt_device_graphic_ops", "structrt__device__graphic__ops.html", null ],
     [ "RT_DEVICE_FLAG_DEACTIVATE", "group___device.html#ga2944a0dadfee3da236244108ee64ef23", null ],
     [ "RT_DEVICE_FLAG_RDONLY", "group___device.html#gae55023ca390d9c9db1e36f47d70b7bef", null ],
     [ "RT_DEVICE_FLAG_WRONLY", "group___device.html#ga23a6a0bf94d7ac84e205b25090ccecac", null ],
@@ -66,17 +41,6 @@ var group___device =
     [ "RT_DEVICE_CTRL_CONSOLE_OFLAG", "group___device.html#gaa3071a2126e86f3be9089548a559cc87", null ],
     [ "RT_DEVICE_CTRL_MASK", "group___device.html#gaf9484a24772375782e1aee3c6c9062f2", null ],
     [ "RT_DEVICE_CTRL_BASE", "group___device.html#ga84ca7227cef307374363fee129dec0cb", null ],
-    [ "RT_DEVICE_CTRL_CHAR_STREAM", "group___device.html#gaa4f5ab88e23994edc48e6e33d8c763d8", null ],
-    [ "RT_DEVICE_CTRL_BLK_GETGEOME", "group___device.html#ga4cd94b03d0c06f7bfc5f41d231819775", null ],
-    [ "RT_DEVICE_CTRL_BLK_SYNC", "group___device.html#ga6d24e14500d918c32389e1ed59745cb2", null ],
-    [ "RT_DEVICE_CTRL_BLK_ERASE", "group___device.html#ga6dd2bcb09b580d4b066b21fe075da08a", null ],
-    [ "RT_DEVICE_CTRL_BLK_AUTOREFRESH", "group___device.html#gab983ea45f955f1e0f42d9bbc67ae9ff5", null ],
-    [ "RT_DEVICE_CTRL_BLK_PARTITION", "group___device.html#ga52b203b508071c38c0584628db4e2369", null ],
-    [ "RT_DEVICE_CTRL_NETIF_GETMAC", "group___device.html#gac34cb62d4a941224ca03c2362ec78d8f", null ],
-    [ "RT_DEVICE_CTRL_MTD_FORMAT", "group___device.html#gaf39ce3167e521f3e8bea8cd32eb97ce2", null ],
-    [ "RT_DEVICE_CTRL_CURSOR_SET_POSITION", "group___device.html#ga1778cc1071e28653d95e2027f1f47141", null ],
-    [ "RTGRAPHIC_CTRL_RECT_UPDATE", "group___device.html#ga19d8e9e0bbc3fe1264173764f7e881b2", null ],
-    [ "RTGRAPHIC_PIXEL_POSITION", "group___device.html#ga129ac0e844b97c6f324ab5995f9cff6b", null ],
     [ "rt_device_class_type", "group___device.html#ga429003537c58f674b39eb3f9defbd052", [
       [ "RT_Device_Class_Char", "group___device.html#gga429003537c58f674b39eb3f9defbd052aca8110723cd932d3bb56c656f0ed5b62", null ],
       [ "RT_Device_Class_Block", "group___device.html#gga429003537c58f674b39eb3f9defbd052a677c6cfb5e8c1a16569048ac404dcd47", null ],
