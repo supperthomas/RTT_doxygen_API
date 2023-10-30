@@ -75,6 +75,10 @@
         <topic label="pread" href="group___fs_posix_api.html#gaeac0e21c369f7387cc3f8a9f55b03329"/>
         <topic label="pwrite" href="group___fs_posix_api.html#gae70b9256c770cb7731fb9fb31f69e9cd"/>
       </topic>
+      <topic label="dfs_init" href="group___d_f_s.html#ga059e3377e4d073cfbe2987536a7ce4dd"/>
+      <topic label="dfs_fdtable_get" href="group___d_f_s.html#ga5247901b7de0732ec9d502de751acfdd"/>
+      <topic label="dfs_subdir" href="group___d_f_s.html#ga90fc91be4455e48fd7d3f2a33ce599ee"/>
+      <topic label="dfs_normalize_path" href="group___d_f_s.html#gabd8ed9059034edfcf320864d0e537b9d"/>
     </topic>
     <topic label="finsh shell" href="group__finsh.html">
       <topic label="FINSH_FUNCTION_EXPORT" href="group__finsh.html#ga944b96ca55cb370cfe92211c68a55664"/>

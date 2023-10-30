@@ -1,5 +1,9 @@
 var NAVTREEINDEX2 =
 {
+"structrt__mailbox.html#ab81f4324444c3440de54101fd9f6f028":[1,4,3,8,5],
+"structrt__mailbox.html#acc9ce56e67d966880e2ea2c7761b16c4":[1,4,3,8,1],
+"structrt__mailbox.html#ad850b26d9717d9467259f79ec56849f3":[1,4,3,8,3],
+"structrt__mailbox.html#af3016cff0753dac4b6684c2da246e446":[1,4,3,8,2],
 "structrt__mempool.html":[1,4,4,0],
 "structrt__mempool.html#a25efbd1cdd87127c5221ee8688e04277":[1,4,4,0,5],
 "structrt__mempool.html#a358b4d35e2ef602461506baa5fc9de85":[1,4,4,0,2],

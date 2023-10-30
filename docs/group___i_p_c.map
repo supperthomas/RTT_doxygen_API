@@ -1,0 +1,9 @@
+<map id="Inter&#45;Thread Communication" name="Inter&#45;Thread Communication">
+<area shape="rect" id="node1" href="$group___kernel.html" title=" " alt="" coords="5,104,161,129"/>
+<area shape="rect" id="node6" title="inter&#45;thread communication" alt="" coords="209,104,417,129"/>
+<area shape="rect" id="node2" href="$group__messagequeue.html" title=" " alt="" coords="465,5,585,31"/>
+<area shape="rect" id="node3" href="$group__event.html" title=" " alt="" coords="496,55,555,80"/>
+<area shape="rect" id="node4" href="$group__semaphore.html" title=" " alt="" coords="477,104,573,129"/>
+<area shape="rect" id="node5" href="$group__mutex.html" title=" " alt="" coords="494,153,557,179"/>
+<area shape="rect" id="node7" href="$group__mailbox.html" title=" " alt="" coords="488,203,563,228"/>
+</map>

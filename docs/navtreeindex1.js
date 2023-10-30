@@ -1,5 +1,9 @@
 var NAVTREEINDEX1 =
 {
+"group___kernel.html#gafcbcfbf20707e21e8922a837bba4908d":[1,4,10],
+"group___kernel_object.html":[1,4,2],
+"group___kernel_object.html#ga0479fb23b766d96e9611ed32becc2797":[1,4,2,12],
+"group___kernel_object.html#ga0a86356c83e8264841fcb83255f72014":[1,4,2,9],
 "group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac":[1,4,2,13],
 "group___kernel_object.html#ga38a532bcb1bd3f12685db4219b761b56":[1,4,2,5],
 "group___kernel_object.html#ga40f88eaca0029aea304a7757c85431b8":[1,4,2,3],
@@ -219,8 +223,8 @@ var NAVTREEINDEX1 =
 "group__semaphore.html#ga7dd3560a50be21e132c71f622870c500":[1,4,3,0,1],
 "group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76":[1,4,3,0,5],
 "group__semaphore.html#gaf24da991e29df68a49062d89b95c7de5":[1,4,3,0,4],
-"index.html":[0],
 "index.html":[],
+"index.html":[0],
 "index.html#kernel_arch":[0,0],
 "index.html#kernel_service":[0,1],
 "index.html#system_init":[0,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX1 =
 "structrt__mailbox.html":[1,4,3,8],
 "structrt__mailbox.html#a11aef5d6e06f6459b7c1d56c835c7f9e":[1,4,3,8,6],
 "structrt__mailbox.html#a2d44d61cebf881cc505fbbc1946b3b2e":[1,4,3,8,0],
-"structrt__mailbox.html#a81a6208c7eb0056b992541e07d2f8eb7":[1,4,3,8,4],
-"structrt__mailbox.html#ab81f4324444c3440de54101fd9f6f028":[1,4,3,8,5],
-"structrt__mailbox.html#acc9ce56e67d966880e2ea2c7761b16c4":[1,4,3,8,1],
-"structrt__mailbox.html#ad850b26d9717d9467259f79ec56849f3":[1,4,3,8,3],
-"structrt__mailbox.html#af3016cff0753dac4b6684c2da246e446":[1,4,3,8,2]
+"structrt__mailbox.html#a81a6208c7eb0056b992541e07d2f8eb7":[1,4,3,8,4]
 };
