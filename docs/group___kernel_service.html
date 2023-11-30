@@ -653,9 +653,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">for</span> (pos = <a class="code" href="group___kernel_service.html#ga8388bfc9039b65b59378adb640d2bbb8">rt_slist_entry</a>((head)-&gt;next, typeof(*pos), member); \</div>
-<div class="line">         &amp;pos-&gt;member != (RT_NULL); \</div>
-<div class="line">         pos = <a class="code" href="group___kernel_service.html#ga8388bfc9039b65b59378adb640d2bbb8">rt_slist_entry</a>(pos-&gt;member.next, typeof(*pos), member))</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">for</span> (pos = ((head)-&gt;next == (RT_NULL) ? (RT_NULL) : <a class="code" href="group___kernel_service.html#ga8388bfc9039b65b59378adb640d2bbb8">rt_slist_entry</a>((head)-&gt;next, typeof(*pos), member)); \</div>
+<div class="line">         pos != (RT_NULL) &amp;&amp; &amp;pos-&gt;member != (RT_NULL); \</div>
+<div class="line">         pos = (pos-&gt;member.next == (RT_NULL) ? (RT_NULL) : <a class="code" href="group___kernel_service.html#ga8388bfc9039b65b59378adb640d2bbb8">rt_slist_entry</a>(pos-&gt;member.next, typeof(*pos), member)))</div>
 <div class="ttc" id="agroup___kernel_service_html_ga8388bfc9039b65b59378adb640d2bbb8"><div class="ttname"><a href="group___kernel_service.html#ga8388bfc9039b65b59378adb640d2bbb8">rt_slist_entry</a></div><div class="ttdeci">#define rt_slist_entry(node, type, member)</div><div class="ttdoc">get the struct for this single list node</div><div class="ttdef"><b>Definition:</b> rtservice.h:265</div></div>
 </div><!-- fragment --><p>rt_slist_for_each_entry - iterate over single list of given type </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -2126,7 +2126,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Oct 30 2023 16:11:01 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Thu Nov 30 2023 16:11:44 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
