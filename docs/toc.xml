@@ -37,7 +37,7 @@
     <topic label="Device Virtual File System" href="group___d_f_s.html">
       <topic label="File Descriptor" href="group___fd.html">
         <topic label="fdt_fd_new" href="group___fd.html#gae0be651487b5e6ead6a5e96075f2a74e"/>
-        <topic label="fdt_fd_get" href="group___fd.html#ga6752b03bb7e5a6662c16bfd9cf430ea0"/>
+        <topic label="fdt_get_file" href="group___fd.html#ga4451d57b562422dbeb02e94ef9cff432"/>
         <topic label="fd_release" href="group___fd.html#ga79252d856cffbc461cc6e8fd9d614f09"/>
       </topic>
       <topic label="File System API" href="group___fs_api.html">
@@ -77,6 +77,8 @@
       </topic>
       <topic label="dfs_init" href="group___d_f_s.html#ga059e3377e4d073cfbe2987536a7ce4dd"/>
       <topic label="dfs_fdtable_get" href="group___d_f_s.html#ga5247901b7de0732ec9d502de751acfdd"/>
+      <topic label="dfs_fdtable_dup" href="group___d_f_s.html#ga9ed24007615795a41b8d538dc12850b0"/>
+      <topic label="dfs_fdtable_drop_fd" href="group___d_f_s.html#gaf6d5ebddb964ca52dab3215035cb9f9c"/>
       <topic label="dfs_subdir" href="group___d_f_s.html#ga90fc91be4455e48fd7d3f2a33ce599ee"/>
       <topic label="dfs_normalize_path" href="group___d_f_s.html#gabd8ed9059034edfcf320864d0e537b9d"/>
     </topic>
@@ -312,7 +314,6 @@
         <topic label="rt_semaphore" href="structrt__semaphore.html">
           <topic label="parent" href="structrt__semaphore.html#ae30f5ce3f4e89636b0f5b19755f39df7"/>
           <topic label="value" href="structrt__semaphore.html#a320fc41815308456699a4d3efee49418"/>
-          <topic label="reserved" href="structrt__semaphore.html#aa49e2d68519705bd6047d5ce361479ad"/>
         </topic>
         <topic label="rt_mutex" href="structrt__mutex.html">
           <topic label="parent" href="structrt__mutex.html#a8d34059b8d2907555498f824ff8b850c"/>
@@ -348,6 +349,7 @@
         <topic label="RT_IPC_CMD_UNKNOWN" href="group___i_p_c.html#gae7ea862e2d1edce01e015bdffe49d586"/>
         <topic label="RT_IPC_CMD_RESET" href="group___i_p_c.html#ga947606ce2a31a2d70e287c38a09dab3b"/>
         <topic label="RT_IPC_CMD_GET_STATE" href="group___i_p_c.html#ga8abbc7b6ef67ffd2825a5679e51a7ea7"/>
+        <topic label="RT_IPC_CMD_SET_VLIMIT" href="group___i_p_c.html#gadef62ee333f6c34dfe91737568d1c310"/>
         <topic label="RT_WAITING_FOREVER" href="group___i_p_c.html#ga923d8e409f9daa8843978d6805ebcdeb"/>
         <topic label="RT_WAITING_NO" href="group___i_p_c.html#ga78a487898fe750a9f7e9c37911fbe7cb"/>
         <topic label="RT_EVENT_FLAG_AND" href="group___i_p_c.html#ga449614d0024ade7e81e53462bce12a60"/>
@@ -683,7 +685,6 @@
       <topic label="rt_semaphore" href="structrt__semaphore.html">
         <topic label="parent" href="structrt__semaphore.html#ae30f5ce3f4e89636b0f5b19755f39df7"/>
         <topic label="value" href="structrt__semaphore.html#a320fc41815308456699a4d3efee49418"/>
-        <topic label="reserved" href="structrt__semaphore.html#aa49e2d68519705bd6047d5ce361479ad"/>
       </topic>
       <topic label="rt_slist_node" href="structrt__slist__node.html">
         <topic label="next" href="structrt__slist__node.html#a6184e2a9a7d6294118ad8ca8b7cc3954"/>

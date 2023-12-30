@@ -1,5 +1,8 @@
 var NAVTREEINDEX2 =
 {
+"structrt__mailbox.html#a11aef5d6e06f6459b7c1d56c835c7f9e":[1,4,3,8,6],
+"structrt__mailbox.html#a2d44d61cebf881cc505fbbc1946b3b2e":[1,4,3,8,0],
+"structrt__mailbox.html#a81a6208c7eb0056b992541e07d2f8eb7":[1,4,3,8,4],
 "structrt__mailbox.html#ab81f4324444c3440de54101fd9f6f028":[1,4,3,8,5],
 "structrt__mailbox.html#acc9ce56e67d966880e2ea2c7761b16c4":[1,4,3,8,1],
 "structrt__mailbox.html#ad850b26d9717d9467259f79ec56849f3":[1,4,3,8,3],
@@ -43,7 +46,6 @@ var NAVTREEINDEX2 =
 "structrt__object__information.html#ade4fad90f69638200ccb2cbcc9f8e298":[1,4,2,1,0],
 "structrt__semaphore.html":[1,4,3,6],
 "structrt__semaphore.html#a320fc41815308456699a4d3efee49418":[1,4,3,6,1],
-"structrt__semaphore.html#aa49e2d68519705bd6047d5ce361479ad":[1,4,3,6,2],
 "structrt__semaphore.html#ae30f5ce3f4e89636b0f5b19755f39df7":[1,4,3,6,0],
 "structrt__slist__node.html":[2,0,12],
 "structrt__slist__node.html#a6184e2a9a7d6294118ad8ca8b7cc3954":[2,0,12,0],

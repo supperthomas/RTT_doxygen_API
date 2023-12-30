@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"group___kernel.html":[1,4],
+"group___kernel.html#ga020fb2151c8cbf1c1c0c59e615dc8d9e":[1,4,9],
+"group___kernel.html#gaa6725f61bed47e0d5ac383eccf14d3f1":[1,4,11],
 "group___kernel.html#gafcbcfbf20707e21e8922a837bba4908d":[1,4,10],
 "group___kernel_object.html":[1,4,2],
 "group___kernel_object.html#ga0479fb23b766d96e9611ed32becc2797":[1,4,2,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX1 =
 "structrt__list__node.html":[2,0,4],
 "structrt__list__node.html#a50efb4b80ce8a9b46fb3a0e367d60817":[2,0,4,0],
 "structrt__list__node.html#ab86c797b257b99746ccad6a733c06d38":[2,0,4,1],
-"structrt__mailbox.html":[1,4,3,8],
-"structrt__mailbox.html#a11aef5d6e06f6459b7c1d56c835c7f9e":[1,4,3,8,6],
-"structrt__mailbox.html#a2d44d61cebf881cc505fbbc1946b3b2e":[1,4,3,8,0],
-"structrt__mailbox.html#a81a6208c7eb0056b992541e07d2f8eb7":[1,4,3,8,4]
+"structrt__mailbox.html":[1,4,3,8]
 };

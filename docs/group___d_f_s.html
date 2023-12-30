@@ -123,6 +123,10 @@ Functions</h2></td></tr>
 <tr class="separator:ga059e3377e4d073cfbe2987536a7ce4dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5247901b7de0732ec9d502de751acfdd"><td class="memItemLeft" align="right" valign="top">struct dfs_fdtable *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s.html#ga5247901b7de0732ec9d502de751acfdd">dfs_fdtable_get</a> (void)</td></tr>
 <tr class="separator:ga5247901b7de0732ec9d502de751acfdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9ed24007615795a41b8d538dc12850b0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s.html#ga9ed24007615795a41b8d538dc12850b0">dfs_fdtable_dup</a> (struct dfs_fdtable *fdt_dst, struct dfs_fdtable *fdt_src, int fd_src)</td></tr>
+<tr class="separator:ga9ed24007615795a41b8d538dc12850b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf6d5ebddb964ca52dab3215035cb9f9c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s.html#gaf6d5ebddb964ca52dab3215035cb9f9c">dfs_fdtable_drop_fd</a> (struct dfs_fdtable *fdt, int fd)</td></tr>
+<tr class="separator:gaf6d5ebddb964ca52dab3215035cb9f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga90fc91be4455e48fd7d3f2a33ce599ee"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s.html#ga90fc91be4455e48fd7d3f2a33ce599ee">dfs_subdir</a> (const char *directory, const char *filename)</td></tr>
 <tr class="separator:ga90fc91be4455e48fd7d3f2a33ce599ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabd8ed9059034edfcf320864d0e537b9d"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_f_s.html#gabd8ed9059034edfcf320864d0e537b9d">dfs_normalize_path</a> (const char *directory, const char *filename)</td></tr>
@@ -172,6 +176,89 @@ Figure 4: Device Virtual File System Architecture</div></div>
       </table>
 </div><div class="memdoc">
 <p>This function will get the file descriptor table of current process. </p>
+
+</div>
+</div>
+<a id="ga9ed24007615795a41b8d538dc12850b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9ed24007615795a41b8d538dc12850b0">&#9670;&nbsp;</a></span>dfs_fdtable_dup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int dfs_fdtable_dup </td>
+          <td>(</td>
+          <td class="paramtype">struct dfs_fdtable *&#160;</td>
+          <td class="paramname"><em>fdt_dst</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct dfs_fdtable *&#160;</td>
+          <td class="paramname"><em>fdt_src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fd_src</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dup the specified fd_src from fdt_src to fdt_dst. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fdt_dst</td><td>is the fd table for destination, if empty, use global (_fdtab).</td></tr>
+    <tr><td class="paramname">fdt_src</td><td>is the fd table for source, if empty, use global (_fdtab).</td></tr>
+    <tr><td class="paramname">fd_src</td><td>is the fd in the designate fdt_src table.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>-1 on failed or the allocated file descriptor. </dd></dl>
+
+</div>
+</div>
+<a id="gaf6d5ebddb964ca52dab3215035cb9f9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf6d5ebddb964ca52dab3215035cb9f9c">&#9670;&nbsp;</a></span>dfs_fdtable_drop_fd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int dfs_fdtable_drop_fd </td>
+          <td>(</td>
+          <td class="paramtype">struct dfs_fdtable *&#160;</td>
+          <td class="paramname"><em>fdt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>drop fd from the fd table. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fdt</td><td>is the fd table, if empty, use global (_fdtab).</td></tr>
+    <tr><td class="paramname">fd</td><td>is the fd in the designate fd table.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>-1 on failed the drop file descriptor. </dd></dl>
 
 </div>
 </div>
@@ -254,7 +341,7 @@ Figure 4: Device Virtual File System Architecture</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Nov 30 2023 16:11:44 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Dec 30 2023 16:09:36 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

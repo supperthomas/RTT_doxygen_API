@@ -11,8 +11,7 @@ var group___i_p_c =
     ] ],
     [ "rt_semaphore", "structrt__semaphore.html", [
       [ "parent", "structrt__semaphore.html#ae30f5ce3f4e89636b0f5b19755f39df7", null ],
-      [ "value", "structrt__semaphore.html#a320fc41815308456699a4d3efee49418", null ],
-      [ "reserved", "structrt__semaphore.html#aa49e2d68519705bd6047d5ce361479ad", null ]
+      [ "value", "structrt__semaphore.html#a320fc41815308456699a4d3efee49418", null ]
     ] ],
     [ "rt_mutex", "structrt__mutex.html", [
       [ "parent", "structrt__mutex.html#a8d34059b8d2907555498f824ff8b850c", null ],
@@ -48,6 +47,7 @@ var group___i_p_c =
     [ "RT_IPC_CMD_UNKNOWN", "group___i_p_c.html#gae7ea862e2d1edce01e015bdffe49d586", null ],
     [ "RT_IPC_CMD_RESET", "group___i_p_c.html#ga947606ce2a31a2d70e287c38a09dab3b", null ],
     [ "RT_IPC_CMD_GET_STATE", "group___i_p_c.html#ga8abbc7b6ef67ffd2825a5679e51a7ea7", null ],
+    [ "RT_IPC_CMD_SET_VLIMIT", "group___i_p_c.html#gadef62ee333f6c34dfe91737568d1c310", null ],
     [ "RT_WAITING_FOREVER", "group___i_p_c.html#ga923d8e409f9daa8843978d6805ebcdeb", null ],
     [ "RT_WAITING_NO", "group___i_p_c.html#ga78a487898fe750a9f7e9c37911fbe7cb", null ],
     [ "RT_EVENT_FLAG_AND", "group___i_p_c.html#ga449614d0024ade7e81e53462bce12a60", null ],
