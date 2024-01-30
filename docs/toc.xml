@@ -136,7 +136,8 @@
         <topic label="RT_THREAD_CTRL_CLOSE" href="group___thread.html#gad875eaaa2400aef8f6078f5d1f8297b3"/>
         <topic label="RT_THREAD_CTRL_CHANGE_PRIORITY" href="group___thread.html#gad59e5c8ec96f8b3231947b0c665e5fba"/>
         <topic label="RT_THREAD_CTRL_INFO" href="group___thread.html#ga45ba1445796c920c2ae943b419e19d4b"/>
-        <topic label="RT_THREAD_CTRL_BIND_CPU" href="group___thread.html#ga33e2bf49443c5a96c293a554203de8e3">
+        <topic label="RT_THREAD_CTRL_BIND_CPU" href="group___thread.html#ga33e2bf49443c5a96c293a554203de8e3"/>
+        <topic label="rt_thread_inited_hookproto_t" href="group___thread.html#ga7834be0d0c62aaa32ae47ade3ac21e68">
         </topic>
         <topic label="rt_thread_init" href="group___thread.html#gacd985aa60939b95e510f144610f001b9"/>
         <topic label="rt_thread_self" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7"/>
@@ -224,7 +225,7 @@
           <topic label="object_size" href="structrt__object__information.html#ada7e29b16c914f1692557fdc98f471fc"/>
         </topic>
         <topic label="RT_OBJECT_FLAG_MODULE" href="group___kernel_object.html#gadc83c17483bce09fad91cc8b2a3d0ed5"/>
-        <topic label="RT_OBJECT_HOOK_CALL" href="group___kernel_object.html#ga40f88eaca0029aea304a7757c85431b8"/>
+        <topic label="_RT_OBJECT_HOOK_CALL" href="group___kernel_object.html#ga48303daf239aef45300fe436428a10ae"/>
         <topic label="rt_object_t" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70"/>
         <topic label="rt_object_class_type" href="group___kernel_object.html#ga38a532bcb1bd3f12685db4219b761b56">
           <topic label="RT_Object_Class_Null" href="group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a8bd7977afdebe3101f16c9c0c9aa5cb0"/>
@@ -427,8 +428,10 @@
         <topic label="rt_malloc_align" href="group___m_m.html#gaf2654f08787ce7935c635c0343970f6a"/>
         <topic label="rt_free_align" href="group___m_m.html#gabf1ea8f43781620e7b08fb1868e32b92"/>
         <topic label="rt_memory_info" href="group___m_m.html#ga6a043ee84954692789696a255ea65699"/>
-        <topic label="rt_malloc_sethook" href="group___m_m.html#ga909761c80493569b64558225d7f89e77"/>
-        <topic label="rt_free_sethook" href="group___m_m.html#gaf556549fc541bfc634f37f2dca004547"/>
+        <topic label="rt_malloc_sethook" href="group___m_m.html#ga72505214bf21fc23dc1595b0442a90af"/>
+        <topic label="rt_realloc_set_entry_hook" href="group___m_m.html#ga3ec40fa39f9939814ccec29d2f975a3b"/>
+        <topic label="rt_realloc_set_exit_hook" href="group___m_m.html#ga032f9f93a115d5549fb24d79df801cac"/>
+        <topic label="rt_free_sethook" href="group___m_m.html#ga3bb7426719e954462af2dbe10fc033f2"/>
         <topic label="rt_smem_init" href="group___m_m.html#gaf3ee8887d4ace66606a925237e199ad6"/>
         <topic label="rt_smem_detach" href="group___m_m.html#gaf444d6040e6a1ef09ab9f95e893b8d40"/>
       </topic>
@@ -512,13 +515,17 @@
         </topic>
       </topic>
       <topic label="Runtime Trace and Record" href="group___hook.html">
-        <topic label="rt_malloc_sethook" href="group___hook.html#ga909761c80493569b64558225d7f89e77"/>
-        <topic label="rt_free_sethook" href="group___hook.html#gaf556549fc541bfc634f37f2dca004547"/>
+        <topic label="rt_malloc_sethook" href="group___hook.html#ga72505214bf21fc23dc1595b0442a90af"/>
+        <topic label="rt_realloc_set_entry_hook" href="group___hook.html#ga3ec40fa39f9939814ccec29d2f975a3b"/>
+        <topic label="rt_realloc_set_exit_hook" href="group___hook.html#ga032f9f93a115d5549fb24d79df801cac"/>
+        <topic label="rt_free_sethook" href="group___hook.html#ga3bb7426719e954462af2dbe10fc033f2"/>
       </topic>
       <topic label="Other useful kernel service" href="group___kernel_service.html">
         <topic label="Runtime Trace and Record" href="group___hook.html">
-          <topic label="rt_malloc_sethook" href="group___hook.html#ga909761c80493569b64558225d7f89e77"/>
-          <topic label="rt_free_sethook" href="group___hook.html#gaf556549fc541bfc634f37f2dca004547"/>
+          <topic label="rt_malloc_sethook" href="group___hook.html#ga72505214bf21fc23dc1595b0442a90af"/>
+          <topic label="rt_realloc_set_entry_hook" href="group___hook.html#ga3ec40fa39f9939814ccec29d2f975a3b"/>
+          <topic label="rt_realloc_set_exit_hook" href="group___hook.html#ga032f9f93a115d5549fb24d79df801cac"/>
+          <topic label="rt_free_sethook" href="group___hook.html#ga3bb7426719e954462af2dbe10fc033f2"/>
         </topic>
         <topic label="rt_container_of" href="group___kernel_service.html#gaff9df70e97252587b08e02b53549cadf"/>
         <topic label="RT_LIST_OBJECT_INIT" href="group___kernel_service.html#ga4cc6d94199b8cd5c2b90dc398a44f654"/>
@@ -590,6 +597,7 @@
         <topic label="RT_EPERM" href="group___error.html#ga0aa4c078491d908951597e93c8b560dc"/>
         <topic label="RT_ETRAP" href="group___error.html#ga846bfee9b17336beaac08c5f98498e7b"/>
         <topic label="RT_EFAULT" href="group___error.html#gad82af9038c8e761ae4f6cc3195714c41"/>
+        <topic label="RT_ENOBUFS" href="group___error.html#gae4ec620213483ae042b75152ec78955e"/>
       </topic>
       <topic label="rt_interrupt_enter" href="group___kernel.html#ga020fb2151c8cbf1c1c0c59e615dc8d9e"/>
       <topic label="rt_interrupt_leave" href="group___kernel.html#gafcbcfbf20707e21e8922a837bba4908d"/>

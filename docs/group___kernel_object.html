@@ -117,8 +117,8 @@ Data Structures</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:gadc83c17483bce09fad91cc8b2a3d0ed5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#gadc83c17483bce09fad91cc8b2a3d0ed5">RT_OBJECT_FLAG_MODULE</a>&#160;&#160;&#160;0x80</td></tr>
 <tr class="separator:gadc83c17483bce09fad91cc8b2a3d0ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga40f88eaca0029aea304a7757c85431b8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga40f88eaca0029aea304a7757c85431b8">RT_OBJECT_HOOK_CALL</a>(func,  argv)&#160;&#160;&#160;__on_##func argv</td></tr>
-<tr class="separator:ga40f88eaca0029aea304a7757c85431b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga48303daf239aef45300fe436428a10ae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga48303daf239aef45300fe436428a10ae">_RT_OBJECT_HOOK_CALL</a>(func,  argv)&#160;&#160;&#160;__ON_HOOK_ARGS(func, argv)</td></tr>
+<tr class="separator:ga48303daf239aef45300fe436428a10ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -213,14 +213,14 @@ Figure 2: Kernel Object</div></div>
 
 </div>
 </div>
-<a id="ga40f88eaca0029aea304a7757c85431b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga40f88eaca0029aea304a7757c85431b8">&#9670;&nbsp;</a></span>RT_OBJECT_HOOK_CALL</h2>
+<a id="ga48303daf239aef45300fe436428a10ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga48303daf239aef45300fe436428a10ae">&#9670;&nbsp;</a></span>_RT_OBJECT_HOOK_CALL</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define RT_OBJECT_HOOK_CALL</td>
+          <td class="memname">#define _RT_OBJECT_HOOK_CALL</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">func, </td>
@@ -234,11 +234,15 @@ Figure 2: Kernel Object</div></div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;__on_##func argv</td>
+          <td></td><td>&#160;&#160;&#160;__ON_HOOK_ARGS(func, argv)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The hook function call macro </p>
+
+<p>Add hook point in the routines. </p>
+<p>The hook function call macro </p><dl class="section note"><dt>Note</dt><dd>Usage: void foo() { do_something();</dd></dl>
+<p>RT_OBJECT_HOOK_CALL(foo);</p>
+<p>do_other_things(); } </p>
 
 </div>
 </div>
@@ -774,7 +778,7 @@ Figure 2: Kernel Object</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Dec 30 2023 16:09:36 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Jan 30 2024 16:10:28 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

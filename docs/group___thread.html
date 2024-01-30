@@ -87,6 +87,7 @@ $(document).ready(function(){initNavTree('group___thread.html',''); initResizabl
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Thread Management<div class="ingroups"><a class="el" href="group___kernel.html">RT-Thread Kernel API</a></div></div>  </div>
@@ -143,6 +144,11 @@ Macros</h2></td></tr>
 <tr class="separator:ga45ba1445796c920c2ae943b419e19d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga33e2bf49443c5a96c293a554203de8e3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___thread.html#ga33e2bf49443c5a96c293a554203de8e3">RT_THREAD_CTRL_BIND_CPU</a>&#160;&#160;&#160;0x04</td></tr>
 <tr class="separator:ga33e2bf49443c5a96c293a554203de8e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga7834be0d0c62aaa32ae47ade3ac21e68"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___thread.html#ga7834be0d0c62aaa32ae47ade3ac21e68">rt_thread_inited_hookproto_t</a>) (<a class="el" href="structrt__thread.html">rt_thread_t</a> thread)</td></tr>
+<tr class="separator:ga7834be0d0c62aaa32ae47ade3ac21e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -459,6 +465,29 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Set thread bind cpu. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ga7834be0d0c62aaa32ae47ade3ac21e68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7834be0d0c62aaa32ae47ade3ac21e68">&#9670;&nbsp;</a></span>rt_thread_inited_hookproto_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* rt_thread_inited_hookproto_t) (<a class="el" href="structrt__thread.html">rt_thread_t</a> thread)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets a hook function when a thread is initialized. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">thread</td><td>is the target thread that initializing </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1367,7 +1396,7 @@ this function is only implemented in scheduler_mp.c. </dd></dl>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Dec 30 2023 16:09:36 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Jan 30 2024 16:10:28 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

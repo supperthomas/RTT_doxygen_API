@@ -13,7 +13,7 @@ var group___kernel_object =
       [ "object_size", "structrt__object__information.html#ada7e29b16c914f1692557fdc98f471fc", null ]
     ] ],
     [ "RT_OBJECT_FLAG_MODULE", "group___kernel_object.html#gadc83c17483bce09fad91cc8b2a3d0ed5", null ],
-    [ "RT_OBJECT_HOOK_CALL", "group___kernel_object.html#ga40f88eaca0029aea304a7757c85431b8", null ],
+    [ "_RT_OBJECT_HOOK_CALL", "group___kernel_object.html#ga48303daf239aef45300fe436428a10ae", null ],
     [ "rt_object_t", "group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70", null ],
     [ "rt_object_class_type", "group___kernel_object.html#ga38a532bcb1bd3f12685db4219b761b56", [
       [ "RT_Object_Class_Null", "group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a8bd7977afdebe3101f16c9c0c9aa5cb0", null ],

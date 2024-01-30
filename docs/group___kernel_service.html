@@ -432,9 +432,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">for</span> (pos = <a class="code" href="group___kernel_service.html#ga52568d5666fbf7f7f5d0b96149d5ebd1">rt_list_entry</a>((head)-&gt;next, typeof(*pos), member); \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">for</span> (pos = <a class="code" href="group___kernel_service.html#ga52568d5666fbf7f7f5d0b96149d5ebd1">rt_list_entry</a>((head)-&gt;next, rt_typeof(*pos), member); \</div>
 <div class="line">         &amp;pos-&gt;member != (head); \</div>
-<div class="line">         pos = <a class="code" href="group___kernel_service.html#ga52568d5666fbf7f7f5d0b96149d5ebd1">rt_list_entry</a>(pos-&gt;member.next, typeof(*pos), member))</div>
+<div class="line">         pos = <a class="code" href="group___kernel_service.html#ga52568d5666fbf7f7f5d0b96149d5ebd1">rt_list_entry</a>(pos-&gt;member.next, rt_typeof(*pos), member))</div>
 <div class="ttc" id="agroup___kernel_service_html_ga52568d5666fbf7f7f5d0b96149d5ebd1"><div class="ttname"><a href="group___kernel_service.html#ga52568d5666fbf7f7f5d0b96149d5ebd1">rt_list_entry</a></div><div class="ttdeci">#define rt_list_entry(node, type, member)</div><div class="ttdoc">get the struct for this entry</div><div class="ttdef"><b>Definition:</b> rtservice.h:126</div></div>
 </div><!-- fragment --><p>rt_list_for_each_entry - iterate over list of given type </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -484,10 +484,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">for</span> (pos = <a class="code" href="group___kernel_service.html#ga52568d5666fbf7f7f5d0b96149d5ebd1">rt_list_entry</a>((head)-&gt;next, typeof(*pos), member), \</div>
-<div class="line">         n = <a class="code" href="group___kernel_service.html#ga52568d5666fbf7f7f5d0b96149d5ebd1">rt_list_entry</a>(pos-&gt;member.next, typeof(*pos), member); \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">for</span> (pos = <a class="code" href="group___kernel_service.html#ga52568d5666fbf7f7f5d0b96149d5ebd1">rt_list_entry</a>((head)-&gt;next, rt_typeof(*pos), member), \</div>
+<div class="line">         n = <a class="code" href="group___kernel_service.html#ga52568d5666fbf7f7f5d0b96149d5ebd1">rt_list_entry</a>(pos-&gt;member.next, rt_typeof(*pos), member); \</div>
 <div class="line">         &amp;pos-&gt;member != (head); \</div>
-<div class="line">         pos = n, n = <a class="code" href="group___kernel_service.html#ga52568d5666fbf7f7f5d0b96149d5ebd1">rt_list_entry</a>(n-&gt;member.next, typeof(*n), member))</div>
+<div class="line">         pos = n, n = <a class="code" href="group___kernel_service.html#ga52568d5666fbf7f7f5d0b96149d5ebd1">rt_list_entry</a>(n-&gt;member.next, rt_typeof(*n), member))</div>
 </div><!-- fragment --><p>rt_list_for_each_entry_safe - iterate over list of given type safe against removal of list entry </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pos</td><td>the type * to use as a loop cursor. </td></tr>
@@ -653,9 +653,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">for</span> (pos = ((head)-&gt;next == (RT_NULL) ? (RT_NULL) : <a class="code" href="group___kernel_service.html#ga8388bfc9039b65b59378adb640d2bbb8">rt_slist_entry</a>((head)-&gt;next, typeof(*pos), member)); \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">for</span> (pos = ((head)-&gt;next == (RT_NULL) ? (RT_NULL) : <a class="code" href="group___kernel_service.html#ga8388bfc9039b65b59378adb640d2bbb8">rt_slist_entry</a>((head)-&gt;next, rt_typeof(*pos), member)); \</div>
 <div class="line">         pos != (RT_NULL) &amp;&amp; &amp;pos-&gt;member != (RT_NULL); \</div>
-<div class="line">         pos = (pos-&gt;member.next == (RT_NULL) ? (RT_NULL) : <a class="code" href="group___kernel_service.html#ga8388bfc9039b65b59378adb640d2bbb8">rt_slist_entry</a>(pos-&gt;member.next, typeof(*pos), member)))</div>
+<div class="line">         pos = (pos-&gt;member.next == (RT_NULL) ? (RT_NULL) : <a class="code" href="group___kernel_service.html#ga8388bfc9039b65b59378adb640d2bbb8">rt_slist_entry</a>(pos-&gt;member.next, rt_typeof(*pos), member)))</div>
 <div class="ttc" id="agroup___kernel_service_html_ga8388bfc9039b65b59378adb640d2bbb8"><div class="ttname"><a href="group___kernel_service.html#ga8388bfc9039b65b59378adb640d2bbb8">rt_slist_entry</a></div><div class="ttdeci">#define rt_slist_entry(node, type, member)</div><div class="ttdoc">get the struct for this single list node</div><div class="ttdef"><b>Definition:</b> rtservice.h:265</div></div>
 </div><!-- fragment --><p>rt_slist_for_each_entry - iterate over single list of given type </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -2126,7 +2126,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Dec 30 2023 16:09:36 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Jan 30 2024 16:10:28 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

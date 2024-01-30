@@ -1,5 +1,13 @@
 var NAVTREEINDEX2 =
 {
+"structrt__hw__backtrace__frame.html":[2,0,2],
+"structrt__ipc__object.html":[1,4,3,5],
+"structrt__ipc__object.html#a1113d054268319ad7840b3362eba7ad2":[1,4,3,5,0],
+"structrt__ipc__object.html#a6b016bc028f03601f1a8efd0fb0e91e2":[1,4,3,5,1],
+"structrt__list__node.html":[2,0,4],
+"structrt__list__node.html#a50efb4b80ce8a9b46fb3a0e367d60817":[2,0,4,0],
+"structrt__list__node.html#ab86c797b257b99746ccad6a733c06d38":[2,0,4,1],
+"structrt__mailbox.html":[1,4,3,8],
 "structrt__mailbox.html#a11aef5d6e06f6459b7c1d56c835c7f9e":[1,4,3,8,6],
 "structrt__mailbox.html#a2d44d61cebf881cc505fbbc1946b3b2e":[1,4,3,8,0],
 "structrt__mailbox.html#a81a6208c7eb0056b992541e07d2f8eb7":[1,4,3,8,4],
