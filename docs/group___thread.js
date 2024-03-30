@@ -1,21 +1,13 @@
 var group___thread =
 [
     [ "rt_thread", "structrt__thread.html", [
-      [ "tlist", "structrt__thread.html#a8484a36933357e7c6f871364d9f2d3a9", null ],
-      [ "tlist_schedule", "structrt__thread.html#a3b44eb5d0846909c11a30537c4985fc7", null ],
       [ "sp", "structrt__thread.html#abc9d01c30e0fc9872df2fd5c044e31e0", null ],
       [ "entry", "structrt__thread.html#adcdaf75f05998c6485544c337526da52", null ],
       [ "parameter", "structrt__thread.html#a153b0810eaeb3c0508f3fdc9027a301e", null ],
       [ "stack_addr", "structrt__thread.html#a2bb90555aaff4a54699c88c2789e0407", null ],
       [ "stack_size", "structrt__thread.html#adf14bbabd599363a418c687a668fa164", null ],
       [ "error", "structrt__thread.html#a32eec53f34cb610335b085a642e6e995", null ],
-      [ "stat", "structrt__thread.html#a16a3dd776f8cfed732deda73535dbb00", null ],
-      [ "current_priority", "structrt__thread.html#a90875799a0ea47e5558f104702a20548", null ],
-      [ "init_priority", "structrt__thread.html#a281785b80ad0dc2e7d0c5404d32c67f9", null ],
-      [ "number_mask", "structrt__thread.html#a5dbed340b3ba61be1e2cd7d3fdf2af56", null ],
-      [ "init_tick", "structrt__thread.html#af2aba2d01860bd205fbc6efbba6838a9", null ],
-      [ "remaining_tick", "structrt__thread.html#a4532e24d33f6876a2e300cae0ecb83bc", null ],
-      [ "thread_timer", "structrt__thread.html#ac787f3fbcdc5f8d012f2d6d9923f5560", null ],
+      [ "thread_timer", "structrt__thread.html#aec4761d603b6b133babff20330c75bce", null ],
       [ "cleanup", "structrt__thread.html#a87949a3f570e2704d1a44e9844696600", null ],
       [ "user_data", "structrt__thread.html#ae900a16f917b54753b4c218021d99a8e", null ]
     ] ],
@@ -43,11 +35,11 @@ var group___thread =
     [ "rt_thread_create", "group___thread.html#gacb215b161f17c26b5e19c28cd0119e7b", null ],
     [ "rt_thread_delete", "group___thread.html#ga6d64eb4d0a485461049616808f4ce177", null ],
     [ "rt_thread_yield", "group___thread.html#ga5703a0d7351b37a1c00874a362626ea3", null ],
-    [ "rt_thread_sleep", "group___thread.html#ga540da4c76db4f081b668766042e7490e", null ],
     [ "rt_thread_delay", "group___thread.html#ga6b18459cac67e3695447e69b997fc74e", null ],
     [ "rt_thread_delay_until", "group___thread.html#ga309d01453eb09acaee5012a2e159961c", null ],
     [ "rt_thread_mdelay", "group___thread.html#ga4ba0dbf06d5fa05f469da371ff6d2876", null ],
     [ "rt_thread_control", "group___thread.html#ga34c65d3f7d01310fe7b54b2e706b1bdc", null ],
+    [ "rt_thread_suspend_to_list", "group___thread.html#ga41e560062d5e4b929ad2868e4ccc90f2", null ],
     [ "rt_thread_suspend_with_flag", "group___thread.html#ga537adfa695f87cdea6310ec3f66fced0", null ],
     [ "rt_thread_resume", "group___thread.html#gab4f29aff4fec96d92f6321fa7b00c379", null ],
     [ "rt_thread_find", "group___thread.html#ga789a0782597b4d7f7c6c16eacc6084a8", null ],
@@ -58,11 +50,11 @@ var group___thread =
     [ "rt_system_scheduler_init", "group___thread.html#ga5aa2c0c67999e20ce8693ad3c8e624f0", null ],
     [ "rt_system_scheduler_start", "group___thread.html#ga9aa8a561e0caf5e13126834c4f4bb681", null ],
     [ "rt_schedule", "group___thread.html#gae9f99bb5e2e2032b10ddda7a03eefe24", null ],
-    [ "rt_schedule_insert_thread", "group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654", null ],
-    [ "rt_schedule_remove_thread", "group___thread.html#ga11893d937cb7c879abb12f8bfa4be164", null ],
+    [ "rt_scheduler_do_irq_switch", "group___thread.html#gabb4158a39c5ea956a96b22190ce0ed89", null ],
     [ "rt_enter_critical", "group___thread.html#gac4c796a7c2031213d9d2416c6e4a5b6a", null ],
     [ "rt_exit_critical", "group___thread.html#ga35c56c2d56e2bb0f2df95abc752143df", null ],
     [ "rt_critical_level", "group___thread.html#gaf3f894e8efadefda238a5e5ab45c7e21", null ],
     [ "rt_scheduler_ipi_handler", "group___thread.html#ga268d9fc914d7f4b144568e5de5049b63", null ],
-    [ "rt_scheduler_do_irq_switch", "group___thread.html#gabb4158a39c5ea956a96b22190ce0ed89", null ]
+    [ "rt_schedule_insert_thread", "group___thread.html#gae3b532499fffe26f36b7ed8b9e3e4654", null ],
+    [ "rt_schedule_remove_thread", "group___thread.html#ga11893d937cb7c879abb12f8bfa4be164", null ]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getcwd_57',['getcwd',['../group___fs_posix_api.html#ga3284211bd28346254245c9d4fd071d7f',1,'dfs_posix.c']]]
+  ['getcwd_55',['getcwd',['../group___fs_posix_api.html#ga3284211bd28346254245c9d4fd071d7f',1,'dfs_posix.c']]]
 ];

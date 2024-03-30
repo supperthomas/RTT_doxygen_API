@@ -6,5 +6,6 @@ var structrt__device =
     [ "open_flag", "structrt__device.html#a0585a1c5e745441dd6d56663ed9e6cd4", null ],
     [ "ref_count", "structrt__device.html#a432bca55aa2144bc5761015f57f017c3", null ],
     [ "device_id", "structrt__device.html#a31db6fb6da677fd9904a8ca436bff640", null ],
+    [ "readlink", "structrt__device.html#af6aafc41eab4d7fc8ea27f8e9978ee5a", null ],
     [ "user_data", "structrt__device.html#a7abe4976f1632005eb09e0ed59ba99ef", null ]
 ];

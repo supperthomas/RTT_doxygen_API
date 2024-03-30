@@ -8,6 +8,7 @@ var group___device =
       [ "open_flag", "structrt__device.html#a0585a1c5e745441dd6d56663ed9e6cd4", null ],
       [ "ref_count", "structrt__device.html#a432bca55aa2144bc5761015f57f017c3", null ],
       [ "device_id", "structrt__device.html#a31db6fb6da677fd9904a8ca436bff640", null ],
+      [ "readlink", "structrt__device.html#af6aafc41eab4d7fc8ea27f8e9978ee5a", null ],
       [ "user_data", "structrt__device.html#a7abe4976f1632005eb09e0ed59ba99ef", null ]
     ] ],
     [ "rt_device_notify", "structrt__device__notify.html", null ],
@@ -20,6 +21,7 @@ var group___device =
     [ "RT_DEVICE_FLAG_ACTIVATED", "group___device.html#gafce8c8e2f97455644d244f841292406a", null ],
     [ "RT_DEVICE_FLAG_SUSPENDED", "group___device.html#ga77f4d95ded0bdd0012942bad5b676d07", null ],
     [ "RT_DEVICE_FLAG_STREAM", "group___device.html#ga35474a8eeb00f8a72b2f09cbfae9236d", null ],
+    [ "RT_DEVICE_FLAG_DYNAMIC", "group___device.html#gacf49b3e2a9a39be301eb9f3922ea6102", null ],
     [ "RT_DEVICE_FLAG_INT_RX", "group___device.html#ga3475a6ac901802ed9fe50f5c13f6274b", null ],
     [ "RT_DEVICE_FLAG_DMA_RX", "group___device.html#ga3bee223726cc7b3c82b93c873bc6c0ea", null ],
     [ "RT_DEVICE_FLAG_INT_TX", "group___device.html#gac6963e9aaa345ef576d8c3a378a670e5", null ],

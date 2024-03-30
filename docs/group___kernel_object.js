@@ -30,6 +30,8 @@ var group___kernel_object =
       [ "RT_Object_Class_Module", "group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a1e5b83d7de96e8d29324a710094f099b", null ],
       [ "RT_Object_Class_Memory", "group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a17770cf1943033c936d40d534d43dda7", null ],
       [ "RT_Object_Class_Channel", "group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a849c27150aad81b445ae62c727e499f9", null ],
+      [ "RT_Object_Class_ProcessGroup", "group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a492074996dbee3545d6232eee9f54168", null ],
+      [ "RT_Object_Class_Session", "group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56ab9846af8f731371792c8a41fbf67e3ae", null ],
       [ "RT_Object_Class_Custom", "group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56afd51933668f1834dcf0fc921dd57c9a6", null ],
       [ "RT_Object_Class_Unknown", "group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a7fd1d3fe31dd8000703a6198bd919c74", null ],
       [ "RT_Object_Class_Static", "group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56ac3a51281d7f8fee902e6324673d39cec", null ]

@@ -110,51 +110,51 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga80448818ad067205d76e94f8c97e5fe9"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga80448818ad067205d76e94f8c97e5fe9">rt_smem_alloc</a> (rt_smem_t m, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)</td></tr>
+<tr class="memitem:ga80448818ad067205d76e94f8c97e5fe9"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga80448818ad067205d76e94f8c97e5fe9">rt_smem_alloc</a> (rt_smem_t m, rt_size_t size)</td></tr>
 <tr class="separator:ga80448818ad067205d76e94f8c97e5fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab3db5c0cc04b7a3e1d06c2a6da2e6d5c"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gab3db5c0cc04b7a3e1d06c2a6da2e6d5c">rt_smem_realloc</a> (rt_smem_t m, void *rmem, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> newsize)</td></tr>
+<tr class="memitem:gab3db5c0cc04b7a3e1d06c2a6da2e6d5c"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gab3db5c0cc04b7a3e1d06c2a6da2e6d5c">rt_smem_realloc</a> (rt_smem_t m, void *rmem, rt_size_t newsize)</td></tr>
 <tr class="separator:gab3db5c0cc04b7a3e1d06c2a6da2e6d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0be498288489171f107c04ed44314ef0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga0be498288489171f107c04ed44314ef0">rt_smem_free</a> (void *rmem)</td></tr>
 <tr class="separator:ga0be498288489171f107c04ed44314ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1a6bc99e5cb8663be2f1882410448f94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga1a6bc99e5cb8663be2f1882410448f94">rt_mp_init</a> (struct <a class="el" href="structrt__mempool.html">rt_mempool</a> *mp, const char *name, void *start, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> block_size)</td></tr>
+<tr class="memitem:ga1a6bc99e5cb8663be2f1882410448f94"><td class="memItemLeft" align="right" valign="top">rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga1a6bc99e5cb8663be2f1882410448f94">rt_mp_init</a> (struct <a class="el" href="structrt__mempool.html">rt_mempool</a> *mp, const char *name, void *start, rt_size_t size, rt_size_t block_size)</td></tr>
 <tr class="separator:ga1a6bc99e5cb8663be2f1882410448f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga65fc7bef71be142744e517eebe13fc04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga65fc7bef71be142744e517eebe13fc04">rt_mp_detach</a> (struct <a class="el" href="structrt__mempool.html">rt_mempool</a> *mp)</td></tr>
+<tr class="memitem:ga65fc7bef71be142744e517eebe13fc04"><td class="memItemLeft" align="right" valign="top">rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga65fc7bef71be142744e517eebe13fc04">rt_mp_detach</a> (struct <a class="el" href="structrt__mempool.html">rt_mempool</a> *mp)</td></tr>
 <tr class="separator:ga65fc7bef71be142744e517eebe13fc04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabe8c74161a1d6f456e67efb2c16195b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structrt__mempool.html">rt_mp_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gabe8c74161a1d6f456e67efb2c16195b7">rt_mp_create</a> (const char *name, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> block_count, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> block_size)</td></tr>
+<tr class="memitem:gabe8c74161a1d6f456e67efb2c16195b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structrt__mempool.html">rt_mp_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gabe8c74161a1d6f456e67efb2c16195b7">rt_mp_create</a> (const char *name, rt_size_t block_count, rt_size_t block_size)</td></tr>
 <tr class="separator:gabe8c74161a1d6f456e67efb2c16195b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gace1b1218858d5ec8a95be226ae897f26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gace1b1218858d5ec8a95be226ae897f26">rt_mp_delete</a> (<a class="el" href="structrt__mempool.html">rt_mp_t</a> mp)</td></tr>
+<tr class="memitem:gace1b1218858d5ec8a95be226ae897f26"><td class="memItemLeft" align="right" valign="top">rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gace1b1218858d5ec8a95be226ae897f26">rt_mp_delete</a> (<a class="el" href="structrt__mempool.html">rt_mp_t</a> mp)</td></tr>
 <tr class="separator:gace1b1218858d5ec8a95be226ae897f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga531984d42851ffa0fd7a14bf67f15c22"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga531984d42851ffa0fd7a14bf67f15c22">rt_mp_alloc</a> (<a class="el" href="structrt__mempool.html">rt_mp_t</a> mp, <a class="el" href="group___basic_def.html#gafab3dddb302fee91b8d8cff1c6fae9bd">rt_int32_t</a> time)</td></tr>
+<tr class="memitem:ga531984d42851ffa0fd7a14bf67f15c22"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga531984d42851ffa0fd7a14bf67f15c22">rt_mp_alloc</a> (<a class="el" href="structrt__mempool.html">rt_mp_t</a> mp, rt_int32_t time)</td></tr>
 <tr class="separator:ga531984d42851ffa0fd7a14bf67f15c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga65371665abde3bed7379c72d5ea225e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga65371665abde3bed7379c72d5ea225e2">rt_mp_free</a> (void *block)</td></tr>
 <tr class="separator:ga65371665abde3bed7379c72d5ea225e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafa6feb60f6204d1783bc3bc324b886e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gafa6feb60f6204d1783bc3bc324b886e7">rt_system_heap_init</a> (void *begin_addr, void *end_addr)</td></tr>
 <tr class="separator:gafa6feb60f6204d1783bc3bc324b886e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga27d0e5bc7d083dae44480a281fe47ae3"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga27d0e5bc7d083dae44480a281fe47ae3">rt_malloc</a> (<a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)</td></tr>
+<tr class="memitem:ga27d0e5bc7d083dae44480a281fe47ae3"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga27d0e5bc7d083dae44480a281fe47ae3">rt_malloc</a> (rt_size_t size)</td></tr>
 <tr class="separator:ga27d0e5bc7d083dae44480a281fe47ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6c1c24262479e6946fd04823878177f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga6c1c24262479e6946fd04823878177f9">rt_free</a> (void *ptr)</td></tr>
 <tr class="separator:ga6c1c24262479e6946fd04823878177f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad8bf35db788a0c7fdea8ec26daa65a66"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gad8bf35db788a0c7fdea8ec26daa65a66">rt_realloc</a> (void *ptr, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> newsize)</td></tr>
+<tr class="memitem:gad8bf35db788a0c7fdea8ec26daa65a66"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gad8bf35db788a0c7fdea8ec26daa65a66">rt_realloc</a> (void *ptr, rt_size_t newsize)</td></tr>
 <tr class="separator:gad8bf35db788a0c7fdea8ec26daa65a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacf5395171f8ad2ad6bc5e1c61b8b0d88"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gacf5395171f8ad2ad6bc5e1c61b8b0d88">rt_calloc</a> (<a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> count, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)</td></tr>
+<tr class="memitem:gacf5395171f8ad2ad6bc5e1c61b8b0d88"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gacf5395171f8ad2ad6bc5e1c61b8b0d88">rt_calloc</a> (rt_size_t count, rt_size_t size)</td></tr>
 <tr class="separator:gacf5395171f8ad2ad6bc5e1c61b8b0d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf2654f08787ce7935c635c0343970f6a"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gaf2654f08787ce7935c635c0343970f6a">rt_malloc_align</a> (<a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> align)</td></tr>
+<tr class="memitem:gaf2654f08787ce7935c635c0343970f6a"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gaf2654f08787ce7935c635c0343970f6a">rt_malloc_align</a> (rt_size_t size, rt_size_t align)</td></tr>
 <tr class="separator:gaf2654f08787ce7935c635c0343970f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabf1ea8f43781620e7b08fb1868e32b92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gabf1ea8f43781620e7b08fb1868e32b92">rt_free_align</a> (void *ptr)</td></tr>
 <tr class="separator:gabf1ea8f43781620e7b08fb1868e32b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6a043ee84954692789696a255ea65699"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga6a043ee84954692789696a255ea65699">rt_memory_info</a> (<a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> *total, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> *used, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> *max_used)</td></tr>
+<tr class="memitem:ga6a043ee84954692789696a255ea65699"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga6a043ee84954692789696a255ea65699">rt_memory_info</a> (rt_size_t *total, rt_size_t *used, rt_size_t *max_used)</td></tr>
 <tr class="separator:ga6a043ee84954692789696a255ea65699"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga72505214bf21fc23dc1595b0442a90af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga72505214bf21fc23dc1595b0442a90af">rt_malloc_sethook</a> (void(*hook)(void **ptr, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size))</td></tr>
+<tr class="memitem:ga72505214bf21fc23dc1595b0442a90af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga72505214bf21fc23dc1595b0442a90af">rt_malloc_sethook</a> (void(*hook)(void **ptr, rt_size_t size))</td></tr>
 <tr class="separator:ga72505214bf21fc23dc1595b0442a90af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3ec40fa39f9939814ccec29d2f975a3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga3ec40fa39f9939814ccec29d2f975a3b">rt_realloc_set_entry_hook</a> (void(*hook)(void **ptr, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size))</td></tr>
+<tr class="memitem:ga3ec40fa39f9939814ccec29d2f975a3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga3ec40fa39f9939814ccec29d2f975a3b">rt_realloc_set_entry_hook</a> (void(*hook)(void **ptr, rt_size_t size))</td></tr>
 <tr class="separator:ga3ec40fa39f9939814ccec29d2f975a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga032f9f93a115d5549fb24d79df801cac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga032f9f93a115d5549fb24d79df801cac">rt_realloc_set_exit_hook</a> (void(*hook)(void **ptr, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size))</td></tr>
+<tr class="memitem:ga032f9f93a115d5549fb24d79df801cac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga032f9f93a115d5549fb24d79df801cac">rt_realloc_set_exit_hook</a> (void(*hook)(void **ptr, rt_size_t size))</td></tr>
 <tr class="separator:ga032f9f93a115d5549fb24d79df801cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3bb7426719e954462af2dbe10fc033f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga3bb7426719e954462af2dbe10fc033f2">rt_free_sethook</a> (void(*hook)(void **ptr))</td></tr>
 <tr class="separator:ga3bb7426719e954462af2dbe10fc033f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf3ee8887d4ace66606a925237e199ad6"><td class="memItemLeft" align="right" valign="top">rt_smem_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gaf3ee8887d4ace66606a925237e199ad6">rt_smem_init</a> (const char *name, void *begin_addr, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)</td></tr>
+<tr class="memitem:gaf3ee8887d4ace66606a925237e199ad6"><td class="memItemLeft" align="right" valign="top">rt_smem_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gaf3ee8887d4ace66606a925237e199ad6">rt_smem_init</a> (const char *name, void *begin_addr, rt_size_t size)</td></tr>
 <tr class="separator:gaf3ee8887d4ace66606a925237e199ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf444d6040e6a1ef09ab9f95e893b8d40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gaf444d6040e6a1ef09ab9f95e893b8d40">rt_smem_detach</a> (rt_smem_t m)</td></tr>
+<tr class="memitem:gaf444d6040e6a1ef09ab9f95e893b8d40"><td class="memItemLeft" align="right" valign="top">rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gaf444d6040e6a1ef09ab9f95e893b8d40">rt_smem_detach</a> (rt_smem_t m)</td></tr>
 <tr class="separator:gaf444d6040e6a1ef09ab9f95e893b8d40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -181,7 +181,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramtype">rt_size_t&#160;</td>
           <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
@@ -225,7 +225,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramtype">rt_size_t&#160;</td>
           <td class="paramname"><em>newsize</em>&#160;</td>
         </tr>
         <tr>
@@ -282,7 +282,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_mp_init </td>
+          <td class="memname">rt_err_t rt_mp_init </td>
           <td>(</td>
           <td class="paramtype">struct <a class="el" href="structrt__mempool.html">rt_mempool</a> *&#160;</td>
           <td class="paramname"><em>mp</em>, </td>
@@ -302,13 +302,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramtype">rt_size_t&#160;</td>
           <td class="paramname"><em>size</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramtype">rt_size_t&#160;</td>
           <td class="paramname"><em>block_size</em>&#160;</td>
         </tr>
         <tr>
@@ -341,7 +341,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_mp_detach </td>
+          <td class="memname">rt_err_t rt_mp_detach </td>
           <td>(</td>
           <td class="paramtype">struct <a class="el" href="structrt__mempool.html">rt_mempool</a> *&#160;</td>
           <td class="paramname"><em>mp</em></td><td>)</td>
@@ -376,13 +376,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramtype">rt_size_t&#160;</td>
           <td class="paramname"><em>block_count</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramtype">rt_size_t&#160;</td>
           <td class="paramname"><em>block_size</em>&#160;</td>
         </tr>
         <tr>
@@ -413,7 +413,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_mp_delete </td>
+          <td class="memname">rt_err_t rt_mp_delete </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structrt__mempool.html">rt_mp_t</a>&#160;</td>
           <td class="paramname"><em>mp</em></td><td>)</td>
@@ -448,7 +448,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#gafab3dddb302fee91b8d8cff1c6fae9bd">rt_int32_t</a>&#160;</td>
+          <td class="paramtype">rt_int32_t&#160;</td>
           <td class="paramname"><em>time</em>&#160;</td>
         </tr>
         <tr>
@@ -546,7 +546,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void* rt_malloc </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramtype">rt_size_t&#160;</td>
           <td class="paramname"><em>size</em></td><td>)</td>
           <td></td>
         </tr>
@@ -605,7 +605,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramtype">rt_size_t&#160;</td>
           <td class="paramname"><em>newsize</em>&#160;</td>
         </tr>
         <tr>
@@ -637,13 +637,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void* rt_calloc </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramtype">rt_size_t&#160;</td>
           <td class="paramname"><em>count</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramtype">rt_size_t&#160;</td>
           <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
@@ -676,13 +676,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void* rt_malloc_align </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramtype">rt_size_t&#160;</td>
           <td class="paramname"><em>size</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramtype">rt_size_t&#160;</td>
           <td class="paramname"><em>align</em>&#160;</td>
         </tr>
         <tr>
@@ -740,19 +740,19 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void rt_memory_info </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> *&#160;</td>
+          <td class="paramtype">rt_size_t *&#160;</td>
           <td class="paramname"><em>total</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> *&#160;</td>
+          <td class="paramtype">rt_size_t *&#160;</td>
           <td class="paramname"><em>used</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> *&#160;</td>
+          <td class="paramtype">rt_size_t *&#160;</td>
           <td class="paramname"><em>max_used</em>&#160;</td>
         </tr>
         <tr>
@@ -784,7 +784,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void rt_malloc_sethook </td>
           <td>(</td>
-          <td class="paramtype">void(*)(void **ptr, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)&#160;</td>
+          <td class="paramtype">void(*)(void **ptr, rt_size_t size)&#160;</td>
           <td class="paramname"><em>hook</em></td><td>)</td>
           <td></td>
         </tr>
@@ -810,7 +810,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void rt_realloc_set_entry_hook </td>
           <td>(</td>
-          <td class="paramtype">void(*)(void **ptr, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)&#160;</td>
+          <td class="paramtype">void(*)(void **ptr, rt_size_t size)&#160;</td>
           <td class="paramname"><em>hook</em></td><td>)</td>
           <td></td>
         </tr>
@@ -836,7 +836,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void rt_realloc_set_exit_hook </td>
           <td>(</td>
-          <td class="paramtype">void(*)(void **ptr, <a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a> size)&#160;</td>
+          <td class="paramtype">void(*)(void **ptr, rt_size_t size)&#160;</td>
           <td class="paramname"><em>hook</em></td><td>)</td>
           <td></td>
         </tr>
@@ -900,7 +900,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga8011d259fdfc54b8a9aa006b4d49ac14">rt_size_t</a>&#160;</td>
+          <td class="paramtype">rt_size_t&#160;</td>
           <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
@@ -932,7 +932,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_smem_detach </td>
+          <td class="memname">rt_err_t rt_smem_detach </td>
           <td>(</td>
           <td class="paramtype">rt_smem_t&#160;</td>
           <td class="paramname"><em>m</em></td><td>)</td>
@@ -957,7 +957,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 30 2024 16:10:28 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Mar 30 2024 16:10:33 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

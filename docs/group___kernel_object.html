@@ -145,10 +145,12 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a17770cf1943033c936d40d534d43dda7">RT_Object_Class_Memory</a> = 0x0c
 , <a class="el" href="group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a849c27150aad81b445ae62c727e499f9">RT_Object_Class_Channel</a> = 0x0d
-, <a class="el" href="group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56afd51933668f1834dcf0fc921dd57c9a6">RT_Object_Class_Custom</a> = 0x0e
-, <a class="el" href="group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a7fd1d3fe31dd8000703a6198bd919c74">RT_Object_Class_Unknown</a> = 0x0f
+, <a class="el" href="group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a492074996dbee3545d6232eee9f54168">RT_Object_Class_ProcessGroup</a> = 0x0e
+, <a class="el" href="group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56ab9846af8f731371792c8a41fbf67e3ae">RT_Object_Class_Session</a> = 0x0f
 , <br />
-&#160;&#160;<a class="el" href="group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56ac3a51281d7f8fee902e6324673d39cec">RT_Object_Class_Static</a> = 0x80
+&#160;&#160;<a class="el" href="group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56afd51933668f1834dcf0fc921dd57c9a6">RT_Object_Class_Custom</a> = 0x10
+, <a class="el" href="group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a7fd1d3fe31dd8000703a6198bd919c74">RT_Object_Class_Unknown</a> = 0x11
+, <a class="el" href="group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56ac3a51281d7f8fee902e6324673d39cec">RT_Object_Class_Static</a> = 0x80
 <br />
  }</td></tr>
 <tr class="separator:ga38a532bcb1bd3f12685db4219b761b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,17 +171,17 @@ Functions</h2></td></tr>
 <tr class="separator:ga661bb999394a29404c20c7f3e58e5f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0479fb23b766d96e9611ed32becc2797"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga0479fb23b766d96e9611ed32becc2797">rt_object_delete</a> (<a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a> object)</td></tr>
 <tr class="separator:ga0479fb23b766d96e9611ed32becc2797"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0b4471fdda93017477bc81ca357481ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga3e03a3519ef7e33d13ebd34c482db49c">rt_bool_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac">rt_object_is_systemobject</a> (<a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a> object)</td></tr>
+<tr class="memitem:ga0b4471fdda93017477bc81ca357481ac"><td class="memItemLeft" align="right" valign="top">rt_bool_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac">rt_object_is_systemobject</a> (<a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a> object)</td></tr>
 <tr class="separator:ga0b4471fdda93017477bc81ca357481ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8e9948d16704c567feb38b9d98618a91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga585e2ad0fbab0f83817cb61373465df6">rt_uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91">rt_object_get_type</a> (<a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a> object)</td></tr>
+<tr class="memitem:ga8e9948d16704c567feb38b9d98618a91"><td class="memItemLeft" align="right" valign="top">rt_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91">rt_object_get_type</a> (<a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a> object)</td></tr>
 <tr class="separator:ga8e9948d16704c567feb38b9d98618a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6c82dbb4ae114918c5c96d0dca3957eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga6c82dbb4ae114918c5c96d0dca3957eb">rt_object_find</a> (const char *name, <a class="el" href="group___basic_def.html#ga585e2ad0fbab0f83817cb61373465df6">rt_uint8_t</a> type)</td></tr>
+<tr class="memitem:ga6c82dbb4ae114918c5c96d0dca3957eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga6c82dbb4ae114918c5c96d0dca3957eb">rt_object_find</a> (const char *name, rt_uint8_t type)</td></tr>
 <tr class="separator:ga6c82dbb4ae114918c5c96d0dca3957eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga49942be6b9cf766f38f0ec5fe00524b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga49942be6b9cf766f38f0ec5fe00524b2">rt_object_get_name</a> (<a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a> object, char *name, <a class="el" href="group___basic_def.html#ga585e2ad0fbab0f83817cb61373465df6">rt_uint8_t</a> name_size)</td></tr>
+<tr class="memitem:ga49942be6b9cf766f38f0ec5fe00524b2"><td class="memItemLeft" align="right" valign="top">rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga49942be6b9cf766f38f0ec5fe00524b2">rt_object_get_name</a> (<a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a> object, char *name, rt_uint8_t name_size)</td></tr>
 <tr class="separator:ga49942be6b9cf766f38f0ec5fe00524b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga75581e85adfc9cd4068c5144d19849b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga75581e85adfc9cd4068c5144d19849b4">rt_custom_object_create</a> (const char *name, void *data, <a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>(*data_destroy)(void *))</td></tr>
+<tr class="memitem:ga75581e85adfc9cd4068c5144d19849b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga75581e85adfc9cd4068c5144d19849b4">rt_custom_object_create</a> (const char *name, void *data, rt_err_t(*data_destroy)(void *))</td></tr>
 <tr class="separator:ga75581e85adfc9cd4068c5144d19849b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga50c46982eda3aeab85fa9e2d94302d62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga50c46982eda3aeab85fa9e2d94302d62">rt_custom_object_destroy</a> (<a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a> obj)</td></tr>
+<tr class="memitem:ga50c46982eda3aeab85fa9e2d94302d62"><td class="memItemLeft" align="right" valign="top">rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga50c46982eda3aeab85fa9e2d94302d62">rt_custom_object_destroy</a> (<a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a> obj)</td></tr>
 <tr class="separator:ga50c46982eda3aeab85fa9e2d94302d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -317,6 +319,10 @@ Figure 2: Kernel Object</div></div>
 <tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a17770cf1943033c936d40d534d43dda7"></a>RT_Object_Class_Memory&#160;</td><td class="fielddoc"><p>The object is a memory. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a849c27150aad81b445ae62c727e499f9"></a>RT_Object_Class_Channel&#160;</td><td class="fielddoc"><p>The object is a channel </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56a492074996dbee3545d6232eee9f54168"></a>RT_Object_Class_ProcessGroup&#160;</td><td class="fielddoc"><p>The object is a process group </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56ab9846af8f731371792c8a41fbf67e3ae"></a>RT_Object_Class_Session&#160;</td><td class="fielddoc"><p>The object is a session </p>
 </td></tr>
 <tr><td class="fieldname"><a id="gga38a532bcb1bd3f12685db4219b761b56afd51933668f1834dcf0fc921dd57c9a6"></a>RT_Object_Class_Custom&#160;</td><td class="fielddoc"><p>The object is a custom object </p>
 </td></tr>
@@ -569,7 +575,7 @@ Figure 2: Kernel Object</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga3e03a3519ef7e33d13ebd34c482db49c">rt_bool_t</a> rt_object_is_systemobject </td>
+          <td class="memname">rt_bool_t rt_object_is_systemobject </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a>&#160;</td>
           <td class="paramname"><em>object</em></td><td>)</td>
@@ -597,7 +603,7 @@ Figure 2: Kernel Object</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga585e2ad0fbab0f83817cb61373465df6">rt_uint8_t</a> rt_object_get_type </td>
+          <td class="memname">rt_uint8_t rt_object_get_type </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a>&#160;</td>
           <td class="paramname"><em>object</em></td><td>)</td>
@@ -632,7 +638,7 @@ Figure 2: Kernel Object</div></div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga585e2ad0fbab0f83817cb61373465df6">rt_uint8_t</a>&#160;</td>
+          <td class="paramtype">rt_uint8_t&#160;</td>
           <td class="paramname"><em>type</em>&#160;</td>
         </tr>
         <tr>
@@ -663,7 +669,7 @@ Figure 2: Kernel Object</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_object_get_name </td>
+          <td class="memname">rt_err_t rt_object_get_name </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a>&#160;</td>
           <td class="paramname"><em>object</em>, </td>
@@ -677,7 +683,7 @@ Figure 2: Kernel Object</div></div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga585e2ad0fbab0f83817cb61373465df6">rt_uint8_t</a>&#160;</td>
+          <td class="paramtype">rt_uint8_t&#160;</td>
           <td class="paramname"><em>name_size</em>&#160;</td>
         </tr>
         <tr>
@@ -723,7 +729,7 @@ Figure 2: Kernel Object</div></div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>(*)(void *)&#160;</td>
+          <td class="paramtype">rt_err_t(*)(void *)&#160;</td>
           <td class="paramname"><em>data_destroy</em>&#160;</td>
         </tr>
         <tr>
@@ -754,7 +760,7 @@ Figure 2: Kernel Object</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_custom_object_destroy </td>
+          <td class="memname">rt_err_t rt_custom_object_destroy </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a>&#160;</td>
           <td class="paramname"><em>obj</em></td><td>)</td>
@@ -778,7 +784,7 @@ Figure 2: Kernel Object</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 30 2024 16:10:28 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Mar 30 2024 16:10:33 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

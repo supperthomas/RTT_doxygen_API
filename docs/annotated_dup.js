@@ -13,6 +13,7 @@ var annotated_dup =
     [ "rt_object_information", "structrt__object__information.html", "structrt__object__information" ],
     [ "rt_semaphore", "structrt__semaphore.html", "structrt__semaphore" ],
     [ "rt_slist_node", "structrt__slist__node.html", "structrt__slist__node" ],
+    [ "rt_spinlock", "structrt__spinlock.html", null ],
     [ "rt_thread", "structrt__thread.html", "structrt__thread" ],
     [ "rt_timer", "structrt__timer.html", "structrt__timer" ],
     [ "rt_wqueue", "structrt__wqueue.html", null ]

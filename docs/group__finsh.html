@@ -101,18 +101,20 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gab73621cc9f385c6742d10278a64cf638"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#gaa0f407376acf6e5854ea411316811418">rt_uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__finsh.html#gab73621cc9f385c6742d10278a64cf638">finsh_get_prompt_mode</a> (void)</td></tr>
+<tr class="memitem:gab73621cc9f385c6742d10278a64cf638"><td class="memItemLeft" align="right" valign="top">rt_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__finsh.html#gab73621cc9f385c6742d10278a64cf638">finsh_get_prompt_mode</a> (void)</td></tr>
 <tr class="separator:gab73621cc9f385c6742d10278a64cf638"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad37603360d3201083d8bae51bec8d124"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__finsh.html#gad37603360d3201083d8bae51bec8d124">finsh_set_prompt_mode</a> (<a class="el" href="group___basic_def.html#gaa0f407376acf6e5854ea411316811418">rt_uint32_t</a> prompt_mode)</td></tr>
+<tr class="memitem:gad37603360d3201083d8bae51bec8d124"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__finsh.html#gad37603360d3201083d8bae51bec8d124">finsh_set_prompt_mode</a> (rt_uint32_t prompt_mode)</td></tr>
 <tr class="separator:gad37603360d3201083d8bae51bec8d124"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4ca70de04431b9f767dff9f2ba7dcc8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__finsh.html#ga4ca70de04431b9f767dff9f2ba7dcc8b">finsh_set_device</a> (const char *device_name)</td></tr>
 <tr class="separator:ga4ca70de04431b9f767dff9f2ba7dcc8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2e05476dce5ac5afab26e0769292cf83"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__finsh.html#ga2e05476dce5ac5afab26e0769292cf83">finsh_get_device</a> ()</td></tr>
 <tr class="separator:ga2e05476dce5ac5afab26e0769292cf83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae80e3d53913894f5fbfcf9335205c649"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__finsh.html#gae80e3d53913894f5fbfcf9335205c649">finsh_set_echo</a> (<a class="el" href="group___basic_def.html#gaa0f407376acf6e5854ea411316811418">rt_uint32_t</a> echo)</td></tr>
+<tr class="memitem:gae80e3d53913894f5fbfcf9335205c649"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__finsh.html#gae80e3d53913894f5fbfcf9335205c649">finsh_set_echo</a> (rt_uint32_t echo)</td></tr>
 <tr class="separator:gae80e3d53913894f5fbfcf9335205c649"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga77d4ddaeaf41942986da9810c6f5b5ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#gaa0f407376acf6e5854ea411316811418">rt_uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__finsh.html#ga77d4ddaeaf41942986da9810c6f5b5ee">finsh_get_echo</a> ()</td></tr>
+<tr class="memitem:ga77d4ddaeaf41942986da9810c6f5b5ee"><td class="memItemLeft" align="right" valign="top">rt_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__finsh.html#ga77d4ddaeaf41942986da9810c6f5b5ee">finsh_get_echo</a> ()</td></tr>
 <tr class="separator:ga77d4ddaeaf41942986da9810c6f5b5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga52183744c46631da773a842c927f1c86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__finsh.html#ga52183744c46631da773a842c927f1c86">finsh_thread_entry_sethook</a> (void(*hook)(void))</td></tr>
+<tr class="separator:ga52183744c46631da773a842c927f1c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>finsh shell is a user command shell in RT-Thread RTOS. </p>
@@ -210,7 +212,7 @@ Figure 3: finsh shell architecture</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#gaa0f407376acf6e5854ea411316811418">rt_uint32_t</a> finsh_get_prompt_mode </td>
+          <td class="memname">rt_uint32_t finsh_get_prompt_mode </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -232,7 +234,7 @@ Figure 3: finsh shell architecture</div></div>
         <tr>
           <td class="memname">void finsh_set_prompt_mode </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#gaa0f407376acf6e5854ea411316811418">rt_uint32_t</a>&#160;</td>
+          <td class="paramtype">rt_uint32_t&#160;</td>
           <td class="paramname"><em>prompt_mode</em></td><td>)</td>
           <td></td>
         </tr>
@@ -303,7 +305,7 @@ Figure 3: finsh shell architecture</div></div>
         <tr>
           <td class="memname">void finsh_set_echo </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#gaa0f407376acf6e5854ea411316811418">rt_uint32_t</a>&#160;</td>
+          <td class="paramtype">rt_uint32_t&#160;</td>
           <td class="paramname"><em>echo</em></td><td>)</td>
           <td></td>
         </tr>
@@ -327,7 +329,7 @@ Figure 3: finsh shell architecture</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#gaa0f407376acf6e5854ea411316811418">rt_uint32_t</a> finsh_get_echo </td>
+          <td class="memname">rt_uint32_t finsh_get_echo </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -340,12 +342,38 @@ Figure 3: finsh shell architecture</div></div>
 
 </div>
 </div>
+<a id="ga52183744c46631da773a842c927f1c86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga52183744c46631da773a842c927f1c86">&#9670;&nbsp;</a></span>finsh_thread_entry_sethook()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void finsh_thread_entry_sethook </td>
+          <td>(</td>
+          <td class="paramtype">void(*)(void)&#160;</td>
+          <td class="paramname"><em>hook</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function set a hook function at the entry of finsh thread. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hook</td><td>the function point to be called </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 30 2024 16:10:28 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Mar 30 2024 16:10:33 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

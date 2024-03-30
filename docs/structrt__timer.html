@@ -97,13 +97,13 @@ $(document).ready(function(){initNavTree('structrt__timer.html',''); initResizab
 Data Fields</h2></td></tr>
 <tr class="memitem:a1a3b0ccd5039808ff180c0507812d629"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structrt__object.html">rt_object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__timer.html#a1a3b0ccd5039808ff180c0507812d629">parent</a></td></tr>
 <tr class="separator:a1a3b0ccd5039808ff180c0507812d629"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4088ef6a48022c333ba491ad25dd31e"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__timer.html#aa4088ef6a48022c333ba491ad25dd31e">timeout_func</a> )(void *<a class="el" href="structrt__timer.html#a7865afa39d2596876ce1e7c3275c9042">parameter</a>)</td></tr>
-<tr class="separator:aa4088ef6a48022c333ba491ad25dd31e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7521f2f8f83c95857c591147464b5472"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___clock.html#ga0e76c898aed8aeb8117297486ae780d7">rt_timer_func_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__timer.html#a7521f2f8f83c95857c591147464b5472">timeout_func</a></td></tr>
+<tr class="separator:a7521f2f8f83c95857c591147464b5472"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7865afa39d2596876ce1e7c3275c9042"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__timer.html#a7865afa39d2596876ce1e7c3275c9042">parameter</a></td></tr>
 <tr class="separator:a7865afa39d2596876ce1e7c3275c9042"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af958eb6ee48462b264972242f9b6d9c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__timer.html#af958eb6ee48462b264972242f9b6d9c3">init_tick</a></td></tr>
+<tr class="memitem:af958eb6ee48462b264972242f9b6d9c3"><td class="memItemLeft" align="right" valign="top">rt_tick_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__timer.html#af958eb6ee48462b264972242f9b6d9c3">init_tick</a></td></tr>
 <tr class="separator:af958eb6ee48462b264972242f9b6d9c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc375a971b021a1c75a6fba94742b136"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__timer.html#afc375a971b021a1c75a6fba94742b136">timeout_tick</a></td></tr>
+<tr class="memitem:afc375a971b021a1c75a6fba94742b136"><td class="memItemLeft" align="right" valign="top">rt_tick_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrt__timer.html#afc375a971b021a1c75a6fba94742b136">timeout_tick</a></td></tr>
 <tr class="separator:afc375a971b021a1c75a6fba94742b136"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -124,14 +124,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="aa4088ef6a48022c333ba491ad25dd31e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4088ef6a48022c333ba491ad25dd31e">&#9670;&nbsp;</a></span>timeout_func</h2>
+<a id="a7521f2f8f83c95857c591147464b5472"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7521f2f8f83c95857c591147464b5472">&#9670;&nbsp;</a></span>timeout_func</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* rt_timer::timeout_func) (void *<a class="el" href="structrt__timer.html#a7865afa39d2596876ce1e7c3275c9042">parameter</a>)</td>
+          <td class="memname"><a class="el" href="group___clock.html#ga0e76c898aed8aeb8117297486ae780d7">rt_timer_func_t</a> rt_timer::timeout_func</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -161,7 +161,7 @@ Data Fields</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a> rt_timer::init_tick</td>
+          <td class="memname">rt_tick_t rt_timer::init_tick</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -176,7 +176,7 @@ Data Fields</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a> rt_timer::timeout_tick</td>
+          <td class="memname">rt_tick_t rt_timer::timeout_tick</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -190,7 +190,7 @@ Data Fields</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structrt__timer.html">rt_timer</a></li>
-    <li class="footer">Generated on Tue Jan 30 2024 16:10:28 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Mar 30 2024 16:10:33 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

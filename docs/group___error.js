@@ -16,5 +16,7 @@ var group___error =
     [ "RT_EPERM", "group___error.html#ga0aa4c078491d908951597e93c8b560dc", null ],
     [ "RT_ETRAP", "group___error.html#ga846bfee9b17336beaac08c5f98498e7b", null ],
     [ "RT_EFAULT", "group___error.html#gad82af9038c8e761ae4f6cc3195714c41", null ],
-    [ "RT_ENOBUFS", "group___error.html#gae4ec620213483ae042b75152ec78955e", null ]
+    [ "RT_ENOBUFS", "group___error.html#gae4ec620213483ae042b75152ec78955e", null ],
+    [ "RT_ESCHEDISR", "group___error.html#gacf3a4ab6a82150156c0ddb21a465c959", null ],
+    [ "RT_ESCHEDLOCKED", "group___error.html#gaba7d0f55e0e45a6ba41befe3edfb64e8", null ]
 ];

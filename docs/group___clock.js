@@ -2,7 +2,7 @@ var group___clock =
 [
     [ "rt_timer", "structrt__timer.html", [
       [ "parent", "structrt__timer.html#a1a3b0ccd5039808ff180c0507812d629", null ],
-      [ "timeout_func", "structrt__timer.html#aa4088ef6a48022c333ba491ad25dd31e", null ],
+      [ "timeout_func", "structrt__timer.html#a7521f2f8f83c95857c591147464b5472", null ],
       [ "parameter", "structrt__timer.html#a7865afa39d2596876ce1e7c3275c9042", null ],
       [ "init_tick", "structrt__timer.html#af958eb6ee48462b264972242f9b6d9c3", null ],
       [ "timeout_tick", "structrt__timer.html#afc375a971b021a1c75a6fba94742b136", null ]
@@ -13,6 +13,7 @@ var group___clock =
     [ "RT_TIMER_FLAG_PERIODIC", "group___clock.html#ga52a9fd903938762a98408771bd139097", null ],
     [ "RT_TIMER_FLAG_HARD_TIMER", "group___clock.html#gad750e1e3947c267e57be487dad3b4300", null ],
     [ "RT_TIMER_FLAG_SOFT_TIMER", "group___clock.html#ga0df6e547917d460610fd734ae84daca3", null ],
+    [ "RT_TIMER_FLAG_THREAD_TIMER", "group___clock.html#gac0dc2570b414ff2eebaa006709a58351", null ],
     [ "RT_TIMER_CTRL_SET_TIME", "group___clock.html#ga9b1d12b8471acff4c8f9eebb4216c7df", null ],
     [ "RT_TIMER_CTRL_GET_TIME", "group___clock.html#ga2bbc0b4b2a4914c8eea4d1263e52ab85", null ],
     [ "RT_TIMER_CTRL_SET_ONESHOT", "group___clock.html#ga460a57e7d4fe4ea24772affaca3d62bc", null ],
@@ -24,6 +25,7 @@ var group___clock =
     [ "RT_TIMER_CTRL_GET_PARM", "group___clock.html#ga3fc576cff8b2cd4420279ee427e684bf", null ],
     [ "RT_TIMER_CTRL_SET_PARM", "group___clock.html#gab0c989ac4eace265524fff5946d58cb7", null ],
     [ "RT_TIMER_SKIP_LIST_MASK", "group___clock.html#gaea94ce9ea3b4819e93cf0b29c1dd5886", null ],
+    [ "rt_timer_func_t", "group___clock.html#ga0e76c898aed8aeb8117297486ae780d7", null ],
     [ "rt_tick_get", "group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae", null ],
     [ "rt_tick_set", "group___clock.html#ga77af135da16a0b9e1c4a351f4bee6dbd", null ],
     [ "rt_tick_increase", "group___clock.html#ga29337f93377626f651dd393e1bb608fb", null ],

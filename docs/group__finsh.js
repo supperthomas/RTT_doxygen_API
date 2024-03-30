@@ -7,5 +7,6 @@ var group__finsh =
     [ "finsh_set_device", "group__finsh.html#ga4ca70de04431b9f767dff9f2ba7dcc8b", null ],
     [ "finsh_get_device", "group__finsh.html#ga2e05476dce5ac5afab26e0769292cf83", null ],
     [ "finsh_set_echo", "group__finsh.html#gae80e3d53913894f5fbfcf9335205c649", null ],
-    [ "finsh_get_echo", "group__finsh.html#ga77d4ddaeaf41942986da9810c6f5b5ee", null ]
+    [ "finsh_get_echo", "group__finsh.html#ga77d4ddaeaf41942986da9810c6f5b5ee", null ],
+    [ "finsh_thread_entry_sethook", "group__finsh.html#ga52183744c46631da773a842c927f1c86", null ]
 ];

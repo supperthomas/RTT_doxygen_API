@@ -87,6 +87,7 @@ $(document).ready(function(){initNavTree('group___clock.html',''); initResizable
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Clock and Timer Management<div class="ingroups"><a class="el" href="group___kernel.html">RT-Thread Kernel API</a></div></div>  </div>
@@ -123,6 +124,8 @@ Macros</h2></td></tr>
 <tr class="separator:gad750e1e3947c267e57be487dad3b4300"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0df6e547917d460610fd734ae84daca3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga0df6e547917d460610fd734ae84daca3">RT_TIMER_FLAG_SOFT_TIMER</a>&#160;&#160;&#160;0x4</td></tr>
 <tr class="separator:ga0df6e547917d460610fd734ae84daca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac0dc2570b414ff2eebaa006709a58351"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#gac0dc2570b414ff2eebaa006709a58351">RT_TIMER_FLAG_THREAD_TIMER</a>&#160;&#160;&#160;    (0x8 | <a class="el" href="group___clock.html#gad750e1e3947c267e57be487dad3b4300">RT_TIMER_FLAG_HARD_TIMER</a>)</td></tr>
+<tr class="separator:gac0dc2570b414ff2eebaa006709a58351"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9b1d12b8471acff4c8f9eebb4216c7df"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga9b1d12b8471acff4c8f9eebb4216c7df">RT_TIMER_CTRL_SET_TIME</a>&#160;&#160;&#160;0x0</td></tr>
 <tr class="separator:ga9b1d12b8471acff4c8f9eebb4216c7df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2bbc0b4b2a4914c8eea4d1263e52ab85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga2bbc0b4b2a4914c8eea4d1263e52ab85">RT_TIMER_CTRL_GET_TIME</a>&#160;&#160;&#160;0x1</td></tr>
@@ -146,35 +149,40 @@ Macros</h2></td></tr>
 <tr class="memitem:gaea94ce9ea3b4819e93cf0b29c1dd5886"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#gaea94ce9ea3b4819e93cf0b29c1dd5886">RT_TIMER_SKIP_LIST_MASK</a>&#160;&#160;&#160;0x3</td></tr>
 <tr class="separator:gaea94ce9ea3b4819e93cf0b29c1dd5886"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga0e76c898aed8aeb8117297486ae780d7"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga0e76c898aed8aeb8117297486ae780d7">rt_timer_func_t</a>) (void *parameter)</td></tr>
+<tr class="separator:ga0e76c898aed8aeb8117297486ae780d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga6e2aa36f263bddcddae01a91986fcdae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae">rt_tick_get</a> (void)</td></tr>
+<tr class="memitem:ga6e2aa36f263bddcddae01a91986fcdae"><td class="memItemLeft" align="right" valign="top">rt_tick_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae">rt_tick_get</a> (void)</td></tr>
 <tr class="separator:ga6e2aa36f263bddcddae01a91986fcdae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga77af135da16a0b9e1c4a351f4bee6dbd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga77af135da16a0b9e1c4a351f4bee6dbd">rt_tick_set</a> (<a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a> tick)</td></tr>
+<tr class="memitem:ga77af135da16a0b9e1c4a351f4bee6dbd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga77af135da16a0b9e1c4a351f4bee6dbd">rt_tick_set</a> (rt_tick_t tick)</td></tr>
 <tr class="separator:ga77af135da16a0b9e1c4a351f4bee6dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga29337f93377626f651dd393e1bb608fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga29337f93377626f651dd393e1bb608fb">rt_tick_increase</a> (void)</td></tr>
 <tr class="separator:ga29337f93377626f651dd393e1bb608fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaae158e7af4e29210a5467bc2ea93ed0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#gaae158e7af4e29210a5467bc2ea93ed0d">rt_tick_from_millisecond</a> (<a class="el" href="group___basic_def.html#gafab3dddb302fee91b8d8cff1c6fae9bd">rt_int32_t</a> ms)</td></tr>
+<tr class="memitem:gaae158e7af4e29210a5467bc2ea93ed0d"><td class="memItemLeft" align="right" valign="top">rt_tick_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#gaae158e7af4e29210a5467bc2ea93ed0d">rt_tick_from_millisecond</a> (rt_int32_t ms)</td></tr>
 <tr class="separator:gaae158e7af4e29210a5467bc2ea93ed0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga76eb049ed20db0575c0f13d6343e7072"><td class="memItemLeft" align="right" valign="top">rt_weak <a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga76eb049ed20db0575c0f13d6343e7072">rt_tick_get_millisecond</a> (void)</td></tr>
+<tr class="memitem:ga76eb049ed20db0575c0f13d6343e7072"><td class="memItemLeft" align="right" valign="top">rt_weak rt_tick_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga76eb049ed20db0575c0f13d6343e7072">rt_tick_get_millisecond</a> (void)</td></tr>
 <tr class="separator:ga76eb049ed20db0575c0f13d6343e7072"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga678d29f53307113da6b1578c9d3423cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga678d29f53307113da6b1578c9d3423cb">rt_timer_init</a> (<a class="el" href="structrt__timer.html">rt_timer_t</a> timer, const char *name, void(*timeout)(void *parameter), void *parameter, <a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a> time, <a class="el" href="group___basic_def.html#ga585e2ad0fbab0f83817cb61373465df6">rt_uint8_t</a> flag)</td></tr>
+<tr class="memitem:ga678d29f53307113da6b1578c9d3423cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga678d29f53307113da6b1578c9d3423cb">rt_timer_init</a> (<a class="el" href="structrt__timer.html">rt_timer_t</a> timer, const char *name, void(*timeout)(void *parameter), void *parameter, rt_tick_t time, rt_uint8_t flag)</td></tr>
 <tr class="separator:ga678d29f53307113da6b1578c9d3423cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0d1aca4fc86f1dbd88945be8820793bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb">rt_timer_detach</a> (<a class="el" href="structrt__timer.html">rt_timer_t</a> timer)</td></tr>
+<tr class="memitem:ga0d1aca4fc86f1dbd88945be8820793bb"><td class="memItemLeft" align="right" valign="top">rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga0d1aca4fc86f1dbd88945be8820793bb">rt_timer_detach</a> (<a class="el" href="structrt__timer.html">rt_timer_t</a> timer)</td></tr>
 <tr class="separator:ga0d1aca4fc86f1dbd88945be8820793bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9e6911989135de1b989dd7fe1b3543ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structrt__timer.html">rt_timer_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga9e6911989135de1b989dd7fe1b3543ce">rt_timer_create</a> (const char *name, void(*timeout)(void *parameter), void *parameter, <a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a> time, <a class="el" href="group___basic_def.html#ga585e2ad0fbab0f83817cb61373465df6">rt_uint8_t</a> flag)</td></tr>
+<tr class="memitem:ga9e6911989135de1b989dd7fe1b3543ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structrt__timer.html">rt_timer_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga9e6911989135de1b989dd7fe1b3543ce">rt_timer_create</a> (const char *name, void(*timeout)(void *parameter), void *parameter, rt_tick_t time, rt_uint8_t flag)</td></tr>
 <tr class="separator:ga9e6911989135de1b989dd7fe1b3543ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf6c147a1f25bd5ac9e72a142ab36a4ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#gaf6c147a1f25bd5ac9e72a142ab36a4ac">rt_timer_delete</a> (<a class="el" href="structrt__timer.html">rt_timer_t</a> timer)</td></tr>
+<tr class="memitem:gaf6c147a1f25bd5ac9e72a142ab36a4ac"><td class="memItemLeft" align="right" valign="top">rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#gaf6c147a1f25bd5ac9e72a142ab36a4ac">rt_timer_delete</a> (<a class="el" href="structrt__timer.html">rt_timer_t</a> timer)</td></tr>
 <tr class="separator:gaf6c147a1f25bd5ac9e72a142ab36a4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3aeb8f8350b3a7403d8629231396c016"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga3aeb8f8350b3a7403d8629231396c016">rt_timer_start</a> (<a class="el" href="structrt__timer.html">rt_timer_t</a> timer)</td></tr>
+<tr class="memitem:ga3aeb8f8350b3a7403d8629231396c016"><td class="memItemLeft" align="right" valign="top">rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga3aeb8f8350b3a7403d8629231396c016">rt_timer_start</a> (<a class="el" href="structrt__timer.html">rt_timer_t</a> timer)</td></tr>
 <tr class="separator:ga3aeb8f8350b3a7403d8629231396c016"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaef9923c8b90ede02e12826c58c6f8a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2">rt_timer_stop</a> (<a class="el" href="structrt__timer.html">rt_timer_t</a> timer)</td></tr>
+<tr class="memitem:gaaef9923c8b90ede02e12826c58c6f8a2"><td class="memItemLeft" align="right" valign="top">rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#gaaef9923c8b90ede02e12826c58c6f8a2">rt_timer_stop</a> (<a class="el" href="structrt__timer.html">rt_timer_t</a> timer)</td></tr>
 <tr class="separator:gaaef9923c8b90ede02e12826c58c6f8a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga15e3b76a4a58d31aaf5c992bc127615c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c">rt_timer_control</a> (<a class="el" href="structrt__timer.html">rt_timer_t</a> timer, int cmd, void *arg)</td></tr>
+<tr class="memitem:ga15e3b76a4a58d31aaf5c992bc127615c"><td class="memItemLeft" align="right" valign="top">rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga15e3b76a4a58d31aaf5c992bc127615c">rt_timer_control</a> (<a class="el" href="structrt__timer.html">rt_timer_t</a> timer, int cmd, void *arg)</td></tr>
 <tr class="separator:ga15e3b76a4a58d31aaf5c992bc127615c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3a29a70b401aa9d5c5dbb7269fd0ac57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga3a29a70b401aa9d5c5dbb7269fd0ac57">rt_timer_check</a> (void)</td></tr>
 <tr class="separator:ga3a29a70b401aa9d5c5dbb7269fd0ac57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga51af0ff7d55ff298adfb87d276d0d678"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga51af0ff7d55ff298adfb87d276d0d678">rt_timer_next_timeout_tick</a> (void)</td></tr>
+<tr class="memitem:ga51af0ff7d55ff298adfb87d276d0d678"><td class="memItemLeft" align="right" valign="top">rt_tick_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga51af0ff7d55ff298adfb87d276d0d678">rt_timer_next_timeout_tick</a> (void)</td></tr>
 <tr class="separator:ga51af0ff7d55ff298adfb87d276d0d678"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9f109e873cdcf963059e968cedb76c36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga9f109e873cdcf963059e968cedb76c36">rt_system_timer_init</a> (void)</td></tr>
 <tr class="separator:ga9f109e873cdcf963059e968cedb76c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -273,6 +281,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>soft timer,the timer's callback function will be called in timer thread. </p>
+
+</div>
+</div>
+<a id="gac0dc2570b414ff2eebaa006709a58351"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac0dc2570b414ff2eebaa006709a58351">&#9670;&nbsp;</a></span>RT_TIMER_FLAG_THREAD_TIMER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_TIMER_FLAG_THREAD_TIMER&#160;&#160;&#160;    (0x8 | <a class="el" href="group___clock.html#gad750e1e3947c267e57be487dad3b4300">RT_TIMER_FLAG_HARD_TIMER</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>thread timer that cooperates with scheduler directly </p>
 
 </div>
 </div>
@@ -445,6 +468,22 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ga0e76c898aed8aeb8117297486ae780d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0e76c898aed8aeb8117297486ae780d7">&#9670;&nbsp;</a></span>rt_timer_func_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* rt_timer_func_t) (void *parameter)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>timeout handler of <a class="el" href="structrt__timer.html">rt_timer</a> </p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga6e2aa36f263bddcddae01a91986fcdae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga6e2aa36f263bddcddae01a91986fcdae">&#9670;&nbsp;</a></span>rt_tick_get()</h2>
@@ -453,7 +492,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a> rt_tick_get </td>
+          <td class="memname">rt_tick_t rt_tick_get </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -476,7 +515,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void rt_tick_set </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a>&#160;</td>
+          <td class="paramtype">rt_tick_t&#160;</td>
           <td class="paramname"><em>tick</em></td><td>)</td>
           <td></td>
         </tr>
@@ -520,9 +559,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a> rt_tick_from_millisecond </td>
+          <td class="memname">rt_tick_t rt_tick_from_millisecond </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#gafab3dddb302fee91b8d8cff1c6fae9bd">rt_int32_t</a>&#160;</td>
+          <td class="paramtype">rt_int32_t&#160;</td>
           <td class="paramname"><em>ms</em></td><td>)</td>
           <td></td>
         </tr>
@@ -552,7 +591,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a> rt_tick_get_millisecond </td>
+          <td class="memname">rt_tick_t rt_tick_get_millisecond </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -600,13 +639,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a>&#160;</td>
+          <td class="paramtype">rt_tick_t&#160;</td>
           <td class="paramname"><em>time</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga585e2ad0fbab0f83817cb61373465df6">rt_uint8_t</a>&#160;</td>
+          <td class="paramtype">rt_uint8_t&#160;</td>
           <td class="paramname"><em>flag</em>&#160;</td>
         </tr>
         <tr>
@@ -640,7 +679,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_timer_detach </td>
+          <td class="memname">rt_err_t rt_timer_detach </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structrt__timer.html">rt_timer_t</a>&#160;</td>
           <td class="paramname"><em>timer</em></td><td>)</td>
@@ -687,13 +726,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a>&#160;</td>
+          <td class="paramtype">rt_tick_t&#160;</td>
           <td class="paramname"><em>time</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___basic_def.html#ga585e2ad0fbab0f83817cb61373465df6">rt_uint8_t</a>&#160;</td>
+          <td class="paramtype">rt_uint8_t&#160;</td>
           <td class="paramname"><em>flag</em>&#160;</td>
         </tr>
         <tr>
@@ -717,6 +756,7 @@ Functions</h2></td></tr>
 
      RT_TIMER_FLAG_HARD_TIMER        Hardware timer
      RT_TIMER_FLAG_SOFT_TIMER        Software timer
+     RT_TIMER_FLAG_THREAD_TIMER      Thread timer
 
    NOTE:
    You can use multiple values with "|" logical operator.  By default, system will use the RT_TIME_FLAG_HARD_TIMER.
@@ -735,7 +775,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_timer_delete </td>
+          <td class="memname">rt_err_t rt_timer_delete </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structrt__timer.html">rt_timer_t</a>&#160;</td>
           <td class="paramname"><em>timer</em></td><td>)</td>
@@ -762,7 +802,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_timer_start </td>
+          <td class="memname">rt_err_t rt_timer_start </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structrt__timer.html">rt_timer_t</a>&#160;</td>
           <td class="paramname"><em>timer</em></td><td>)</td>
@@ -789,7 +829,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_timer_stop </td>
+          <td class="memname">rt_err_t rt_timer_stop </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structrt__timer.html">rt_timer_t</a>&#160;</td>
           <td class="paramname"><em>timer</em></td><td>)</td>
@@ -816,7 +856,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga42df42aabf676f2a89f5af2208b79950">rt_err_t</a> rt_timer_control </td>
+          <td class="memname">rt_err_t rt_timer_control </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structrt__timer.html">rt_timer_t</a>&#160;</td>
           <td class="paramname"><em>timer</em>, </td>
@@ -882,7 +922,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group___basic_def.html#ga66c400929925784dba020d671154978a">rt_tick_t</a> rt_timer_next_timeout_tick </td>
+          <td class="memname">rt_tick_t rt_timer_next_timeout_tick </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -941,7 +981,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 30 2024 16:10:28 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Mar 30 2024 16:10:33 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
