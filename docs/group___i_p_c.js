@@ -98,5 +98,10 @@ var group___i_p_c =
     [ "rt_mq_urgent", "group___i_p_c.html#gafb1abee716f2f5c24a36aff2ffd32c75", null ],
     [ "rt_mq_control", "group___i_p_c.html#ga3b1ec7b2bfbc8029b0200755505d7c55", null ],
     [ "rt_thread_defunct_enqueue", "group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee", null ],
-    [ "rt_thread_defunct_dequeue", "group___i_p_c.html#ga35f8bcf6aa8d872a07261a8faaa026ba", null ]
+    [ "rt_thread_defunct_dequeue", "group___i_p_c.html#ga35f8bcf6aa8d872a07261a8faaa026ba", null ],
+    [ "rt_spin_lock_init", "group___i_p_c.html#gabda9721c7e7e2d27e53f0b4604dd65dd", null ],
+    [ "rt_spin_lock", "group___i_p_c.html#ga9e3b84e1f0acebdd5ae36b0626b24240", null ],
+    [ "rt_spin_unlock", "group___i_p_c.html#gac2f7760a8299108cd4ba8a9135ef4f93", null ],
+    [ "rt_spin_lock_irqsave", "group___i_p_c.html#ga349989d50ad6f1b3bbe508b0cd7051f1", null ],
+    [ "rt_spin_unlock_irqrestore", "group___i_p_c.html#gaed628fa8199becf4d3c6ea12cf8d6991", null ]
 ];

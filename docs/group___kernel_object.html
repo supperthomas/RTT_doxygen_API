@@ -124,6 +124,8 @@ Macros</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:ga91d74b4f1699da278153af455dadcd70"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structrt__object.html">rt_object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a></td></tr>
 <tr class="separator:ga91d74b4f1699da278153af455dadcd70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacfffbe0294a95f7b0233554e3694730b"><td class="memItemLeft" align="right" valign="top">typedef rt_err_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#gacfffbe0294a95f7b0233554e3694730b">rt_object_iter_t</a>) (<a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a> object, void *data)</td></tr>
+<tr class="separator:gacfffbe0294a95f7b0233554e3694730b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -175,6 +177,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga0b4471fdda93017477bc81ca357481ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8e9948d16704c567feb38b9d98618a91"><td class="memItemLeft" align="right" valign="top">rt_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91">rt_object_get_type</a> (<a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a> object)</td></tr>
 <tr class="separator:ga8e9948d16704c567feb38b9d98618a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa55c2a73bdf7ede3f5bb80fe70431f4f"><td class="memItemLeft" align="right" valign="top">rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#gaa55c2a73bdf7ede3f5bb80fe70431f4f">rt_object_for_each</a> (rt_uint8_t type, <a class="el" href="group___kernel_object.html#gacfffbe0294a95f7b0233554e3694730b">rt_object_iter_t</a> iter, void *data)</td></tr>
+<tr class="separator:gaa55c2a73bdf7ede3f5bb80fe70431f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6c82dbb4ae114918c5c96d0dca3957eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga6c82dbb4ae114918c5c96d0dca3957eb">rt_object_find</a> (const char *name, rt_uint8_t type)</td></tr>
 <tr class="separator:ga6c82dbb4ae114918c5c96d0dca3957eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga49942be6b9cf766f38f0ec5fe00524b2"><td class="memItemLeft" align="right" valign="top">rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_object.html#ga49942be6b9cf766f38f0ec5fe00524b2">rt_object_get_name</a> (<a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a> object, char *name, rt_uint8_t name_size)</td></tr>
@@ -261,6 +265,22 @@ Figure 2: Kernel Object</div></div>
       </table>
 </div><div class="memdoc">
 <p>Type for kernel objects. </p>
+
+</div>
+</div>
+<a id="gacfffbe0294a95f7b0233554e3694730b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacfffbe0294a95f7b0233554e3694730b">&#9670;&nbsp;</a></span>rt_object_iter_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef rt_err_t(* rt_object_iter_t) (<a class="el" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70">rt_object_t</a> object, void *data)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>iterator of <a class="el" href="group___kernel_object.html#gaa55c2a73bdf7ede3f5bb80fe70431f4f" title="This function will iterate through each object from object container.">rt_object_for_each()</a></p>
+<p>data is the data passing in to <a class="el" href="group___kernel_object.html#gaa55c2a73bdf7ede3f5bb80fe70431f4f" title="This function will iterate through each object from object container.">rt_object_for_each()</a>. iterator can return RT_EOK to continue the iteration; or any positive value to break the loop successfully; or any negative errno to break the loop on failure. </p>
 
 </div>
 </div>
@@ -623,6 +643,52 @@ Figure 2: Kernel Object</div></div>
 
 </div>
 </div>
+<a id="gaa55c2a73bdf7ede3f5bb80fe70431f4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa55c2a73bdf7ede3f5bb80fe70431f4f">&#9670;&nbsp;</a></span>rt_object_for_each()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rt_err_t rt_object_for_each </td>
+          <td>(</td>
+          <td class="paramtype">rt_uint8_t&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___kernel_object.html#gacfffbe0294a95f7b0233554e3694730b">rt_object_iter_t</a>&#160;</td>
+          <td class="paramname"><em>iter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will iterate through each object from object container. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>is the type of object </td></tr>
+    <tr><td class="paramname">iter</td><td>is the iterator </td></tr>
+    <tr><td class="paramname">data</td><td>is the specified data passed to iterator</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>RT_EOK on succeed, otherwise the error from <code>iter</code></dd></dl>
+<dl class="section note"><dt>Note</dt><dd>this function shall not be invoked in interrupt status. </dd></dl>
+
+</div>
+</div>
 <a id="ga6c82dbb4ae114918c5c96d0dca3957eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga6c82dbb4ae114918c5c96d0dca3957eb">&#9670;&nbsp;</a></span>rt_object_find()</h2>
 
@@ -784,7 +850,7 @@ Figure 2: Kernel Object</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Mar 30 2024 16:10:33 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed Jun 26 2024 00:24:07 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -112,6 +112,8 @@ Modules</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:ga2ff899d05156923de4c9148ea03142c8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga2ff899d05156923de4c9148ea03142c8">RT_HW_BACKTRACE_FRAME_GET_SELF</a>(frame)</td></tr>
+<tr class="separator:ga2ff899d05156923de4c9148ea03142c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaff9df70e97252587b08e02b53549cadf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gaff9df70e97252587b08e02b53549cadf">rt_container_of</a>(ptr,  type,  member)&#160;&#160;&#160;    ((type *)((char *)(ptr) - (unsigned long)(&amp;((type *)0)-&gt;member)))</td></tr>
 <tr class="separator:gaff9df70e97252587b08e02b53549cadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4cc6d94199b8cd5c2b90dc398a44f654"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga4cc6d94199b8cd5c2b90dc398a44f654">RT_LIST_OBJECT_INIT</a>(object)&#160;&#160;&#160;{ &amp;(object), &amp;(object) }</td></tr>
@@ -141,16 +143,24 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga6dac97b487aa32006a7ad0f9bee7e92c"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga6dac97b487aa32006a7ad0f9bee7e92c">rt_strerror</a> (rt_err_t error)</td></tr>
-<tr class="separator:ga6dac97b487aa32006a7ad0f9bee7e92c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga17b8724a14746aa74d7c2969c3289fbc"><td class="memItemLeft" align="right" valign="top">rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga17b8724a14746aa74d7c2969c3289fbc">rt_get_errno</a> (void)</td></tr>
-<tr class="separator:ga17b8724a14746aa74d7c2969c3289fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae4550e2e69a249c81e4cb33b92786deb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb">rt_set_errno</a> (rt_err_t error)</td></tr>
-<tr class="separator:gae4550e2e69a249c81e4cb33b92786deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga02ccef35d98a60385ce86d14c0bad9d0"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga02ccef35d98a60385ce86d14c0bad9d0">_rt_errno</a> (void)</td></tr>
-<tr class="separator:ga02ccef35d98a60385ce86d14c0bad9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga84493d8f8ff8f3c1c9a08d40b9d289c1"><td class="memItemLeft" align="right" valign="top">rt_weak rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga84493d8f8ff8f3c1c9a08d40b9d289c1">rt_hw_backtrace_frame_get</a> (<a class="el" href="structrt__thread.html">rt_thread_t</a> thread, struct <a class="el" href="structrt__hw__backtrace__frame.html">rt_hw_backtrace_frame</a> *frame)</td></tr>
+<tr class="separator:ga84493d8f8ff8f3c1c9a08d40b9d289c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga33db6a8d3ca19fc6872ac4d050eb5cb6"><td class="memItemLeft" align="right" valign="top">rt_weak rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga33db6a8d3ca19fc6872ac4d050eb5cb6">rt_hw_backtrace_frame_unwind</a> (<a class="el" href="structrt__thread.html">rt_thread_t</a> thread, struct <a class="el" href="structrt__hw__backtrace__frame.html">rt_hw_backtrace_frame</a> *frame)</td></tr>
+<tr class="separator:ga33db6a8d3ca19fc6872ac4d050eb5cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga11ecdcdb5b09e6e18b52625c1e904dca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga11ecdcdb5b09e6e18b52625c1e904dca">rt_show_version</a> (void)</td></tr>
 <tr class="separator:ga11ecdcdb5b09e6e18b52625c1e904dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf77c2615e3a8129da451da8e43594a30"><td class="memItemLeft" align="right" valign="top">rt_weak rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gaf77c2615e3a8129da451da8e43594a30">rt_backtrace</a> (void)</td></tr>
+<tr class="separator:gaf77c2615e3a8129da451da8e43594a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab41629df0c2989e1560d5073d94f96bc"><td class="memItemLeft" align="right" valign="top">rt_weak rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gab41629df0c2989e1560d5073d94f96bc">rt_backtrace_frame</a> (<a class="el" href="structrt__thread.html">rt_thread_t</a> thread, struct <a class="el" href="structrt__hw__backtrace__frame.html">rt_hw_backtrace_frame</a> *frame)</td></tr>
+<tr class="separator:gab41629df0c2989e1560d5073d94f96bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaabac0871937b8ad06ef016821f3b6ce9"><td class="memItemLeft" align="right" valign="top">rt_weak rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gaabac0871937b8ad06ef016821f3b6ce9">rt_backtrace_formatted_print</a> (rt_ubase_t *buffer, long buflen)</td></tr>
+<tr class="separator:gaabac0871937b8ad06ef016821f3b6ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7f0dc6ef55e3378bdf99ad3c83295ede"><td class="memItemLeft" align="right" valign="top">rt_weak rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga7f0dc6ef55e3378bdf99ad3c83295ede">rt_backtrace_to_buffer</a> (<a class="el" href="structrt__thread.html">rt_thread_t</a> thread, struct <a class="el" href="structrt__hw__backtrace__frame.html">rt_hw_backtrace_frame</a> *frame, long skip, rt_ubase_t *buffer, long buflen)</td></tr>
+<tr class="separator:ga7f0dc6ef55e3378bdf99ad3c83295ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf8fdd74e45a7037133c40b6f259f003e"><td class="memItemLeft" align="right" valign="top">rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gaf8fdd74e45a7037133c40b6f259f003e">rt_backtrace_thread</a> (<a class="el" href="structrt__thread.html">rt_thread_t</a> thread)</td></tr>
+<tr class="separator:gaf8fdd74e45a7037133c40b6f259f003e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf70655467791a07c7da77f184914a580"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gaf70655467791a07c7da77f184914a580">rt_system_heap_init_generic</a> (void *begin_addr, void *end_addr)</td></tr>
+<tr class="separator:gaf70655467791a07c7da77f184914a580"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7ccb4a60ea0018ba0060611b8b328026"><td class="memItemLeft" align="right" valign="top">rt_weak void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga7ccb4a60ea0018ba0060611b8b328026">rt_system_heap_init</a> (void *begin_addr, void *end_addr)</td></tr>
 <tr class="separator:ga7ccb4a60ea0018ba0060611b8b328026"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad551ed7184fb8b7ebad5c1f344045638"><td class="memItemLeft" align="right" valign="top">rt_weak void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#gad551ed7184fb8b7ebad5c1f344045638">rt_malloc</a> (rt_size_t size)</td></tr>
@@ -187,6 +197,29 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>other useful service in the kernel </p>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga2ff899d05156923de4c9148ea03142c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2ff899d05156923de4c9148ea03142c8">&#9670;&nbsp;</a></span>RT_HW_BACKTRACE_FRAME_GET_SELF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_HW_BACKTRACE_FRAME_GET_SELF</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">frame</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">        <span class="keywordflow">do</span> {  \</div>
+<div class="line">        (frame)-&gt;fp = 0;                                \</div>
+<div class="line">        (frame)-&gt;pc = 0;                                \</div>
+<div class="line">    } <span class="keywordflow">while</span> (0)</div>
+</div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>can be overridden by cpuport.h which is defined by a specific arch </dd></dl>
+
+</div>
+</div>
 <a id="gaff9df70e97252587b08e02b53549cadf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaff9df70e97252587b08e02b53549cadf">&#9670;&nbsp;</a></span>rt_container_of</h2>
 
@@ -719,98 +752,79 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga6dac97b487aa32006a7ad0f9bee7e92c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6dac97b487aa32006a7ad0f9bee7e92c">&#9670;&nbsp;</a></span>rt_strerror()</h2>
+<a id="ga84493d8f8ff8f3c1c9a08d40b9d289c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga84493d8f8ff8f3c1c9a08d40b9d289c1">&#9670;&nbsp;</a></span>rt_hw_backtrace_frame_get()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const char * rt_strerror </td>
+          <td class="memname">rt_weak rt_err_t rt_hw_backtrace_frame_get </td>
           <td>(</td>
-          <td class="paramtype">rt_err_t&#160;</td>
-          <td class="paramname"><em>error</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structrt__thread.html">rt_thread_t</a>&#160;</td>
+          <td class="paramname"><em>thread</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">struct <a class="el" href="structrt__hw__backtrace__frame.html">rt_hw_backtrace_frame</a> *&#160;</td>
+          <td class="paramname"><em>frame</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>This function return a pointer to a string that contains the message of error. </p>
+<p>Get the inner most frame of target thread. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">error</td><td>the errorno code </td></tr>
+    <tr><td class="paramname">thread</td><td>the thread which frame belongs to </td></tr>
+    <tr><td class="paramname">frame</td><td>the specified frame to be unwound </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a point to error message string </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>rt_err_t 0 is succeed, otherwise a failure </dd></dl>
 
 </div>
 </div>
-<a id="ga17b8724a14746aa74d7c2969c3289fbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga17b8724a14746aa74d7c2969c3289fbc">&#9670;&nbsp;</a></span>rt_get_errno()</h2>
+<a id="ga33db6a8d3ca19fc6872ac4d050eb5cb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga33db6a8d3ca19fc6872ac4d050eb5cb6">&#9670;&nbsp;</a></span>rt_hw_backtrace_frame_unwind()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">rt_err_t rt_get_errno </td>
+          <td class="memname">rt_weak rt_err_t rt_hw_backtrace_frame_unwind </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="paramtype"><a class="el" href="structrt__thread.html">rt_thread_t</a>&#160;</td>
+          <td class="paramname"><em>thread</em>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This function gets the global errno for the current thread. </p>
-<dl class="section return"><dt>Returns</dt><dd>errno </dd></dl>
-
-</div>
-</div>
-<a id="gae4550e2e69a249c81e4cb33b92786deb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae4550e2e69a249c81e4cb33b92786deb">&#9670;&nbsp;</a></span>rt_set_errno()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">void rt_set_errno </td>
-          <td>(</td>
-          <td class="paramtype">rt_err_t&#160;</td>
-          <td class="paramname"><em>error</em></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">struct <a class="el" href="structrt__hw__backtrace__frame.html">rt_hw_backtrace_frame</a> *&#160;</td>
+          <td class="paramname"><em>frame</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>This function sets the global errno for the current thread. </p>
+<p>Unwind the target frame. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">error</td><td>is the errno shall be set. </td></tr>
+    <tr><td class="paramname">thread</td><td>the thread which frame belongs to </td></tr>
+    <tr><td class="paramname">frame</td><td>the specified frame to be unwound </td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="ga02ccef35d98a60385ce86d14c0bad9d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga02ccef35d98a60385ce86d14c0bad9d0">&#9670;&nbsp;</a></span>_rt_errno()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int * _rt_errno </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This function returns the address of the current thread errno. </p>
-<dl class="section return"><dt>Returns</dt><dd>The errno address. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>rt_err_t 0 is succeed, otherwise a failure </dd></dl>
 
 </div>
 </div>
@@ -831,6 +845,226 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This function will show the version of rt-thread rtos. </p>
+
+</div>
+</div>
+<a id="gaf77c2615e3a8129da451da8e43594a30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf77c2615e3a8129da451da8e43594a30">&#9670;&nbsp;</a></span>rt_backtrace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rt_err_t rt_backtrace </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print backtrace of current thread to system console device. </p>
+<dl class="section return"><dt>Returns</dt><dd>rt_err_t 0 is success, otherwise a failure </dd></dl>
+
+</div>
+</div>
+<a id="gab41629df0c2989e1560d5073d94f96bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab41629df0c2989e1560d5073d94f96bc">&#9670;&nbsp;</a></span>rt_backtrace_frame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rt_err_t rt_backtrace_frame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structrt__thread.html">rt_thread_t</a>&#160;</td>
+          <td class="paramname"><em>thread</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structrt__hw__backtrace__frame.html">rt_hw_backtrace_frame</a> *&#160;</td>
+          <td class="paramname"><em>frame</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print backtrace from frame to system console device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">thread</td><td>the thread which frame belongs to </td></tr>
+    <tr><td class="paramname">frame</td><td>where backtrace starts from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>rt_err_t 0 is success, otherwise a failure </dd></dl>
+
+</div>
+</div>
+<a id="gaabac0871937b8ad06ef016821f3b6ce9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaabac0871937b8ad06ef016821f3b6ce9">&#9670;&nbsp;</a></span>rt_backtrace_formatted_print()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rt_err_t rt_backtrace_formatted_print </td>
+          <td>(</td>
+          <td class="paramtype">rt_ubase_t *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>buflen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print backtrace from buffer to system console. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buffer</td><td>where traced frames saved </td></tr>
+    <tr><td class="paramname">buflen</td><td>number of items in buffer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>rt_err_t 0 is success, otherwise a failure </dd></dl>
+
+</div>
+</div>
+<a id="ga7f0dc6ef55e3378bdf99ad3c83295ede"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7f0dc6ef55e3378bdf99ad3c83295ede">&#9670;&nbsp;</a></span>rt_backtrace_to_buffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rt_err_t rt_backtrace_to_buffer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structrt__thread.html">rt_thread_t</a>&#160;</td>
+          <td class="paramname"><em>thread</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structrt__hw__backtrace__frame.html">rt_hw_backtrace_frame</a> *&#160;</td>
+          <td class="paramname"><em>frame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>skip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">rt_ubase_t *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>buflen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print backtrace from frame to the given buffer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">thread</td><td>the thread which frame belongs to </td></tr>
+    <tr><td class="paramname">frame</td><td>where backtrace starts from. NULL if it's the current one </td></tr>
+    <tr><td class="paramname">skip</td><td>the number of frames to discarded counted from calling function. Noted that the inner most frame is always discarded and not counted, which is obviously reasonable since that's this function itself. </td></tr>
+    <tr><td class="paramname">buffer</td><td>where traced frames saved </td></tr>
+    <tr><td class="paramname">buflen</td><td>max number of items can be saved in buffer. If there are no more than buflen items to be saved, there will be a NULL after the last saved item in the buffer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>rt_err_t 0 is success, otherwise a failure </dd></dl>
+
+</div>
+</div>
+<a id="gaf8fdd74e45a7037133c40b6f259f003e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf8fdd74e45a7037133c40b6f259f003e">&#9670;&nbsp;</a></span>rt_backtrace_thread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rt_err_t rt_backtrace_thread </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structrt__thread.html">rt_thread_t</a>&#160;</td>
+          <td class="paramname"><em>thread</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print backtrace of a thread to system console device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">thread</td><td>which call stack is traced </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>rt_err_t 0 is success, otherwise a failure </dd></dl>
+
+</div>
+</div>
+<a id="gaf70655467791a07c7da77f184914a580"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf70655467791a07c7da77f184914a580">&#9670;&nbsp;</a></span>rt_system_heap_init_generic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_system_heap_init_generic </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>begin_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>end_addr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will do the generic system heap initialization. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">begin_addr</td><td>the beginning address of system page.</td></tr>
+    <tr><td class="paramname">end_addr</td><td>the end address of system page. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -860,7 +1094,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>This function will init system heap. </p>
+<p>This function will init system heap. User can override this API to complete other works, like heap sanitizer initialization. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">begin_addr</td><td>the beginning address of system page.</td></tr>
@@ -1346,7 +1580,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Mar 30 2024 16:10:33 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed Jun 26 2024 00:24:07 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

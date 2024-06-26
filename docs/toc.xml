@@ -84,6 +84,8 @@
     </topic>
     <topic label="RT-Thread Kernel API" href="group___kernel.html">
       <topic label="Thread Management" href="group___thread.html">
+        <topic label="rt_cpu_usage_stats" href="structrt__cpu__usage__stats.html">
+        </topic>
         <topic label="rt_thread" href="structrt__thread.html">
           <topic label="sp" href="structrt__thread.html#abc9d01c30e0fc9872df2fd5c044e31e0"/>
           <topic label="entry" href="structrt__thread.html#adcdaf75f05998c6485544c337526da52"/>
@@ -116,6 +118,7 @@
         <topic label="rt_thread_init" href="group___thread.html#gacd985aa60939b95e510f144610f001b9"/>
         <topic label="rt_thread_self" href="group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7"/>
         <topic label="rt_thread_startup" href="group___thread.html#ga04b743537fd099e204fc292e57b4aa5a"/>
+        <topic label="rt_thread_close" href="group___thread.html#ga0c482e895baff359b920966f2822ee06"/>
         <topic label="rt_thread_detach" href="group___thread.html#ga514825b80304477ecf377d721da409b0"/>
         <topic label="rt_thread_create" href="group___thread.html#gacb215b161f17c26b5e19c28cd0119e7b"/>
         <topic label="rt_thread_delete" href="group___thread.html#ga6d64eb4d0a485461049616808f4ce177"/>
@@ -203,6 +206,7 @@
         <topic label="RT_OBJECT_FLAG_MODULE" href="group___kernel_object.html#gadc83c17483bce09fad91cc8b2a3d0ed5"/>
         <topic label="_RT_OBJECT_HOOK_CALL" href="group___kernel_object.html#ga48303daf239aef45300fe436428a10ae"/>
         <topic label="rt_object_t" href="group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70"/>
+        <topic label="rt_object_iter_t" href="group___kernel_object.html#gacfffbe0294a95f7b0233554e3694730b"/>
         <topic label="rt_object_class_type" href="group___kernel_object.html#ga38a532bcb1bd3f12685db4219b761b56">
           <topic label="RT_Object_Class_Null" href="group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a8bd7977afdebe3101f16c9c0c9aa5cb0"/>
           <topic label="RT_Object_Class_Thread" href="group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a548d26bb698e083d38bd8f0649441a52"/>
@@ -233,6 +237,7 @@
         <topic label="rt_object_delete" href="group___kernel_object.html#ga0479fb23b766d96e9611ed32becc2797"/>
         <topic label="rt_object_is_systemobject" href="group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac"/>
         <topic label="rt_object_get_type" href="group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91"/>
+        <topic label="rt_object_for_each" href="group___kernel_object.html#gaa55c2a73bdf7ede3f5bb80fe70431f4f"/>
         <topic label="rt_object_find" href="group___kernel_object.html#ga6c82dbb4ae114918c5c96d0dca3957eb"/>
         <topic label="rt_object_get_name" href="group___kernel_object.html#ga49942be6b9cf766f38f0ec5fe00524b2"/>
         <topic label="rt_custom_object_create" href="group___kernel_object.html#ga75581e85adfc9cd4068c5144d19849b4"/>
@@ -380,6 +385,11 @@
         <topic label="rt_mq_control" href="group___i_p_c.html#ga3b1ec7b2bfbc8029b0200755505d7c55"/>
         <topic label="rt_thread_defunct_enqueue" href="group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee"/>
         <topic label="rt_thread_defunct_dequeue" href="group___i_p_c.html#ga35f8bcf6aa8d872a07261a8faaa026ba"/>
+        <topic label="rt_spin_lock_init" href="group___i_p_c.html#gabda9721c7e7e2d27e53f0b4604dd65dd"/>
+        <topic label="rt_spin_lock" href="group___i_p_c.html#ga9e3b84e1f0acebdd5ae36b0626b24240"/>
+        <topic label="rt_spin_unlock" href="group___i_p_c.html#gac2f7760a8299108cd4ba8a9135ef4f93"/>
+        <topic label="rt_spin_lock_irqsave" href="group___i_p_c.html#ga349989d50ad6f1b3bbe508b0cd7051f1"/>
+        <topic label="rt_spin_unlock_irqrestore" href="group___i_p_c.html#gaed628fa8199becf4d3c6ea12cf8d6991"/>
       </topic>
       <topic label="Memory Management" href="group___m_m.html">
         <topic label="rt_mempool" href="structrt__mempool.html">
@@ -402,6 +412,7 @@
         <topic label="rt_mp_alloc" href="group___m_m.html#ga531984d42851ffa0fd7a14bf67f15c22"/>
         <topic label="rt_mp_free" href="group___m_m.html#ga65371665abde3bed7379c72d5ea225e2"/>
         <topic label="rt_system_heap_init" href="group___m_m.html#gafa6feb60f6204d1783bc3bc324b886e7"/>
+        <topic label="rt_system_heap_init_generic" href="group___m_m.html#gaf70655467791a07c7da77f184914a580"/>
         <topic label="rt_malloc" href="group___m_m.html#ga27d0e5bc7d083dae44480a281fe47ae3"/>
         <topic label="rt_free" href="group___m_m.html#ga6c1c24262479e6946fd04823878177f9"/>
         <topic label="rt_realloc" href="group___m_m.html#gad8bf35db788a0c7fdea8ec26daa65a66"/>
@@ -510,6 +521,7 @@
           <topic label="rt_realloc_set_exit_hook" href="group___hook.html#ga032f9f93a115d5549fb24d79df801cac"/>
           <topic label="rt_free_sethook" href="group___hook.html#ga3bb7426719e954462af2dbe10fc033f2"/>
         </topic>
+        <topic label="RT_HW_BACKTRACE_FRAME_GET_SELF" href="group___kernel_service.html#ga2ff899d05156923de4c9148ea03142c8"/>
         <topic label="rt_container_of" href="group___kernel_service.html#gaff9df70e97252587b08e02b53549cadf"/>
         <topic label="RT_LIST_OBJECT_INIT" href="group___kernel_service.html#ga4cc6d94199b8cd5c2b90dc398a44f654"/>
         <topic label="rt_list_entry" href="group___kernel_service.html#ga52568d5666fbf7f7f5d0b96149d5ebd1"/>
@@ -523,11 +535,15 @@
         <topic label="rt_slist_for_each_entry" href="group___kernel_service.html#gabe9005513eb61a43a272b38ebd033d63"/>
         <topic label="rt_slist_first_entry" href="group___kernel_service.html#ga32eb29b1f9872bd3584952cb62f48a7c"/>
         <topic label="rt_slist_tail_entry" href="group___kernel_service.html#ga26eca6eeceb3adb9ed0254eb2398f534"/>
-        <topic label="rt_strerror" href="group___kernel_service.html#ga6dac97b487aa32006a7ad0f9bee7e92c"/>
-        <topic label="rt_get_errno" href="group___kernel_service.html#ga17b8724a14746aa74d7c2969c3289fbc"/>
-        <topic label="rt_set_errno" href="group___kernel_service.html#gae4550e2e69a249c81e4cb33b92786deb"/>
-        <topic label="_rt_errno" href="group___kernel_service.html#ga02ccef35d98a60385ce86d14c0bad9d0"/>
+        <topic label="rt_hw_backtrace_frame_get" href="group___kernel_service.html#ga84493d8f8ff8f3c1c9a08d40b9d289c1"/>
+        <topic label="rt_hw_backtrace_frame_unwind" href="group___kernel_service.html#ga33db6a8d3ca19fc6872ac4d050eb5cb6"/>
         <topic label="rt_show_version" href="group___kernel_service.html#ga11ecdcdb5b09e6e18b52625c1e904dca"/>
+        <topic label="rt_backtrace" href="group___kernel_service.html#gaf77c2615e3a8129da451da8e43594a30"/>
+        <topic label="rt_backtrace_frame" href="group___kernel_service.html#gab41629df0c2989e1560d5073d94f96bc"/>
+        <topic label="rt_backtrace_formatted_print" href="group___kernel_service.html#gaabac0871937b8ad06ef016821f3b6ce9"/>
+        <topic label="rt_backtrace_to_buffer" href="group___kernel_service.html#ga7f0dc6ef55e3378bdf99ad3c83295ede"/>
+        <topic label="rt_backtrace_thread" href="group___kernel_service.html#gaf8fdd74e45a7037133c40b6f259f003e"/>
+        <topic label="rt_system_heap_init_generic" href="group___kernel_service.html#gaf70655467791a07c7da77f184914a580"/>
         <topic label="rt_system_heap_init" href="group___kernel_service.html#ga7ccb4a60ea0018ba0060611b8b328026"/>
         <topic label="rt_malloc" href="group___kernel_service.html#gad551ed7184fb8b7ebad5c1f344045638"/>
         <topic label="rt_realloc" href="group___kernel_service.html#ga20e69f96b0b7406a89b190ef3ea8b061"/>
@@ -585,6 +601,8 @@
   </topic>
   <topic label="Data Structures" href="annotated.html">
     <topic label="Data Structures" href="annotated.html">
+      <topic label="rt_cpu_usage_stats" href="structrt__cpu__usage__stats.html">
+      </topic>
       <topic label="rt_device" href="structrt__device.html">
         <topic label="parent" href="structrt__device.html#a52df486399b65f49455698b55b656d8d"/>
         <topic label="type" href="structrt__device.html#a0b8dba8f32d49291b85e54d13520b871"/>

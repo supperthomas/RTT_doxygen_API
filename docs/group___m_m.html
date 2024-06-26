@@ -130,6 +130,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga65371665abde3bed7379c72d5ea225e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafa6feb60f6204d1783bc3bc324b886e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gafa6feb60f6204d1783bc3bc324b886e7">rt_system_heap_init</a> (void *begin_addr, void *end_addr)</td></tr>
 <tr class="separator:gafa6feb60f6204d1783bc3bc324b886e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf70655467791a07c7da77f184914a580"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#gaf70655467791a07c7da77f184914a580">rt_system_heap_init_generic</a> (void *begin_addr, void *end_addr)</td></tr>
+<tr class="separator:gaf70655467791a07c7da77f184914a580"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga27d0e5bc7d083dae44480a281fe47ae3"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga27d0e5bc7d083dae44480a281fe47ae3">rt_malloc</a> (rt_size_t size)</td></tr>
 <tr class="separator:ga27d0e5bc7d083dae44480a281fe47ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6c1c24262479e6946fd04823878177f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_m.html#ga6c1c24262479e6946fd04823878177f9">rt_free</a> (void *ptr)</td></tr>
@@ -526,7 +528,44 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>This function will init system heap. </p>
+<p>This function will init system heap. User can override this API to complete other works, like heap sanitizer initialization. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">begin_addr</td><td>the beginning address of system page.</td></tr>
+    <tr><td class="paramname">end_addr</td><td>the end address of system page. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaf70655467791a07c7da77f184914a580"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf70655467791a07c7da77f184914a580">&#9670;&nbsp;</a></span>rt_system_heap_init_generic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_system_heap_init_generic </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>begin_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>end_addr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will do the generic system heap initialization. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">begin_addr</td><td>the beginning address of system page.</td></tr>
@@ -957,7 +996,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Mar 30 2024 16:10:33 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed Jun 26 2024 00:24:07 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

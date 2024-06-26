@@ -1,5 +1,6 @@
 var annotated_dup =
 [
+    [ "rt_cpu_usage_stats", "structrt__cpu__usage__stats.html", null ],
     [ "rt_device", "structrt__device.html", "structrt__device" ],
     [ "rt_device_notify", "structrt__device__notify.html", null ],
     [ "rt_hw_backtrace_frame", "structrt__hw__backtrace__frame.html", null ],

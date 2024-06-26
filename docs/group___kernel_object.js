@@ -15,6 +15,7 @@ var group___kernel_object =
     [ "RT_OBJECT_FLAG_MODULE", "group___kernel_object.html#gadc83c17483bce09fad91cc8b2a3d0ed5", null ],
     [ "_RT_OBJECT_HOOK_CALL", "group___kernel_object.html#ga48303daf239aef45300fe436428a10ae", null ],
     [ "rt_object_t", "group___kernel_object.html#ga91d74b4f1699da278153af455dadcd70", null ],
+    [ "rt_object_iter_t", "group___kernel_object.html#gacfffbe0294a95f7b0233554e3694730b", null ],
     [ "rt_object_class_type", "group___kernel_object.html#ga38a532bcb1bd3f12685db4219b761b56", [
       [ "RT_Object_Class_Null", "group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a8bd7977afdebe3101f16c9c0c9aa5cb0", null ],
       [ "RT_Object_Class_Thread", "group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a548d26bb698e083d38bd8f0649441a52", null ],
@@ -45,6 +46,7 @@ var group___kernel_object =
     [ "rt_object_delete", "group___kernel_object.html#ga0479fb23b766d96e9611ed32becc2797", null ],
     [ "rt_object_is_systemobject", "group___kernel_object.html#ga0b4471fdda93017477bc81ca357481ac", null ],
     [ "rt_object_get_type", "group___kernel_object.html#ga8e9948d16704c567feb38b9d98618a91", null ],
+    [ "rt_object_for_each", "group___kernel_object.html#gaa55c2a73bdf7ede3f5bb80fe70431f4f", null ],
     [ "rt_object_find", "group___kernel_object.html#ga6c82dbb4ae114918c5c96d0dca3957eb", null ],
     [ "rt_object_get_name", "group___kernel_object.html#ga49942be6b9cf766f38f0ec5fe00524b2", null ],
     [ "rt_custom_object_create", "group___kernel_object.html#ga75581e85adfc9cd4068c5144d19849b4", null ],

@@ -1,5 +1,6 @@
 var group___thread =
 [
+    [ "rt_cpu_usage_stats", "structrt__cpu__usage__stats.html", null ],
     [ "rt_thread", "structrt__thread.html", [
       [ "sp", "structrt__thread.html#abc9d01c30e0fc9872df2fd5c044e31e0", null ],
       [ "entry", "structrt__thread.html#adcdaf75f05998c6485544c337526da52", null ],
@@ -31,6 +32,7 @@ var group___thread =
     [ "rt_thread_init", "group___thread.html#gacd985aa60939b95e510f144610f001b9", null ],
     [ "rt_thread_self", "group___thread.html#ga6133c1b6b27d972447156db15e7c1ce7", null ],
     [ "rt_thread_startup", "group___thread.html#ga04b743537fd099e204fc292e57b4aa5a", null ],
+    [ "rt_thread_close", "group___thread.html#ga0c482e895baff359b920966f2822ee06", null ],
     [ "rt_thread_detach", "group___thread.html#ga514825b80304477ecf377d721da409b0", null ],
     [ "rt_thread_create", "group___thread.html#gacb215b161f17c26b5e19c28cd0119e7b", null ],
     [ "rt_thread_delete", "group___thread.html#ga6d64eb4d0a485461049616808f4ce177", null ],

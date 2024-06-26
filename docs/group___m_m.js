@@ -20,6 +20,7 @@ var group___m_m =
     [ "rt_mp_alloc", "group___m_m.html#ga531984d42851ffa0fd7a14bf67f15c22", null ],
     [ "rt_mp_free", "group___m_m.html#ga65371665abde3bed7379c72d5ea225e2", null ],
     [ "rt_system_heap_init", "group___m_m.html#gafa6feb60f6204d1783bc3bc324b886e7", null ],
+    [ "rt_system_heap_init_generic", "group___m_m.html#gaf70655467791a07c7da77f184914a580", null ],
     [ "rt_malloc", "group___m_m.html#ga27d0e5bc7d083dae44480a281fe47ae3", null ],
     [ "rt_free", "group___m_m.html#ga6c1c24262479e6946fd04823878177f9", null ],
     [ "rt_realloc", "group___m_m.html#gad8bf35db788a0c7fdea8ec26daa65a66", null ],
