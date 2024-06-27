@@ -6,7 +6,5 @@ var modules =
     [ "Hardware Related Package", "group__bsp.html", "group__bsp" ],
     [ "RT-Thread Kernel API", "group___kernel.html", "group___kernel" ],
     [ "Application Module", "group___module.html", null ],
-    [ "System Initialization", "group___system_init.html", "group___system_init" ],
-    [ "Signal", "group___signal.html", null ],
-    [ "Signals", "group___signals.html", null ]
+    [ "System Initialization", "group___system_init.html", "group___system_init" ]
 ];

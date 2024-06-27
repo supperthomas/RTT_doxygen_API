@@ -1,5 +1,9 @@
 var group__semaphore =
 [
+    [ "rt_semaphore", "structrt__semaphore.html", [
+      [ "parent", "structrt__semaphore.html#ae30f5ce3f4e89636b0f5b19755f39df7", null ],
+      [ "value", "structrt__semaphore.html#a320fc41815308456699a4d3efee49418", null ]
+    ] ],
     [ "rt_sem_init", "group__semaphore.html#ga023e00dd1ae86ddbeb2dbf92771e17ea", null ],
     [ "rt_sem_detach", "group__semaphore.html#ga7dd3560a50be21e132c71f622870c500", null ],
     [ "rt_sem_create", "group__semaphore.html#ga61a4960ff4a173f1d1c35ede42e1227f", null ],

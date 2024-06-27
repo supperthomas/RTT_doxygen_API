@@ -245,6 +245,10 @@
       </topic>
       <topic label="Inter-Thread Communication" href="group___i_p_c.html">
         <topic label="Semaphore" href="group__semaphore.html">
+          <topic label="rt_semaphore" href="structrt__semaphore.html">
+            <topic label="parent" href="structrt__semaphore.html#ae30f5ce3f4e89636b0f5b19755f39df7"/>
+            <topic label="value" href="structrt__semaphore.html#a320fc41815308456699a4d3efee49418"/>
+          </topic>
           <topic label="rt_sem_init" href="group__semaphore.html#ga023e00dd1ae86ddbeb2dbf92771e17ea"/>
           <topic label="rt_sem_detach" href="group__semaphore.html#ga7dd3560a50be21e132c71f622870c500"/>
           <topic label="rt_sem_create" href="group__semaphore.html#ga61a4960ff4a173f1d1c35ede42e1227f"/>
@@ -254,6 +258,15 @@
           <topic label="rt_sem_control" href="group__semaphore.html#ga569a571566b70682422a8fc5bd53f06f"/>
         </topic>
         <topic label="Mutex" href="group__mutex.html">
+          <topic label="rt_mutex" href="structrt__mutex.html">
+            <topic label="parent" href="structrt__mutex.html#a8d34059b8d2907555498f824ff8b850c"/>
+            <topic label="ceiling_priority" href="structrt__mutex.html#a553baab42ad2126726f1737af9aa6853"/>
+            <topic label="priority" href="structrt__mutex.html#aad5460c48e81200d6afd9cbd4d2fd15c"/>
+            <topic label="hold" href="structrt__mutex.html#af92bda0f20eac114ac96d5bb2ab05f37"/>
+            <topic label="reserved" href="structrt__mutex.html#ad39cbe9624a3591e968697ea1e25bca1"/>
+            <topic label="owner" href="structrt__mutex.html#ab0275a5a653896be4f43f1104e8cdd8b"/>
+            <topic label="taken_list" href="structrt__mutex.html#aa7cb7b224b9b69535addd6a7752f7a99"/>
+          </topic>
           <topic label="rt_mutex_init" href="group__mutex.html#ga90c29e470fff8981a976ec7f9bb0546e"/>
           <topic label="rt_mutex_detach" href="group__mutex.html#ga7a8b48c0e6884e2c22d08e9e7e98a613"/>
           <topic label="rt_mutex_drop_thread" href="group__mutex.html#ga8ca03f1e5607cda3f739aff4048b8372"/>
@@ -266,6 +279,9 @@
           <topic label="rt_mutex_control" href="group__mutex.html#ga1e12cce5d8252dd3cc764ba00d429ae9"/>
         </topic>
         <topic label="Event" href="group__event.html">
+          <topic label="RT_EVENT_FLAG_AND" href="group__event.html#ga449614d0024ade7e81e53462bce12a60"/>
+          <topic label="RT_EVENT_FLAG_OR" href="group__event.html#ga1685d2d8ef3af705fdc297405eda02ba"/>
+          <topic label="RT_EVENT_FLAG_CLEAR" href="group__event.html#gaf1c42d6c619445f9151e76c3242ef052"/>
           <topic label="rt_event_init" href="group__event.html#gab0fad38227b1ebd616a807a09f2eb772"/>
           <topic label="rt_event_detach" href="group__event.html#ga43f0b137c7e6d5c2152f6b1d39b57616"/>
           <topic label="rt_event_create" href="group__event.html#ga3d752d98e73c0adcdd2b0df24e67efdb"/>
@@ -274,6 +290,15 @@
           <topic label="rt_event_control" href="group__event.html#ga3aeb964ccccdde76bb5e247c0a913fea"/>
         </topic>
         <topic label="Mailbox" href="group__mailbox.html">
+          <topic label="rt_mailbox" href="structrt__mailbox.html">
+            <topic label="parent" href="structrt__mailbox.html#a2d44d61cebf881cc505fbbc1946b3b2e"/>
+            <topic label="msg_pool" href="structrt__mailbox.html#acc9ce56e67d966880e2ea2c7761b16c4"/>
+            <topic label="size" href="structrt__mailbox.html#af3016cff0753dac4b6684c2da246e446"/>
+            <topic label="entry" href="structrt__mailbox.html#ad850b26d9717d9467259f79ec56849f3"/>
+            <topic label="in_offset" href="structrt__mailbox.html#a81a6208c7eb0056b992541e07d2f8eb7"/>
+            <topic label="out_offset" href="structrt__mailbox.html#ab81f4324444c3440de54101fd9f6f028"/>
+            <topic label="suspend_sender_thread" href="structrt__mailbox.html#a11aef5d6e06f6459b7c1d56c835c7f9e"/>
+          </topic>
           <topic label="rt_mb_init" href="group__mailbox.html#gac05bd0c179f754c32f83a7b013e8953b"/>
           <topic label="rt_mb_detach" href="group__mailbox.html#ga3312c6094d9c21af33a74f444a8c5993"/>
           <topic label="rt_mb_create" href="group__mailbox.html#ga7719d644b6f58399894dec1c6353ac37"/>
@@ -283,6 +308,17 @@
           <topic label="rt_mb_control" href="group__mailbox.html#ga18c381ffe3aab6dea429c98ecfcea44c"/>
         </topic>
         <topic label="Messagequeue" href="group__messagequeue.html">
+          <topic label="rt_messagequeue" href="structrt__messagequeue.html">
+            <topic label="parent" href="structrt__messagequeue.html#a24763c7e54bb3f4783daf3fb9c103dfe"/>
+            <topic label="msg_pool" href="structrt__messagequeue.html#add66b801d59516f96b5657f820db545c"/>
+            <topic label="msg_size" href="structrt__messagequeue.html#a63b5552f40bacdf02983bf9cf4cad24d"/>
+            <topic label="max_msgs" href="structrt__messagequeue.html#ac14765aec551079b253e817ff8e5373b"/>
+            <topic label="entry" href="structrt__messagequeue.html#ad92b222d4d0dce750c9055f0499988c1"/>
+            <topic label="msg_queue_head" href="structrt__messagequeue.html#aaf1a21b9e2f00b53544ed695e4d2aacc"/>
+            <topic label="msg_queue_tail" href="structrt__messagequeue.html#a3c28b474eea1aaacfc75e870dbd50162"/>
+            <topic label="msg_queue_free" href="structrt__messagequeue.html#af45a62f5084904df25be7d63b2252c85"/>
+            <topic label="suspend_sender_thread" href="structrt__messagequeue.html#a5d7c2b42bbd5da79140594a4a0ad52dd"/>
+          </topic>
           <topic label="rt_mq_init" href="group__messagequeue.html#gaac5b76df894964c908271ab0951f7e86"/>
           <topic label="rt_mq_detach" href="group__messagequeue.html#ga1ed6238494fac3ab081a90d9c563a8f3"/>
           <topic label="rt_mq_create" href="group__messagequeue.html#ga35acff654ecee2a76d5555e9683d8470"/>
@@ -295,39 +331,6 @@
           <topic label="parent" href="structrt__ipc__object.html#a1113d054268319ad7840b3362eba7ad2"/>
           <topic label="suspend_thread" href="structrt__ipc__object.html#a6b016bc028f03601f1a8efd0fb0e91e2"/>
         </topic>
-        <topic label="rt_semaphore" href="structrt__semaphore.html">
-          <topic label="parent" href="structrt__semaphore.html#ae30f5ce3f4e89636b0f5b19755f39df7"/>
-          <topic label="value" href="structrt__semaphore.html#a320fc41815308456699a4d3efee49418"/>
-        </topic>
-        <topic label="rt_mutex" href="structrt__mutex.html">
-          <topic label="parent" href="structrt__mutex.html#a8d34059b8d2907555498f824ff8b850c"/>
-          <topic label="ceiling_priority" href="structrt__mutex.html#a553baab42ad2126726f1737af9aa6853"/>
-          <topic label="priority" href="structrt__mutex.html#aad5460c48e81200d6afd9cbd4d2fd15c"/>
-          <topic label="hold" href="structrt__mutex.html#af92bda0f20eac114ac96d5bb2ab05f37"/>
-          <topic label="reserved" href="structrt__mutex.html#ad39cbe9624a3591e968697ea1e25bca1"/>
-          <topic label="owner" href="structrt__mutex.html#ab0275a5a653896be4f43f1104e8cdd8b"/>
-          <topic label="taken_list" href="structrt__mutex.html#aa7cb7b224b9b69535addd6a7752f7a99"/>
-        </topic>
-        <topic label="rt_mailbox" href="structrt__mailbox.html">
-          <topic label="parent" href="structrt__mailbox.html#a2d44d61cebf881cc505fbbc1946b3b2e"/>
-          <topic label="msg_pool" href="structrt__mailbox.html#acc9ce56e67d966880e2ea2c7761b16c4"/>
-          <topic label="size" href="structrt__mailbox.html#af3016cff0753dac4b6684c2da246e446"/>
-          <topic label="entry" href="structrt__mailbox.html#ad850b26d9717d9467259f79ec56849f3"/>
-          <topic label="in_offset" href="structrt__mailbox.html#a81a6208c7eb0056b992541e07d2f8eb7"/>
-          <topic label="out_offset" href="structrt__mailbox.html#ab81f4324444c3440de54101fd9f6f028"/>
-          <topic label="suspend_sender_thread" href="structrt__mailbox.html#a11aef5d6e06f6459b7c1d56c835c7f9e"/>
-        </topic>
-        <topic label="rt_messagequeue" href="structrt__messagequeue.html">
-          <topic label="parent" href="structrt__messagequeue.html#a24763c7e54bb3f4783daf3fb9c103dfe"/>
-          <topic label="msg_pool" href="structrt__messagequeue.html#add66b801d59516f96b5657f820db545c"/>
-          <topic label="msg_size" href="structrt__messagequeue.html#a63b5552f40bacdf02983bf9cf4cad24d"/>
-          <topic label="max_msgs" href="structrt__messagequeue.html#ac14765aec551079b253e817ff8e5373b"/>
-          <topic label="entry" href="structrt__messagequeue.html#ad92b222d4d0dce750c9055f0499988c1"/>
-          <topic label="msg_queue_head" href="structrt__messagequeue.html#aaf1a21b9e2f00b53544ed695e4d2aacc"/>
-          <topic label="msg_queue_tail" href="structrt__messagequeue.html#a3c28b474eea1aaacfc75e870dbd50162"/>
-          <topic label="msg_queue_free" href="structrt__messagequeue.html#af45a62f5084904df25be7d63b2252c85"/>
-          <topic label="suspend_sender_thread" href="structrt__messagequeue.html#a5d7c2b42bbd5da79140594a4a0ad52dd"/>
-        </topic>
         <topic label="RT_IPC_FLAG_FIFO" href="group___i_p_c.html#ga1b618f6714ea8f49a45ea4d105aaf5d5"/>
         <topic label="RT_IPC_FLAG_PRIO" href="group___i_p_c.html#ga296aeeb69fe2c8c5012e1059df4364a6"/>
         <topic label="RT_IPC_CMD_UNKNOWN" href="group___i_p_c.html#gae7ea862e2d1edce01e015bdffe49d586"/>
@@ -336,9 +339,6 @@
         <topic label="RT_IPC_CMD_SET_VLIMIT" href="group___i_p_c.html#gadef62ee333f6c34dfe91737568d1c310"/>
         <topic label="RT_WAITING_FOREVER" href="group___i_p_c.html#ga923d8e409f9daa8843978d6805ebcdeb"/>
         <topic label="RT_WAITING_NO" href="group___i_p_c.html#ga78a487898fe750a9f7e9c37911fbe7cb"/>
-        <topic label="RT_EVENT_FLAG_AND" href="group___i_p_c.html#ga449614d0024ade7e81e53462bce12a60"/>
-        <topic label="RT_EVENT_FLAG_OR" href="group___i_p_c.html#ga1685d2d8ef3af705fdc297405eda02ba"/>
-        <topic label="RT_EVENT_FLAG_CLEAR" href="group___i_p_c.html#gaf1c42d6c619445f9151e76c3242ef052"/>
         <topic label="_ipc_object_init" href="group___i_p_c.html#ga6b174ad0c6281b177865e9452b7f9a71"/>
         <topic label="rt_susp_list_dequeue" href="group___i_p_c.html#gadcb76b2b1161287a7be42f2478d500e6"/>
         <topic label="rt_susp_list_resume_all" href="group___i_p_c.html#ga47f20344c3dd0c5b468a22d03be40458"/>
@@ -346,43 +346,6 @@
         <topic label="rt_susp_list_enqueue" href="group___i_p_c.html#gadeac06fe647458b336572c4e6464c30d"/>
         <topic label="rt_susp_list_print" href="group___i_p_c.html#ga8d606cce2b6cd26472b812d88db85000"/>
         <topic label="rt_thread_suspend_to_list" href="group___i_p_c.html#ga41e560062d5e4b929ad2868e4ccc90f2"/>
-        <topic label="rt_sem_init" href="group___i_p_c.html#ga023e00dd1ae86ddbeb2dbf92771e17ea"/>
-        <topic label="rt_sem_detach" href="group___i_p_c.html#ga7dd3560a50be21e132c71f622870c500"/>
-        <topic label="rt_sem_create" href="group___i_p_c.html#ga61a4960ff4a173f1d1c35ede42e1227f"/>
-        <topic label="rt_sem_delete" href="group___i_p_c.html#ga0e45d2b96aab649832b6756d68629bbe"/>
-        <topic label="rt_sem_trytake" href="group___i_p_c.html#gaf24da991e29df68a49062d89b95c7de5"/>
-        <topic label="rt_sem_release" href="group___i_p_c.html#gad9a5760bc4c7faeb08a7d9c112506f76"/>
-        <topic label="rt_sem_control" href="group___i_p_c.html#ga569a571566b70682422a8fc5bd53f06f"/>
-        <topic label="rt_mutex_init" href="group___i_p_c.html#ga90c29e470fff8981a976ec7f9bb0546e"/>
-        <topic label="rt_mutex_detach" href="group___i_p_c.html#ga7a8b48c0e6884e2c22d08e9e7e98a613"/>
-        <topic label="rt_mutex_create" href="group___i_p_c.html#ga5ce96ed48d83086aab6ecadebac6d0c6"/>
-        <topic label="rt_mutex_delete" href="group___i_p_c.html#ga8a74f51362fc566500bec135599dd5a9"/>
-        <topic label="rt_mutex_drop_thread" href="group___i_p_c.html#ga8ca03f1e5607cda3f739aff4048b8372"/>
-        <topic label="rt_mutex_setprioceiling" href="group___i_p_c.html#ga7dbba080eb21d82b3877d6e439bdfd28"/>
-        <topic label="rt_mutex_getprioceiling" href="group___i_p_c.html#gaef430f1dbc50af1098589232fb54508c"/>
-        <topic label="rt_mutex_trytake" href="group___i_p_c.html#gada983d7f4521fdb0f7a5cf6d0a1ac800"/>
-        <topic label="rt_mutex_release" href="group___i_p_c.html#gad49c2ee6dc578e6687919f01a4ac5137"/>
-        <topic label="rt_mutex_control" href="group___i_p_c.html#ga1e12cce5d8252dd3cc764ba00d429ae9"/>
-        <topic label="rt_event_init" href="group___i_p_c.html#gab0fad38227b1ebd616a807a09f2eb772"/>
-        <topic label="rt_event_detach" href="group___i_p_c.html#ga43f0b137c7e6d5c2152f6b1d39b57616"/>
-        <topic label="rt_event_create" href="group___i_p_c.html#ga3d752d98e73c0adcdd2b0df24e67efdb"/>
-        <topic label="rt_event_delete" href="group___i_p_c.html#ga840d6210713f186fe248a032a68d5e6d"/>
-        <topic label="rt_event_send" href="group___i_p_c.html#ga92efdf32aaf073d733f3bafd02d730e5"/>
-        <topic label="rt_event_control" href="group___i_p_c.html#ga3aeb964ccccdde76bb5e247c0a913fea"/>
-        <topic label="rt_mb_init" href="group___i_p_c.html#gac05bd0c179f754c32f83a7b013e8953b"/>
-        <topic label="rt_mb_detach" href="group___i_p_c.html#ga3312c6094d9c21af33a74f444a8c5993"/>
-        <topic label="rt_mb_create" href="group___i_p_c.html#ga7719d644b6f58399894dec1c6353ac37"/>
-        <topic label="rt_mb_delete" href="group___i_p_c.html#ga71e9e49401cbbed83515ace6fa13c27b"/>
-        <topic label="rt_mb_send" href="group___i_p_c.html#gac2b0d532eab2989b713fdb0b1fac6665"/>
-        <topic label="rt_mb_urgent" href="group___i_p_c.html#gabc9da3320cdbeee5aa86e65cdf48f928"/>
-        <topic label="rt_mb_control" href="group___i_p_c.html#ga18c381ffe3aab6dea429c98ecfcea44c"/>
-        <topic label="rt_mq_init" href="group___i_p_c.html#gaac5b76df894964c908271ab0951f7e86"/>
-        <topic label="rt_mq_detach" href="group___i_p_c.html#ga1ed6238494fac3ab081a90d9c563a8f3"/>
-        <topic label="rt_mq_create" href="group___i_p_c.html#ga35acff654ecee2a76d5555e9683d8470"/>
-        <topic label="rt_mq_delete" href="group___i_p_c.html#gacbf0bfedc6677ca8357d8b345c9026c9"/>
-        <topic label="rt_mq_send" href="group___i_p_c.html#gab3d128f328e2e979f0ee86d633937e4e"/>
-        <topic label="rt_mq_urgent" href="group___i_p_c.html#gafb1abee716f2f5c24a36aff2ffd32c75"/>
-        <topic label="rt_mq_control" href="group___i_p_c.html#ga3b1ec7b2bfbc8029b0200755505d7c55"/>
         <topic label="rt_thread_defunct_enqueue" href="group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee"/>
         <topic label="rt_thread_defunct_dequeue" href="group___i_p_c.html#ga35f8bcf6aa8d872a07261a8faaa026ba"/>
         <topic label="rt_spin_lock_init" href="group___i_p_c.html#gabda9721c7e7e2d27e53f0b4604dd65dd"/>
@@ -390,6 +353,8 @@
         <topic label="rt_spin_unlock" href="group___i_p_c.html#gac2f7760a8299108cd4ba8a9135ef4f93"/>
         <topic label="rt_spin_lock_irqsave" href="group___i_p_c.html#ga349989d50ad6f1b3bbe508b0cd7051f1"/>
         <topic label="rt_spin_unlock_irqrestore" href="group___i_p_c.html#gaed628fa8199becf4d3c6ea12cf8d6991"/>
+      </topic>
+      <topic label="Signal" href="group___signal.html">
       </topic>
       <topic label="Memory Management" href="group___m_m.html">
         <topic label="rt_mempool" href="structrt__mempool.html">
@@ -593,10 +558,6 @@
       <topic label="rt_system_timer_thread_init" href="group___system_init.html#gac5298e02b109e4885723f6116fb11814"/>
       <topic label="rt_application_init" href="group___system_init.html#ga0bc341878c3dbb76bdb773fc9176f4f3"/>
       <topic label="rt_system_heap_init" href="group___system_init.html#gafa6feb60f6204d1783bc3bc324b886e7"/>
-    </topic>
-    <topic label="Signal" href="group___signal.html">
-    </topic>
-    <topic label="Signals" href="group___signals.html">
     </topic>
   </topic>
   <topic label="Data Structures" href="annotated.html">

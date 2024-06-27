@@ -85,6 +85,7 @@ $(document).ready(function(){initNavTree('group__event.html',''); initResizable(
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Event<div class="ingroups"><a class="el" href="group___kernel.html">RT-Thread Kernel API</a> &raquo; <a class="el" href="group___i_p_c.html">Inter-Thread Communication</a></div></div>  </div>
@@ -102,6 +103,15 @@ $(document).ready(function(){initNavTree('group__event.html',''); initResizable(
 </map>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ga449614d0024ade7e81e53462bce12a60"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__event.html#ga449614d0024ade7e81e53462bce12a60">RT_EVENT_FLAG_AND</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:ga449614d0024ade7e81e53462bce12a60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1685d2d8ef3af705fdc297405eda02ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__event.html#ga1685d2d8ef3af705fdc297405eda02ba">RT_EVENT_FLAG_OR</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:ga1685d2d8ef3af705fdc297405eda02ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf1c42d6c619445f9151e76c3242ef052"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__event.html#gaf1c42d6c619445f9151e76c3242ef052">RT_EVENT_FLAG_CLEAR</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="separator:gaf1c42d6c619445f9151e76c3242ef052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gab0fad38227b1ebd616a807a09f2eb772"><td class="memItemLeft" align="right" valign="top">rt_err_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__event.html#gab0fad38227b1ebd616a807a09f2eb772">rt_event_init</a> (rt_event_t event, const char *name, rt_uint8_t flag)</td></tr>
@@ -118,6 +128,52 @@ Functions</h2></td></tr>
 <tr class="separator:ga3aeb964ccccdde76bb5e247c0a913fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga449614d0024ade7e81e53462bce12a60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga449614d0024ade7e81e53462bce12a60">&#9670;&nbsp;</a></span>RT_EVENT_FLAG_AND</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_EVENT_FLAG_AND&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>flag definitions in event logic and </p>
+
+</div>
+</div>
+<a id="ga1685d2d8ef3af705fdc297405eda02ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1685d2d8ef3af705fdc297405eda02ba">&#9670;&nbsp;</a></span>RT_EVENT_FLAG_OR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_EVENT_FLAG_OR&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>logic or </p>
+
+</div>
+</div>
+<a id="gaf1c42d6c619445f9151e76c3242ef052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf1c42d6c619445f9151e76c3242ef052">&#9670;&nbsp;</a></span>RT_EVENT_FLAG_CLEAR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RT_EVENT_FLAG_CLEAR&#160;&#160;&#160;0x04</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>clear flag </p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="gab0fad38227b1ebd616a807a09f2eb772"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gab0fad38227b1ebd616a807a09f2eb772">&#9670;&nbsp;</a></span>rt_event_init()</h2>
@@ -376,7 +432,7 @@ this event will become non-real-time threads.
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jun 26 2024 00:24:07 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Thu Jun 27 2024 09:10:36 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

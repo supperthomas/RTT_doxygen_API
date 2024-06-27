@@ -1,5 +1,14 @@
 var group__mailbox =
 [
+    [ "rt_mailbox", "structrt__mailbox.html", [
+      [ "parent", "structrt__mailbox.html#a2d44d61cebf881cc505fbbc1946b3b2e", null ],
+      [ "msg_pool", "structrt__mailbox.html#acc9ce56e67d966880e2ea2c7761b16c4", null ],
+      [ "size", "structrt__mailbox.html#af3016cff0753dac4b6684c2da246e446", null ],
+      [ "entry", "structrt__mailbox.html#ad850b26d9717d9467259f79ec56849f3", null ],
+      [ "in_offset", "structrt__mailbox.html#a81a6208c7eb0056b992541e07d2f8eb7", null ],
+      [ "out_offset", "structrt__mailbox.html#ab81f4324444c3440de54101fd9f6f028", null ],
+      [ "suspend_sender_thread", "structrt__mailbox.html#a11aef5d6e06f6459b7c1d56c835c7f9e", null ]
+    ] ],
     [ "rt_mb_init", "group__mailbox.html#gac05bd0c179f754c32f83a7b013e8953b", null ],
     [ "rt_mb_detach", "group__mailbox.html#ga3312c6094d9c21af33a74f444a8c5993", null ],
     [ "rt_mb_create", "group__mailbox.html#ga7719d644b6f58399894dec1c6353ac37", null ],

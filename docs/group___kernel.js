@@ -4,6 +4,7 @@ var group___kernel =
     [ "Clock and Timer Management", "group___clock.html", "group___clock" ],
     [ "Kernel Object Management", "group___kernel_object.html", "group___kernel_object" ],
     [ "Inter-Thread Communication", "group___i_p_c.html", "group___i_p_c" ],
+    [ "Signal", "group___signal.html", null ],
     [ "Memory Management", "group___m_m.html", "group___m_m" ],
     [ "Device System", "group___device.html", "group___device" ],
     [ "Runtime Trace and Record", "group___hook.html", "group___hook" ],
