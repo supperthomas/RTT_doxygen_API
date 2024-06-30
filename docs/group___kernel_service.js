@@ -1,6 +1,5 @@
 var group___kernel_service =
 [
-    [ "Runtime Trace and Record", "group___hook.html", "group___hook" ],
     [ "RT_HW_BACKTRACE_FRAME_GET_SELF", "group___kernel_service.html#ga2ff899d05156923de4c9148ea03142c8", null ],
     [ "rt_container_of", "group___kernel_service.html#gaff9df70e97252587b08e02b53549cadf", null ],
     [ "RT_LIST_OBJECT_INIT", "group___kernel_service.html#ga4cc6d94199b8cd5c2b90dc398a44f654", null ],
@@ -23,6 +22,9 @@ var group___kernel_service =
     [ "rt_backtrace_formatted_print", "group___kernel_service.html#gaabac0871937b8ad06ef016821f3b6ce9", null ],
     [ "rt_backtrace_to_buffer", "group___kernel_service.html#ga7f0dc6ef55e3378bdf99ad3c83295ede", null ],
     [ "rt_backtrace_thread", "group___kernel_service.html#gaf8fdd74e45a7037133c40b6f259f003e", null ],
+    [ "rt_realloc_set_entry_hook", "group___hook.html#ga3ec40fa39f9939814ccec29d2f975a3b", null ],
+    [ "rt_realloc_set_exit_hook", "group___hook.html#ga032f9f93a115d5549fb24d79df801cac", null ],
+    [ "rt_free_sethook", "group___hook.html#ga3bb7426719e954462af2dbe10fc033f2", null ],
     [ "rt_system_heap_init_generic", "group___kernel_service.html#gaf70655467791a07c7da77f184914a580", null ],
     [ "rt_system_heap_init", "group___kernel_service.html#ga7ccb4a60ea0018ba0060611b8b328026", null ],
     [ "rt_malloc", "group___kernel_service.html#gad551ed7184fb8b7ebad5c1f344045638", null ],

@@ -28,10 +28,9 @@ var group___m_m =
     [ "rt_malloc_align", "group___m_m.html#gaf2654f08787ce7935c635c0343970f6a", null ],
     [ "rt_free_align", "group___m_m.html#gabf1ea8f43781620e7b08fb1868e32b92", null ],
     [ "rt_memory_info", "group___m_m.html#ga6a043ee84954692789696a255ea65699", null ],
-    [ "rt_malloc_sethook", "group___m_m.html#ga72505214bf21fc23dc1595b0442a90af", null ],
-    [ "rt_realloc_set_entry_hook", "group___m_m.html#ga3ec40fa39f9939814ccec29d2f975a3b", null ],
-    [ "rt_realloc_set_exit_hook", "group___m_m.html#ga032f9f93a115d5549fb24d79df801cac", null ],
-    [ "rt_free_sethook", "group___m_m.html#ga3bb7426719e954462af2dbe10fc033f2", null ],
+    [ "rt_realloc_set_entry_hook", "group___hook.html#ga3ec40fa39f9939814ccec29d2f975a3b", null ],
+    [ "rt_realloc_set_exit_hook", "group___hook.html#ga032f9f93a115d5549fb24d79df801cac", null ],
+    [ "rt_free_sethook", "group___hook.html#ga3bb7426719e954462af2dbe10fc033f2", null ],
     [ "rt_smem_init", "group___m_m.html#gaf3ee8887d4ace66606a925237e199ad6", null ],
     [ "rt_smem_detach", "group___m_m.html#gaf444d6040e6a1ef09ab9f95e893b8d40", null ]
 ];

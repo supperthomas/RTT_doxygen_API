@@ -1,5 +1,4 @@
 <map id="Runtime Trace and Record" name="Runtime Trace and Record">
 <area shape="rect" id="node1" href="$group___kernel.html" title=" " alt="" coords="5,5,161,31"/>
-<area shape="rect" id="node2" title="the hook function set in runtime" alt="" coords="209,35,401,60"/>
-<area shape="rect" id="node3" href="$group___kernel_service.html" title="other useful service in the kernel" alt="" coords="10,55,157,95"/>
+<area shape="rect" id="node2" title="the hook function set in runtime" alt="" coords="209,5,401,31"/>
 </map>

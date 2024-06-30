@@ -85,7 +85,6 @@ $(document).ready(function(){initNavTree('group___kernel_service.html',''); init
 
 <div class="header">
   <div class="summary">
-<a href="#groups">Modules</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -101,15 +100,9 @@ $(document).ready(function(){initNavTree('group___kernel_service.html',''); init
 <map name="agroup______kernel__service" id="agroup______kernel__service">
 <area shape="rect" href="group___kernel.html" title=" " alt="" coords="5,13,161,38"/>
 <area shape="rect" title="other useful service in the kernel" alt="" coords="209,5,356,45"/>
-<area shape="rect" href="group___hook.html" title="the hook function set in runtime" alt="" coords="404,13,596,38"/>
 </map>
 </div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
-Modules</h2></td></tr>
-<tr class="memitem:group___hook"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___hook.html">Runtime Trace and Record</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:ga2ff899d05156923de4c9148ea03142c8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga2ff899d05156923de4c9148ea03142c8">RT_HW_BACKTRACE_FRAME_GET_SELF</a>(frame)</td></tr>
@@ -193,6 +186,12 @@ Functions</h2></td></tr>
 <tr class="separator:gaeffe8ba587aebd47af354bce96959236"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0efaa6a7aa794800ffe9524020f03f5f"><td class="memItemLeft" align="right" valign="top">rt_inline void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___kernel_service.html#ga0efaa6a7aa794800ffe9524020f03f5f">rt_slist_init</a> (<a class="el" href="structrt__slist__node.html">rt_slist_t</a> *l)</td></tr>
 <tr class="separator:ga0efaa6a7aa794800ffe9524020f03f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3ec40fa39f9939814ccec29d2f975a3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___hook.html#ga3ec40fa39f9939814ccec29d2f975a3b">rt_realloc_set_entry_hook</a> (void(*hook)(void **ptr, rt_size_t size))</td></tr>
+<tr class="separator:ga3ec40fa39f9939814ccec29d2f975a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga032f9f93a115d5549fb24d79df801cac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___hook.html#ga032f9f93a115d5549fb24d79df801cac">rt_realloc_set_exit_hook</a> (void(*hook)(void **ptr, rt_size_t size))</td></tr>
+<tr class="separator:ga032f9f93a115d5549fb24d79df801cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3bb7426719e954462af2dbe10fc033f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___hook.html#ga3bb7426719e954462af2dbe10fc033f2">rt_free_sethook</a> (void(*hook)(void **ptr))</td></tr>
+<tr class="separator:ga3bb7426719e954462af2dbe10fc033f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>other useful service in the kernel </p>
@@ -1031,6 +1030,84 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ga3ec40fa39f9939814ccec29d2f975a3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3ec40fa39f9939814ccec29d2f975a3b">&#9670;&nbsp;</a></span>rt_realloc_set_entry_hook()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_realloc_set_entry_hook </td>
+          <td>(</td>
+          <td class="paramtype">void(*)(void **ptr, rt_size_t size)&#160;</td>
+          <td class="paramname"><em>hook</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will set a hook function, which will be invoked when a memory block is allocated from heap memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hook</td><td>the hook function. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga032f9f93a115d5549fb24d79df801cac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga032f9f93a115d5549fb24d79df801cac">&#9670;&nbsp;</a></span>rt_realloc_set_exit_hook()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_realloc_set_exit_hook </td>
+          <td>(</td>
+          <td class="paramtype">void(*)(void **ptr, rt_size_t size)&#160;</td>
+          <td class="paramname"><em>hook</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will set a hook function, which will be invoked when a memory block is allocated from heap memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hook</td><td>the hook function. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3bb7426719e954462af2dbe10fc033f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3bb7426719e954462af2dbe10fc033f2">&#9670;&nbsp;</a></span>rt_free_sethook()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_free_sethook </td>
+          <td>(</td>
+          <td class="paramtype">void(*)(void **ptr)&#160;</td>
+          <td class="paramname"><em>hook</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will set a hook function, which will be invoked when a memory block is released to heap memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">hook</td><td>the hook function </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="gaf70655467791a07c7da77f184914a580"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaf70655467791a07c7da77f184914a580">&#9670;&nbsp;</a></span>rt_system_heap_init_generic()</h2>
 
@@ -1580,7 +1657,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jun 27 2024 09:10:36 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Jun 30 2024 16:18:37 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

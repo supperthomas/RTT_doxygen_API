@@ -385,10 +385,9 @@
         <topic label="rt_malloc_align" href="group___m_m.html#gaf2654f08787ce7935c635c0343970f6a"/>
         <topic label="rt_free_align" href="group___m_m.html#gabf1ea8f43781620e7b08fb1868e32b92"/>
         <topic label="rt_memory_info" href="group___m_m.html#ga6a043ee84954692789696a255ea65699"/>
-        <topic label="rt_malloc_sethook" href="group___m_m.html#ga72505214bf21fc23dc1595b0442a90af"/>
-        <topic label="rt_realloc_set_entry_hook" href="group___m_m.html#ga3ec40fa39f9939814ccec29d2f975a3b"/>
-        <topic label="rt_realloc_set_exit_hook" href="group___m_m.html#ga032f9f93a115d5549fb24d79df801cac"/>
-        <topic label="rt_free_sethook" href="group___m_m.html#ga3bb7426719e954462af2dbe10fc033f2"/>
+        <topic label="rt_realloc_set_entry_hook" href="group___hook.html#ga3ec40fa39f9939814ccec29d2f975a3b"/>
+        <topic label="rt_realloc_set_exit_hook" href="group___hook.html#ga032f9f93a115d5549fb24d79df801cac"/>
+        <topic label="rt_free_sethook" href="group___hook.html#ga3bb7426719e954462af2dbe10fc033f2"/>
         <topic label="rt_smem_init" href="group___m_m.html#gaf3ee8887d4ace66606a925237e199ad6"/>
         <topic label="rt_smem_detach" href="group___m_m.html#gaf444d6040e6a1ef09ab9f95e893b8d40"/>
       </topic>
@@ -480,12 +479,6 @@
         <topic label="rt_free_sethook" href="group___hook.html#ga3bb7426719e954462af2dbe10fc033f2"/>
       </topic>
       <topic label="Other useful kernel service" href="group___kernel_service.html">
-        <topic label="Runtime Trace and Record" href="group___hook.html">
-          <topic label="rt_malloc_sethook" href="group___hook.html#ga72505214bf21fc23dc1595b0442a90af"/>
-          <topic label="rt_realloc_set_entry_hook" href="group___hook.html#ga3ec40fa39f9939814ccec29d2f975a3b"/>
-          <topic label="rt_realloc_set_exit_hook" href="group___hook.html#ga032f9f93a115d5549fb24d79df801cac"/>
-          <topic label="rt_free_sethook" href="group___hook.html#ga3bb7426719e954462af2dbe10fc033f2"/>
-        </topic>
         <topic label="RT_HW_BACKTRACE_FRAME_GET_SELF" href="group___kernel_service.html#ga2ff899d05156923de4c9148ea03142c8"/>
         <topic label="rt_container_of" href="group___kernel_service.html#gaff9df70e97252587b08e02b53549cadf"/>
         <topic label="RT_LIST_OBJECT_INIT" href="group___kernel_service.html#ga4cc6d94199b8cd5c2b90dc398a44f654"/>
@@ -508,6 +501,9 @@
         <topic label="rt_backtrace_formatted_print" href="group___kernel_service.html#gaabac0871937b8ad06ef016821f3b6ce9"/>
         <topic label="rt_backtrace_to_buffer" href="group___kernel_service.html#ga7f0dc6ef55e3378bdf99ad3c83295ede"/>
         <topic label="rt_backtrace_thread" href="group___kernel_service.html#gaf8fdd74e45a7037133c40b6f259f003e"/>
+        <topic label="rt_realloc_set_entry_hook" href="group___hook.html#ga3ec40fa39f9939814ccec29d2f975a3b"/>
+        <topic label="rt_realloc_set_exit_hook" href="group___hook.html#ga032f9f93a115d5549fb24d79df801cac"/>
+        <topic label="rt_free_sethook" href="group___hook.html#ga3bb7426719e954462af2dbe10fc033f2"/>
         <topic label="rt_system_heap_init_generic" href="group___kernel_service.html#gaf70655467791a07c7da77f184914a580"/>
         <topic label="rt_system_heap_init" href="group___kernel_service.html#ga7ccb4a60ea0018ba0060611b8b328026"/>
         <topic label="rt_malloc" href="group___kernel_service.html#gad551ed7184fb8b7ebad5c1f344045638"/>
