@@ -162,6 +162,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga77af135da16a0b9e1c4a351f4bee6dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga29337f93377626f651dd393e1bb608fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga29337f93377626f651dd393e1bb608fb">rt_tick_increase</a> (void)</td></tr>
 <tr class="separator:ga29337f93377626f651dd393e1bb608fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga675d451c9e89f5aaa6e4608bab04a9ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga675d451c9e89f5aaa6e4608bab04a9ea">rt_tick_increase_tick</a> (rt_tick_t tick)</td></tr>
+<tr class="separator:ga675d451c9e89f5aaa6e4608bab04a9ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaae158e7af4e29210a5467bc2ea93ed0d"><td class="memItemLeft" align="right" valign="top">rt_tick_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#gaae158e7af4e29210a5467bc2ea93ed0d">rt_tick_from_millisecond</a> (rt_int32_t ms)</td></tr>
 <tr class="separator:gaae158e7af4e29210a5467bc2ea93ed0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga76eb049ed20db0575c0f13d6343e7072"><td class="memItemLeft" align="right" valign="top">rt_weak rt_tick_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___clock.html#ga76eb049ed20db0575c0f13d6343e7072">rt_tick_get_millisecond</a> (void)</td></tr>
@@ -549,6 +551,26 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This function will notify kernel there is one tick passed. Normally, this function is invoked by clock ISR. </p>
+
+</div>
+</div>
+<a id="ga675d451c9e89f5aaa6e4608bab04a9ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga675d451c9e89f5aaa6e4608bab04a9ea">&#9670;&nbsp;</a></span>rt_tick_increase_tick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rt_tick_increase_tick </td>
+          <td>(</td>
+          <td class="paramtype">rt_tick_t&#160;</td>
+          <td class="paramname"><em>tick</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function will notify kernel there is n tick passed. Normally, this function is invoked by clock ISR. </p>
 
 </div>
 </div>
@@ -981,7 +1003,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jun 30 2024 16:18:37 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Jul 30 2024 16:19:45 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

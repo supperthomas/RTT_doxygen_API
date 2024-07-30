@@ -29,6 +29,7 @@ var group___clock =
     [ "rt_tick_get", "group___clock.html#ga6e2aa36f263bddcddae01a91986fcdae", null ],
     [ "rt_tick_set", "group___clock.html#ga77af135da16a0b9e1c4a351f4bee6dbd", null ],
     [ "rt_tick_increase", "group___clock.html#ga29337f93377626f651dd393e1bb608fb", null ],
+    [ "rt_tick_increase_tick", "group___clock.html#ga675d451c9e89f5aaa6e4608bab04a9ea", null ],
     [ "rt_tick_from_millisecond", "group___clock.html#gaae158e7af4e29210a5467bc2ea93ed0d", null ],
     [ "rt_tick_get_millisecond", "group___clock.html#ga76eb049ed20db0575c0f13d6343e7072", null ],
     [ "rt_timer_init", "group___clock.html#ga678d29f53307113da6b1578c9d3423cb", null ],
