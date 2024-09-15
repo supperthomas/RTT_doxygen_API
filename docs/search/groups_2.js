@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['clock_20and_20timer_20management_812',['Clock and Timer Management',['../group___clock.html',1,'']]]
+  ['can_20driver_852',['CAN Driver',['../group___c_a_n___device.html',1,'']]],
+  ['clock_20and_20timer_20management_853',['Clock and Timer Management',['../group___clock.html',1,'']]]
 ];

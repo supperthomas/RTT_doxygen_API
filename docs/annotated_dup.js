@@ -1,9 +1,11 @@
 var annotated_dup =
 [
+    [ "rt_can_bit_timing_config", "structrt__can__bit__timing__config.html", null ],
     [ "rt_cpu_usage_stats", "structrt__cpu__usage__stats.html", null ],
     [ "rt_device", "structrt__device.html", "structrt__device" ],
     [ "rt_device_notify", "structrt__device__notify.html", null ],
     [ "rt_hw_backtrace_frame", "structrt__hw__backtrace__frame.html", null ],
+    [ "rt_inputcapture_ops", "structrt__inputcapture__ops.html", null ],
     [ "rt_ipc_object", "structrt__ipc__object.html", "structrt__ipc__object" ],
     [ "rt_list_node", "structrt__list__node.html", "structrt__list__node" ],
     [ "rt_mailbox", "structrt__mailbox.html", "structrt__mailbox" ],
@@ -12,10 +14,20 @@ var annotated_dup =
     [ "rt_mutex", "structrt__mutex.html", "structrt__mutex" ],
     [ "rt_object", "structrt__object.html", "structrt__object" ],
     [ "rt_object_information", "structrt__object__information.html", "structrt__object__information" ],
+    [ "rt_pm", "structrt__pm.html", null ],
+    [ "rt_pm_ops", "structrt__pm__ops.html", null ],
     [ "rt_semaphore", "structrt__semaphore.html", "structrt__semaphore" ],
+    [ "rt_serial_device", "structrt__serial__device.html", null ],
+    [ "rt_serial_rx_fifo", "structrt__serial__rx__fifo.html", null ],
+    [ "rt_serial_tx_fifo", "structrt__serial__tx__fifo.html", null ],
     [ "rt_slist_node", "structrt__slist__node.html", "structrt__slist__node" ],
+    [ "rt_spi_configuration", "structrt__spi__configuration.html", null ],
+    [ "rt_spi_device", "structrt__spi__device.html", null ],
+    [ "rt_spi_message", "structrt__spi__message.html", null ],
+    [ "rt_spi_ops", "structrt__spi__ops.html", null ],
     [ "rt_spinlock", "structrt__spinlock.html", null ],
     [ "rt_thread", "structrt__thread.html", "structrt__thread" ],
     [ "rt_timer", "structrt__timer.html", "structrt__timer" ],
+    [ "rt_uart_ops", "structrt__uart__ops.html", null ],
     [ "rt_wqueue", "structrt__wqueue.html", null ]
 ];

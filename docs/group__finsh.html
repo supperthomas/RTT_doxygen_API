@@ -98,6 +98,10 @@ Macros</h2></td></tr>
 <tr class="separator:ga944b96ca55cb370cfe92211c68a55664"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3b995a06148f4155bd274b3b4f893d76"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__finsh.html#ga3b995a06148f4155bd274b3b4f893d76">FINSH_FUNCTION_EXPORT_ALIAS</a>(name,  alias,  desc)</td></tr>
 <tr class="separator:ga3b995a06148f4155bd274b3b4f893d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga91a67d7498e346a1e15a7ea7d58af654"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__finsh.html#ga91a67d7498e346a1e15a7ea7d58af654">MSH_CMD_EXPORT</a>(...)</td></tr>
+<tr class="separator:ga91a67d7498e346a1e15a7ea7d58af654"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga559519060a5c7f047b4f53ee96ac809b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__finsh.html#ga559519060a5c7f047b4f53ee96ac809b">MSH_CMD_EXPORT_ALIAS</a>(...)</td></tr>
+<tr class="separator:ga559519060a5c7f047b4f53ee96ac809b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -202,6 +206,51 @@ Figure 3: finsh shell architecture</div></div>
   </dd>
 </dl>
 
+</div>
+</div>
+<a id="ga91a67d7498e346a1e15a7ea7d58af654"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga91a67d7498e346a1e15a7ea7d58af654">&#9670;&nbsp;</a></span>MSH_CMD_EXPORT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSH_CMD_EXPORT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    __MSH_GET_MACRO(__VA_ARGS__, _MSH_FUNCTION_CMD2_OPT,    \</div>
+<div class="line">        _MSH_FUNCTION_CMD2)(__VA_ARGS__)</div>
+</div><!-- fragment --><p>This macro exports a command to module shell.</p>
+<p>param command is the name of the command. param desc is the description of the command, which will show in help list. param opt This is an option, enter any content to enable option completion </p>
+
+</div>
+</div>
+<a id="ga559519060a5c7f047b4f53ee96ac809b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga559519060a5c7f047b4f53ee96ac809b">&#9670;&nbsp;</a></span>MSH_CMD_EXPORT_ALIAS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MSH_CMD_EXPORT_ALIAS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    __MSH_GET_EXPORT_MACRO(__VA_ARGS__, _MSH_FUNCTION_EXPORT_CMD3_OPT,      \</div>
+<div class="line">            _MSH_FUNCTION_EXPORT_CMD3)(__VA_ARGS__)</div>
+</div><!-- fragment --><p>This macro exports a command with alias to module shell.</p>
+<p>param command is the name of the command. param alias is the alias of the command. param desc is the description of the command, which will show in help list. param opt This is an option, enter any content to enable option completion </p><div class="fragment"><div class="line"><span class="preprocessor">#define MSH_CMD_EXPORT_ALIAS(command, alias, desc) or</span></div>
+<div class="line"><span class="preprocessor">#define MSH_CMD_EXPORT_ALIAS(command, alias, desc, opt)</span></div>
+</div><!-- fragment --> 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -373,7 +422,7 @@ Figure 3: finsh shell architecture</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Aug 30 2024 16:18:45 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Sep 15 2024 04:47:45 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
