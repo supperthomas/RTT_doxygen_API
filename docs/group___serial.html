@@ -143,7 +143,7 @@ Functions</h2></td></tr>
 <div class="line"> </div>
 <div class="line">    <a class="code" href="group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76">rt_sem_release</a>(&amp;rx_sem);</div>
 <div class="line"> </div>
-<div class="line">    <span class="keywordflow">return</span> <a class="code" href="group___error.html#gaaaddfb31f867cc924e0220470aaaec5f">RT_EOK</a>;</div>
+<div class="line">    <span class="keywordflow">return</span> RT_EOK;</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">static</span> <span class="keywordtype">void</span> serial_thread_entry(<span class="keywordtype">void</span> *parameter)</div>
@@ -166,7 +166,7 @@ Functions</h2></td></tr>
 <div class="line"> </div>
 <div class="line"><span class="keyword">static</span> <span class="keywordtype">int</span> uart_sample(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[])</div>
 <div class="line">{</div>
-<div class="line">    rt_err_t ret = <a class="code" href="group___error.html#gaaaddfb31f867cc924e0220470aaaec5f">RT_EOK</a>;</div>
+<div class="line">    rt_err_t ret = RT_EOK;</div>
 <div class="line">    <span class="keywordtype">char</span> uart_name[RT_NAME_MAX];</div>
 <div class="line">    <span class="keywordtype">char</span> str[] = <span class="stringliteral">&quot;hello RT-Thread!\r\n&quot;</span>;</div>
 <div class="line"> </div>
@@ -184,7 +184,7 @@ Functions</h2></td></tr>
 <div class="line">    <span class="keywordflow">if</span> (!serial)</div>
 <div class="line">    {</div>
 <div class="line">        rt_kprintf(<span class="stringliteral">&quot;find %s failed!\n&quot;</span>, uart_name);</div>
-<div class="line">        <span class="keywordflow">return</span> <a class="code" href="group___error.html#ga00349f5e8b688f0d04b88326ebbf7148">RT_ERROR</a>;</div>
+<div class="line">        <span class="keywordflow">return</span> RT_ERROR;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line"> </div>
@@ -205,26 +205,24 @@ Functions</h2></td></tr>
 <div class="line">    }</div>
 <div class="line">    <span class="keywordflow">else</span></div>
 <div class="line">    {</div>
-<div class="line">        ret = <a class="code" href="group___error.html#ga00349f5e8b688f0d04b88326ebbf7148">RT_ERROR</a>;</div>
+<div class="line">        ret = RT_ERROR;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> ret;</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><a class="code" href="group__finsh.html#ga91a67d7498e346a1e15a7ea7d58af654">MSH_CMD_EXPORT</a>(uart_sample, uart device sample);</div>
-<div class="ttc" id="agroup___device_html_ga3475a6ac901802ed9fe50f5c13f6274b"><div class="ttname"><a href="group___device.html#ga3475a6ac901802ed9fe50f5c13f6274b">RT_DEVICE_FLAG_INT_RX</a></div><div class="ttdeci">#define RT_DEVICE_FLAG_INT_RX</div><div class="ttdef"><b>Definition:</b> rtdef.h:1331</div></div>
-<div class="ttc" id="agroup___error_html_ga00349f5e8b688f0d04b88326ebbf7148"><div class="ttname"><a href="group___error.html#ga00349f5e8b688f0d04b88326ebbf7148">RT_ERROR</a></div><div class="ttdeci">#define RT_ERROR</div><div class="ttdef"><b>Definition:</b> rtdef.h:271</div></div>
-<div class="ttc" id="agroup___error_html_gaaaddfb31f867cc924e0220470aaaec5f"><div class="ttname"><a href="group___error.html#gaaaddfb31f867cc924e0220470aaaec5f">RT_EOK</a></div><div class="ttdeci">#define RT_EOK</div><div class="ttdef"><b>Definition:</b> rtdef.h:270</div></div>
-<div class="ttc" id="agroup___i_p_c_html_ga1b618f6714ea8f49a45ea4d105aaf5d5"><div class="ttname"><a href="group___i_p_c.html#ga1b618f6714ea8f49a45ea4d105aaf5d5">RT_IPC_FLAG_FIFO</a></div><div class="ttdeci">#define RT_IPC_FLAG_FIFO</div><div class="ttdef"><b>Definition:</b> rtdef.h:1006</div></div>
-<div class="ttc" id="agroup___i_p_c_html_ga923d8e409f9daa8843978d6805ebcdeb"><div class="ttname"><a href="group___i_p_c.html#ga923d8e409f9daa8843978d6805ebcdeb">RT_WAITING_FOREVER</a></div><div class="ttdeci">#define RT_WAITING_FOREVER</div><div class="ttdef"><b>Definition:</b> rtdef.h:1014</div></div>
+<div class="ttc" id="agroup___device_html_ga3475a6ac901802ed9fe50f5c13f6274b"><div class="ttname"><a href="group___device.html#ga3475a6ac901802ed9fe50f5c13f6274b">RT_DEVICE_FLAG_INT_RX</a></div><div class="ttdeci">#define RT_DEVICE_FLAG_INT_RX</div><div class="ttdef"><b>Definition:</b> rtdef.h:1286</div></div>
+<div class="ttc" id="agroup___i_p_c_html_ga1b618f6714ea8f49a45ea4d105aaf5d5"><div class="ttname"><a href="group___i_p_c.html#ga1b618f6714ea8f49a45ea4d105aaf5d5">RT_IPC_FLAG_FIFO</a></div><div class="ttdeci">#define RT_IPC_FLAG_FIFO</div><div class="ttdef"><b>Definition:</b> rtdef.h:961</div></div>
+<div class="ttc" id="agroup___i_p_c_html_ga923d8e409f9daa8843978d6805ebcdeb"><div class="ttname"><a href="group___i_p_c.html#ga923d8e409f9daa8843978d6805ebcdeb">RT_WAITING_FOREVER</a></div><div class="ttdeci">#define RT_WAITING_FOREVER</div><div class="ttdef"><b>Definition:</b> rtdef.h:969</div></div>
 <div class="ttc" id="agroup___thread_html_ga04b743537fd099e204fc292e57b4aa5a"><div class="ttname"><a href="group___thread.html#ga04b743537fd099e204fc292e57b4aa5a">rt_thread_startup</a></div><div class="ttdeci">rt_err_t rt_thread_startup(rt_thread_t thread)</div><div class="ttdoc">This function will start a thread and put it to system ready queue.</div><div class="ttdef"><b>Definition:</b> thread.c:393</div></div>
 <div class="ttc" id="agroup___thread_html_gacb215b161f17c26b5e19c28cd0119e7b"><div class="ttname"><a href="group___thread.html#gacb215b161f17c26b5e19c28cd0119e7b">rt_thread_create</a></div><div class="ttdeci">rt_thread_t rt_thread_create(const char *name, void(*entry)(void *parameter), void *parameter, rt_uint32_t stack_size, rt_uint8_t priority, rt_uint32_t tick)</div><div class="ttdoc">This function will create a thread object and allocate thread object memory. and stack.</div><div class="ttdef"><b>Definition:</b> thread.c:523</div></div>
 <div class="ttc" id="agroup__finsh_html_ga91a67d7498e346a1e15a7ea7d58af654"><div class="ttname"><a href="group__finsh.html#ga91a67d7498e346a1e15a7ea7d58af654">MSH_CMD_EXPORT</a></div><div class="ttdeci">#define MSH_CMD_EXPORT(...)</div><div class="ttdef"><b>Definition:</b> finsh.h:142</div></div>
 <div class="ttc" id="agroup__semaphore_html_ga023e00dd1ae86ddbeb2dbf92771e17ea"><div class="ttname"><a href="group__semaphore.html#ga023e00dd1ae86ddbeb2dbf92771e17ea">rt_sem_init</a></div><div class="ttdeci">rt_err_t rt_sem_init(rt_sem_t sem, const char *name, rt_uint32_t value, rt_uint8_t flag)</div><div class="ttdoc">This function will initialize a static semaphore object.</div><div class="ttdef"><b>Definition:</b> ipc.c:376</div></div>
 <div class="ttc" id="agroup__semaphore_html_gad9a5760bc4c7faeb08a7d9c112506f76"><div class="ttname"><a href="group__semaphore.html#gad9a5760bc4c7faeb08a7d9c112506f76">rt_sem_release</a></div><div class="ttdeci">rt_err_t rt_sem_release(rt_sem_t sem)</div><div class="ttdoc">This function will release a semaphore. If there is thread suspended on the semaphore,...</div><div class="ttdef"><b>Definition:</b> ipc.c:695</div></div>
-<div class="ttc" id="astructrt__device_html"><div class="ttname"><a href="structrt__device.html">rt_device</a></div><div class="ttdef"><b>Definition:</b> rtdef.h:1404</div></div>
-<div class="ttc" id="astructrt__semaphore_html"><div class="ttname"><a href="structrt__semaphore.html">rt_semaphore</a></div><div class="ttdef"><b>Definition:</b> rtdef.h:1037</div></div>
-<div class="ttc" id="astructrt__thread_html"><div class="ttname"><a href="structrt__thread.html">rt_thread</a></div><div class="ttdef"><b>Definition:</b> rtdef.h:886</div></div>
+<div class="ttc" id="astructrt__device_html"><div class="ttname"><a href="structrt__device.html">rt_device</a></div><div class="ttdef"><b>Definition:</b> rtdef.h:1359</div></div>
+<div class="ttc" id="astructrt__semaphore_html"><div class="ttname"><a href="structrt__semaphore.html">rt_semaphore</a></div><div class="ttdef"><b>Definition:</b> rtdef.h:992</div></div>
+<div class="ttc" id="astructrt__thread_html"><div class="ttname"><a href="structrt__thread.html">rt_thread</a></div><div class="ttdef"><b>Definition:</b> rtdef.h:841</div></div>
 </div><!-- fragment --> <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ga437e284adbcdbb12ed6c01d2234788da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga437e284adbcdbb12ed6c01d2234788da">&#9670;&nbsp;</a></span>rt_hw_serial_rxind_hookproto_t</h2>
@@ -365,7 +363,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Sep 15 2024 04:47:45 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Sep 29 2024 16:21:00 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -1,7 +1,11 @@
 var annotated_dup =
 [
+    [ "rt_adc_device", "structrt__adc__device.html", null ],
+    [ "rt_adc_ops", "structrt__adc__ops.html", null ],
     [ "rt_can_bit_timing_config", "structrt__can__bit__timing__config.html", null ],
     [ "rt_cpu_usage_stats", "structrt__cpu__usage__stats.html", null ],
+    [ "rt_dac_device", "structrt__dac__device.html", null ],
+    [ "rt_dac_ops", "structrt__dac__ops.html", null ],
     [ "rt_device", "structrt__device.html", "structrt__device" ],
     [ "rt_device_notify", "structrt__device__notify.html", null ],
     [ "rt_hw_backtrace_frame", "structrt__hw__backtrace__frame.html", null ],
@@ -16,6 +20,9 @@ var annotated_dup =
     [ "rt_object_information", "structrt__object__information.html", "structrt__object__information" ],
     [ "rt_pm", "structrt__pm.html", null ],
     [ "rt_pm_ops", "structrt__pm__ops.html", null ],
+    [ "rt_rtc_device", "structrt__rtc__device.html", null ],
+    [ "rt_rtc_ops", "structrt__rtc__ops.html", null ],
+    [ "rt_rtc_wkalarm", "structrt__rtc__wkalarm.html", null ],
     [ "rt_semaphore", "structrt__semaphore.html", "structrt__semaphore" ],
     [ "rt_serial_device", "structrt__serial__device.html", null ],
     [ "rt_serial_rx_fifo", "structrt__serial__rx__fifo.html", null ],

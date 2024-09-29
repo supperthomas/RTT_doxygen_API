@@ -526,25 +526,6 @@
         <topic label="rt_slist_init" href="group___kernel_service.html#ga0efaa6a7aa794800ffe9524020f03f5f"/>
       </topic>
       <topic label="Error Code" href="group___error.html">
-        <topic label="RT_EOK" href="group___error.html#gaaaddfb31f867cc924e0220470aaaec5f"/>
-        <topic label="RT_ERROR" href="group___error.html#ga00349f5e8b688f0d04b88326ebbf7148"/>
-        <topic label="RT_ETIMEOUT" href="group___error.html#ga4bf14759709bbad38b3af44d0ac5b550"/>
-        <topic label="RT_EFULL" href="group___error.html#ga6510144340be8d6b0ec72c4b60ab4219"/>
-        <topic label="RT_EEMPTY" href="group___error.html#gaaac90957b823ffc303a4d3a00f39ce6a"/>
-        <topic label="RT_ENOMEM" href="group___error.html#ga39afdfff046d9cf8c62d92beca8b572f"/>
-        <topic label="RT_ENOSYS" href="group___error.html#gaa7a65ad3f8153cfac2ba087a3f58f6fa"/>
-        <topic label="RT_EBUSY" href="group___error.html#ga94b79af35e40c9cc97e39292aa59d841"/>
-        <topic label="RT_EIO" href="group___error.html#ga4e6d153e65d54083ee2e7f7108554859"/>
-        <topic label="RT_EINTR" href="group___error.html#ga23b1ebea0d39b755be34bea061572f81"/>
-        <topic label="RT_EINVAL" href="group___error.html#ga46a1429ec0c968e558187848107e30fc"/>
-        <topic label="RT_ENOENT" href="group___error.html#gaee840be70e5caf984e4b5ecf7fc22052"/>
-        <topic label="RT_ENOSPC" href="group___error.html#gac3aab3da633303d0c5e8fc1bd178db9a"/>
-        <topic label="RT_EPERM" href="group___error.html#ga0aa4c078491d908951597e93c8b560dc"/>
-        <topic label="RT_ETRAP" href="group___error.html#ga846bfee9b17336beaac08c5f98498e7b"/>
-        <topic label="RT_EFAULT" href="group___error.html#gad82af9038c8e761ae4f6cc3195714c41"/>
-        <topic label="RT_ENOBUFS" href="group___error.html#gae4ec620213483ae042b75152ec78955e"/>
-        <topic label="RT_ESCHEDISR" href="group___error.html#gacf3a4ab6a82150156c0ddb21a465c959"/>
-        <topic label="RT_ESCHEDLOCKED" href="group___error.html#gaba7d0f55e0e45a6ba41befe3edfb64e8"/>
       </topic>
       <topic label="rt_interrupt_enter" href="group___kernel.html#ga020fb2151c8cbf1c1c0c59e615dc8d9e"/>
       <topic label="rt_interrupt_leave" href="group___kernel.html#gafcbcfbf20707e21e8922a837bba4908d"/>
@@ -559,12 +540,56 @@
       <topic label="rt_system_heap_init" href="group___system_init.html#gafa6feb60f6204d1783bc3bc324b886e7"/>
     </topic>
     <topic label="RTTHREAD Driver" href="group___drivers.html">
+      <topic label="ADC" href="group___a_d_c.html">
+        <topic label="rt_adc_ops" href="structrt__adc__ops.html">
+        </topic>
+        <topic label="rt_adc_device" href="structrt__adc__device.html">
+        </topic>
+        <topic label="rt_hw_adc_register" href="group___a_d_c.html#ga34858798cf23969619cfb15b46708717"/>
+        <topic label="rt_adc_read" href="group___a_d_c.html#ga87ac944e3697d5f37065d37673832367"/>
+        <topic label="rt_adc_enable" href="group___a_d_c.html#ga31de6e63362adf45d2e0c3665a50d601"/>
+        <topic label="rt_adc_disable" href="group___a_d_c.html#gad06348e265c81b5bb79d2dcc06346183"/>
+        <topic label="rt_adc_voltage" href="group___a_d_c.html#ga216bc5c28816f431c8c5b499ad803735"/>
+      </topic>
+      <topic label="DAC" href="group___d_a_c.html">
+        <topic label="rt_dac_ops" href="structrt__dac__ops.html">
+        </topic>
+        <topic label="rt_dac_device" href="structrt__dac__device.html">
+        </topic>
+        <topic label="rt_hw_dac_register" href="group___d_a_c.html#ga7d8d6d38f9bdf51360e89261ca1a5343"/>
+        <topic label="rt_dac_write" href="group___d_a_c.html#ga0370f324ef52fb428f42a50867379c26"/>
+        <topic label="rt_dac_enable" href="group___d_a_c.html#gabc2edb7a728f6a57132f42abc2c70843"/>
+        <topic label="rt_dac_disable" href="group___d_a_c.html#ga5e512b2f86520f8d566ed53c69b7fd2b"/>
+      </topic>
       <topic label="CAN Driver" href="group___c_a_n___device.html">
         <topic label="rt_can_bit_timing_config" href="structrt__can__bit__timing__config.html">
         </topic>
         <topic label="CAN_RX_FIFO0" href="group___c_a_n___device.html#ga93b60b4b7de8f8ca12fe1717577ec7b9"/>
         <topic label="CAN_RX_FIFO1" href="group___c_a_n___device.html#ga39b4c6726afe491b0766cae9e1cea678">
         </topic>
+      </topic>
+      <topic label="RTC" href="group___r_t_c.html">
+        <topic label="rt_rtc_wkalarm" href="structrt__rtc__wkalarm.html">
+        </topic>
+        <topic label="rt_rtc_ops" href="structrt__rtc__ops.html">
+        </topic>
+        <topic label="rt_rtc_device" href="structrt__rtc__device.html">
+        </topic>
+        <topic label="RT_DEVICE_CTRL_RTC_GET_TIME" href="group___r_t_c.html#ga0c92797f20574b9153f8cf9d413297f8"/>
+        <topic label="RT_DEVICE_CTRL_RTC_SET_TIME" href="group___r_t_c.html#gae4e1a97713d31ac905f661848bce6835"/>
+        <topic label="RT_DEVICE_CTRL_RTC_GET_TIMEVAL" href="group___r_t_c.html#gacd48ce48e03ce6794e3f11cdcbc44628"/>
+        <topic label="RT_DEVICE_CTRL_RTC_SET_TIMEVAL" href="group___r_t_c.html#gaba776430762f0f605dca378ac957e25c"/>
+        <topic label="RT_DEVICE_CTRL_RTC_GET_ALARM" href="group___r_t_c.html#gad4c661d33a1b182b4b39e58ff1d14d39"/>
+        <topic label="RT_DEVICE_CTRL_RTC_SET_ALARM" href="group___r_t_c.html#ga33b648fb7b76a061106c46308073db33"/>
+        <topic label="RT_DEVICE_CTRL_RTC_GET_TIMESPEC" href="group___r_t_c.html#ga50ee4619ccdc85686b4dddc0fd438ecc"/>
+        <topic label="RT_DEVICE_CTRL_RTC_SET_TIMESPEC" href="group___r_t_c.html#gaafbdd4124e1e66a301b6a598739496d0"/>
+        <topic label="RT_DEVICE_CTRL_RTC_GET_TIMERES" href="group___r_t_c.html#ga3a5fddaad2126a1fd78a7dbc20ac9d3f"/>
+        <topic label="rt_rtc_dev_t" href="group___r_t_c.html#ga664ab88ba8bd42096424949927eb4b17"/>
+        <topic label="rt_hw_rtc_register" href="group___r_t_c.html#ga45e5a0726664ffd1af82c67ce6d0fc99"/>
+        <topic label="set_date" href="group___r_t_c.html#ga1b67ee6a4ee7baed3169dd93ce2f76d3"/>
+        <topic label="set_time" href="group___r_t_c.html#gab0e3ba48a24fe7d3b369a0489655d0f2"/>
+        <topic label="set_timestamp" href="group___r_t_c.html#ga753a9cdf5c15dade77d064e4102a7880"/>
+        <topic label="get_timestamp" href="group___r_t_c.html#gaa3b3c18a5fbe553617cde3109df3ba29"/>
       </topic>
       <topic label="Serial" href="group___serial.html">
         <topic label="rt_serial_rx_fifo" href="structrt__serial__rx__fifo.html">
@@ -598,9 +623,17 @@
   </topic>
   <topic label="Data Structures" href="annotated.html">
     <topic label="Data Structures" href="annotated.html">
+      <topic label="rt_adc_device" href="structrt__adc__device.html">
+      </topic>
+      <topic label="rt_adc_ops" href="structrt__adc__ops.html">
+      </topic>
       <topic label="rt_can_bit_timing_config" href="structrt__can__bit__timing__config.html">
       </topic>
       <topic label="rt_cpu_usage_stats" href="structrt__cpu__usage__stats.html">
+      </topic>
+      <topic label="rt_dac_device" href="structrt__dac__device.html">
+      </topic>
+      <topic label="rt_dac_ops" href="structrt__dac__ops.html">
       </topic>
       <topic label="rt_device" href="structrt__device.html">
         <topic label="parent" href="structrt__device.html#a52df486399b65f49455698b55b656d8d"/>
@@ -680,6 +713,12 @@
       <topic label="rt_pm" href="structrt__pm.html">
       </topic>
       <topic label="rt_pm_ops" href="structrt__pm__ops.html">
+      </topic>
+      <topic label="rt_rtc_device" href="structrt__rtc__device.html">
+      </topic>
+      <topic label="rt_rtc_ops" href="structrt__rtc__ops.html">
+      </topic>
+      <topic label="rt_rtc_wkalarm" href="structrt__rtc__wkalarm.html">
       </topic>
       <topic label="rt_semaphore" href="structrt__semaphore.html">
         <topic label="parent" href="structrt__semaphore.html#ae30f5ce3f4e89636b0f5b19755f39df7"/>
