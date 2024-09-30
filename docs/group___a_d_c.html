@@ -125,10 +125,10 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>ADC driver api. </p>
-<p><b>Example</b> </p><div class="fragment"><div class="line"><span class="preprocessor">#define ADC_DEV_NAME        &quot;adc1&quot;</span>      </div>
-<div class="line"><span class="preprocessor">#define ADC_DEV_CHANNEL     5    </span></div>
-<div class="line"><span class="preprocessor">#define REFER_VOLTAGE       330         </span></div>
-<div class="line"><span class="preprocessor">#define CONVERT_BITS        (1 &lt;&lt; 12)   </span></div>
+<p><b>Example</b> </p><div class="fragment"><div class="line"><span class="preprocessor">#define ADC_DEV_NAME        &quot;adc1&quot;</span></div>
+<div class="line"><span class="preprocessor">#define ADC_DEV_CHANNEL     5</span></div>
+<div class="line"><span class="preprocessor">#define REFER_VOLTAGE       330</span></div>
+<div class="line"><span class="preprocessor">#define CONVERT_BITS        (1 &lt;&lt; 12)</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">static</span> <span class="keywordtype">int</span> adc_vol_sample(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[])</div>
 <div class="line">{</div>
@@ -141,7 +141,7 @@ Functions</h2></td></tr>
 <div class="line">    <span class="keywordflow">if</span> (adc_dev == RT_NULL)</div>
 <div class="line">    {</div>
 <div class="line">        rt_kprintf(<span class="stringliteral">&quot;adc sample run failed! can&#39;t find %s device!\n&quot;</span>, ADC_DEV_NAME);</div>
-<div class="line">        <span class="keywordflow">return</span> RT_ERROR;</div>
+<div class="line">        <span class="keywordflow">return</span> -RT_ERROR;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    ret = <a class="code" href="group___a_d_c.html#ga31de6e63362adf45d2e0c3665a50d601">rt_adc_enable</a>(adc_dev, ADC_DEV_CHANNEL);</div>
@@ -372,7 +372,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Sep 29 2024 16:21:00 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Sep 30 2024 16:22:28 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
