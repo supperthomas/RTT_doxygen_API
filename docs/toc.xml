@@ -568,6 +568,26 @@
         <topic label="CAN_RX_FIFO1" href="group___c_a_n___device.html#ga39b4c6726afe491b0766cae9e1cea678">
         </topic>
       </topic>
+      <topic label="Pin" href="group___pin.html">
+        <topic label="rt_device_pin" href="structrt__device__pin.html">
+        </topic>
+        <topic label="rt_device_pin_mode" href="structrt__device__pin__mode.html">
+        </topic>
+        <topic label="rt_device_pin_value" href="structrt__device__pin__value.html">
+        </topic>
+        <topic label="rt_pin_irq_hdr" href="structrt__pin__irq__hdr.html">
+        </topic>
+        <topic label="rt_pin_ops" href="structrt__pin__ops.html">
+        </topic>
+        <topic label="rt_device_pin_register" href="group___pin.html#ga04252280d75185b75ad19875d9441e6f"/>
+        <topic label="rt_pin_mode" href="group___pin.html#ga7dda63a191c2832c70e925c077fb256d"/>
+        <topic label="rt_pin_write" href="group___pin.html#ga5a2951d0455b9a902f03ba72bfb1e841"/>
+        <topic label="rt_pin_read" href="group___pin.html#gacfb354fd5afd2be465c580982b5b2806"/>
+        <topic label="rt_pin_get" href="group___pin.html#gac31fd122fadb80540983907d4b8200c4"/>
+        <topic label="rt_pin_attach_irq" href="group___pin.html#gaffae7811e6f84f488accadf3187a0a74"/>
+        <topic label="rt_pin_detach_irq" href="group___pin.html#ga58f34476bbedbc80c811c462f7dee6be"/>
+        <topic label="rt_pin_irq_enable" href="group___pin.html#gaba154cfb12163ef6e7f24eb6a8738172"/>
+      </topic>
       <topic label="RTC" href="group___r_t_c.html">
         <topic label="rt_rtc_wkalarm" href="structrt__rtc__wkalarm.html">
         </topic>
@@ -647,6 +667,12 @@
       </topic>
       <topic label="rt_device_notify" href="structrt__device__notify.html">
       </topic>
+      <topic label="rt_device_pin" href="structrt__device__pin.html">
+      </topic>
+      <topic label="rt_device_pin_mode" href="structrt__device__pin__mode.html">
+      </topic>
+      <topic label="rt_device_pin_value" href="structrt__device__pin__value.html">
+      </topic>
       <topic label="rt_hw_backtrace_frame" href="structrt__hw__backtrace__frame.html">
       </topic>
       <topic label="rt_inputcapture_ops" href="structrt__inputcapture__ops.html">
@@ -709,6 +735,10 @@
         <topic label="type" href="structrt__object__information.html#ade4fad90f69638200ccb2cbcc9f8e298"/>
         <topic label="object_list" href="structrt__object__information.html#ad201bcecb2a95d3516b06e020ec24e73"/>
         <topic label="object_size" href="structrt__object__information.html#ada7e29b16c914f1692557fdc98f471fc"/>
+      </topic>
+      <topic label="rt_pin_irq_hdr" href="structrt__pin__irq__hdr.html">
+      </topic>
+      <topic label="rt_pin_ops" href="structrt__pin__ops.html">
       </topic>
       <topic label="rt_pm" href="structrt__pm.html">
       </topic>

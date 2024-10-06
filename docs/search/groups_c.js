@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['semaphore_914',['Semaphore',['../group__semaphore.html',1,'']]],
-  ['serial_915',['Serial',['../group___serial.html',1,'']]],
-  ['serial_20v2_916',['Serial v2',['../group___serial__v2.html',1,'']]],
-  ['signal_917',['Signal',['../group___signal.html',1,'']]],
-  ['system_20initialization_918',['System Initialization',['../group___system_init.html',1,'']]]
+  ['rt_2dthread_20kernel_20api_938',['RT-Thread Kernel API',['../group___kernel.html',1,'']]],
+  ['rtc_939',['RTC',['../group___r_t_c.html',1,'']]],
+  ['rtthread_20driver_940',['RTTHREAD Driver',['../group___drivers.html',1,'']]],
+  ['runtime_20trace_20and_20record_941',['Runtime Trace and Record',['../group___hook.html',1,'']]]
 ];
