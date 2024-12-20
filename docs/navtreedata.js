@@ -44,8 +44,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"group___kernel_service.html",
-"structrt__mailbox.html#a11aef5d6e06f6459b7c1d56c835c7f9e"
+"group___kernel_object.html#gga38a532bcb1bd3f12685db4219b761b56a1e5b83d7de96e8d29324a710094f099b",
+"group__event.html#ga92efdf32aaf073d733f3bafd02d730e5"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

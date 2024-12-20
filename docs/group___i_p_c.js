@@ -26,6 +26,7 @@ var group___i_p_c =
     [ "rt_thread_suspend_to_list", "group___i_p_c.html#ga41e560062d5e4b929ad2868e4ccc90f2", null ],
     [ "rt_thread_defunct_enqueue", "group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee", null ],
     [ "rt_thread_defunct_dequeue", "group___i_p_c.html#ga35f8bcf6aa8d872a07261a8faaa026ba", null ],
+    [ "rt_defunct_execute", "group___i_p_c.html#ga1de245140734ab9388eb11300e923f79", null ],
     [ "rt_spin_lock_init", "group___i_p_c.html#gabda9721c7e7e2d27e53f0b4604dd65dd", null ],
     [ "rt_spin_lock", "group___i_p_c.html#ga9e3b84e1f0acebdd5ae36b0626b24240", null ],
     [ "rt_spin_unlock", "group___i_p_c.html#gac2f7760a8299108cd4ba8a9135ef4f93", null ],

@@ -25,6 +25,7 @@
       </topic>
       <topic label="File POSIX API" href="group___fs_posix_api.html">
         <topic label="open" href="group___fs_posix_api.html#ga94873fa89201b877351b663b9f5b040d"/>
+        <topic label="openat" href="group___fs_posix_api.html#ga07762abe1a0ed5e470177abe391f08cd"/>
         <topic label="creat" href="group___fs_posix_api.html#gafddc24a65767ae35f275be8ccf53e036"/>
         <topic label="close" href="group___fs_posix_api.html#gaafbcde67669a1b96577e735ddebd8634"/>
         <topic label="read" href="group___fs_posix_api.html#ga1301f5639d6acac2e7138ae391e87a2d"/>
@@ -88,6 +89,10 @@
       <topic label="Thread Management" href="group___thread.html">
         <topic label="rt_cpu_usage_stats" href="structrt__cpu__usage__stats.html">
         </topic>
+        <topic label="rt_interrupt_context" href="structrt__interrupt__context.html">
+          <topic label="context" href="structrt__interrupt__context.html#ab3380038ea429707fbe058da997700eb"/>
+          <topic label="node" href="structrt__interrupt__context.html#aa9e3447c74bd7c48a8d44d73024b92c7"/>
+        </topic>
         <topic label="rt_thread" href="structrt__thread.html">
           <topic label="sp" href="structrt__thread.html#abc9d01c30e0fc9872df2fd5c044e31e0"/>
           <topic label="entry" href="structrt__thread.html#adcdaf75f05998c6485544c337526da52"/>
@@ -115,6 +120,7 @@
         <topic label="RT_THREAD_CTRL_CHANGE_PRIORITY" href="group___thread.html#gad59e5c8ec96f8b3231947b0c665e5fba"/>
         <topic label="RT_THREAD_CTRL_INFO" href="group___thread.html#ga45ba1445796c920c2ae943b419e19d4b"/>
         <topic label="RT_THREAD_CTRL_BIND_CPU" href="group___thread.html#ga33e2bf49443c5a96c293a554203de8e3"/>
+        <topic label="rt_interrupt_context_t" href="group___thread.html#gae496369bc5dcfd1c6de1425d7f45f79d"/>
         <topic label="rt_thread_inited_hookproto_t" href="group___thread.html#ga7834be0d0c62aaa32ae47ade3ac21e68">
         </topic>
         <topic label="rt_thread_init" href="group___thread.html#gacd985aa60939b95e510f144610f001b9"/>
@@ -351,6 +357,7 @@
         <topic label="rt_thread_suspend_to_list" href="group___i_p_c.html#ga41e560062d5e4b929ad2868e4ccc90f2"/>
         <topic label="rt_thread_defunct_enqueue" href="group___i_p_c.html#ga0e32f5a4ae6b0da7771e08b061eba1ee"/>
         <topic label="rt_thread_defunct_dequeue" href="group___i_p_c.html#ga35f8bcf6aa8d872a07261a8faaa026ba"/>
+        <topic label="rt_defunct_execute" href="group___i_p_c.html#ga1de245140734ab9388eb11300e923f79"/>
         <topic label="rt_spin_lock_init" href="group___i_p_c.html#gabda9721c7e7e2d27e53f0b4604dd65dd"/>
         <topic label="rt_spin_lock" href="group___i_p_c.html#ga9e3b84e1f0acebdd5ae36b0626b24240"/>
         <topic label="rt_spin_unlock" href="group___i_p_c.html#gac2f7760a8299108cd4ba8a9135ef4f93"/>
@@ -562,11 +569,50 @@
         <topic label="rt_dac_disable" href="group___d_a_c.html#ga5e512b2f86520f8d566ed53c69b7fd2b"/>
       </topic>
       <topic label="CAN Driver" href="group___c_a_n___device.html">
+        <topic label="rt_can_filter_item" href="structrt__can__filter__item.html">
+        </topic>
+        <topic label="rt_can_filter_config" href="structrt__can__filter__config.html">
+        </topic>
+        <topic label="rt_can_bit_timing" href="structrt__can__bit__timing.html">
+        </topic>
         <topic label="rt_can_bit_timing_config" href="structrt__can__bit__timing__config.html">
+        </topic>
+        <topic label="can_configure" href="structcan__configure.html">
+        </topic>
+        <topic label="rt_can_status" href="structrt__can__status.html">
+        </topic>
+        <topic label="rt_can_ops" href="structrt__can__ops.html">
         </topic>
         <topic label="CAN_RX_FIFO0" href="group___c_a_n___device.html#ga93b60b4b7de8f8ca12fe1717577ec7b9"/>
         <topic label="CAN_RX_FIFO1" href="group___c_a_n___device.html#ga39b4c6726afe491b0766cae9e1cea678">
         </topic>
+        <topic label="rt_hw_can_register" href="group___c_a_n___device.html#gadf1896bf2a7af596844c4ec8f26f2713"/>
+        <topic label="rt_hw_can_isr" href="group___c_a_n___device.html#ga1cf63c299c84932dcb43481dbff6201f"/>
+      </topic>
+      <topic label="I2C" href="group___i2_c.html">
+        <topic label="rt_i2c_priv_data" href="structrt__i2c__priv__data.html">
+        </topic>
+        <topic label="rt_i2c_msg" href="structrt__i2c__msg.html">
+        </topic>
+        <topic label="rt_i2c_bus_device_ops" href="structrt__i2c__bus__device__ops.html">
+        </topic>
+        <topic label="rt_i2c_bus_device" href="structrt__i2c__bus__device.html">
+        </topic>
+        <topic label="rt_i2c_client" href="structrt__i2c__client.html">
+        </topic>
+        <topic label="RT_I2C_WR" href="group___i2_c.html#ga97e527c1a0ff0eeec187ae16cdc6b327"/>
+        <topic label="RT_I2C_RD" href="group___i2_c.html#ga64f148d81705ed57b453278fa85d866e"/>
+        <topic label="RT_I2C_ADDR_10BIT" href="group___i2_c.html#gab5ac99514481b924e1dd5ec2ba356b73"/>
+        <topic label="RT_I2C_NO_START" href="group___i2_c.html#gaa414169baa4f3d2c4f194d0ac92854dd"/>
+        <topic label="RT_I2C_IGNORE_NACK" href="group___i2_c.html#gac88b37e5107fd1d6101c4e62a33b43bb"/>
+        <topic label="RT_I2C_NO_STOP" href="group___i2_c.html#ga357555d628e68be5e1e46ff2cf4f71c8"/>
+        <topic label="rt_i2c_bus_device_device_init" href="group___i2_c.html#ga3732e6a7db5dd2e8bdac3118361275dd"/>
+        <topic label="rt_i2c_bus_device_register" href="group___i2_c.html#ga00f0af93f0bec1cd6adeab5427f5aa61"/>
+        <topic label="rt_i2c_bus_device_find" href="group___i2_c.html#ga768ae96dd89801841ba33170a66d1d05"/>
+        <topic label="rt_i2c_transfer" href="group___i2_c.html#gab3424b65ba5d7f6f5f81849c0b8ca41c"/>
+        <topic label="rt_i2c_control" href="group___i2_c.html#ga54a3ae2d9c07de8f1976b519ba330c60"/>
+        <topic label="rt_i2c_master_send" href="group___i2_c.html#ga39c0eecab5f2d2982dcfc035ea4cdd06"/>
+        <topic label="rt_i2c_master_recv" href="group___i2_c.html#ga3f03cf4cdc3963a2b0ce5269e7bed2d6"/>
       </topic>
       <topic label="Pin" href="group___pin.html">
         <topic label="rt_device_pin" href="structrt__device__pin.html">
@@ -579,6 +625,21 @@
         </topic>
         <topic label="rt_pin_ops" href="structrt__pin__ops.html">
         </topic>
+        <topic label="PIN_LOW" href="group___pin.html#ga4569b310ad4177e935f20becec046af2"/>
+        <topic label="PIN_HIGH" href="group___pin.html#gae14869a27ae7d64d5790cdb2b866f737"/>
+        <topic label="PIN_MODE_OUTPUT" href="group___pin.html#gac25f0f159ffa1179651fbde4ac338c5d"/>
+        <topic label="PIN_MODE_INPUT" href="group___pin.html#ga9b96fab07f827dcc04beaae6bd09400f"/>
+        <topic label="PIN_MODE_INPUT_PULLUP" href="group___pin.html#ga520767b641f2966bcfbaea79837ab798"/>
+        <topic label="PIN_MODE_INPUT_PULLDOWN" href="group___pin.html#gadf4d746ef4f5a2d00d340646fe9d3bfa"/>
+        <topic label="PIN_MODE_OUTPUT_OD" href="group___pin.html#ga35eda88d3f3c5101fa6e032c2cef5e89"/>
+        <topic label="PIN_IRQ_MODE_RISING" href="group___pin.html#gae44a5ad4f5830641eda4806e9f50a1c2"/>
+        <topic label="PIN_IRQ_MODE_FALLING" href="group___pin.html#gaea72b7486ac7548f1e818310bd9bae62"/>
+        <topic label="PIN_IRQ_MODE_RISING_FALLING" href="group___pin.html#gadc869f3d0d5714f5fe22bf03bba8004a"/>
+        <topic label="PIN_IRQ_MODE_HIGH_LEVEL" href="group___pin.html#gab217d390495bc6107eaf3c7f84dc4fde"/>
+        <topic label="PIN_IRQ_MODE_LOW_LEVEL" href="group___pin.html#ga695a107bef2830a5d2f49d5feac9055e"/>
+        <topic label="PIN_IRQ_DISABLE" href="group___pin.html#ga5baa602cd2fb45994d1f4e5e587f1ace"/>
+        <topic label="PIN_IRQ_ENABLE" href="group___pin.html#gae3f3a9a46d7592447337a3cfea0e3fd8"/>
+        <topic label="PIN_IRQ_PIN_NONE" href="group___pin.html#ga4d5a445b2cff37bb53d39f219b443a7e"/>
         <topic label="rt_device_pin_register" href="group___pin.html#ga04252280d75185b75ad19875d9441e6f"/>
         <topic label="rt_pin_mode" href="group___pin.html#ga7dda63a191c2832c70e925c077fb256d"/>
         <topic label="rt_pin_write" href="group___pin.html#ga5a2951d0455b9a902f03ba72bfb1e841"/>
@@ -587,6 +648,23 @@
         <topic label="rt_pin_attach_irq" href="group___pin.html#gaffae7811e6f84f488accadf3187a0a74"/>
         <topic label="rt_pin_detach_irq" href="group___pin.html#ga58f34476bbedbc80c811c462f7dee6be"/>
         <topic label="rt_pin_irq_enable" href="group___pin.html#gaba154cfb12163ef6e7f24eb6a8738172"/>
+        <topic label="rt_pin_debounce" href="group___pin.html#gac4e6f01046fe6a9577a84cccbf766d91"/>
+      </topic>
+      <topic label="PWM" href="group___p_w_m.html">
+        <topic label="rt_pwm_configuration" href="structrt__pwm__configuration.html">
+        </topic>
+        <topic label="rt_pwm_ops" href="structrt__pwm__ops.html">
+        </topic>
+        <topic label="rt_device_pwm" href="structrt__device__pwm.html">
+        </topic>
+        <topic label="rt_device_pwm_register" href="group___p_w_m.html#gaf2e9ca391c73da109b22f3a0a491ce2f"/>
+        <topic label="rt_pwm_enable" href="group___p_w_m.html#ga3096d6e3cb9d68c8ecee9309d11c8a59"/>
+        <topic label="rt_pwm_disable" href="group___p_w_m.html#gaebc2279a79d7c5c17faddc7fd6e2ccf0"/>
+        <topic label="rt_pwm_set" href="group___p_w_m.html#ga71a161d28dc4a5a4c3712c1a36cc4b91"/>
+        <topic label="rt_pwm_set_period" href="group___p_w_m.html#ga8f6f51b615e1a4962cde9fb32d645c35"/>
+        <topic label="rt_pwm_set_pulse" href="group___p_w_m.html#ga8201bb8f71bde7ac04be8dee1cc24907"/>
+        <topic label="rt_pwm_set_dead_time" href="group___p_w_m.html#gae53a731bda22857afc4700846a85d0b3"/>
+        <topic label="rt_pwm_set_phase" href="group___p_w_m.html#ga95eb6d4ea35151d3afd0224963e622d9"/>
       </topic>
       <topic label="RTC" href="group___r_t_c.html">
         <topic label="rt_rtc_wkalarm" href="structrt__rtc__wkalarm.html">
@@ -639,15 +717,96 @@
         <topic label="rt_hw_serial_register" href="group___serial__v2.html#ga40673abd2e54628aa2d900ff773bdf30"/>
         <topic label="rt_hw_serial_register_tty" href="group___serial__v2.html#ga8362962e31383fffcc422f8a65b1816d"/>
       </topic>
+      <topic label="SPI" href="group___s_p_i.html">
+        <topic label="rt_spi_message" href="structrt__spi__message.html">
+        </topic>
+        <topic label="rt_spi_configuration" href="structrt__spi__configuration.html">
+        </topic>
+        <topic label="rt_spi_bus" href="structrt__spi__bus.html">
+        </topic>
+        <topic label="rt_spi_ops" href="structrt__spi__ops.html">
+        </topic>
+        <topic label="rt_spi_device" href="structrt__spi__device.html">
+        </topic>
+        <topic label="rt_qspi_message" href="structrt__qspi__message.html">
+        </topic>
+        <topic label="rt_qspi_configuration" href="structrt__qspi__configuration.html">
+        </topic>
+        <topic label="rt_qspi_device" href="structrt__qspi__device.html">
+        </topic>
+        <topic label="RT_SPI_CPHA" href="group___s_p_i.html#ga00061586e69a79a37b833aff4cac2911"/>
+        <topic label="RT_SPI_CPOL" href="group___s_p_i.html#ga86d38968d21a3ea85c29101dbd88ec2c"/>
+        <topic label="RT_SPI_LSB" href="group___s_p_i.html#ga64a90e0abff1332eef7c00d95698fe72"/>
+        <topic label="RT_SPI_MSB" href="group___s_p_i.html#ga23dd8556f00b78154bf22210e8b5a3ff"/>
+        <topic label="RT_SPI_MASTER" href="group___s_p_i.html#ga073843328664d4cf3954d732c7339725"/>
+        <topic label="RT_SPI_SLAVE" href="group___s_p_i.html#ga9fd4b2c3eeacd7ab88a1bd32af87274e"/>
+        <topic label="RT_SPI_CS_HIGH" href="group___s_p_i.html#ga0feae68713f405825236899c5a4065fa"/>
+        <topic label="RT_SPI_NO_CS" href="group___s_p_i.html#ga067dcd5576bc996c79d2b26df13f7baf"/>
+        <topic label="RT_SPI_3WIRE" href="group___s_p_i.html#gad1ea047c3249adb142f982e96c6f0573"/>
+        <topic label="RT_SPI_READY" href="group___s_p_i.html#ga3639467e5a2f91df552d6397776c0733"/>
+        <topic label="RT_SPI_MODE_0" href="group___s_p_i.html#ga752d48503bb3e4bf018cf9db58ef796d"/>
+        <topic label="RT_SPI_MODE_1" href="group___s_p_i.html#ga85c54fa886731f59d90b895a985d2878"/>
+        <topic label="RT_SPI_MODE_2" href="group___s_p_i.html#gab3517d43e92dbf77abb4eb12050657a8"/>
+        <topic label="RT_SPI_MODE_3" href="group___s_p_i.html#ga94b472b0f1a1cf600ec30ecd7e30e0a4"/>
+        <topic label="rt_spi_bus_register" href="group___s_p_i.html#ga819ded0df4aefcabf5d7b2a254ce415e"/>
+        <topic label="rt_spi_bus_attach_device" href="group___s_p_i.html#ga1ab153eb02cfb523b4fdc4d40e79c96c"/>
+        <topic label="rt_spi_bus_attach_device_cspin" href="group___s_p_i.html#ga06c4f872ba0d92da656b92be3cceb6ea"/>
+        <topic label="rt_spi_bus_configure" href="group___s_p_i.html#gab8fec99dcd6c2e3f8ed1d0f84b2a7c03"/>
+        <topic label="rt_spi_take_bus" href="group___s_p_i.html#ga19faa07950f052fcd3fb2a0af26a2db0"/>
+        <topic label="rt_spi_release_bus" href="group___s_p_i.html#gaa7025986fe1543c10f23c776687dcf56"/>
+        <topic label="rt_spi_take" href="group___s_p_i.html#gaee394d6fc071e0060608004feafd1bee"/>
+        <topic label="rt_spi_release" href="group___s_p_i.html#gac86c852bfaef894264800afd569ac66d"/>
+        <topic label="rt_spi_configure" href="group___s_p_i.html#ga454653047b1964d01154a7657b675c2b"/>
+        <topic label="rt_spi_send_then_recv" href="group___s_p_i.html#gae02064c17425153edcf867cf7710af10"/>
+        <topic label="rt_spi_send_then_send" href="group___s_p_i.html#ga5f6e4ea6c445fdca36f299dae7bd69ae"/>
+        <topic label="rt_spi_transfer" href="group___s_p_i.html#ga1116efe0655d4df542483b72aa689040"/>
+        <topic label="rt_spi_sendrecv8" href="group___s_p_i.html#ga6d5fd38857ce4f0a987621667c3b050d"/>
+        <topic label="rt_spi_sendrecv16" href="group___s_p_i.html#ga5097f22fc4832731801106edf1849a01"/>
+        <topic label="rt_spi_transfer_message" href="group___s_p_i.html#ga21dae313bb9a0faf840ad1b42ccff62b"/>
+        <topic label="rt_spi_recv" href="group___s_p_i.html#gaf73c4e6ac2190b3360045945fe898271"/>
+        <topic label="rt_spi_send" href="group___s_p_i.html#ga8d272f7d685a4dc19b2bca56c192d817"/>
+        <topic label="rt_spi_message_append" href="group___s_p_i.html#ga33ed1148c095fdc28bec6f57c40c0245"/>
+        <topic label="rt_qspi_configure" href="group___s_p_i.html#ga4f65a1f11e6a175a22bbdd16f88aeb62"/>
+        <topic label="rt_qspi_bus_register" href="group___s_p_i.html#ga198e29f11e253d910a5da22fbd20f450"/>
+        <topic label="rt_qspi_transfer_message" href="group___s_p_i.html#ga2e8f5c61e348dbc6474fe7fc08d7d14f"/>
+        <topic label="rt_qspi_send_then_recv" href="group___s_p_i.html#ga5b0d7af83a8a10fd7b96c1e32ff79ab6"/>
+        <topic label="rt_qspi_send" href="group___s_p_i.html#ga9cf74e21fa2af5effce91908af7f6f94"/>
+      </topic>
+      <topic label="Touch" href="group___touch.html">
+        <topic label="rt_touch_info" href="structrt__touch__info.html">
+        </topic>
+        <topic label="rt_touch_config" href="structrt__touch__config.html">
+        </topic>
+        <topic label="rt_touch_device" href="structrt__touch__device.html">
+        </topic>
+        <topic label="rt_touch_data" href="structrt__touch__data.html">
+        </topic>
+        <topic label="rt_touch_ops" href="structrt__touch__ops.html">
+        </topic>
+        <topic label="rt_hw_touch_register" href="group___touch.html#ga66666cc0b5fe61c8c30324d8a8827478"/>
+        <topic label="rt_hw_touch_isr" href="group___touch.html#ga5b6c5a5550fce5ec2f680aa259fe6eb7"/>
+      </topic>
     </topic>
   </topic>
   <topic label="Data Structures" href="annotated.html">
     <topic label="Data Structures" href="annotated.html">
+      <topic label="can_configure" href="structcan__configure.html">
+      </topic>
       <topic label="rt_adc_device" href="structrt__adc__device.html">
       </topic>
       <topic label="rt_adc_ops" href="structrt__adc__ops.html">
       </topic>
+      <topic label="rt_can_bit_timing" href="structrt__can__bit__timing.html">
+      </topic>
       <topic label="rt_can_bit_timing_config" href="structrt__can__bit__timing__config.html">
+      </topic>
+      <topic label="rt_can_filter_config" href="structrt__can__filter__config.html">
+      </topic>
+      <topic label="rt_can_filter_item" href="structrt__can__filter__item.html">
+      </topic>
+      <topic label="rt_can_ops" href="structrt__can__ops.html">
+      </topic>
+      <topic label="rt_can_status" href="structrt__can__status.html">
       </topic>
       <topic label="rt_cpu_usage_stats" href="structrt__cpu__usage__stats.html">
       </topic>
@@ -673,9 +832,25 @@
       </topic>
       <topic label="rt_device_pin_value" href="structrt__device__pin__value.html">
       </topic>
+      <topic label="rt_device_pwm" href="structrt__device__pwm.html">
+      </topic>
       <topic label="rt_hw_backtrace_frame" href="structrt__hw__backtrace__frame.html">
       </topic>
+      <topic label="rt_i2c_bus_device" href="structrt__i2c__bus__device.html">
+      </topic>
+      <topic label="rt_i2c_bus_device_ops" href="structrt__i2c__bus__device__ops.html">
+      </topic>
+      <topic label="rt_i2c_client" href="structrt__i2c__client.html">
+      </topic>
+      <topic label="rt_i2c_msg" href="structrt__i2c__msg.html">
+      </topic>
+      <topic label="rt_i2c_priv_data" href="structrt__i2c__priv__data.html">
+      </topic>
       <topic label="rt_inputcapture_ops" href="structrt__inputcapture__ops.html">
+      </topic>
+      <topic label="rt_interrupt_context" href="structrt__interrupt__context.html">
+        <topic label="context" href="structrt__interrupt__context.html#ab3380038ea429707fbe058da997700eb"/>
+        <topic label="node" href="structrt__interrupt__context.html#aa9e3447c74bd7c48a8d44d73024b92c7"/>
       </topic>
       <topic label="rt_ipc_object" href="structrt__ipc__object.html">
         <topic label="parent" href="structrt__ipc__object.html#a1113d054268319ad7840b3362eba7ad2"/>
@@ -684,6 +859,9 @@
       <topic label="rt_list_node" href="structrt__list__node.html">
         <topic label="next" href="structrt__list__node.html#a50efb4b80ce8a9b46fb3a0e367d60817"/>
         <topic label="prev" href="structrt__list__node.html#ab86c797b257b99746ccad6a733c06d38"/>
+      </topic>
+      <topic label="rt_lockless_slist_node" href="structrt__lockless__slist__node.html">
+        <topic label="next" href="structrt__lockless__slist__node.html#a3b9b4d43354ea5fb76442bc97ffceab6"/>
       </topic>
       <topic label="rt_mailbox" href="structrt__mailbox.html">
         <topic label="parent" href="structrt__mailbox.html#a2d44d61cebf881cc505fbbc1946b3b2e"/>
@@ -744,11 +922,35 @@
       </topic>
       <topic label="rt_pm_ops" href="structrt__pm__ops.html">
       </topic>
+      <topic label="rt_pwm_configuration" href="structrt__pwm__configuration.html">
+      </topic>
+      <topic label="rt_pwm_ops" href="structrt__pwm__ops.html">
+      </topic>
+      <topic label="rt_qspi_configuration" href="structrt__qspi__configuration.html">
+      </topic>
+      <topic label="rt_qspi_device" href="structrt__qspi__device.html">
+      </topic>
+      <topic label="rt_qspi_message" href="structrt__qspi__message.html">
+      </topic>
       <topic label="rt_rtc_device" href="structrt__rtc__device.html">
       </topic>
       <topic label="rt_rtc_ops" href="structrt__rtc__ops.html">
       </topic>
       <topic label="rt_rtc_wkalarm" href="structrt__rtc__wkalarm.html">
+      </topic>
+      <topic label="rt_sched_thread_ctx" href="structrt__sched__thread__ctx.html">
+        <topic label="thread_list_node" href="structrt__sched__thread__ctx.html#a1fc7624ad20ee80a40ad691496d6f585"/>
+        <topic label="stat" href="structrt__sched__thread__ctx.html#a1ae30f541c87a602b244d2b8d9a0840f"/>
+        <topic label="sched_flag_locked" href="structrt__sched__thread__ctx.html#ad2ce9626ed3be3a1cc7eb9475b459dc7"/>
+        <topic label="sched_flag_ttmr_set" href="structrt__sched__thread__ctx.html#a56a0ff085fe4d8c2090ecbac7d52a273"/>
+        <topic label="sched_thread_priv" href="structrt__sched__thread__ctx.html#a295edcf6a368a52fed400cefed382e2e"/>
+      </topic>
+      <topic label="rt_sched_thread_priv" href="structrt__sched__thread__priv.html">
+        <topic label="init_tick" href="structrt__sched__thread__priv.html#a8987cb45d25fa5cac1abdf85cb341875"/>
+        <topic label="remaining_tick" href="structrt__sched__thread__priv.html#a89a8920963e76975732ca8877aa4d540"/>
+        <topic label="current_priority" href="structrt__sched__thread__priv.html#a891848d3670b5ad6a98b967ce92c655b"/>
+        <topic label="init_priority" href="structrt__sched__thread__priv.html#aa61e3eb6629c14368cf1e759b3ce5a51"/>
+        <topic label="number_mask" href="structrt__sched__thread__priv.html#a8950ed97315ec09f07732a2f55efcf19"/>
       </topic>
       <topic label="rt_semaphore" href="structrt__semaphore.html">
         <topic label="parent" href="structrt__semaphore.html#ae30f5ce3f4e89636b0f5b19755f39df7"/>
@@ -762,6 +964,8 @@
       </topic>
       <topic label="rt_slist_node" href="structrt__slist__node.html">
         <topic label="next" href="structrt__slist__node.html#a6184e2a9a7d6294118ad8ca8b7cc3954"/>
+      </topic>
+      <topic label="rt_spi_bus" href="structrt__spi__bus.html">
       </topic>
       <topic label="rt_spi_configuration" href="structrt__spi__configuration.html">
       </topic>
@@ -790,6 +994,16 @@
         <topic label="parameter" href="structrt__timer.html#a7865afa39d2596876ce1e7c3275c9042"/>
         <topic label="init_tick" href="structrt__timer.html#af958eb6ee48462b264972242f9b6d9c3"/>
         <topic label="timeout_tick" href="structrt__timer.html#afc375a971b021a1c75a6fba94742b136"/>
+      </topic>
+      <topic label="rt_touch_config" href="structrt__touch__config.html">
+      </topic>
+      <topic label="rt_touch_data" href="structrt__touch__data.html">
+      </topic>
+      <topic label="rt_touch_device" href="structrt__touch__device.html">
+      </topic>
+      <topic label="rt_touch_info" href="structrt__touch__info.html">
+      </topic>
+      <topic label="rt_touch_ops" href="structrt__touch__ops.html">
       </topic>
       <topic label="rt_uart_ops" href="structrt__uart__ops.html">
       </topic>

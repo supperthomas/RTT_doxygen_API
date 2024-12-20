@@ -106,6 +106,8 @@ $(document).ready(function(){initNavTree('group___fs_posix_api.html',''); initRe
 Functions</h2></td></tr>
 <tr class="memitem:ga94873fa89201b877351b663b9f5b040d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___fs_posix_api.html#ga94873fa89201b877351b663b9f5b040d">open</a> (const char *file, int flags,...)</td></tr>
 <tr class="separator:ga94873fa89201b877351b663b9f5b040d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga07762abe1a0ed5e470177abe391f08cd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___fs_posix_api.html#ga07762abe1a0ed5e470177abe391f08cd">openat</a> (int dirfd, const char *path, int flag,...)</td></tr>
+<tr class="separator:ga07762abe1a0ed5e470177abe391f08cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafddc24a65767ae35f275be8ccf53e036"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___fs_posix_api.html#gafddc24a65767ae35f275be8ccf53e036">creat</a> (const char *path, mode_t mode)</td></tr>
 <tr class="separator:gafddc24a65767ae35f275be8ccf53e036"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaafbcde67669a1b96577e735ddebd8634"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___fs_posix_api.html#gaafbcde67669a1b96577e735ddebd8634">close</a> (int fd)</td></tr>
@@ -200,11 +202,79 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">file</td><td>the path name of file. </td></tr>
-    <tr><td class="paramname">flags</td><td>the file open flags.</td></tr>
+    <tr><td class="paramname">flags</td><td>the file open flags. Common values include:<ul>
+<li>Access modes (mutually exclusive):<ul>
+<li><code>O_RDONLY</code>: Open for read-only access.</li>
+<li><code>O_WRONLY</code>: Open for write-only access.</li>
+<li><code>O_RDWR</code>: Open for both reading and writing.</li>
+</ul>
+</li>
+<li>File status flags (can be combined with bitwise OR <code>|</code>):<ul>
+<li><code>O_CREAT</code>: Create the file if it does not exist. Requires a <code>mode</code> argument.</li>
+<li><code>O_TRUNC</code>: Truncate the file to zero length if it already exists.</li>
+<li><code>O_APPEND</code>: Append writes to the end of the file.</li>
+<li><code>O_EXCL</code>: Ensure that <code>O_CREAT</code> creates the file exclusively.</li>
+<li>Other platform-specific flags</li>
+</ul>
+</li>
+</ul>
+</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the non-negative integer on successful open, others for failed. </dd></dl>
+
+</div>
+</div>
+<a id="ga07762abe1a0ed5e470177abe391f08cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga07762abe1a0ed5e470177abe391f08cd">&#9670;&nbsp;</a></span>openat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int openat </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dirfd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>flag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Opens a file relative to a directory file descriptor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dirfd</td><td>The file descriptor of the directory to base the relative path on. </td></tr>
+    <tr><td class="paramname">path</td><td>The path to the file to be opened, relative to the directory specified by <code>dirfd</code>. Can be an absolute path (in which case <code>dirfd</code> is ignored). </td></tr>
+    <tr><td class="paramname">flag</td><td>File access and status flags (e.g., <code>O_RDONLY</code>, <code>O_WRONLY</code>, <code>O_CREAT</code>).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>On success, returns a new file descriptor for the opened file. On failure, returns <code>-1</code> and sets <code>errno</code> to indicate the error.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>When using relative paths, ensure <code>dirfd</code> is a valid directory descriptor. When <code>pathname</code> is absolute, the <code>dirfd</code> argument is ignored. </dd></dl>
 
 </div>
 </div>
@@ -390,16 +460,22 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this function is a POSIX compliant version, which will seek the offset for an open file descriptor.</p>
+<p>this function is a POSIX compliant version, which will Reposition the file offset for an open file descriptor.</p>
+<p>The <code>lseek</code> function sets the file offset for the file descriptor <code>fd</code> to a new value, determined by the <code>offset</code> and <code>whence</code> parameters. It can be used to seek to specific positions in a file for reading or writing.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fd</td><td>the file descriptor. </td></tr>
-    <tr><td class="paramname">offset</td><td>the offset to be seeked. </td></tr>
-    <tr><td class="paramname">whence</td><td>the directory of seek.</td></tr>
+    <tr><td class="paramname">offset</td><td>The offset, in bytes, to set the file position. The meaning of <code>offset</code> depends on the value of <code>whence</code>. </td></tr>
+    <tr><td class="paramname">whence</td><td>the directive of seek. It can be one of:<ul>
+<li><code>SEEK_SET</code>: Set the offset to <code>offset</code> bytes from the beginning of the file.</li>
+<li><code>SEEK_CUR</code>: Set the offset to its current location plus <code>offset</code> bytes.</li>
+<li><code>SEEK_END</code>: Set the offset to the size of the file plus <code>offset</code> bytes.</li>
+</ul>
+</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the current read/write position in the file, or -1 on failed. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the resulting read/write position in the file, or -1 on failed. </dd></dl>
 
 </div>
 </div>
@@ -602,8 +678,18 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fildes</td><td>the file description </td></tr>
-    <tr><td class="paramname">cmd</td><td>the specified command </td></tr>
-    <tr><td class="paramname">...</td><td>represents the additional information that is needed by this specific device to perform the requested function.</td></tr>
+    <tr><td class="paramname">cmd</td><td>the specified command, Common values include:<ul>
+<li><code>F_DUPFD</code>: Duplicate a file descriptor.</li>
+<li><code>F_GETFD</code>: Get the file descriptor flags.</li>
+<li><code>F_SETFD</code>: Set the file descriptor flags.</li>
+<li><code>F_GETFL</code>: Get the file status flags.</li>
+<li><code>F_SETFL</code>: Set the file status flags. </li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">...</td><td>represents the additional information that is needed by this specific device to perform the requested function. For example:<ul>
+<li>When <code>cmd</code> is <code>F_SETFL</code>, an additional integer argument specifies the new status flags.</li>
+</ul>
+</td></tr>
   </table>
   </dd>
 </dl>
@@ -794,7 +880,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">path</td><td>the directory path to be made. </td></tr>
-    <tr><td class="paramname">mode</td><td></td></tr>
+    <tr><td class="paramname">mode</td><td>The permission mode for the new directory (unused here, can be set to 0).</td></tr>
   </table>
   </dd>
 </dl>
@@ -1198,7 +1284,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Oct 8 2024 16:23:22 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Dec 20 2024 14:21:37 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

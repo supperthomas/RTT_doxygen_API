@@ -227,16 +227,16 @@ Functions</h2></td></tr>
 <div class="line">    <span class="keywordflow">return</span> ret;</div>
 <div class="line">}</div>
 <div class="line"><a class="code" href="group__finsh.html#ga91a67d7498e346a1e15a7ea7d58af654">MSH_CMD_EXPORT</a>(uart_dma_sample, uart device dma sample);</div>
-<div class="ttc" id="agroup___i_p_c_html_ga1b618f6714ea8f49a45ea4d105aaf5d5"><div class="ttname"><a href="group___i_p_c.html#ga1b618f6714ea8f49a45ea4d105aaf5d5">RT_IPC_FLAG_FIFO</a></div><div class="ttdeci">#define RT_IPC_FLAG_FIFO</div><div class="ttdef"><b>Definition:</b> rtdef.h:961</div></div>
-<div class="ttc" id="agroup___i_p_c_html_ga923d8e409f9daa8843978d6805ebcdeb"><div class="ttname"><a href="group___i_p_c.html#ga923d8e409f9daa8843978d6805ebcdeb">RT_WAITING_FOREVER</a></div><div class="ttdeci">#define RT_WAITING_FOREVER</div><div class="ttdef"><b>Definition:</b> rtdef.h:969</div></div>
+<div class="ttc" id="agroup___i_p_c_html_ga1b618f6714ea8f49a45ea4d105aaf5d5"><div class="ttname"><a href="group___i_p_c.html#ga1b618f6714ea8f49a45ea4d105aaf5d5">RT_IPC_FLAG_FIFO</a></div><div class="ttdeci">#define RT_IPC_FLAG_FIFO</div><div class="ttdef"><b>Definition:</b> rtdef.h:972</div></div>
+<div class="ttc" id="agroup___i_p_c_html_ga923d8e409f9daa8843978d6805ebcdeb"><div class="ttname"><a href="group___i_p_c.html#ga923d8e409f9daa8843978d6805ebcdeb">RT_WAITING_FOREVER</a></div><div class="ttdeci">#define RT_WAITING_FOREVER</div><div class="ttdef"><b>Definition:</b> rtdef.h:980</div></div>
 <div class="ttc" id="agroup___thread_html_ga04b743537fd099e204fc292e57b4aa5a"><div class="ttname"><a href="group___thread.html#ga04b743537fd099e204fc292e57b4aa5a">rt_thread_startup</a></div><div class="ttdeci">rt_err_t rt_thread_startup(rt_thread_t thread)</div><div class="ttdoc">This function will start a thread and put it to system ready queue.</div><div class="ttdef"><b>Definition:</b> thread.c:393</div></div>
 <div class="ttc" id="agroup___thread_html_gacb215b161f17c26b5e19c28cd0119e7b"><div class="ttname"><a href="group___thread.html#gacb215b161f17c26b5e19c28cd0119e7b">rt_thread_create</a></div><div class="ttdeci">rt_thread_t rt_thread_create(const char *name, void(*entry)(void *parameter), void *parameter, rt_uint32_t stack_size, rt_uint8_t priority, rt_uint32_t tick)</div><div class="ttdoc">This function will create a thread object and allocate thread object memory. and stack.</div><div class="ttdef"><b>Definition:</b> thread.c:523</div></div>
 <div class="ttc" id="agroup__finsh_html_ga91a67d7498e346a1e15a7ea7d58af654"><div class="ttname"><a href="group__finsh.html#ga91a67d7498e346a1e15a7ea7d58af654">MSH_CMD_EXPORT</a></div><div class="ttdeci">#define MSH_CMD_EXPORT(...)</div><div class="ttdef"><b>Definition:</b> finsh.h:142</div></div>
 <div class="ttc" id="agroup__messagequeue_html_gaac5b76df894964c908271ab0951f7e86"><div class="ttname"><a href="group__messagequeue.html#gaac5b76df894964c908271ab0951f7e86">rt_mq_init</a></div><div class="ttdeci">rt_err_t rt_mq_init(rt_mq_t mq, const char *name, void *msgpool, rt_size_t msg_size, rt_size_t pool_size, rt_uint8_t flag)</div><div class="ttdoc">Initialize a static messagequeue object.</div><div class="ttdef"><b>Definition:</b> ipc.c:3092</div></div>
 <div class="ttc" id="agroup__messagequeue_html_gab3d128f328e2e979f0ee86d633937e4e"><div class="ttname"><a href="group__messagequeue.html#gab3d128f328e2e979f0ee86d633937e4e">rt_mq_send</a></div><div class="ttdeci">rt_err_t rt_mq_send(rt_mq_t mq, const void *buffer, rt_size_t size)</div><div class="ttdoc">This function will send a message to the messagequeue object. If there is a thread suspended on the m...</div><div class="ttdef"><b>Definition:</b> ipc.c:3616</div></div>
-<div class="ttc" id="astructrt__device_html"><div class="ttname"><a href="structrt__device.html">rt_device</a></div><div class="ttdef"><b>Definition:</b> rtdef.h:1359</div></div>
-<div class="ttc" id="astructrt__messagequeue_html"><div class="ttname"><a href="structrt__messagequeue.html">rt_messagequeue</a></div><div class="ttdef"><b>Definition:</b> rtdef.h:1098</div></div>
-<div class="ttc" id="astructrt__thread_html"><div class="ttname"><a href="structrt__thread.html">rt_thread</a></div><div class="ttdef"><b>Definition:</b> rtdef.h:841</div></div>
+<div class="ttc" id="astructrt__device_html"><div class="ttname"><a href="structrt__device.html">rt_device</a></div><div class="ttdef"><b>Definition:</b> rtdef.h:1370</div></div>
+<div class="ttc" id="astructrt__messagequeue_html"><div class="ttname"><a href="structrt__messagequeue.html">rt_messagequeue</a></div><div class="ttdef"><b>Definition:</b> rtdef.h:1109</div></div>
+<div class="ttc" id="astructrt__thread_html"><div class="ttname"><a href="structrt__thread.html">rt_thread</a></div><div class="ttdef"><b>Definition:</b> rtdef.h:852</div></div>
 </div><!-- fragment --> <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ga437e284adbcdbb12ed6c01d2234788da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga437e284adbcdbb12ed6c01d2234788da">&#9670;&nbsp;</a></span>rt_hw_serial_rxind_hookproto_t</h2>
@@ -377,7 +377,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Oct 8 2024 16:23:22 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Dec 20 2024 14:21:37 for RT-Thread RTOS by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

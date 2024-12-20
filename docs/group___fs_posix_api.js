@@ -1,6 +1,7 @@
 var group___fs_posix_api =
 [
     [ "open", "group___fs_posix_api.html#ga94873fa89201b877351b663b9f5b040d", null ],
+    [ "openat", "group___fs_posix_api.html#ga07762abe1a0ed5e470177abe391f08cd", null ],
     [ "creat", "group___fs_posix_api.html#gafddc24a65767ae35f275be8ccf53e036", null ],
     [ "close", "group___fs_posix_api.html#gaafbcde67669a1b96577e735ddebd8634", null ],
     [ "read", "group___fs_posix_api.html#ga1301f5639d6acac2e7138ae391e87a2d", null ],
