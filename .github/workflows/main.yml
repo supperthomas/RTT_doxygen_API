@@ -30,7 +30,7 @@ jobs:
         run: |
           git submodule update --remote
           ls 
-          #cp Doxyfile rt-thread/documentation/doxygen/Doxyfile
+          cp Doxyfile rt-thread/documentation/doxygen/Doxyfile
           cd rt-thread/documentation/doxygen
           doxygen Doxyfile
           cd ../../../
@@ -39,7 +39,19 @@ jobs:
           mv rt-thread/documentation/doxygen/html docs
           git status .
 
-      - name: Push to GitHub
-        uses: EndBug/add-and-commit@v9
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
         with:
-          message: "🎆 docs:  Update new html"
+          path: docs/
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
