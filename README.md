@@ -21,3 +21,6 @@ https://www.rt-thread.org/document/api/
 
 # 如果觉得哪里还有优化的地方，可以在左上角issue里面提
  
+# 该功能已经部署到rt-thread官方仓库的github page上。
+
+http://rt-thread.github.io/rt-thread/
