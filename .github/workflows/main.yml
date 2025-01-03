@@ -36,7 +36,7 @@ jobs:
           git submodule update --remote
           ls 
           cp Doxyfile rt-thread/documentation/doxygen/Doxyfile
-          cp doxygen-awesome-css-main/ rt-thread/documentation/doxygen/
+          cp -r doxygen-awesome-css-main/ rt-thread/documentation/doxygen/
           cd rt-thread/documentation/doxygen
           doxygen --version
           doxygen Doxyfile
