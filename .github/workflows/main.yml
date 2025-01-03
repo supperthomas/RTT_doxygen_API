@@ -17,7 +17,7 @@ permissions:
   
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     name: doxygen_doc generate 
     strategy:
       fail-fast: false
@@ -35,26 +35,23 @@ jobs:
         run: |
           git submodule update --remote
           ls 
-          #cp Doxyfile rt-thread/documentation/doxygen/Doxyfile
+          cp Doxyfile rt-thread/documentation/doxygen/Doxyfile
+          cp doxygen-awesome-css-main/ rt-thread/documentation/doxygen/
           cd rt-thread/documentation/doxygen
+          doxygen --version
           doxygen Doxyfile
-          cd ../../../
-          ls
-          rm docs -rf
-          mv rt-thread/documentation/doxygen/html docs
-          git status .
 
       - name: Upload static files as artifact
         id: deployment
-        uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
+        uses: actions/upload-pages-artifact@main
         with:
-          path: docs/
+          path: rt-thread/documentation/doxygen/html/
   # Deployment job
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: build
     steps:
       - name: Deploy to GitHub Pages
