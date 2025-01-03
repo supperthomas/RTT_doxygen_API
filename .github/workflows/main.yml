@@ -48,6 +48,7 @@ jobs:
           path: rt-thread/documentation/doxygen/html/
   # Deployment job
   deploy:
+    if: github.event_name == 'push'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
