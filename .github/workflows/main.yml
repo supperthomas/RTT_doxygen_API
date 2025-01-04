@@ -40,7 +40,7 @@ jobs:
           mkdir doxygen
           tar -xzf doxygen-1.13.1.linux.bin.tar.gz -C doxygen --strip-components=1
           cd doxygen
-          make install
+          sudo make install
           doxygen --version
           cd ..
           git submodule update --remote
