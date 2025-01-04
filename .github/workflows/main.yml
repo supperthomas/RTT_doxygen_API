@@ -29,16 +29,22 @@ jobs:
         shell: bash
         run: |
           sudo apt-get update
-          sudo apt-get -qq install doxygen graphviz
+          sudo apt-get -qq install graphviz
       - name: generat doxygen html
         shell: bash
         run: |
+          wget https://github.com/doxygen/doxygen/releases/download/Release_1_13_1/doxygen-1.13.1.linux.bin.tar.gz
+          mkdir doxygen
+          tar -xzf doxygen-1.13.1.linux.bin.tar.gz -C doxygen --strip-components=1
+          cd doxygen
+          make install
+          doxygen --version
+          cd ..
           git submodule update --remote
           ls 
           cp Doxyfile rt-thread/documentation/doxygen/Doxyfile
           cp -r doxygen-awesome-css-main/ rt-thread/documentation/doxygen/
           cd rt-thread/documentation/doxygen
-          doxygen --version
           doxygen Doxyfile
 
       - name: Upload static files as artifact
