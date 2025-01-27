@@ -56,7 +56,7 @@ jobs:
         id: deployment
         uses: actions/upload-pages-artifact@main
         with:
-          path: rt-thread/documentation/doxygen/html/
+          path: rt-thread/documentation/html/
   # Deployment job
   deploy:
     if: github.event_name == 'push'
