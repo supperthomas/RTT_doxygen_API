@@ -61,7 +61,7 @@ jobs:
   deploy:
     if: github.event_name == 'push'
     environment:
-      name: github-pages
+      name: rt-thread-doxygen-html
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-22.04
     needs: build
